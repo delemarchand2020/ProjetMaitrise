@@ -1,0 +1,134 @@
+[
+  {
+    "company_name": "Creativ' Agency",
+    "job_title": "Designer graphique",
+    "job_description": "En tant que designer graphique, vous serez charg\u00e9(e) de cr\u00e9er des visuels attractifs pour des supports num\u00e9riques et imprim\u00e9s, en respectant l'identit\u00e9 visuelle des clients.",
+    "responsibilities": [
+      "Concevoir des logos, brochures et affiches",
+      "Cr\u00e9er des maquettes pour des sites web",
+      "Collaborer avec l'\u00e9quipe marketing",
+      "Respecter les d\u00e9lais et les exigences des clients",
+      "R\u00e9aliser des retouches photo et montages"
+    ],
+    "skills_required": [
+      "Ma\u00eetrise des outils Adobe (Photoshop, Illustrator, InDesign)",
+      "Excellente compr\u00e9hension des tendances graphiques",
+      "Cr\u00e9ativit\u00e9 et sens artistique",
+      "Capacit\u00e9 \u00e0 respecter des d\u00e9lais serr\u00e9s",
+      "Bonnes comp\u00e9tences en communication visuelle"
+    ],
+    "location": "Paris, France",
+    "experience_level": "Junior \u00e0 interm\u00e9diaire",
+    "education_required": "Dipl\u00f4me en design graphique ou domaine connexe"
+  },
+  {
+    "company_name": "Studio Graphique XYZ",
+    "job_title": "Directeur(trice) artistique",
+    "job_description": "Le/la directeur(trice) artistique supervisera une \u00e9quipe de cr\u00e9atifs pour la conception et la mise en \u0153uvre de campagnes visuelles pour des clients vari\u00e9s.",
+    "responsibilities": [
+      "Superviser les projets de design du d\u00e9but \u00e0 la fin",
+      "Collaborer avec les clients pour d\u00e9finir la direction visuelle",
+      "G\u00e9rer une \u00e9quipe de designers et illustrateurs",
+      "Assurer la coh\u00e9rence des cr\u00e9ations avec l'identit\u00e9 de marque",
+      "Pr\u00e9senter des concepts aux clients"
+    ],
+    "skills_required": [
+      "Ma\u00eetrise des principes de design",
+      "Exp\u00e9rience en gestion d'\u00e9quipe cr\u00e9ative",
+      "Comp\u00e9tence dans le d\u00e9veloppement de concepts cr\u00e9atifs",
+      "Capacit\u00e9 \u00e0 g\u00e9rer plusieurs projets simultan\u00e9ment",
+      "Bonnes comp\u00e9tences en pr\u00e9sentation et communication"
+    ],
+    "location": "Lille, France",
+    "experience_level": "Senior",
+    "education_required": "Master en arts visuels ou design"
+  },
+  {
+    "company_name": "Centre de Psychologie Bien-\u00eatre",
+    "job_title": "Psychologue clinicien(ne)",
+    "job_description": "Le/la psychologue clinicien(ne) fournira des consultations individuelles pour aider les patients \u00e0 g\u00e9rer leurs troubles \u00e9motionnels, comportementaux ou psychologiques.",
+    "responsibilities": [
+      "Conduire des entretiens cliniques avec les patients",
+      "\u00c9valuer les troubles psychologiques",
+      "Mettre en place des th\u00e9rapies adapt\u00e9es aux besoins des patients",
+      "Collaborer avec les professionnels de sant\u00e9",
+      "Maintenir des dossiers pr\u00e9cis des cas"
+    ],
+    "skills_required": [
+      "Ma\u00eetrise en psychologie clinique",
+      "Comp\u00e9tences en \u00e9valuation diagnostique",
+      "Grande capacit\u00e9 d'\u00e9coute et empathie",
+      "Excellentes comp\u00e9tences interpersonnelles",
+      "Capacit\u00e9 \u00e0 travailler avec des personnes en situation de vuln\u00e9rabilit\u00e9"
+    ],
+    "location": "Lyon, France",
+    "experience_level": "Interm\u00e9diaire",
+    "education_required": "Master en psychologie"
+  },
+  {
+    "company_name": "Cabinet Priv\u00e9 de Psychoth\u00e9rapie",
+    "job_title": "Psychologue du travail",
+    "job_description": "Le/la psychologue du travail interviendra aupr\u00e8s des entreprises pour am\u00e9liorer le bien-\u00eatre au travail et pr\u00e9venir les risques psychosociaux.",
+    "responsibilities": [
+      "Conduire des audits de bien-\u00eatre au travail",
+      "Organiser des s\u00e9ances de coaching pour les employ\u00e9s",
+      "Participer \u00e0 la gestion des conflits en entreprise",
+      "\u00c9laborer des plans d'am\u00e9lioration des conditions de travail",
+      "Collaborer avec les services des ressources humaines"
+    ],
+    "skills_required": [
+      "Expertise en psychologie organisationnelle",
+      "Comp\u00e9tences en m\u00e9diation et gestion des conflits",
+      "Excellentes capacit\u00e9s de communication",
+      "Aptitude \u00e0 analyser les dynamiques de groupe",
+      "Capacit\u00e9 \u00e0 proposer des solutions concr\u00e8tes"
+    ],
+    "location": "Marseille, France",
+    "experience_level": "Interm\u00e9diaire \u00e0 senior",
+    "education_required": "Master en psychologie du travail"
+  },
+  {
+    "company_name": "Gastronomie Fine",
+    "job_title": "Chef cuisinier gastronomique",
+    "job_description": "En tant que chef cuisinier gastronomique, vous serez responsable de la cr\u00e9ation et de l'\u00e9laboration de plats pour un restaurant \u00e9toil\u00e9 Michelin.",
+    "responsibilities": [
+      "Cr\u00e9er et ex\u00e9cuter des menus innovants",
+      "Superviser la pr\u00e9paration des plats",
+      "G\u00e9rer l'\u00e9quipe en cuisine",
+      "Assurer la qualit\u00e9 et la pr\u00e9sentation des plats",
+      "Collaborer avec le sommelier pour les accords mets et vins"
+    ],
+    "skills_required": [
+      "Expertise en cuisine gastronomique",
+      "Comp\u00e9tences en gestion d'\u00e9quipe",
+      "Cr\u00e9ativit\u00e9 et souci du d\u00e9tail",
+      "Connaissance des techniques culinaires avanc\u00e9es",
+      "Capacit\u00e9 \u00e0 travailler sous pression"
+    ],
+    "location": "Nice, France",
+    "experience_level": "Senior",
+    "education_required": "Dipl\u00f4me en arts culinaires"
+  },
+  {
+    "company_name": "Cuisine Moderne",
+    "job_title": "Sous-chef",
+    "job_description": "Le sous-chef assistera le chef de cuisine dans la pr\u00e9paration et la gestion quotidienne des op\u00e9rations en cuisine dans un restaurant moderne.",
+    "responsibilities": [
+      "Superviser les commis et les apprentis",
+      "Assurer la pr\u00e9paration des ingr\u00e9dients",
+      "Coordonner les services en cuisine",
+      "Veiller au respect des normes d'hygi\u00e8ne",
+      "Participer \u00e0 l'\u00e9laboration des plats"
+    ],
+    "skills_required": [
+      "Solides comp\u00e9tences culinaires",
+      "Capacit\u00e9 \u00e0 g\u00e9rer une \u00e9quipe",
+      "Grande r\u00e9activit\u00e9 et organisation",
+      "Connaissance des r\u00e8gles d'hygi\u00e8ne alimentaire",
+      "Capacit\u00e9 \u00e0 travailler dans un environnement dynamique"
+    ],
+    "location": "Bordeaux, France",
+    "experience_level": "Interm\u00e9diaire",
+    "education_required": "Dipl\u00f4me en cuisine ou \u00e9quivalent"
+  }
+]

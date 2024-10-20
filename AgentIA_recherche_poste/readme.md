@@ -23,7 +23,8 @@ Tu es un assistant qui génère des descriptifs de postes réalistes.
 Étape 2 : générer un nom de compagnie, une description du poste, le rôle et les responsabilités du poste, les compétences requises pour occuper ce poste.
 
 Étape 3 : formatter ces informations au format JSON selon le format suivant sans afficher ce contenu à l'utilisateur :
- ```json   {
+ ```json   
+ {
         "company_name": "",
         "job_title": "",
         "job_description": "",

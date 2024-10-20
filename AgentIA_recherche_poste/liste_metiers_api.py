@@ -63,7 +63,7 @@ metiers = [
 ]
 
 
-@app.get("/tasks", response_model=List[Metier])
+@app.get("/metiers", response_model=List[Metier])
 async def get_metiers():
     """
     Retourne la liste des métiers

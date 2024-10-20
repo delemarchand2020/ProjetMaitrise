@@ -112,5 +112,6 @@ Ensuite elle doit être exposée publiquement avec la commande :
 ```bash
 ./Outils/ngrok.exe http 8000
  ```  
-Qui va générer une url de ce type : https://ec25-24-200-146-112.ngrok-free.app
-à placer dans la description JSON ci-dessus avant de la copier dans la console.
+Après exécution, cette commande va générer une url de ce type : https://ec25-24-200-146-112.ngrok-free.app.
+
+À placer dans la description JSON ci-dessus avant de la copier dans la console.

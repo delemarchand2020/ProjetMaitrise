@@ -66,7 +66,7 @@ metiers = [
 @app.get("/metiers", response_model=List[Metier])
 async def get_metiers():
     """
-    Retourne la liste des métiers
+    Retourne la liste des métiers et leurs descriptions
     """
     return metiers
 

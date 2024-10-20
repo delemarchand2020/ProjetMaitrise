@@ -43,7 +43,8 @@ Tu es un assistant qui génère des descriptifs de postes réalistes.
 ### Action pour récupérer la liste des métiers 
 #### (à placer dans la console de création ChatGPT+)
 
-```json {
+```json 
+{
   "openapi": "3.1.0",
   "info": {
     "title": "FastAPI",

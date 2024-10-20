@@ -1,1 +1,1 @@
-#Projet de maitrise en IA - Denis Lemarchand
+# Projet de maitrise en IA - Denis Lemarchand

@@ -1,3 +1,4 @@
 crewai[tools]
 python-dotenv
 langchain
+agentops

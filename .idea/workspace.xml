@@ -4,20 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="Exemples de postes générés json reformaté">
-      <change afterPath="$PROJECT_DIR$/.idea/ProjetMemoireMatriseDenisLemarchand.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="Début pour le codage de l'équipe">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/delem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjetMemoireMatriseDenisLemarchand.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetMemoireMatriseDenisLemarchand.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,10 +38,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/Outils"
+    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/Outils",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -159,7 +167,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729456313382</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Git ignore">
+      <option name="closed" value="true" />
+      <created>1729457105243</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729457105243</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Git ignore">
+      <option name="closed" value="true" />
+      <created>1729457140180</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729457140180</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Début pour le codage de l'équipe">
+      <option name="closed" value="true" />
+      <created>1731358692865</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731358692865</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +201,8 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Exemples de postes générés" />
     <MESSAGE value="Exemples de postes générés json reformaté" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exemples de postes générés json reformaté" />
+    <MESSAGE value="Git ignore" />
+    <MESSAGE value="Début pour le codage de l'équipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Début pour le codage de l'équipe" />
   </component>
 </project>

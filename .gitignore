@@ -1,4 +1,7 @@
 /Outils/
-.\.idea\*.xml
-.\.idea\*.iml
+./.idea/*.xml
+./.idea/*.iml
 
+/CrewAI_equipe_creation_BD_candidats/keys.txt
+/.venv_crewai/
+/.venv/

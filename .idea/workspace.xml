@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="Début pour le codage de l'équipe">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/delem.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" afterDir="false" />
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="creation équipe">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ProjetMemoireMatriseDenisLemarchand.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetMemoireMatriseDenisLemarchand.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +41,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/Outils",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
+    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/CrewAI_equipe_creation_BD_candidats",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\CrewAI_equipe_creation_BD_candidats" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\Outils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -191,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731358692865</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="creation équipe">
+      <option name="closed" value="true" />
+      <created>1731364805524</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731364805524</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,6 +210,7 @@
     <MESSAGE value="Exemples de postes générés json reformaté" />
     <MESSAGE value="Git ignore" />
     <MESSAGE value="Début pour le codage de l'équipe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Début pour le codage de l'équipe" />
+    <MESSAGE value="creation équipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation équipe" />
   </component>
 </project>

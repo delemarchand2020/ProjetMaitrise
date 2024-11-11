@@ -3,5 +3,5 @@
 ./.idea/*.iml
 
 /CrewAI_equipe_creation_BD_candidats/keys.txt
-/.venv_crewai/
 /.venv/
+/.venv_crewai_312/

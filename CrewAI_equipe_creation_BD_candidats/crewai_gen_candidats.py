@@ -2,6 +2,7 @@ from textwrap import dedent
 
 import agentops
 from crewai import Agent, Crew, Process, Task
+from crewai_tools import FileReadTool
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -13,22 +14,25 @@ nombre_profil_candidats = 1
 fichier_postes = "postes_generes.json"
 langue_de_travail = "français"
 
+file_tool = FileReadTool()
+
 print("## Équipe de création des profils candidats fictifs")
 print("---------------------------------------------------")
 
 # ============== définition des agents =======================
 
-chef_equipe = Agent(
-    role="Chef d'équipe",
-    goal="Organiser le travail de l'équipe afin d'atteindre ton objectif de rendement",
+preparateur_poste = Agent(
+    role="Préparateur",
+    goal="Fournir les informations requises pour créer un descriptif de poste",
     backstory=dedent(
         """
-        Tu es un chef d'équipe et tu organises le travail de tes collaborateurs.
+        Tu vas chercher les informations et les transmettre pour la rédaction du poste.
         """
     ),
     allow_delegation=False,
     verbose=True,
-    llm=model_llm
+    llm=model_llm,
+    tools=[file_tool],
 )
 
 redacteur_poste = Agent(
@@ -73,16 +77,15 @@ redacteur_personna_candidat = Agent(
 
 # ============== définition des tâches =======================
 
-passer_commande = Task(
-    description=f"""Tu dois demander à ton équipe de produire des profils de candidats idéaux, voici les instructions:
+preparer_commande = Task(
+    description=f"""Tu dois transmettre les informations au rédacteur de produire un profil de candidat idéal, voici les instructions:
         Instructions
-        ------------
-        Tu dois organiser le travail pour produire {nombre_profil_candidats} profils.        
-        A partir du fichier {fichier_postes}, passe la commande à ton équipe em prenant la description des postes.
-        Tu passes une commande à la fois.
+        ------------       
+        A partir du fichier {fichier_postes}, passe la commande au rédacteur em prenant la description d'un poste.
+        Tu passes les informations d'un seul poste à la fois.
         """,
-    expected_output="Ta commande est simplement la lecture de la description du poste.",
-    agent=chef_equipe,
+    expected_output="Un texte contenant les informations sur le poste.",
+    agent=preparateur_poste,
 )
 
 redaction_poste = Task(
@@ -141,8 +144,8 @@ completer_profil_candidat = Task(
 # ============== définition de l'équipe =======================
 
 crew = Crew(
-    agents=[chef_equipe, redacteur_poste, redacteur_profil_candidat, redacteur_profil_candidat],
-    tasks=[passer_commande, redaction_poste, redaction_profil_candidat, completer_profil_candidat],
+    agents=[preparateur_poste, redacteur_poste, redacteur_profil_candidat, redacteur_profil_candidat],
+    tasks=[preparer_commande, redaction_poste, redaction_profil_candidat, completer_profil_candidat],
     verbose=True,  # You can set it to 1 or 2 to different logging levels
     process=Process.sequential,
 )

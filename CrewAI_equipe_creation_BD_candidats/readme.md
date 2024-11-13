@@ -3,14 +3,12 @@ Créer une base de données de candidats "fictifs" pour répondre à des offres 
 
 L'équipe se compose des agents suivants :
 
-- Agent chef d'équipe : cet agent choisit un poste dans la base fournie (fichier JSON) 
-et demande à son équipe de produire une description complète du candidat "fictif" 
-idéal pour répondre à ce poste. 
-Il continuera ces demandes pour atteindre son quota de candidats à fournir.
+- Agent préparateur : cet agent choisit un poste dans la base fournie (fichier JSON) 
+et demande au rédacteur de produire une description complète du poste. 
 
 
 - Agent de description du poste : cet agent produit un descriptif
-de poste selon les informations qui lui sont transmises par le chef d'équipe. 
+de poste selon les informations qui lui sont transmises par le préparateur. 
 Il doit extraire les informations du poste, les mettre en forme selon une spécification qui lui
 sera fournie et transmettre cette information à son collègue de création du profil de candidat idéal. 
 

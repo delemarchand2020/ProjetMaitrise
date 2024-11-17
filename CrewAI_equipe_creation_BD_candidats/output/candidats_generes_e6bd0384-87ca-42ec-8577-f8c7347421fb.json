@@ -1,0 +1,40 @@
+{
+        "poste_num": "3",
+        "company_name": "Clinique Santé Plus",
+        "job_title": "Médecin Généraliste",
+        "candidate_full_name": "Dr. Clara Dupont",
+        "passions_hobbies": ["Lecture médicale", "Randonnée", "Cuisine santé", "Yoga"],
+        "why_is_a_good_fit": [
+            "Fort engagement envers l'amélioration de la santé communautaire",
+            "Excellente expérience clinique et préventive",
+            "Grande aptitude à travailler en équipe pluridisciplinaire",
+            "Expertise reconnue en suivi médical à long terme et gestion des maladies chroniques"
+        ],
+        "academic_background_certifications": [
+            "Doctorat en Médecine Générale - Université Aix-Marseille, 2010 - 2016",
+            "Certification en Soins Préventifs et Thérapeutiques - Association Française pour la Prévention et l'Éducation à la Santé, Mars 2018"
+        ],
+        "technical_professional_skills": [
+            "Diagnostic clinique précis et rigoureux",
+            "Pratique avancée des soins préventifs et curatifs",
+            "Expertise en suivi médical à long terme",
+            "Expérience avec les outils de gestion de dossiers médicaux électroniques"
+        ],
+        "interpersonal_soft_skills": [
+            "Excellentes aptitudes en communication orale et écrite",
+            "Capacité à travailler au sein d'équipes pluridisciplinaires",
+            "Empathie et écoute active envers les patients",
+            "Compétence avérée en résolution de problèmes complexes"
+        ],
+        "professional_experiences": [
+            "Médecin Généraliste - Clinique Bien-Être & Santé, Janvier 2019 - Présent:",
+            "Réalisation de consultations médicales pour une clientèle diversifiée",
+            "Participation à des campagnes de prévention et d’éducation à la santé",
+            "Collaboration étroite avec une équipe pluridisciplinaire pour des soins optimaux",
+            "Suivi médical à long terme des patients chroniques",
+            "Interne en Médecine Générale - Centre Hospitalier Universitaire de Marseille, Juillet 2016 - Décembre 2018:",
+            "Participation à la rotation dans différents départements cliniques",
+            "Assistance dans la mise en place de plans de traitement pour les patients",
+            "Conduite de conférences pour le personnel médical sur des thématiques médicales actuelles"
+        ]
+    }

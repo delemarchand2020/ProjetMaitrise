@@ -52,3 +52,28 @@ ${env:OPENAI_API_KEY} = "VOTRE CLE OPEN AI"
 ${env:OPENAI_ORG_ID} = "VOTRE ID ORG OPEN AI"
 ${env:AGENTOPS_API_KEY} = "VOTRE CLE AGENTOPS"
 ```
+## Génération des profils de candidats
+```bash
+cd .\CrewAI_equipe_creation_BD_candidats\ 
+python .\crewai_gen_candidats.py 
+ ``` 
+## Apprentissages
+* points positifs :
+  * L'utilisation de agentops est vraiment bénéfique pour déboguer et effectuer les réglages sur les tâches.
+  * L'utilisation du framework CrewAI est simple, facile et efficace pour le développeur.
+    * La documentation est riche et bien faite.
+* Points négatifs :
+  * Coûts GPT-4o bien inférieur à GPT-4 (0.04$ contre 0.5$ pour un profil candidat, donc un rapport de 10 minimum)
+    * GPT-4o a été conçu pour être deux fois plus rapide que GPT-4 Turbo, ce qui réduit les ressources nécessaires par requête.
+    * Les améliorations apportées à GPT-4o permettent de diminuer les dépenses opérationnelles, permettant ainsi à OpenAI de proposer des tarifs plus compétitifs.
+    * En réduisant les coûts, OpenAI vise à rendre GPT-4o accessible à un plus large public, y compris aux utilisateurs gratuits, tout en maintenant des limites d'utilisation raisonnables. 
+  * GPT-4o bien plus rapide !
+  * Le réglage des instructions à mettre dans les tâches est un processus itératif : beaucoup de variabilité dans la qualité des résultats dépend de cela.
+  * L'utilisation de l'outil FileWriterTool par les agents n'est pas simple : il faut guider l'agent à bien l'utiliser (essais/erreurs).
+    * Il n'est pas capable d'ajouter des lignes à un fichier existant.
+  * Non mesuré, mais des biais semblent ressortir : 
+    * Beaucoup plus de candidats masculins que féminins générés.
+    * Beaucoup plus de jeunes que de vieux (non prise en compte de la consigne sénior lorsque demandée dans le poste)
+  * Difficulté à respecter les consignes : exemple mettre les dates sur les diplômes et les expériences.
+    * Soit mettre un agent qui contrôle cela, soit raffiner les instructions des tâches (ou mettre ceci dans les attentes de l'agent).
+  * Faible variabilité dans la génération inventive de prénom, nom, écoles, loisirs (on dirait un biais aussi), ...

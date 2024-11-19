@@ -1,0 +1,12 @@
+{
+  "poste_num": "5",
+  "company_name": "FinEx Solutions",
+  "job_title": "Comptable financier",
+  "candidate_full_name": "Claire Durand",
+  "passions_hobbies": ["Randonnée", "Lecture de littérature économique", "Cuisine"],
+  "why_is_a_good_fit": ["Formation solide en finance et comptabilité, renforcée par des certifications spécialisées.", "Expérience avérée avec les normes IFRS et la capacité à superviser efficacement les audits internes.", "Compétences techniques et relationnelles démontrées, optimales pour collaborer avec les équipes financières et les cadres dirigeants.", "Habileté à gérer des délais stricts tout en assurant l'exactitude des informations financières."],
+  "academic_background_certifications": ["Licence en Comptabilité, Université de Paris-Dauphine, obtenue en 2015", "Master en Finance, Université Paris 1 Panthéon-Sorbonne, obtenu en 2017", "Certification en normes IFRS, Association Française de Comptabilité, obtenue en 2018"],
+  "technical_professional_skills": ["Maîtrise approfondie des normes comptables françaises et des normes IFRS", "Capacité éprouvée à préparer et analyser les états financiers complexes", "Expérience significative avec des logiciels comptables tels que SAP et QuickBooks", "Expertise dans la supervision des audits internes et dans la garantie de l'intégrité des données financières"],
+  "interpersonal_soft_skills": ["Excellentes compétences analytiques permettant de fournir des rapports financiers détaillés et perspicaces", "Sens aigu de l'intégrité et de la rigueur professionnelle", "Forte capacité de communication, facilitant la collaboration avec les équipes financières et les dirigeants", "Aptitude démontrée à respecter les délais dans un environnement dynamique et exigeant"],
+  "professional_experiences": [{"title": "Analyste Financier Junior, Société Générale, Paris, de 2017 à 2020", "responsibilities": ["Participation à l'analyse et à la préparation des états financiers mensuels", "Assistance lors d'audits internes et externes, amélioration des processus de conformité"]}, {"title": "Comptable Financier, BNP Paribas, Paris, de 2020 à 2023", "responsibilities": ["Supervision des processus de clôture mensuelle, développement de rapports pour la haute direction", "Collaboration régulière avec des équipes financières multinationales pour optimiser l'exactitude des données"]}]
+}

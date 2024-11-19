@@ -1,0 +1,33 @@
+{
+  "poste_num": "3",
+  "company_name": "Clinique Santé Plus",
+  "job_title": "Médecin Généraliste",
+  "candidate_full_name": "Dr. Camille Dupont",
+  "passions_hobbies": ["Lecture de revues médicales", "Randonnée en montagne", "Peinture aquarelle", "Cuisiner des plats méditerranéens"],
+  "why_is_a_good_fit": [
+    "Forte expérience avec diverses populations patientes dans des environnements cliniques dynamiques.",
+    "Compétence éprouvée dans l'amélioration des pratiques de soins préventifs communautaires.",
+    "Engagement constant envers la formation continue et l'adaptation aux nouvelles technologies médicales.",
+    "Grande capacité à établir des relations de confiance avec les patients, favorisant un climat de soin chaleureux et professionnel."
+  ],
+  "academic_background_certifications": [
+    "Diplôme de Médecine Générale, Université d'Aix-Marseille, obtenu en 2012.",
+    "Doctorat en Médecine, Université d'Aix-Marseille, soutenu en 2015."
+  ],
+  "technical_professional_skills": [
+    "Expertise en réalisation de consultations médicales et diagnostic précis.",
+    "Compétence avancée dans la proposition de traitements adaptés et suivi à long terme des patients.",
+    "Expérimentation dans la participation à des campagnes de prévention de la santé."
+  ],
+  "interpersonal_soft_skills": [
+    "Excellentes capacités de communication écrite et orale.",
+    "Aptitude avérée pour le travail en équipe multidisciplinaire.",
+    "Grande empathie et écoute active envers les patients.",
+    "Capacité de gestion du stress et des situations complexes.",
+    "Dévouement et passion pour l'amélioration du bien-être communautaire."
+  ],
+  "professional_experiences": [
+    {"title": "Médecin Généraliste", "responsibilities": "Prise en charge des consultations médicales quotidiennes et suivi des patients, Collaboration étroite avec une équipe de professionnels de santé pluridisciplinaires, Participation à des programmes de santé publique pour la promotion de soins préventifs", "location": "Centre Médical Saint-Charles, Marseille", "duration": "2016 à 2022"},
+    {"title": "Interne en Médecine Générale", "responsibilities": "Conduite de consultations sous la supervision de médecins seniors, Développement des compétences en diagnostic et gestion des pathologies courantes", "location": "Hôpital de la Timone, Marseille", "duration": "2013 à 2015"}
+  ]
+}

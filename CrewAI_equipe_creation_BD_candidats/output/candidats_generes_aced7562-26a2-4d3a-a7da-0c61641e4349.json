@@ -1,0 +1,15 @@
+{
+"poste_num": "6",
+"company_name": "Consultis Group",
+"job_title": "Auditeur Financier - Senior",
+"candidate_full_name": "Sophie Dupont",
+"passions_hobbies": ["Lecture de romans policiers", "Randonnées en montagne", "Cuisine gastronomique", "Voyages culturels"],
+"why_is_a_good_fit": ["Solide expérience en audit financier avec une expertise technique reconnue", "Certifications CPA et CISA démontrant un engagement continu envers la profession", "Compétences interpersonnelles et de communication exceptionnelles permettant de créer des relations de confiance avec les clients", "Aptitude à l'analyse critique et gestion efficace du stress dans des environnements sous pression"],
+"academic_background_certifications": ["Master en Comptabilité, Université de Paris, France - 2005", "Certification CPA (Certified Public Accountant) - 2006", "Certification CISA (Certified Information Systems Auditor) - 2008"],
+"technical_professional_skills": ["Maîtrise des normes internationales d'audit (ISA)", "Expertise dans l'utilisation d'outils d'audit informatique tels que ACL, IDEA", "Expérience en évaluation et optimisation des systèmes de contrôle interne"],
+"interpersonal_soft_skills": ["Excellentes compétences en communication verbale et écrite", "Capacité à établir des relations de confiance avec les clients", "Compétence avérée en gestion du stress et travail sous pression", "Rigueur et intégrité professionnelle", "Aptitude à l'analyse critique"],
+"professional_experiences": [
+{"title": "Directeur de l'Audit, Grand Cabinet d'Audit, Paris, France - 2014 à présent","responsibilities": ["Responsable de la supervision et la réalisation d'audits financiers complexes","Encadrement d'une équipe de 10 auditeurs","Présentation de rapports stratégiques aux conseils d'administration"]},
+{"title": "Manager Audit, Consulting Firm, Lyon, France - 2008 à 2014","responsibilities": ["Conduite d'audits financiers pour des multinationales","Amélioration de l'efficacité des systèmes de contrôle interne des clients","Formation d'équipes junior aux techniques avancées d'audit"]},
+{"title": "Auditeur Junior, Bureau d'Audit Régional, Nice, France - 2005 à 2008","responsibilities": ["Participation à des missions d'audit pour des PME locales","Analyse des flux financiers et évaluation des structures de contrôle"]}]
+}

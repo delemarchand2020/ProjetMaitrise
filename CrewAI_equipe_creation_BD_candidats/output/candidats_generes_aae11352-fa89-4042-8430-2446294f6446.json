@@ -1,0 +1,47 @@
+{
+  "poste_num": "6",
+  "company_name": "Consultis Group",
+  "job_title": "Auditeur financier",
+  "candidate_full_name": "Sophie Martin",
+  "passions_hobbies": ["Randonnée", "Photographie", "Cuisine gastronomique", "Lecture de romans policiers"],
+  "why_is_a_good_fit": [
+    "Expérience avérée dans la réalisation d'audits financiers complexes pour des entreprises de grande envergure.",
+    "Capacité à évaluer et améliorer les systèmes de contrôle interne, garantissant l'efficacité opérationnelle.",
+    "Compétence à former et encadrer des équipes, promouvant un environnement de travail collaboratif.",
+    "Engagement envers l'excellence professionnelle et l'intégrité, assurant des audits transparents et fiables."
+  ],
+  "academic_background_certifications": [
+    "Master en Comptabilité, Université Paris-Dauphine, obtenu en 2008",
+    "Certification en Audit Financier (CPA), obtenue en 2010"
+  ],
+  "technical_professional_skills": [
+    "Connaissance approfondie des normes d'audit (ISA, IFRS)",
+    "Expertise dans l'utilisation des outils d'audit informatique tels que ACL et IDEA",
+    "Solide compréhension des systèmes de contrôle interne"
+  ],
+  "interpersonal_soft_skills": [
+    "Excellentes compétences en communication, capacité à expliquer des concepts complexes de manière claire et concise",
+    "Capacité éprouvée à travailler sous pression et à respecter des délais stricts",
+    "Intégrité irréprochable et rigueur professionnelle",
+    "Sens aigu du détail et adaptabilité aux évolutions réglementaires"
+  ],
+  "professional_experiences": [
+    {
+      "title": "Auditeur senior, PricewaterhouseCoopers, Paris, France (2011 - Présent)",
+      "responsibilities": [
+        "Réalisation d'audits financiers complexes pour des multinationales",
+        "Évaluation et amélioration des systèmes de contrôle interne des clients",
+        "Rédaction de rapports d'audit détaillés et présentation des conclusions aux comités de direction",
+        "Encadrement et formation de jeunes auditeurs au sein de l'équipe"
+      ]
+    },
+    {
+      "title": "Auditeur financier, Deloitte, Paris, France (2008 - 2011)",
+      "responsibilities": [
+        "Participation à la planification et à l'exécution d'audits financiers",
+        "Analyse des processus financiers et recommandation d'améliorations",
+        "Collaboration avec les équipes pluridisciplinaires pour assurer la conformité aux normes régionales"
+      ]
+    }
+  ]
+}

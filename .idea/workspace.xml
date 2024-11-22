@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="gitignore">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="Première version opérationnelle">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +205,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731365946433</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="remplacer chef equipe par preparateur et ajout tool de lecture de fichier">
+      <option name="closed" value="true" />
+      <created>1731502074263</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731502074263</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Première version opérationnelle">
+      <option name="closed" value="true" />
+      <created>1731884199530</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1731884199530</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Première version opérationnelle">
+      <option name="closed" value="true" />
+      <created>1732059779853</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732059779853</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +243,8 @@
     <MESSAGE value="Début pour le codage de l'équipe" />
     <MESSAGE value="creation équipe" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="remplacer chef equipe par preparateur et ajout tool de lecture de fichier" />
+    <MESSAGE value="Première version opérationnelle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Première version opérationnelle" />
   </component>
 </project>

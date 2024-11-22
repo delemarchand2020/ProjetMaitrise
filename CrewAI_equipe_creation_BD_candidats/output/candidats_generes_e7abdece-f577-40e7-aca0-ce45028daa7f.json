@@ -1,0 +1,15 @@
+{
+  "poste_num": "2",
+  "company_name": "Code Factory",
+  "job_title": "Ingénieur(e) Logiciel Backend",
+  "candidate_full_name": "Claire Martin",
+  "passions_hobbies": ["Lecture de science-fiction", "Randonnée en montagne", "Programmation de jeux vidéo"],
+  "why_is_a_good_fit": ["Solide expérience en développement de microservices", "Capacité à concevoir des solutions backend sécurisées", "Engagement envers l'innovation technologique"],
+  "academic_background_certifications": ["Master en Informatique, Université de Lyon, 2008", "Certification en Développement Logiciel Sécurisé, 2010"],
+  "technical_professional_skills": ["Excellentes connaissances en Java, Python et Go", "Expertise en microservices et architectures distribuées", "Maîtrise de la gestion de bases de données relationnelles et NoSQL", "Compétences solides en optimisation des performances système", "Expérience avérée dans le développement et l'intégration d'API robustes"],
+  "interpersonal_soft_skills": ["Passionné par la technologie avec un esprit d'innovation", "Forte capacité d'adaptation aux nouvelles technologies", "Goût prononcé pour la collaboration au sein d'équipes pluridisciplinaires", "Sens aigu de la responsabilité et engagement envers le développement durable"],
+  "professional_experiences": [
+    {"title": "Ingénieur Logiciel Senior", "company": "Tech Solutions, Paris (2015 - Présent)", "responsibilities": ["Conception et développement de services backend sécurisés pour des applications à grande échelle.", "Collaboration avec les équipes frontend pour intégrer des solutions logicielles innovantes.", "Participation aux décisions architecturales stratégiques influençant les projets clients."]},
+    {"title": "Développeur Backend", "company": "Innovatech Systems, Lyon (2010 - 2015)", "responsibilities": ["Développement d'API RESTful et optimisation de systèmes existants pour améliorer les performances.", "Implémentation de solutions microservices pour améliorer la scalabilité des systèmes.", "Gestion des bases de données et amélioration de leur efficacité opérationnelle."]}
+  ]
+}

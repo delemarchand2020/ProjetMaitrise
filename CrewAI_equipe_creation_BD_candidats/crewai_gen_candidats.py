@@ -1,12 +1,34 @@
 import agentops
 from textwrap import dedent
-from crewai import Agent, Crew, Process, Task
+from crewai import Agent, Crew, Process, Task, LLM
 from crewai_tools import FileReadTool, FileWriterTool
 from dotenv import load_dotenv
 
 load_dotenv()
 
-model_llm = "gpt-4o"
+llm_creative = LLM(
+    model="gpt-4o",
+    temperature=0.9,
+    top_p=0.9,
+    frequency_penalty=0.2,
+    presence_penalty=0.2,
+)
+
+llm_doer = LLM(
+    model="gpt-4o",
+    temperature=0.2,
+    top_p=0.85,
+    frequency_penalty=0.0,
+    presence_penalty=0.0,
+)
+
+llm_middle_creative = LLM(
+    model="gpt-4o",
+    temperature=0.8,
+    top_p=0.9,
+    frequency_penalty=0.1,
+    presence_penalty=0.1,
+)
 
 file_read_tool = FileReadTool()
 file_writer_tool = FileWriterTool()
@@ -26,7 +48,7 @@ preparateur_poste = Agent(
     ),
     allow_delegation=False,
     verbose=True,
-    llm=model_llm,
+    llm=llm_doer,
     tools=[file_read_tool],
 )
 
@@ -40,7 +62,7 @@ redacteur_poste = Agent(
     ),
     allow_delegation=False,
     verbose=True,
-    llm=model_llm
+    llm=llm_creative
 )
 
 redacteur_profil_candidat = Agent(
@@ -53,7 +75,7 @@ redacteur_profil_candidat = Agent(
     ),
     allow_delegation=False,
     verbose=True,
-    llm=model_llm
+    llm=llm_creative
 )
 
 redacteur_personna_candidat = Agent(
@@ -66,7 +88,7 @@ redacteur_personna_candidat = Agent(
     ),
     allow_delegation=False,
     verbose=True,
-    llm=model_llm,
+    llm=llm_middle_creative,
     tools=[file_writer_tool],
 )
 

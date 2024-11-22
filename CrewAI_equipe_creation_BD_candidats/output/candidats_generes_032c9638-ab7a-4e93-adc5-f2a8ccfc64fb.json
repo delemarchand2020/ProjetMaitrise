@@ -1,0 +1,15 @@
+{
+  "poste_num": "6",
+  "company_name": "Consultis Group",
+  "job_title": "Auditeur financier",
+  "candidate_full_name": "Camille Dupont",
+  "passions_hobbies": ["Randonnée en montagne", "Lecture de romans policiers", "Cuisine gastronomique", "Voyages culturels"],
+  "why_is_a_good_fit": ["Solide expérience en audit financier avec des entreprises de premier plan", "Capacité démontrée à améliorer les systèmes de contrôle interne", "Aptitude à former et encadrer des équipes, assurant une montée en compétences rapide", "Approche analytique rigoureuse qui garantit des audits précis et fiables"],
+  "academic_background_certifications": ["Master en Comptabilité, Université de Paris-Dauphine, obtenu en 2008", "Certification CPA (Certified Public Accountant), obtenue en 2010"],
+  "technical_professional_skills": ["Maîtrise des normes internationales d'audit (ISA) et des principes comptables généralement reconnus (GAAP)", "Expertise en analyse financière et évaluation des systèmes de contrôle interne", "Expérience avec les outils d'audit informatique tels que ACL et IDEA", "Compétences avancées en rédaction de rapports d'audit et présentation des résultats"],
+  "interpersonal_soft_skills": ["Excellentes compétences en communication orale et écrite", "Capacité à travailler sous pression et à respecter des délais serrés", "Esprit analytique et rigoureux avec une attention particulière aux détails", "Aptitude au travail collaboratif et à la gestion d'équipe"],
+  "professional_experiences": [
+    {"title": "Auditeur Senior, Deloitte France, Paris, 2015 - Présent", "responsibilities": ["Conduite d'audits financiers complexes pour des entreprises du CAC 40", "Évaluation et amélioration des systèmes de contrôle interne des clients", "Formation et encadrement des auditeurs juniors au sein de l'équipe"]},
+    {"title": "Auditeur, PwC, Paris, 2010 - 2015", "responsibilities": ["Réalisation d'audits financiers pour diverses industries, y compris la finance et la technologie", "Collaboration avec les équipes d'audit pour assurer la conformité réglementaire", "Participation à la rédaction de rapports d'audit détaillés pour les clients"]}
+  ]
+}

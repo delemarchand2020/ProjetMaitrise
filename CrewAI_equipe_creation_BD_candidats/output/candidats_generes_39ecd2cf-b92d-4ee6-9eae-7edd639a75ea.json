@@ -1,0 +1,50 @@
+{
+  "poste_num": "6",
+  "company_name": "Consultis Group",
+  "job_title": "Auditeur financier",
+  "candidate_full_name": "Sophie Martin",
+  "passions_hobbies": [
+    "Randonnée en montagne",
+    "Photographie de paysage",
+    "Lecture de romans policiers",
+    "Voyages culturels"
+  ],
+  "why_is_a_good_fit": [
+    "Plus de dix ans d'expérience dans l'audit financier.",
+    "Expertise reconnue en normes ISA et audit informatique.",
+    "Compétences avérées en communication avec les parties prenantes.",
+    "Capacité à recommander et implémenter des améliorations efficaces."
+  ],
+  "academic_background_certifications": [
+    "Master en Comptabilité et Audit, Université de Paris, obtenu en 2010",
+    "Certification en Audit Informatique, Institut des Auditeurs Internes, obtenue en 2012"
+  ],
+  "technical_professional_skills": [
+    "Connaissance approfondie des normes internationales d'audit (ISA)",
+    "Expertise dans l'utilisation d'outils d'audit informatique tels que ACL Analytics et IDEA",
+    "Maîtrise des systèmes de contrôle interne et de leur évaluation",
+    "Compétences avancées en rédaction de rapports d'audit détaillés"
+  ],
+  "interpersonal_soft_skills": [
+    "Excellentes compétences en communication écrite et orale",
+    "Capacité à travailler sous pression tout en maintenant une grande attention aux détails",
+    "Intégrité professionnelle et forte orientation client",
+    "Aptitude à collaborer efficacement avec les équipes internes et les parties prenantes externes"
+  ],
+  "professional_experiences": [
+    {
+      "title": "Responsable de l'Audit Financier, Cabinet ABC, Paris | 2013 - Présent",
+      "responsibilities": [
+        "Conduite d'audits financiers pour des entreprises de divers secteurs, garantissant la conformité avec les normes ISA",
+        "Présentation de rapports d'audit aux comités d'entreprise et recommandation d'améliorations pour les systèmes de contrôle interne"
+      ]
+    },
+    {
+      "title": "Auditeur Financier Senior, Cabinet DEF, Lyon | 2010 - 2013",
+      "responsibilities": [
+        "Réalisation d'audits annuels complets et gestion de missions d'audit complexes",
+        "Collaboration avec les équipes comptables pour l'évaluation des risques financiers et la mise en place de mesures correctives"
+      ]
+    }
+  ]
+}

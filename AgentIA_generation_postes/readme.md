@@ -112,6 +112,7 @@ Ensuite elle doit être exposée publiquement avec la commande :
 ```bash
 ./Outils/ngrok.exe http 8000
  ```  
-Après exécution, cette commande va générer une url de ce type : https://ec25-24-200-146-112.ngrok-free.app.
+Après exécution, cette commande va générer une url de ce type : https://ec25-24-200-146-112.ngrok-free.app que l'on peut consulter via la console :
+https://dashboard.ngrok.com/endpoints
 
-À placer dans la description JSON ci-dessus avant de la copier dans la console.
+Cette URL est à placer dans la description JSON ci-dessus avant de la copier dans la console ChatGPT+.

@@ -77,3 +77,6 @@ python .\crewai_gen_candidats.py
   * Difficulté à respecter les consignes : exemple mettre les dates sur les diplômes et les expériences.
     * Soit mettre un agent qui contrôle cela, soit raffiner les instructions des tâches (ou mettre ceci dans les attentes de l'agent).
   * Faible variabilité dans la génération inventive de prénom, nom, écoles, loisirs (on dirait un biais aussi), ...
+
+## License
+This project is licensed under the [Apache 2.0 License](../LICENSE) - see the LICENSE file for details.

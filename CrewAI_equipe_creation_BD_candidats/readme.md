@@ -54,8 +54,10 @@ ${env:AGENTOPS_API_KEY} = "VOTRE CLE AGENTOPS"
 ```
 ## Génération des profils de candidats
 ```bash
-cd .\CrewAI_equipe_creation_BD_candidats\ 
-python .\crewai_gen_candidats.py 
+cd .\CrewAI_equipe_creation_BD_candidats\   
+python .\crewai_gen_candidats.py --fichier_postes "postes_generes.json" 
+        --output_path "./output/" --langue_de_travail "français" 
+        --genre "féminin" --poste_num "1"
  ``` 
 ## Apprentissages
 * points positifs :

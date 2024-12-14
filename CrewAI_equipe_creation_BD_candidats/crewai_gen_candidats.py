@@ -1,4 +1,5 @@
 import agentops
+import argparse
 from textwrap import dedent
 from crewai import Agent, Crew, Process, Task, LLM
 from crewai_tools import FileReadTool, FileWriterTool
@@ -201,20 +202,43 @@ crew = Crew(
     process=Process.sequential
 )
 
-# ============== définition de l'équipe =======================
-fichier_postes = "postes_generes.json"
-output_path = "./output/"
-langue_de_travail = "français"
-genre = "féminin"
+# ============== récupération des paramètres et lancement =======================
 
-session_agentops = agentops.init()
 
-for poste_num in ["6"]:
+def main():
+    parser = argparse.ArgumentParser(description="Process some parameters.")
+    parser.add_argument('--fichier_postes', type=str, default="postes_generes.json", help='Path to the postes file')
+    parser.add_argument('--output_path', type=str, default="./output/", help='Output path')
+    parser.add_argument('--langue_de_travail', type=str, default="français", help='Working language')
+    parser.add_argument('--genre', type=str, default="féminin", help='Genre')
+    parser.add_argument('--poste_num', type=str, default="1", help='Poste number')
+
+    args = parser.parse_args()
+
+    fichier_postes = args.fichier_postes
+    output_path = args.output_path
+    langue_de_travail = args.langue_de_travail
+    genre = args.genre
+    poste_num = args.poste_num
+
+    session_agentops = agentops.init()
+
     fichier_candidats = f"candidats_generes_{session_agentops.session_id}.json"
-    params = {"poste_num": poste_num, "fichier_postes": fichier_postes, "fichier_candidats": fichier_candidats,
-             "output_path": output_path, "langue_de_travail": langue_de_travail, "genre": genre}
+    params = {
+        "poste_num": poste_num,
+        "fichier_postes": fichier_postes,
+        "fichier_candidats": fichier_candidats,
+        "output_path": output_path,
+        "langue_de_travail": langue_de_travail,
+        "genre": genre
+    }
     result = crew.kickoff(inputs=params)
     print(f"###################### poste_num --> {poste_num} ######################")
     print(result)
+
+
+if __name__ == "__main__":
+    main()
+
 
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/None/candidats_generes.json" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/candidats_generes.json" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/output/candidats_generes_032c9638-ab7a-4e93-adc5-f2a8ccfc64fb.json" charset="windows-1252" />

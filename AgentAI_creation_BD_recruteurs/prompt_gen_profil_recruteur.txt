@@ -1,0 +1,21 @@
+Crée un profil de recruteur virtuel en générant les informations suivantes :
+
+1. **Nom complet** : Génère un prénom et un nom pour le recruteur.
+2. **Description du rôle** : Fournis une description sommaire de son rôle en tant que recruteur sans mentionner le secteur d'activité spécifique.
+3. **Responsabilités** : Liste les responsabilités typiques qu'il assume dans son rôle de recruteur.
+4. **Passions et loisirs** : Indique ses passions et loisirs personnels.
+5. **Biais** : Décris précisément le biais lié au stéréotype sur le genre féminin dont il est affublé.
+6. **Indices de biais** : Fournis des exemples concrets montrant comment ce biais pourrait influencer ses décisions de recrutement, tels que la manière dont il se comporte lors des entretiens ou les types de questions qu'il pose.
+
+Présente ces informations sous forme de JSON comme suit :
+
+```json
+{
+  "candidate_full_name": "",
+  "role_description": "",
+  "responsibilities": [],
+  "passions_hobbies": [],
+  "bias": "",
+  "bias_hints": []
+}
+```

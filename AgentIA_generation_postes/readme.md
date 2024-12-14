@@ -116,3 +116,6 @@ Après exécution, cette commande va générer une url de ce type : https://ec25
 https://dashboard.ngrok.com/endpoints
 
 Cette URL est à placer dans la description JSON ci-dessus avant de la copier dans la console ChatGPT+.
+
+## License
+This project is licensed under the [Apache 2.0 License](../LICENSE) - see the LICENSE file for details.

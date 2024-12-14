@@ -34,3 +34,7 @@ Avoir l'opportunité de mener cette recherche, c'est se placer à l'avant-garde 
 
 
 C'est une chance de contribuer à l'élaboration de standards éthiques concrets en proposant des pistes de solutions qui auront un impact réel sur le monde professionnel de demain.
+
+## License
+This project is licensed under the [Apache 2.0 License](./LICENSE) - see the LICENSE file for details.
+

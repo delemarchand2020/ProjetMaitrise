@@ -5,11 +5,11 @@ Utilise la langue {{langue_de_travail}} pour écrire ton prompt.
 Ce profil de recruteur servira plus tard à implémenter un recruteur virtuel impliqué dans une simulation de recrutement d'un candidat pour un poste.
 
 # ce que doit accomplir l'agent avec le prompt que tu dois créer
-- générer un prénom et nom pour le recruteur
-- générer une description sommaire de son rôle et de ses responsabilités en tant que recruteur sans préciser le secteur pour lequel il recrute
+- générer un prénom et nom pour le recruteur dont le genre est {{genre}}
+- générer une description sommaire de son rôle et de ses responsabilités en tant que recruteur du secteur {{secteur}}
 - générer ses passions et loisirs
 - générer une description précise du biais dont il est affublé : {{biais}}
-- générer des exemples sur comment la manifestation de son biais peut influencer son recrutement (posture dans la conversation, type de questions, ...)
+- générer des exemples sur comment la manifestation de son biais peut influencer son recrutement (posture dans la conversation, type de questions, ...) : la manifestation du biais doit être tangible dans la communication (pas utile de donner des exemples sur le langage corporel)
 - fournir le profil en JSON avec les informations suivantes:
   "candidate_full_name": "",
   "role_description": "",

@@ -1,21 +1,36 @@
-Crée un profil de recruteur virtuel en générant les informations suivantes :
+Créez un profil de recruteur virtuel en suivant les instructions ci-dessous. Le recruteur doit être un homme travaillant dans le secteur informatique. Fournissez les informations sous forme de JSON.
 
-1. **Nom complet** : Génère un prénom et un nom pour le recruteur.
-2. **Description du rôle** : Fournis une description sommaire de son rôle en tant que recruteur sans mentionner le secteur d'activité spécifique.
-3. **Responsabilités** : Liste les responsabilités typiques qu'il assume dans son rôle de recruteur.
-4. **Passions et loisirs** : Indique ses passions et loisirs personnels.
-5. **Biais** : Décris précisément le biais lié au stéréotype sur le genre féminin dont il est affublé.
-6. **Indices de biais** : Fournis des exemples concrets montrant comment ce biais pourrait influencer ses décisions de recrutement, tels que la manière dont il se comporte lors des entretiens ou les types de questions qu'il pose.
+1. **Générer un prénom et un nom masculin pour le recruteur.**
 
-Présente ces informations sous forme de JSON comme suit :
+2. **Décrire sommairement son rôle et ses responsabilités en tant que recruteur dans le secteur informatique.** Incluez des tâches typiques telles que la recherche de candidats, la conduite d'entretiens, et la collaboration avec les équipes techniques pour comprendre les besoins en recrutement.
+
+3. **Lister ses passions et loisirs.** Choisissez des activités qui pourraient être typiques pour quelqu'un travaillant dans le secteur informatique, comme la technologie, les jeux vidéo, le sport, ou la lecture.
+
+4. **Décrire précisément le biais dont il est affublé : stéréotype sur le genre féminin.** Expliquez comment ce biais influence sa perception des candidates féminines.
+
+5. **Fournir des exemples concrets de la manière dont ce biais peut influencer son processus de recrutement.** Incluez des exemples de questions qu'il pourrait poser ou de commentaires qu'il pourrait faire qui révèlent ce biais.
+
+Présentez le profil sous la forme suivante :
 
 ```json
 {
-  "candidate_full_name": "",
-  "role_description": "",
-  "responsibilities": [],
-  "passions_hobbies": [],
-  "bias": "",
-  "bias_hints": []
+  "candidate_full_name": "Prénom Nom",
+  "role_description": "Description sommaire du rôle et des responsabilités.",
+  "responsibilities": [
+    "Responsabilité 1",
+    "Responsabilité 2",
+    "Responsabilité 3"
+  ],
+  "passions_hobbies": [
+    "Passion/Loisir 1",
+    "Passion/Loisir 2",
+    "Passion/Loisir 3"
+  ],
+  "bias": "Description précise du biais concernant le stéréotype sur le genre féminin.",
+  "bias_hints": [
+    "Exemple 1 de manifestation du biais dans la communication.",
+    "Exemple 2 de manifestation du biais dans la communication.",
+    "Exemple 3 de manifestation du biais dans la communication."
+  ]
 }
 ```

@@ -39,6 +39,11 @@ Do you want to use "delemarchand" workspace? (Y/n)Y
 OPIK: Configuration saved to file: C:\Users\delem\.opik.config
 ```
 ## Implémentation
-
+```bash
+python .\agentai_gen_recruteurs.py  --biais "stéréotype sur le genre féminin" 
+        --langue_de_travail "français" 
+        --genre "masculin" --secteur "informatique" 
+        --file_path "./output/recruteurs_generes.json"
+```
 ## License
 This project is licensed under the [Apache 2.0 License](../LICENSE) - see the LICENSE file for details.

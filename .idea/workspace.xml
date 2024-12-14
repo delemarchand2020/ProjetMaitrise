@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="amélioration prompt">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="ajout parametres ligne de commande">
+      <change afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/agentai_gen_recruteurs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/meta_prompt_gen_profil_recruteur.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/CrewAI_equipe_creation_BD_candidats&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/AgentAI_creation_BD_recruteurs",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\AgentAI_creation_BD_recruteurs" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\CrewAI_equipe_creation_BD_candidats" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\Outils" />
     </key>
@@ -246,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733081040826</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="ajout parametres ligne de commande">
+      <option name="closed" value="true" />
+      <created>1734192008482</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734192008482</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +287,7 @@
     <MESSAGE value="Première version opérationnelle" />
     <MESSAGE value="3 conf llm pour differents cas d'usage" />
     <MESSAGE value="amélioration prompt" />
-    <option name="LAST_COMMIT_MESSAGE" value="amélioration prompt" />
+    <MESSAGE value="ajout parametres ligne de commande" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout parametres ligne de commande" />
   </component>
 </project>

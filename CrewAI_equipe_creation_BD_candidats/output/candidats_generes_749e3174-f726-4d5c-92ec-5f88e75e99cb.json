@@ -1,0 +1,15 @@
+{
+  "poste_num": "1",
+  "company_name": "Tech Innovators",
+  "job_title": "Ingénieur(e) Logiciel Full Stack",
+  "candidate_full_name": "Émilie Dupont",
+  "passions_hobbies": ["Lecture de romans de science-fiction", "Randonnée en montagne", "Participation à des hackathons", "Cuisine gastronomique"],
+  "why_is_a_good_fit": ["Expérience avérée dans le développement d'applications web interactives, répondant aux besoins des utilisateurs.", "Solide formation académique et certifications pertinentes dans le domaine du développement logiciel.", "Compétences techniques approfondies et capacité à rédiger du code propre et maintenable.", "Aptitude à travailler efficacement en équipe et à communiquer clairement avec les parties prenantes."],
+  "academic_background_certifications": ["Licence en Informatique, Université de Paris, 2015", "Certification en Développement Web Full Stack, OpenClassrooms, 2016"],
+  "technical_professional_skills": ["Maîtrise des langages JavaScript, HTML, CSS", "Expérience solide avec les frameworks React et Node.js", "Connaissances approfondies des bases de données SQL (PostgreSQL) et NoSQL (MongoDB)", "Compétences en rédaction de code propre et maintenable"],
+  "interpersonal_soft_skills": ["Excellentes compétences en communication écrite et orale", "Capacité à collaborer efficacement au sein d'une équipe pluridisciplinaire", "Esprit créatif et curieux avec une passion pour l'innovation technologique", "Adaptabilité et capacité à apprendre rapidement de nouvelles technologies"],
+  "professional_experiences": [
+    {"title": "Développeur Web Full Stack, Innovatech Solutions, Paris", "responsibilities": ["Participation au développement d'applications web interactives.", "Collaboration avec les équipes produit et design pour la création de nouvelles fonctionnalités.", "Rédaction de code optimisé pour la performance."]},
+    {"title": "Développeur Front-end, Digital Wave, Lyon", "responsibilities": ["Conception et maintenance de sites web dynamiques.", "Intégration des interfaces utilisateur en utilisant React.", "Collaboration avec les designers pour améliorer l'expérience utilisateur."]}
+  ]
+}

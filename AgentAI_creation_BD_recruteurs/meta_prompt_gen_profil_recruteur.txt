@@ -1,0 +1,2 @@
+Créer un prompt pour un agent devant créer un profil de recruteur avec le biais {{biais}}.
+

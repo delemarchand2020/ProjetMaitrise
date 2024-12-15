@@ -10,11 +10,19 @@ client_opik = opik.Opik()
 client = OpenAI()
 openai_client = track_openai(client)
 
+# paramètres pour un llm déterministe
 model_llm_prompt_gen = "gpt-4o"
-temperature = 0.2
-top_p = 0.85
-frequency_penalty = 0.0
-presence_penalty = 0.0
+temperature_llm_prompt_gen = 0.0
+top_p_llm_prompt_gen = 1.0
+frequency_penalty_llm_prompt_gen = 0.0
+presence_penalty_llm_prompt_gen = 0.0
+
+# paramètres pour un llm créatif
+model_llm_profil_gen = "gpt-4o"
+temperature_llm_profil_gen = 0.8
+top_p_llm_profil_gen = 0.9
+frequency_penalty_llm_profil_gen = 0.2
+presence_penalty_llm_profil_gen = 0.2
 
 # création du méta prompt
 
@@ -32,10 +40,10 @@ def get_meta_prompt(biais="stéréotype sur le genre féminin", langue_de_travai
 def generate_prompt_from_meta(meta_prompt):
     completion = openai_client.chat.completions.create(
         model=model_llm_prompt_gen, messages=[{"role": "user", "content": meta_prompt}],
-        temperature=temperature,
-        top_p=top_p,
-        frequency_penalty=frequency_penalty,
-        presence_penalty=presence_penalty
+        temperature=temperature_llm_prompt_gen,
+        top_p=top_p_llm_prompt_gen,
+        frequency_penalty=frequency_penalty_llm_prompt_gen,
+        presence_penalty=presence_penalty_llm_prompt_gen
     )
     return completion.choices[0].message.content
 
@@ -53,11 +61,11 @@ def register_prompt_gen_profil_recruteur(prompt_text):
 
 def generate_profil(prompt):
     completion = openai_client.chat.completions.create(
-        model=model_llm_prompt_gen, messages=[{"role": "user", "content": prompt}],
-        temperature=temperature,
-        top_p=top_p,
-        frequency_penalty=frequency_penalty,
-        presence_penalty=presence_penalty
+        model=model_llm_profil_gen, messages=[{"role": "user", "content": prompt}],
+        temperature=temperature_llm_profil_gen,
+        top_p=top_p_llm_profil_gen,
+        frequency_penalty=frequency_penalty_llm_profil_gen,
+        presence_penalty=presence_penalty_llm_profil_gen
     )
     return completion.choices[0].message.content
 

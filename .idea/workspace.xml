@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="premiere version pour générer le prompt">
-      <change afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" afterDir="false" />
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="version pour la génération des profils">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/agentai_gen_recruteurs.py" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/agentai_gen_recruteurs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/meta_prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/meta_prompt_gen_profil_recruteur.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/readme.md" afterDir="false" />
     </list>
@@ -273,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734211247804</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="version pour la génération des profils">
+      <option name="closed" value="true" />
+      <created>1734218851491</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734218851491</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +312,7 @@
     <MESSAGE value="ajout parametres ligne de commande" />
     <MESSAGE value="structure de base pour profil recruteur" />
     <MESSAGE value="premiere version pour générer le prompt" />
-    <option name="LAST_COMMIT_MESSAGE" value="premiere version pour générer le prompt" />
+    <MESSAGE value="version pour la génération des profils" />
+    <option name="LAST_COMMIT_MESSAGE" value="version pour la génération des profils" />
   </component>
 </project>

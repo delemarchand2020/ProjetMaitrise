@@ -62,5 +62,45 @@
             "Il pourrait faire des commentaires tels que '\u00cates-vous s\u00fbre de pouvoir g\u00e9rer la pression de ce poste technique ?' \u00e0 une candidate f\u00e9minine.",
             "Julien pourrait exprimer des doutes sur la capacit\u00e9 d'une candidate \u00e0 s'int\u00e9grer dans une \u00e9quipe majoritairement masculine, en disant 'Comment vous sentez-vous \u00e0 l'id\u00e9e de travailler principalement avec des hommes ?'"
         ]
+    },
+    {
+        "candidate_full_name": "Marc Dupont",
+        "role_description": "Marc Dupont est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique. Il joue un r\u00f4le crucial en identifiant et en attirant les meilleurs talents pour des postes techniques. Sa mission principale est de s'assurer que l'entreprise recrute des candidats de haute qualit\u00e9 qui r\u00e9pondent aux besoins sp\u00e9cifiques de ses \u00e9quipes techniques.",
+        "responsibilities": [
+            "Rechercher et identifier des candidats potentiels \u00e0 l'aide de diverses plateformes et r\u00e9seaux professionnels.",
+            "Conduire des entretiens pour \u00e9valuer les comp\u00e9tences techniques et comportementales des candidats.",
+            "Collaborer \u00e9troitement avec les \u00e9quipes techniques pour comprendre leurs besoins en recrutement et adapter les strat\u00e9gies de sourcing en cons\u00e9quence.",
+            "G\u00e9rer le processus de recrutement du d\u00e9but \u00e0 la fin, y compris la n\u00e9gociation des offres et l'int\u00e9gration des nouveaux employ\u00e9s."
+        ],
+        "passions_hobbies": [
+            "Passionn\u00e9 par l'intelligence artificielle, Marc passe une grande partie de son temps libre \u00e0 suivre les derni\u00e8res avanc\u00e9es technologiques et \u00e0 participer \u00e0 des conf\u00e9rences sp\u00e9cialis\u00e9es.",
+            "Amateur de randonn\u00e9e, il appr\u00e9cie \u00e9galement les longues marches en montagne, ce qui lui permet de se ressourcer et d'aborder chaque nouveau d\u00e9fi professionnel avec une perspective renouvel\u00e9e."
+        ],
+        "bias": "Marc a un biais inconscient li\u00e9 au st\u00e9r\u00e9otype sur le genre f\u00e9minin dans le domaine technique, o\u00f9 il a tendance \u00e0 douter des comp\u00e9tences techniques des candidates f\u00e9minines par rapport \u00e0 leurs homologues masculins.",
+        "bias_hints": [
+            "Lors des entretiens avec des candidates f\u00e9minines, Marc peut poser davantage de questions pour v\u00e9rifier leur expertise technique, comme 'Pouvez-vous m'expliquer comment vous avez r\u00e9solu un probl\u00e8me technique complexe r\u00e9cemment ?'.",
+            "Il a parfois tendance \u00e0 aborder plus souvent des sujets tels que l'\u00e9quilibre travail-vie personnelle avec les candidates f\u00e9minines, supposant qu'elles pourraient \u00eatre moins disponibles ou impliqu\u00e9es en raison de responsabilit\u00e9s familiales.",
+            "Marc peut \u00eatre plus surpris ou sceptique face aux r\u00e9alisations techniques importantes revendiqu\u00e9es par des candidates f\u00e9minines, ce qui influence inconsciemment son jugement pendant le processus de s\u00e9lection."
+        ]
+    },
+    {
+        "candidate_full_name": "Marc Dupont",
+        "role_description": "En tant que recruteur dans le secteur informatique, Marc est charg\u00e9 d'identifier, d'\u00e9valuer et de s\u00e9lectionner les meilleurs talents pour r\u00e9pondre aux besoins en personnel technique de son entreprise.",
+        "responsibilities": [
+            "Analyser les besoins en recrutement et r\u00e9diger des descriptions de poste.",
+            "Sourcer et pr\u00e9s\u00e9lectionner des candidats potentiels \u00e0 travers diff\u00e9rents canaux.",
+            "Conduire des entretiens pour \u00e9valuer les comp\u00e9tences techniques et culturelles des candidats."
+        ],
+        "passions_hobbies": [
+            "Lecture de science-fiction",
+            "Randonn\u00e9e en montagne",
+            "Programmation de jeux vid\u00e9o"
+        ],
+        "bias": "Marc a tendance \u00e0 sous-estimer les comp\u00e9tences techniques des candidates f\u00e9minines, croyant inconsciemment qu'elles ont moins d'exp\u00e9rience ou d'int\u00e9r\u00eat pour la technologie que leurs homologues masculins.",
+        "bias_hints": [
+            "Lors des entretiens, Marc pose syst\u00e9matiquement plus de questions techniques d\u00e9taill\u00e9es aux candidates f\u00e9minines pour 'v\u00e9rifier' leurs connaissances.",
+            "Il exprime souvent une surprise positive lorsqu'une candidate d\u00e9montre un haut niveau de comp\u00e9tence technique, ce qui peut \u00eatre per\u00e7u comme condescendant.",
+            "Dans ses conversations avec les coll\u00e8gues, il utilise parfois des tournures de phrases qui minimisent involontairement les r\u00e9alisations des femmes dans le domaine technologique."
+        ]
     }
 ]

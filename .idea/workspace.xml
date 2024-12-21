@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="version pour la génération des profils">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="améliorations et documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/agentai_gen_recruteurs.py" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/agentai_gen_recruteurs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,17 +39,20 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/AgentAI_creation_BD_recruteurs",
+    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/tests_framework_outils",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\tests_framework_outils" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\AgentAI_creation_BD_recruteurs" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\CrewAI_equipe_creation_BD_candidats" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\Outils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\tests_framework_outils" />
+      <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\AgentAI_creation_BD_recruteurs" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\AgentIA_generation_postes\exemples" />
     </key>
   </component>
@@ -280,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734218851491</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="améliorations et documentation">
+      <option name="closed" value="true" />
+      <created>1734293298690</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734293298690</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,6 +321,7 @@
     <MESSAGE value="structure de base pour profil recruteur" />
     <MESSAGE value="premiere version pour générer le prompt" />
     <MESSAGE value="version pour la génération des profils" />
-    <option name="LAST_COMMIT_MESSAGE" value="version pour la génération des profils" />
+    <MESSAGE value="améliorations et documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="améliorations et documentation" />
   </component>
 </project>

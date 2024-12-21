@@ -49,10 +49,10 @@ python .\agentai_gen_recruteurs.py  --biais "stéréotype sur le genre féminin"
 * points positifs :
   * L'utilisation de Opik est vraiment bénéfique pour déboguer et effectuer des réglages sur les prompts.
     * Cela permet également une gestion des versions des prompts.
-    * Et d'avoir une trace des appels LLM incluant les métadonnées (modèle utilisé et ses paramètres, nb tokens utilisés, temps de réponse, coût approximatif, ...)
+    * Et d'avoir une trace des appels LLM incluant les métadonnées (modèle utilisé et ses paramètres, nb tokens utilisés, temps de réponse, coût approximatif, ...).
     * D'autres fonctionnalités Opik sont à creuser, notamment la gestion des datasets et des expérimentations : utilisation des métriques d'évaluation "LLM as a judge" inclut dans le framework semble prometteur.
   * Utiliser un meta-prompt pour générer le prompt du générateur de profil de recruteur est efficace : les LLM sont vraiment de bons prompt engineer !
 * Points négatifs :
-  * Probablement refaire l'agent IA de génération de postes avec la même approche "programatique" que celle-ci !
+  * Probablement refaire l'agent IA de génération de postes avec la même approche "programmatique" que celle-ci !
 ## License
 This project is licensed under the [Apache 2.0 License](../LICENSE) - see the LICENSE file for details.

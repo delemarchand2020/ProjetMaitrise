@@ -102,7 +102,7 @@ class EntretienFlow(Flow):
 # Exécuter le Flow
 if __name__ == "__main__":
     max_echanges = 4  # Définissez le nombre maximal d'échanges souhaité
-    poste = "architecte"
+    poste = "médecin urgentiste"
     flow = EntretienFlow(max_echanges, poste)
     result = flow.kickoff()
 

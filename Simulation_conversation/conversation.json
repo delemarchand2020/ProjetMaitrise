@@ -1,46 +1,26 @@
 [
   {
     "agent": "Recruteur",
-    "message": "Pouvez-vous me parler de votre expérience professionnelle récente ?"
+    "message": "Pouvez-vous me parler de votre expérience professionnelle récente en tant que architecte ?"
   },
   {
     "agent": "Candidat",
-    "message": "Fort de plus de dix ans d'expérience dans le domaine du marketing digital, j'ai eu l'opportunité de travailler pour des entreprises de divers secteurs, allant des start-ups aux grandes entreprises. J'ai dirigé des campagnes qui ont augmenté la visibilité en ligne de 150 % en un an et amélioré les taux de conversion jusqu'à 30 %. Mon expertise inclut l'analyse de données pour optimiser les performances, ainsi que la gestion d'équipes pluridisciplinaires pour atteindre des objectifs ambitieux. Mon approche centrée sur les résultats et ma capacité à m'adapter rapidement aux changements de marché font de moi un candidat idéal pour votre poste."
+    "message": "Au cours de mes récentes expériences en tant qu'architecte, j'ai eu l'opportunité de travailler sur plusieurs projets ambitieux qui m'ont permis de développer mes compétences techniques et ma capacité à collaborer avec des équipes pluridisciplinaires. Par exemple, dans mon dernier poste, j'ai dirigé la conception d'un complexe résidentiel durable, où j'ai intégré des solutions innovantes pour maximiser l'efficacité énergétique tout en respectant les normes esthétiques et fonctionnelles. J'ai également collaboré avec des urbanistes pour assurer l'harmonie entre le bâtiment et son environnement local. Ce projet a non seulement renforcé mes compétences en gestion de projet, mais a également permis d'améliorer la qualité de vie des résidents, ce qui est une grande satisfaction personnelle pour moi."
   },
   {
     "agent": "Recruteur",
-    "message": "Pouvez-vous me décrire une expérience professionnelle antérieure où vous avez dû surmonter un défi majeur et comment vous l'avez géré ?"
+    "message": "Pouvez-vous me parler d'un défi spécifique que vous avez rencontré lors de la conception du complexe résidentiel durable et comment vous l'avez surmonté ?"
   },
   {
     "agent": "Candidat",
-    "message": "En tant que professionnel expérimenté, j'ai plus de 10 ans d'expérience dans le domaine du marketing digital. J'ai dirigé des campagnes de marketing multicanales qui ont généré une augmentation de 30 % du trafic sur le site Web et une augmentation des ventes de 20 % dans les 6 mois suivant leur mise en œuvre. J'ai également travaillé avec des équipes interfonctionnelles pour améliorer la stratégie de contenu, ce qui a conduit à une hausse significative de notre engagement sur les réseaux sociaux. Mon approche analytique et créative m'a permis de dépasser les objectifs de performance tout en optimisant les budgets. Je suis convaincu que mes compétences en gestion de projet et ma passion pour l'innovation seraient un atout précieux pour votre équipe."
+    "message": "Lors de la conception d'un complexe résidentiel durable, l'un des défis majeurs a été d'intégrer des solutions écologiques tout en respectant les contraintes budgetaires et les attentes des futurs résidents. Pour surmonter ce défi, j'ai initié une série d'ateliers collaboratifs avec l'équipe de conception, les ingénieurs et les parties prenantes afin de brainstormer sur des matériaux durables et efficaces. En mettant en place des simulations énergétiques, nous avons pu démontrer que l'utilisation de panneaux solaires et d'isolants écologiques réduirait non seulement notre empreinte carbone mais aussi les coûts à long terme pour les résidents. Grâce à une planification rigoureuse et une approche collaborative, nous avons finalement créé un complexe qui répondait aux normes de durabilité tout en restant dans le cadre budgétaire. Cette expérience a renforcé mes compétences en gestion de projet et en communication, tout en me permettant d'affiner ma capacité à résoudre des problèmes complexes sous pression."
   },
   {
     "agent": "Recruteur",
-    "message": "Pouvez-vous décrire une situation marquante dans votre expérience professionnelle où vous avez dû surmonter un défi majeur et comment cela a impacté vos résultats ?"
+    "message": "Pourriez-vous me parler d'un moment précis lors de ces ateliers collaboratifs où vous avez dû gérer un désaccord entre les différentes parties prenantes et comment cela a impacté le projet ?"
   },
   {
     "agent": "Candidat",
-    "message": "Fort de mes 10 années d'expérience dans le secteur de la gestion de projet, j'ai eu l'occasion de piloter des initiatives stratégiques, notamment l'implémentation d'un logiciel de gestion qui a amélioré l'efficacité de l'équipe de 25%. Mon approche axée sur les résultats et ma capacité à fédérer des équipes autour d'objectifs communs ont toujours été des atouts majeurs dans mon parcours professionnel. Grâce à ma formation en management et à mes compétences en communication, j'ai réussi à gérer efficacement des budgets conséquents et à respecter les délais tout en assurant la satisfaction des clients. Je suis donc confiant dans ma capacité à contribuer significativement à votre entreprise."
-  },
-  {
-    "agent": "Recruteur",
-    "message": "Pouvez-vous décrire une situation où vous avez dû faire face à un défi majeur dans l'un de vos précédents postes et comment vous l'avez surmonté ?"
-  },
-  {
-    "agent": "Candidat",
-    "message": "Je suis très enthousiaste à l'idée de vous parler de mon expérience. J'ai plus de 10 ans d'expérience dans le domaine du marketing digital, où j'ai eu l'opportunité de diriger de nombreuses campagnes réussies. Par exemple, chez mon dernier employeur, j'ai amélioré le taux de conversion de 30 % en optimisant notre stratégie de contenu et en utilisant des outils d'analyse de données. Je suis également très à l'aise avec le travail d'équipe, ayant collaboré avec des designers et des développeurs pour lancer un nouveau produit sur le marché, ce qui a entraîné une augmentation significative de la notoriété de la marque. Je suis convaincu que mon expertise et mon approche axée sur les résultats seront un atout pour votre entreprise."
-  },
-  {
-    "agent": "Recruteur",
-    "message": "Pouvez-vous me décrire une expérience professionnelle passée où vous avez réussi à surmonter un défi majeur, et comment cela a impacté votre équipe ou votre projet ?"
-  },
-  {
-    "agent": "Candidat",
-    "message": "En tant que professionnel expérimenté, j'ai passé plus de 10 ans à travailler dans le secteur du marketing digital, où j'ai dirigé avec succès des campagnes qui ont abouti à une augmentation de 30 % du trafic sur les sites web de mes clients. Mon expérience chez [Nom de l'entreprise précédente] m'a permis de développer des compétences solides en gestion de projet et en analyse de données, ce qui m'a permis de prendre des décisions éclairées pour optimiser les performances. Je suis passionné par l'innovation et je recherche constamment de nouvelles stratégies pour atteindre les objectifs fixés. Mon approche axée sur les résultats et ma capacité à collaborer efficacement avec des équipes multidisciplinaires sont des atouts que je suis prêt à mettre au service de votre entreprise."
-  },
-  {
-    "agent": "Recruteur",
-    "message": "Pouvez-vous me décrire un projet professionnel antérieur dont vous êtes particulièrement fier et expliquer comment vos compétences ont contribué à son succès ?"
+    "message": "Lors d'un atelier collaboratif sur un projet de développement de produit, nous avons rencontré un désaccord significatif entre l'équipe de marketing et l'équipe technique concernant le calendrier de lancement. L'équipe de marketing souhaitait une sortie rapide pour saisir une opportunité de marché, tandis que l'équipe technique prônait un délai supplémentaire pour garantir la qualité du produit. J'ai décidé d'intervenir en facilitant une discussion ouverte où chaque partie pouvait exprimer ses préoccupations et ses priorités. En écoutant attentivement les arguments de chacun et en soulignant les conséquences potentielles de chaque option, nous avons pu arriver à un consensus. Nous avons finalement convenu d'un calendrier révisé, qui a permis de maintenir une qualité élevée tout en répondant aux besoins du marketing. Cette résolution a non seulement renforcé la collaboration entre les équipes, mais a également conduit à un lancement de produit réussi, respectant à la fois les attentes des clients et les standards de l'entreprise."
   }
 ]

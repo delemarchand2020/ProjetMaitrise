@@ -1,4 +1,5 @@
 import agentops
+import os, sys
 from dotenv import load_dotenv
 
 import json
@@ -24,69 +25,69 @@ candidat = Agent(
 
 # Définition des tâches
 task_recruteur = Task(
-    description="Pose une question au candidat concernant son expérience professionnelle.",
+    description="Pose une courte question au candidat suivant sa dernière réponse : {input}.",
     expected_output="Une question courte et pertinente sur l'expérience du candidat.",
     agent=recruteur
 )
 
 task_candidat = Task(
-    description="Réponds à la question du recruteur.",
+    description="Réponds promptement à la dernière question du recruteur : {input}.",
     expected_output="Une réponse courte mettant en avant ton expérience.",
     agent=candidat
 )
 
 # Définition du Flow
 class EntretienFlow(Flow):
-    def __init__(self, max_echanges):
+    def __init__(self, max_echanges, poste):
         super().__init__()
         self.max_echanges = max_echanges
+        self.poste = poste
         self.echanges_actuels = 1
         self.conversation = []
+        self.session_agentops = agentops.init(auto_start_session=False)
 
     @start()
     def debut_entretien(self):
         # Le recruteur initie la conversation
-        question_initiale = "Pouvez-vous me parler de votre expérience professionnelle récente ?"
+        question_initiale = f"Pouvez-vous me parler de votre expérience professionnelle récente en tant que {self.poste} ?"
         self.enregistrer_echange("Recruteur", question_initiale)
         return question_initiale
 
     @listen(debut_entretien)
-    def reponse_candidat(self, question):
-        # Le candidat répond à la question du recruteur
-        crew = Crew(
-            agents=[candidat],
-            tasks=[task_candidat],
-            process=Process.sequential,
-            verbose=True
-        )
-        result = crew.kickoff(inputs={'input': question})
-        reponse = result.tasks_output[0].raw  # Accéder à la sortie brute de la première tâche
-        self.enregistrer_echange("Candidat", reponse)
-        return reponse
-
-    @listen(or_(reponse_candidat, "continuer_entretien"))
-    def question_suivante_recruteur(self, reponse):
-        if "Entretien terminé." not in reponse:
-            # Le recruteur pose une nouvelle question basée sur la réponse du candidat
+    def entretien(self, question):
+        while True:
+            # Le candidat répond à la question du recruteur
+            self.session_agentops = agentops.start_session(tags=["reponse candidat"])
             crew = Crew(
-                agents=[recruteur],
-                tasks=[task_recruteur],
+                agents=[candidat],
+                tasks=[task_candidat],
                 process=Process.sequential,
                 verbose=True
+            )
+            result = crew.kickoff(inputs={'input': question})
+            reponse = result.tasks_output[0].raw  # Accéder à la sortie brute de la première tâche
+            self.enregistrer_echange("Candidat", reponse)
+            self.session_agentops.end_session("Success")
+
+            self.echanges_actuels += 1
+
+            if self.echanges_actuels > self.max_echanges:
+                break
+
+            # Le recruteur pose une nouvelle question basée sur la réponse du candidat
+            self.session_agentops = agentops.start_session(tags=["question recruteur"])
+            crew = Crew(
+                    agents=[recruteur],
+                    tasks=[task_recruteur],
+                    process=Process.sequential,
+                    verbose=True
             )
             result = crew.kickoff(inputs={'input': reponse})
             question = result.tasks_output[0].raw  # Accéder à la sortie brute de la première tâche
             self.enregistrer_echange("Recruteur", question)
-            return question
+            self.session_agentops.end_session("Success")
 
-    @listen(question_suivante_recruteur)
-    def continuer_entretien(self, message):
-        # Vérifie si le nombre maximal d'échanges est atteint
-        if self.echanges_actuels >= self.max_echanges:
-            return self.terminer_entretien()
-        else:
-            self.echanges_actuels += 1
-            return self.reponse_candidat(message)
+        self.terminer_entretien()
 
     def enregistrer_echange(self, agent, message):
         # Enregistre l'échange dans la conversation
@@ -96,13 +97,12 @@ class EntretienFlow(Flow):
         # Sauvegarde la conversation dans un fichier JSON
         with open('conversation.json', 'w', encoding='utf-8') as f:
             json.dump(self.conversation, f, ensure_ascii=False, indent=2)
-        return "Entretien terminé."
+
 
 # Exécuter le Flow
 if __name__ == "__main__":
-    max_echanges = 5  # Définissez le nombre maximal d'échanges souhaité
-    session_agentops = agentops.init()
-    flow = EntretienFlow(max_echanges)
+    max_echanges = 4  # Définissez le nombre maximal d'échanges souhaité
+    poste = "architecte"
+    flow = EntretienFlow(max_echanges, poste)
     result = flow.kickoff()
-    print(result)
-    flow.terminer_entretien()
+

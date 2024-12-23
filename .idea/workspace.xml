@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="corrections mineures">
-      <change afterPath="$PROJECT_DIR$/Simulation_conversation/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulation_conversation/requirements.txt" afterDir="false" />
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="corrections mineures gen_profilt_recruteur + ajout readme">
+      <change afterPath="$PROJECT_DIR$/Simulation_conversation/candidates_data_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulation_conversation/jobs_data_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulation_conversation/recruiters_data_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/meta_prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/meta_prompt_gen_profil_recruteur.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation_conversation/conversation.json" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/conversation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.candidates_data_utils.executor": "Run",
+    "Python.recruiters_data_utils.executor": "Run",
+    "Python.recruitment_data_utils.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -342,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734893489405</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="corrections mineures gen_profilt_recruteur + ajout readme">
+      <option name="closed" value="true" />
+      <created>1734914411305</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1734914411305</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,6 +389,7 @@
     <MESSAGE value="premiere version simulation conversation" />
     <MESSAGE value="version fonctionnelle simulation conversation" />
     <MESSAGE value="corrections mineures" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrections mineures" />
+    <MESSAGE value="corrections mineures gen_profilt_recruteur + ajout readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrections mineures gen_profilt_recruteur + ajout readme" />
   </component>
 </project>

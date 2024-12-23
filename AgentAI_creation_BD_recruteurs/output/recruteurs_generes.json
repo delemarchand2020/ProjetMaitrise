@@ -1,6 +1,6 @@
 [
     {
-        "candidate_full_name": "Marc Dupont",
+        "recruiter_full_name": "Marc Dupont",
         "role_description": "Marc est un recruteur senior sp\u00e9cialis\u00e9 dans le secteur informatique, travaillant pour une grande entreprise de technologie. Il est charg\u00e9 de trouver et d'\u00e9valuer les talents pour des postes techniques tels que d\u00e9veloppeurs, ing\u00e9nieurs logiciels et architectes syst\u00e8mes.",
         "responsibilities": [
             "Identifier et attirer des candidats qualifi\u00e9s pour des postes techniques.",
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "candidate_full_name": "Thomas Dupont",
+        "recruiter_full_name": "Thomas Dupont",
         "role_description": "Thomas Dupont est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique, charg\u00e9 de d\u00e9nicher les meilleurs talents pour des entreprises technologiques. Son r\u00f4le consiste \u00e0 comprendre les besoins des employeurs et \u00e0 identifier les candidats qui poss\u00e8dent les comp\u00e9tences techniques et les qualit\u00e9s humaines n\u00e9cessaires pour r\u00e9ussir dans un environnement en constante \u00e9volution.",
         "responsibilities": [
             "S\u00e9lectionner les candidats en fonction des exigences techniques et culturelles des entreprises.",
@@ -44,7 +44,7 @@
         ]
     },
     {
-        "candidate_full_name": "Julien Dupont",
+        "recruiter_full_name": "Julien Dupont",
         "role_description": "Julien est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique. Il est charg\u00e9 de trouver et d'attirer les meilleurs talents pour des postes techniques au sein de l'entreprise. Il travaille en \u00e9troite collaboration avec les \u00e9quipes techniques pour comprendre leurs besoins en recrutement et s'assurer que les candidats s\u00e9lectionn\u00e9s poss\u00e8dent les comp\u00e9tences requises.",
         "responsibilities": [
             "Rechercher et identifier des candidats potentiels \u00e0 travers divers canaux.",
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "candidate_full_name": "Marc Dupont",
+        "recruiter_full_name": "Marc Dupont",
         "role_description": "Marc Dupont est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique. Il joue un r\u00f4le crucial en identifiant et en attirant les meilleurs talents pour des postes techniques. Sa mission principale est de s'assurer que l'entreprise recrute des candidats de haute qualit\u00e9 qui r\u00e9pondent aux besoins sp\u00e9cifiques de ses \u00e9quipes techniques.",
         "responsibilities": [
             "Rechercher et identifier des candidats potentiels \u00e0 l'aide de diverses plateformes et r\u00e9seaux professionnels.",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "candidate_full_name": "Marc Dupont",
+        "recruiter_full_name": "Marc Dupont",
         "role_description": "En tant que recruteur dans le secteur informatique, Marc est charg\u00e9 d'identifier, d'\u00e9valuer et de s\u00e9lectionner les meilleurs talents pour r\u00e9pondre aux besoins en personnel technique de son entreprise.",
         "responsibilities": [
             "Analyser les besoins en recrutement et r\u00e9diger des descriptions de poste.",

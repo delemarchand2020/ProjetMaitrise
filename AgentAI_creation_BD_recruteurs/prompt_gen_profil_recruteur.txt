@@ -10,7 +10,7 @@ Présentez le profil sous le format JSON suivant :
 
 ```json
 {
-  "candidate_full_name": "Prénom Nom",
+  "recruiter_full_name": "Prénom Nom",
   "role_description": "Description sommaire du rôle et des responsabilités en tant que recruteur dans le secteur informatique.",
   "responsibilities": [
     "Responsabilité 1",

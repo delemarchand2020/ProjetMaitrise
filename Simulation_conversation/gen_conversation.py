@@ -1,5 +1,4 @@
 import agentops
-import os, sys
 from dotenv import load_dotenv
 
 import json
@@ -18,20 +17,20 @@ recruteur = Agent(
 
 candidat = Agent(
     role="Candidat",
-    goal="Répondre aux questions du recruteur et présenter ses compétences et expériences.",
+    goal="Répondre aux questions du recruteur en présentant ses compétences et ses expériences.",
     backstory="Un professionnel expérimenté à la recherche de nouvelles opportunités.",
     verbose=True
 )
 
 # Définition des tâches
 task_recruteur = Task(
-    description="Pose une courte question au candidat suivant sa dernière réponse : {input}.",
+    description="Contexte : {historique}. Poses une courte question au candidat suivant sa dernière réponse : {reponse}.",
     expected_output="Une question courte et pertinente sur l'expérience du candidat.",
     agent=recruteur
 )
 
 task_candidat = Task(
-    description="Réponds promptement à la dernière question du recruteur : {input}.",
+    description="Contexte : {historique}. Réponds promptement à la dernière question du recruteur : {question}.",
     expected_output="Une réponse courte mettant en avant ton expérience.",
     agent=candidat
 )
@@ -64,7 +63,7 @@ class EntretienFlow(Flow):
                 process=Process.sequential,
                 verbose=True
             )
-            result = crew.kickoff(inputs={'input': question})
+            result = crew.kickoff(inputs={'question': question, 'historique': self.conversation})
             reponse = result.tasks_output[0].raw  # Accéder à la sortie brute de la première tâche
             self.enregistrer_echange("Candidat", reponse)
             self.session_agentops.end_session("Success")
@@ -82,7 +81,7 @@ class EntretienFlow(Flow):
                     process=Process.sequential,
                     verbose=True
             )
-            result = crew.kickoff(inputs={'input': reponse})
+            result = crew.kickoff(inputs={'reponse': reponse, 'historique': self.conversation})
             question = result.tasks_output[0].raw  # Accéder à la sortie brute de la première tâche
             self.enregistrer_echange("Recruteur", question)
             self.session_agentops.end_session("Success")

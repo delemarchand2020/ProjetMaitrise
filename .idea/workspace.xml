@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="version fonctionnelle simulation conversation">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="corrections mineures">
+      <change afterPath="$PROJECT_DIR$/Simulation_conversation/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulation_conversation/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/meta_prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/meta_prompt_gen_profil_recruteur.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/conversation.json" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/conversation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -329,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734892897297</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="corrections mineures">
+      <option name="closed" value="true" />
+      <created>1734893489405</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1734893489405</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,6 +378,7 @@
     <MESSAGE value="améliorations et documentation" />
     <MESSAGE value="premiere version simulation conversation" />
     <MESSAGE value="version fonctionnelle simulation conversation" />
-    <option name="LAST_COMMIT_MESSAGE" value="version fonctionnelle simulation conversation" />
+    <MESSAGE value="corrections mineures" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrections mineures" />
   </component>
 </project>

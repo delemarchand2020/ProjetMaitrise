@@ -1,5 +1,5 @@
 import json
-
+from utils import nettoyer_chaine
 
 class JobDataUtils:
     def __init__(self, json_file):
@@ -94,37 +94,38 @@ class JobDataUtils:
         return self.data["postes"]
 
     # Helpers pour récupérer les parties d'un job
+
     @staticmethod
     def get_job_title(job):
-        return job.get("job_title", "")
+        return nettoyer_chaine(job.get("job_title", ""))
 
     @staticmethod
     def get_company_name(job):
-        return job.get("company_name", "")
+        return nettoyer_chaine(job.get("company_name", ""))
 
     @staticmethod
     def get_job_description(job):
-        return job.get("job_description", "")
+        return nettoyer_chaine(job.get("job_description", ""))
 
     @staticmethod
     def get_responsibilities(job):
-        return job.get("responsibilities", [])
+        return nettoyer_chaine(job.get("responsibilities", []))
 
     @staticmethod
     def get_skills_required(job):
-        return job.get("skills_required", [])
+        return nettoyer_chaine(job.get("skills_required", []))
 
     @staticmethod
     def get_location(job):
-        return job.get("location", "")
+        return nettoyer_chaine(job.get("location", ""))
 
     @staticmethod
     def get_experience_level(job):
-        return job.get("experience_level", "")
+        return nettoyer_chaine(job.get("experience_level", ""))
 
     @staticmethod
     def get_education_required(job):
-        return job.get("education_required", "")
+        return nettoyer_chaine(job.get("education_required", ""))
 
 
 # Exemple d'utilisation

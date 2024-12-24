@@ -1,4 +1,5 @@
 import json
+from utils import nettoyer_chaine
 
 
 class CandidateDataUtils:
@@ -103,39 +104,39 @@ class CandidateDataUtils:
     # Helpers pour récupérer les parties d'un candidat
     @staticmethod
     def get_candidate_full_name(candidate):
-        return candidate.get("candidate_full_name", "")
+        return nettoyer_chaine(candidate.get("candidate_full_name", ""))
 
     @staticmethod
     def get_company_name(candidate):
-        return candidate.get("company_name", "")
+        return nettoyer_chaine(candidate.get("company_name", ""))
 
     @staticmethod
     def get_job_title(candidate):
-        return candidate.get("job_title", "")
+        return nettoyer_chaine(candidate.get("job_title", ""))
 
     @staticmethod
     def get_passions_hobbies(candidate):
-        return candidate.get("passions_hobbies", [])
+        return nettoyer_chaine(candidate.get("passions_hobbies", []))
 
     @staticmethod
     def get_why_is_a_good_fit(candidate):
-        return candidate.get("why_is_a_good_fit", [])
+        return nettoyer_chaine(candidate.get("why_is_a_good_fit", []))
 
     @staticmethod
     def get_academic_background_certifications(candidate):
-        return candidate.get("academic_background_certifications", [])
+        return nettoyer_chaine(candidate.get("academic_background_certifications", []))
 
     @staticmethod
     def get_technical_professional_skills(candidate):
-        return candidate.get("technical_professional_skills", [])
+        return nettoyer_chaine(candidate.get("technical_professional_skills", []))
 
     @staticmethod
     def get_interpersonal_soft_skills(candidate):
-        return candidate.get("interpersonal_soft_skills", [])
+        return nettoyer_chaine(candidate.get("interpersonal_soft_skills", []))
 
     @staticmethod
     def get_professional_experiences(candidate):
-        return candidate.get("professional_experiences", [])
+        return nettoyer_chaine(candidate.get("professional_experiences", []))
 
 
 # Exemple d'utilisation

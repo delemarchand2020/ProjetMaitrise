@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="corrections mineures gen_profilt_recruteur + ajout readme">
-      <change afterPath="$PROJECT_DIR$/Simulation_conversation/candidates_data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulation_conversation/jobs_data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulation_conversation/recruiters_data_utils.py" afterDir="false" />
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="ajout des méthodes pour récupérer les infos de recrutement (poste, profils candidts et recruteurs)">
+      <change afterPath="$PROJECT_DIR$/Simulation_conversation/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/candidates_data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/candidates_data_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/conversation.json" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/conversation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/jobs_data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/jobs_data_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/recruiters_data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/recruiters_data_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.candidates_data_utils.executor": "Run",
+    "Python.jobs_data_utils.executor": "Run",
     "Python.recruiters_data_utils.executor": "Run",
     "Python.recruitment_data_utils.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -352,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734914411305</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ajout des méthodes pour récupérer les infos de recrutement (poste, profils candidts et recruteurs)">
+      <option name="closed" value="true" />
+      <created>1734962712832</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1734962712832</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,6 +400,7 @@
     <MESSAGE value="version fonctionnelle simulation conversation" />
     <MESSAGE value="corrections mineures" />
     <MESSAGE value="corrections mineures gen_profilt_recruteur + ajout readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrections mineures gen_profilt_recruteur + ajout readme" />
+    <MESSAGE value="ajout des méthodes pour récupérer les infos de recrutement (poste, profils candidts et recruteurs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des méthodes pour récupérer les infos de recrutement (poste, profils candidts et recruteurs)" />
   </component>
 </project>

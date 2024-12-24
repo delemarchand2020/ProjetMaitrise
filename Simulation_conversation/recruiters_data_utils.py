@@ -1,4 +1,5 @@
 import json
+from utils import nettoyer_chaine
 
 
 class RecruiterDataUtils:
@@ -96,27 +97,27 @@ class RecruiterDataUtils:
     # Helpers pour récupérer les parties d'un recruteur
     @staticmethod
     def get_recruiter_full_name(recruiter):
-        return recruiter.get("recruiter_full_name", "")
+        return nettoyer_chaine(recruiter.get("recruiter_full_name", ""))
 
     @staticmethod
     def get_role_description(recruiter):
-        return recruiter.get("role_description", "")
+        return nettoyer_chaine(recruiter.get("role_description", ""))
 
     @staticmethod
     def get_responsibilities(recruiter):
-        return recruiter.get("responsibilities", [])
+        return nettoyer_chaine(recruiter.get("responsibilities", []))
 
     @staticmethod
     def get_passions_hobbies(recruiter):
-        return recruiter.get("passions_hobbies", [])
+        return nettoyer_chaine(recruiter.get("passions_hobbies", []))
 
     @staticmethod
     def get_bias(recruiter):
-        return recruiter.get("bias", "")
+        return nettoyer_chaine(recruiter.get("bias", ""))
 
     @staticmethod
     def get_bias_hints(recruiter):
-        return recruiter.get("bias_hints", [])
+        return nettoyer_chaine(recruiter.get("bias_hints", []))
 
 
 # Exemple d'utilisation

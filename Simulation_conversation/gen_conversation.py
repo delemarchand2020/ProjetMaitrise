@@ -90,12 +90,28 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
     task_recruteur = Task(
         description=dedent(
             """
-            Historique de la conversation : {historique}. 
-            C'est une première entrevue, tu ne rentres pas profondément dans les détails techniques ou technologiques.
-            Poses une courte question au candidat suite à sa dernière réponse : {reponse}."
+            C'est une première entrevue.
+            --------------------------------------------------------------------------
+            L’historique de la conversation de l'entrevue est :
+            {historique}
+            --------------------------------------------------------------------------
+            Tu dois :
+            1) Obtenir une vision générale du/de la candidat(e).
+            2) Ne pas aborder trop en profondeur les détails techniques ou technologiques.
+            --------------------------------------------------------------------------
+            Variables :
+            historique : Historique de la conversation.
+            max_echanges : Nombre maximum d’échanges autorisés (1 question + 1 réponse = 1 échange).
+            reponse : Dernière réponse du/de la candidat(e).
+            --------------------------------------------------------------------------
+            Consignes :
+            Prend connaissance de l'historique.
+            Tu ne dois pas dépasser {max_echanges} échanges.
+            Si le nombre d’échanges restant avant d’atteindre {max_echanges} est 1, termine l’entretien en formulant tes conclusions (pas de nouvelle question).
+            Sinon, réagis brièvement à la dernière réponse du/de la candidat(e) ({reponse}) et pose une question courte en restant général (pas de question trop technique).
             """
             ),
-        expected_output="Une question courte et pertinente en rapport avec ce que tu cherches à valider.",
+        expected_output="Une question courte et pertinente en rapport avec ce que tu cherches à atteindre et selon tes convictions.",
         agent=recruteur
     )
 
@@ -169,7 +185,7 @@ class EntretienFlow(Flow):
                     process=Process.sequential,
                     verbose=True
             )
-            result = crew.kickoff(inputs={'reponse': reponse, 'historique': self.conversation})
+            result = crew.kickoff(inputs={'reponse': reponse, 'historique': self.conversation, 'max_echanges': self.max_echanges})
             question = result.tasks_output[0].raw  # Accéder à la sortie brute de la première tâche
             self.enregistrer_echange("Recruteur", question)
             self.session_agentops.end_session("Success")
@@ -205,6 +221,6 @@ if __name__ == "__main__":
             Le candidat {CandidateDataUtils.get_candidate_full_name(candidat)} postule.
             """
             ))
-        flow = EntretienFlow(max_echanges=5, profil_poste=job, profil_recruteur=recruteur, profil_candidat=candidat)
+        flow = EntretienFlow(max_echanges=10, profil_poste=job, profil_recruteur=recruteur, profil_candidat=candidat)
         flow_result = flow.kickoff()
 

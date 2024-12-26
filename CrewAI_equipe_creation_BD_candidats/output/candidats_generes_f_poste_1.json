@@ -1,0 +1,12 @@
+{
+  "poste_num": "1",
+  "company_name": "TechNova Solutions",
+  "job_title": "Ingénieur Logiciel Full Stack",
+  "candidate_full_name": "Émilie Durand",
+  "passions_hobbies": ["Randonnée en montagne", "Cuisine internationale", "Lecture de science-fiction", "Contributions open source"],
+  "why_is_a_good_fit": ["Solide formation académique en ingénierie informatique", "Expertise en développement full stack avec une expérience notable en React et Node.js", "Capacité à innover et à résoudre des problèmes complexes", "Excellent communicant, facilitant une collaboration efficace en équipe"],
+  "academic_background_certifications": ["Diplôme d'ingénieur en informatique, École Centrale de Paris, obtenu en 2020", "Certification JavaScript Developer, W3Schools, obtenue en 2021"],
+  "technical_professional_skills": ["Maîtrise des langages de programmation JavaScript, HTML, et CSS", "Expérience avec les frameworks React et Angular pour le développement front-end", "Compétence confirmée en Node.js pour le développement back-end", "Connaissance approfondie des bases de données NoSQL telles que MongoDB", "Compréhension solide des principes de conception orientée objet", "Expérience dans l'intégration d'API et services tiers", "Capacité à résoudre des problèmes complexes avec des solutions innovantes"],
+  "interpersonal_soft_skills": ["Esprit innovant avec une passion prononcée pour la technologie", "Excellente communication et aptitude au travail en équipe", "Capacité à collaborer efficacement avec l'équipe UX/UI pour améliorer l'expérience utilisateur", "Aptitude à participer activement aux revues de code afin de garantir la qualité du code produit"],
+  "professional_experiences": [{"title": "Développeur Logiciel Junior, StartTech Innovations, Paris, France", "responsibilities": ["Conception et développement d'applications web en utilisant React et Node.js", "Collaboration avec l'équipe UX pour optimiser l'interface utilisateur des applications développées", "Participation aux revues de code hebdomadaires pour assurer la conformité aux standards de qualité", "Intégration de plusieurs API tierces pour enrichir les fonctionnalités des applications"]}]
+}

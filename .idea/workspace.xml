@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="conversation adaptée aux postes et profils de la base de données">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="amélioration du prompt de la tâche du recruteur">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation_conversation/conversation.json" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/conversation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/postes_generes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/conversation.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.candidates_data_utils.executor": "Run",
-    "Python.jobs_data_utils.executor": "Run",
-    "Python.recruiters_data_utils.executor": "Run",
-    "Python.recruitment_data_utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/Simulation_conversation",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.candidates_data_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jobs_data_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recruiters_data_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recruitment_data_utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/Simulation_conversation&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\Simulation_conversation" />
@@ -366,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735056568870</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="amélioration du prompt de la tâche du recruteur">
+      <option name="closed" value="true" />
+      <created>1735060698078</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1735060698078</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,7 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Premier commit" />
     <MESSAGE value="Première version de l'agent IA de" />
     <MESSAGE value="Première version de l'agent IA de génération de postes" />
     <MESSAGE value="Refactoring" />
@@ -406,6 +415,7 @@
     <MESSAGE value="corrections mineures gen_profilt_recruteur + ajout readme" />
     <MESSAGE value="ajout des méthodes pour récupérer les infos de recrutement (poste, profils candidts et recruteurs)" />
     <MESSAGE value="conversation adaptée aux postes et profils de la base de données" />
-    <option name="LAST_COMMIT_MESSAGE" value="conversation adaptée aux postes et profils de la base de données" />
+    <MESSAGE value="amélioration du prompt de la tâche du recruteur" />
+    <option name="LAST_COMMIT_MESSAGE" value="amélioration du prompt de la tâche du recruteur" />
   </component>
 </project>

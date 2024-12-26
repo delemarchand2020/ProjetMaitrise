@@ -198,7 +198,7 @@ class EntretienFlow(Flow):
 
     def terminer_entretien(self):
         # Sauvegarde la conversation dans un fichier JSON
-        with open('conversation.json', 'w', encoding='utf-8') as f:
+        with open('conversation_m_poste_1.json', 'w', encoding='utf-8') as f:
             json.dump(self.conversation, f, ensure_ascii=False, indent=2)
 
 
@@ -207,7 +207,7 @@ if __name__ == "__main__":
     print("Initialisation ...")
     db_jobs = JobDataUtils("../AgentIA_generation_postes/exemples/postes_generes_new_prompt_gpt4-o1.json")
     db_recruteurs = RecruiterDataUtils("../AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json")
-    db_candidats = CandidateDataUtils("../CrewAI_equipe_creation_BD_candidats/output/candidats_generes_638b5426-1127-40ac-af18-ec95d497a799.json")
+    db_candidats = CandidateDataUtils("../CrewAI_equipe_creation_BD_candidats/output/candidats_generes_m_poste_1.json")
 
     candidat = db_candidats.get_candidate_by_index(0)
     recruteur = db_recruteurs.get_recruiter_by_index(0)

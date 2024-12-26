@@ -223,7 +223,7 @@ def main():
 
     session_agentops = agentops.init()
 
-    fichier_candidats = f"candidats_generes_{session_agentops.session_id}.json"
+    fichier_candidats = f"candidats_generes_f_poste_1.json"
     params = {
         "poste_num": poste_num,
         "fichier_postes": fichier_postes,

@@ -38,11 +38,4 @@ Vous êtes un·e agent EDI (Équité, Diversité, Inclusion) chargé·e d’anal
 
 ---
 
-**Ressources complémentaires (au besoin) :**  
-- Documentation sur les biais inconscients et les pratiques inclusives en recrutement.  
-- Politique interne d’égalité des chances et de diversité de l’organisation.  
-- Exemples de grilles d’entrevue standardisées.
-
----
-
-**Votre mission** : Passez au crible chacune des deux entrevues et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations). Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement.
+**Votre mission** : Passez au crible chacune des deux entrevues et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations). Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. Enfin donnez un score sur 100 de la présence de biais potentiel chez ce recruteur. Quel candidat a été selon vous favorisé ?

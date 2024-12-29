@@ -71,7 +71,15 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
         role=f"{CandidateDataUtils.get_candidate_full_name(profil_candidat)}, un(e) candidat(e)",
         goal=dedent(
             f"""
-            Tu postules au poste de {JobDataUtils.get_job_title(profil_poste)} pour la compagnie {JobDataUtils.get_company_name(profil_poste)}.
+            Tu postules au poste suivant :
+                Titre du poste : {JobDataUtils.get_job_title(profil_poste)}
+                Nom de l'entreprise : {JobDataUtils.get_company_name(profil_poste)}
+                Description du poste : {JobDataUtils.get_job_description(profil_poste)}
+                Responsabilités : {JobDataUtils.get_responsibilities(profil_poste)}
+                Compétences requises : {JobDataUtils.get_skills_required(profil_poste)}
+                Localisation : {JobDataUtils.get_location(profil_poste)}
+                Niveau d'expérience : {JobDataUtils.get_experience_level(profil_poste)}
+                Éducation requise : {JobDataUtils.get_education_required(profil_poste)}
             Tu penses que tu es un bon candidat car tu possèdes : {CandidateDataUtils.get_why_is_a_good_fit(profil_candidat)}.
             Ta motivation est grande pour obtenir ce job !
             """
@@ -119,7 +127,8 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
             --------------------------------------------------------------------------
             CONSIGNES :
             1) Prend connaissance de l'historique de l'entrevue ci-dessus.
-            2) Répond brièvement à la dernière question du recruteur mettant en avant tes compétences et ton expérience.
+            2) Répond brièvement à la dernière question du recruteur mettant en avant tes compétences et ton expérience 
+            en rapport avec les responsabilités du poste auquel tu postules.
             """
             ),
         expected_output="Une ou deux phrases.",
@@ -208,8 +217,8 @@ if __name__ == "__main__":
     print("Initialisation ...")
     db_jobs = JobDataUtils("../AgentIA_generation_postes/output/postes_generes_new_prompt_gpt4-o1.json")
     db_recruteurs = RecruiterDataUtils("../AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json")
-    db_candidats = CandidateDataUtils("../CrewAI_equipe_creation_BD_candidats/output/candidats_generes_f_poste_1.json")
-    file_output = "./output/conversation_f_poste_1.json"
+    db_candidats = CandidateDataUtils("../CrewAI_equipe_creation_BD_candidats/output/candidats_generes_m_poste_1.json")
+    file_output = "./output/conversation_m_poste_1.json"
 
     candidat = db_candidats.get_candidate_by_index(0)
     recruteur = db_recruteurs.get_recruiter_by_index(0)

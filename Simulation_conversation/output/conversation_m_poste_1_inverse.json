@@ -1,15 +1,15 @@
 [
   {
     "role": "Recruteur",
-    "message": "\nBonjour Antoine Dupont,\nvous postulez pour le poste de Ingénieur Logiciel Full Stack, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+    "message": "\nBonjour Charlotte Boulanger,\nvous postulez pour le poste de Ingénieur Logiciel Full Stack, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
   },
   {
     "role": "Candidat",
-    "message": "J'ai une solide expérience en développement full stack et une expertise en JavaScript, HTML, CSS, React et Angular, ce qui me permet de concevoir et développer efficacement des applications web modernes. Ma motivation est grande pour rejoindre TechNova Solutions, car je suis passionné par la création de solutions innovantes pour une clientèle internationale et j'aime collaborer avec des équipes interdisciplinaires pour améliorer l'expérience utilisateur."
+    "message": "J'ai une solide expérience en développement full stack et une expertise en JavaScript, HTML, CSS, React et Angular, ce qui me permet de concevoir et développer efficacement des applications web modernes. Ma motivation est grande pour rejoindre TechNova Solutions, car je suis passionnée par la création de solutions innovantes pour une clientèle internationale et j'aime collaborer avec des équipes interdisciplinaires pour améliorer l'expérience utilisateur."
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour votre réponse. Votre expérience semble alignée avec nos besoins. Pourriez-vous me donner un exemple concret de la manière dont vous avez intégré des API et des services tiers dans un projet antérieur, et les défis techniques que vous avez rencontrés ?"
+    "message": "Merci Charlotte pour votre réponse. Votre expérience semble alignée avec nos besoins. Pourriez-vous me donner un exemple concret de la manière dont vous avez intégré des API et des services tiers dans un projet antérieur, et les défis techniques que vous avez rencontrés ?"
   },
   {
     "role": "Candidat",
@@ -17,7 +17,7 @@
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour cet exemple concret. Pour aller un peu plus loin, pourriez-vous me décrire comment vous avez collaboré avec l'équipe UX/UI dans vos projets précédents et comment cela a impacté l'expérience utilisateur ?"
+    "message": "Merci Charlotte pour cet exemple concret. Pour aller un peu plus loin, pourriez-vous me décrire comment vous avez collaboré avec l'équipe UX/UI dans vos projets précédents et comment cela a impacté l'expérience utilisateur ?"
   },
   {
     "role": "Candidat",
@@ -25,7 +25,7 @@
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour ces précisions. Il semble que vous ayez une bonne expérience en collaboration avec les équipes UX/UI. Pourriez-vous me parler d'une situation où vous avez dû résoudre un problème technique complexe dans un de vos projets et comment cela a impacté le résultat final ?"
+    "message": "Merci Charlotte pour ces précisions. Il semble que vous ayez une bonne expérience en collaboration avec les équipes UX/UI. Pourriez-vous me parler d'une situation où vous avez dû résoudre un problème technique complexe dans un de vos projets et comment cela a impacté le résultat final ?"
   },
   {
     "role": "Candidat",
@@ -33,7 +33,7 @@
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour cet exemple détaillé, votre capacité à optimiser les performances est impressionnante. Pour continuer, pouvez-vous m'expliquer comment vous gérez la pression lorsque vous travaillez sur plusieurs projets complexes en même temps et comment cela influence votre productivité ?"
+    "message": "Merci Charlotte pour cet exemple détaillé, votre capacité à optimiser les performances est impressionnante. Pour continuer, pouvez-vous m'expliquer comment vous gérez la pression lorsque vous travaillez sur plusieurs projets complexes en même temps et comment cela influence votre productivité ?"
   },
   {
     "role": "Candidat",
@@ -41,7 +41,7 @@
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour votre réponse sur la gestion de la pression, cela montre une grande maturité professionnelle. Juste par curiosité, comment vous assurez-vous de rester à jour avec les dernières technologies et tendances dans le domaine du développement logiciel, notamment dans un environnement où l'innovation est essentielle ?"
+    "message": "Merci Charlotte pour votre réponse sur la gestion de la pression, cela montre une grande maturité professionnelle. Juste par curiosité, comment vous assurez-vous de rester à jour avec les dernières technologies et tendances dans le domaine du développement logiciel, notamment dans un environnement où l'innovation est essentielle ?"
   },
   {
     "role": "Candidat",
@@ -49,7 +49,7 @@
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour votre réponse, cela montre votre engagement envers l'apprentissage continu et l'innovation. Pourriez-vous me donner un exemple d'un projet techniquement complexe que vous avez dirigé et comment vous avez assuré le succès du projet ?"
+    "message": "Merci Charlotte pour votre réponse, cela montre votre engagement envers l'apprentissage continu et l'innovation. Pourriez-vous me donner un exemple d'un projet techniquement complexe que vous avez dirigé et comment vous avez assuré le succès du projet ?"
   },
   {
     "role": "Candidat",

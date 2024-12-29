@@ -64,12 +64,12 @@ python .\crewai_gen_candidats.py --fichier_postes "postes_generes.json"
   * L'utilisation de agentops est vraiment bénéfique pour déboguer et effectuer les réglages sur les tâches.
   * L'utilisation du framework CrewAI est simple, facile et efficace pour le développeur.
     * La documentation est riche et bien faite.
-* Points négatifs :
   * Coûts GPT-4o bien inférieur à GPT-4 (0.04$ contre 0.5$ pour un profil candidat, donc un rapport de 10 minimum)
     * GPT-4o a été conçu pour être deux fois plus rapide que GPT-4 Turbo, ce qui réduit les ressources nécessaires par requête.
     * Les améliorations apportées à GPT-4o permettent de diminuer les dépenses opérationnelles, permettant ainsi à OpenAI de proposer des tarifs plus compétitifs.
     * En réduisant les coûts, OpenAI vise à rendre GPT-4o accessible à un plus large public, y compris aux utilisateurs gratuits, tout en maintenant des limites d'utilisation raisonnables. 
   * GPT-4o bien plus rapide !
+* Points négatifs :
   * Le réglage des instructions à mettre dans les tâches est un processus itératif : beaucoup de variabilité dans la qualité des résultats dépend de cela.
   * L'utilisation de l'outil FileWriterTool par les agents n'est pas simple : il faut guider l'agent à bien l'utiliser (essais/erreurs).
     * Il n'est pas capable d'ajouter des lignes à un fichier existant.

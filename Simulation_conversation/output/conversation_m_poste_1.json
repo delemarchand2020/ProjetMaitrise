@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Antoine Dupont,\nvous postulez pour le poste de Ingénieur Logiciel Full Stack, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Je suis passionné par le développement full stack, ayant une solide expérience chez WebTech Innovations, et je suis motivé par la possibilité d'apporter mes compétences techniques et mon esprit collaboratif à TechNova Solutions."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci Antoine pour votre réponse. Votre expérience chez WebTech Innovations est intéressante. Pourriez-vous nous parler d'un projet techniquement complexe que vous avez mené et comment vous avez abordé les défis rencontrés ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet chez WebTech Innovations, j'ai mené le développement d'une application de gestion de contenu pour un client international. J'ai relevé des défis en intégrant une API tierce et en optimisant la base de données MongoDB, ce qui a amélioré la performance de l'application de 30%."
+  },
+  {
+    "role": "Recruteur",
+    "message": "C'est impressionnant, Antoine, de voir comment vous avez amélioré la performance de l'application. Pourriez-vous nous expliquer comment vous avez collaboré avec l'équipe UX/UI pour améliorer l'expérience utilisateur lors de ce projet ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour améliorer l'expérience utilisateur, j'ai travaillé en étroite collaboration avec l'équipe UX/UI en recueillant et en analysant les retours des utilisateurs, puis en intégrant ces retours dans des améliorations concrètes du design et de la fonctionnalité de l'application, tout en assurant une communication continue pour aligner nos objectifs."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse détaillée, Antoine. Cela montre une bonne collaboration avec l'équipe UX/UI. Pour aller plus loin, pouvez-vous me parler d'une situation où vous avez dû résoudre un problème technique complexe de manière autonome et comment vous l'avez abordé ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans un projet précédent, j'ai rencontré un problème complexe lié à des temps de réponse lents d'une API tierce. J'ai résolu ce problème en analysant les goulots d'étranglement via des outils de profilage et en implémentant un système de mise en cache qui a réduit le temps de réponse de 40%."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci Antoine pour votre réponse sur la gestion du problème technique. Pour évaluer votre adéquation culturelle avec notre équipe, pourriez-vous partager une expérience où vous avez dû gérer un projet techniquement complexe en tant que leader d'équipe et comment vous avez assuré la réussite du projet ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de la gestion d'un projet complexe chez WebTech Innovations, j'ai assuré la réussite en définissant des objectifs clairs, en coordonnant efficacement les tâches de l'équipe, et en maintenant une communication ouverte pour résoudre rapidement les obstacles rencontrés. Mon approche collaborative a permis de livrer un produit final répondant aux attentes du client."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse, Antoine. Cela démontre une solide capacité de leadership et une approche proactive pour la gestion de projets. Pour approfondir, pourriez-vous me parler d'une situation où vous avez dû faire preuve d'innovation dans l'intégration d'API et de services tiers afin de résoudre un défi technique ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet, j'ai innové en intégrant une API de paiement tierce avec une interface utilisateur personnalisée, permettant ainsi une expérience utilisateur fluide et sécurisée tout en réduisant les erreurs de transaction de 25%."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci Antoine pour votre réponse innovante sur l'intégration d'API. Pour évaluer votre capacité à gérer des projets techniquement complexes, pourriez-vous nous expliquer comment vous vous assureriez qu'une équipe reste motivée et concentrée lors de la résolution de défis techniques importants ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour assurer la motivation et la concentration de l'équipe, j'encourage un environnement de collaboration ouvert où chacun peut partager ses idées, tout en fixant des objectifs clairs et en reconnaissant les contributions individuelles pour renforcer l'engagement collectif."
+  }
+]

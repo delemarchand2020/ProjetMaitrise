@@ -132,7 +132,7 @@ class JobDataUtils:
 if __name__ == "__main__":
     # Remplacez 'jobs.json' par le chemin réel de votre fichier JSON
     print("Initialisation de l'exemple d'utilisation...")
-    utils = JobDataUtils("../AgentIA_generation_postes/exemples/postes_generes_new_prompt_gpt4-o1.json")
+    utils = JobDataUtils("../AgentIA_generation_postes/output/postes_generes_new_prompt_gpt4-o1.json")
 
     # Récupérer un poste par index
     print("Test : Récupération du poste à l'index 0")

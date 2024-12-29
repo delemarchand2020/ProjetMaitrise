@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Émilie Durand,\nvous postulez pour le poste de Ingénieur Logiciel Full Stack, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Je suis Émilie Durand, diplômée en ingénierie informatique de l'École Centrale de Paris et passionnée par le développement full stack. Ce poste m'attire particulièrement car il me permettrait de mettre à profit mes compétences en React et Node.js tout en participant à des projets innovants au sein d'une équipe collaborative."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci Émilie pour votre réponse. Pourriez-vous m'expliquer comment vous aborderiez l'intégration d'API et de services tiers dans une application web, et quelles seraient vos stratégies pour garantir leur bon fonctionnement ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour garantir le bon fonctionnement de l'intégration d'API et de services tiers, j'utilise une approche méthodique qui inclut la vérification des points de terminaison, l'utilisation de tests automatisés pour valider les réponses et la gestion des erreurs de manière proactive afin d'assurer une expérience utilisateur fluide. Mon expérience chez StartTech Innovations m'a permis d'acquérir une solide expertise dans ce domaine."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse, Émilie. Comment gérez-vous les défis techniques lorsque vous travaillez sur des projets complexes et pouvez-vous me donner un exemple où vous avez dû proposer une solution innovante?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet complexe chez StartTech Innovations, j'ai utilisé mes compétences en Node.js pour concevoir une solution de mise en cache innovante qui a considérablement amélioré les performances de l'application, démontrant ma capacité à surmonter les défis techniques avec des solutions créatives."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cet exemple, Émilie. Vous avez mentionné travailler sur des projets complexes, comment vous assurez-vous de maintenir une bonne communication et collaboration au sein de votre équipe lors de ces projets ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour maintenir une bonne communication et collaboration au sein de mon équipe, j'encourage des échanges réguliers et ouverts, tout en utilisant des outils collaboratifs pour suivre l'avancement des projets. Mon expérience en tant que développeur chez StartTech m'a permis de développer ces compétences essentielles."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci Émilie pour votre réponse. Il est important de maintenir une bonne communication dans une équipe. Pourriez-vous me dire comment vous vous assurez que toutes les parties prenantes comprennent bien les aspects techniques complexes du projet, surtout quand il s'agit de femmes dans l'équipe technique?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour m'assurer que toutes les parties prenantes, y compris les femmes dans l'équipe technique, comprennent bien les aspects techniques complexes du projet, je veille à vulgariser les concepts techniques en termes clairs et accessibles, et j'organise régulièrement des sessions de discussion pour répondre à toutes les questions et favoriser une compréhension commune."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci Émilie pour votre réponse. Assurer une compréhension commune est essentiel. Pourriez-vous me dire comment vous gérez la pression dans un environnement de travail rapide, surtout lorsqu'il s'agit de projets techniquement exigeants?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour gérer la pression dans un environnement de travail rapide, je reste concentrée sur les priorités en organisant mes tâches efficacement et en maintenant une communication ouverte avec mon équipe, ce qui m'a toujours permis de répondre aux exigences des projets techniquement exigeants."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci Émilie pour votre réponse sur la gestion de la pression. Il est important de rester organisé et communicatif. Pour conclure, pourriez-vous me dire comment vous vous assurez que toutes les parties prenantes comprennent bien les aspects techniques complexes du projet ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour m'assurer que toutes les parties prenantes comprennent bien les aspects techniques complexes du projet, je vulgarise les concepts techniques en termes simples et accessibles, et je favorise des échanges réguliers pour clarifier les points obscurs, ce qui garantit une compréhension partagée grâce à mon expérience en communication technique."
+  }
+]

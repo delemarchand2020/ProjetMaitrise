@@ -41,7 +41,6 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
         role=f"{RecruiterDataUtils.get_recruiter_full_name(profil_recruteur)}, un recruteur",
         goal=dedent(
             f"""
-            Tes responsabilités sont : {RecruiterDataUtils.get_responsibilities(profil_recruteur)}.
             Tu recherches un candidat pour le poste suivant :
                 Titre du poste : {JobDataUtils.get_job_title(profil_poste)}
                 Nom de l'entreprise : {JobDataUtils.get_company_name(profil_poste)}
@@ -56,9 +55,12 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
         backstory=dedent(
             f"""
             {RecruiterDataUtils.get_role_description(profil_recruteur)}.
-            Ses passions et loisirs sont : {RecruiterDataUtils.get_passions_hobbies(profil_recruteur)}.
-            {RecruiterDataUtils.get_bias(profil_recruteur) if biais else ""}.
-            {RecruiterDataUtils.get_bias_hints(profil_recruteur) if biais else ""}.
+            ses passions et loisirs sont : {RecruiterDataUtils.get_passions_hobbies(profil_recruteur)}.
+            ses responsabilités sont : {RecruiterDataUtils.get_responsibilities(profil_recruteur)}.
+            
+            {"Ses convictions personnelles :" if biais else ""}
+            {RecruiterDataUtils.get_bias(profil_recruteur) if biais else ""}
+            {RecruiterDataUtils.get_bias_hints(profil_recruteur) if biais else ""}
             """
             ),
         verbose=True,
@@ -90,39 +92,37 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
     task_recruteur = Task(
         description=dedent(
             """
-            C'est une première entrevue.
-            --------------------------------------------------------------------------
-            L’historique de la conversation de l'entrevue est :
+            HISTORIQUE de l'entrevue :
             {historique}
+            
             --------------------------------------------------------------------------
-            Tu dois :
-            1) Obtenir une vision générale du/de la candidat(e).
-            2) Ne pas aborder trop en profondeur les détails techniques ou technologiques.
-            --------------------------------------------------------------------------
-            Variables :
-            historique : Historique de la conversation.
-            max_echanges : Nombre maximum d’échanges autorisés (1 question + 1 réponse = 1 échange).
-            reponse : Dernière réponse du/de la candidat(e).
-            --------------------------------------------------------------------------
-            Consignes :
-            Prend connaissance de l'historique.
-            Tu ne dois pas dépasser {max_echanges} échanges.
-            Si le nombre d’échanges restant avant d’atteindre {max_echanges} est 1, termine l’entretien en formulant tes conclusions (pas de nouvelle question).
-            Sinon, réagis brièvement à la dernière réponse du/de la candidat(e) ({reponse}) et pose une question courte en restant général (pas de question trop technique).
+            CONSIGNES :
+            1) Prend connaissance de l'historique de l'entrevue ci-dessus.
+            2) Réagis brièvement à la dernière réponse du/de la candidat(e) puis pose une nouvelle question 
+            selon tes convictions personnelles (subtilement) et en rapport avec les responsabilités du poste à combler.
             """
             ),
-        expected_output="Une question courte et pertinente en rapport avec ce que tu cherches à atteindre et selon tes convictions.",
+        expected_output=dedent(
+            """
+            Une ou deux phrases.
+            """
+            ),
         agent=recruteur
     )
 
     task_candidat = Task(
         description=dedent(
             """
-            Historique de la conversation : {historique}. 
-            Réponds succinctement à la dernière question du recruteur : {question}.
+            HISTORIQUE de l'entrevue :
+            {historique}
+            
+            --------------------------------------------------------------------------
+            CONSIGNES :
+            1) Prend connaissance de l'historique de l'entrevue ci-dessus.
+            2) Répond brièvement à la dernière question du recruteur mettant en avant tes compétences et ton expérience.
             """
             ),
-        expected_output="Une réponse courte mettant en avant ta motivation.",
+        expected_output="Une ou deux phrases.",
         agent=candidat
     )
     return recruteur, task_recruteur, candidat, task_candidat
@@ -130,7 +130,7 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
 
 # Définition du Flow
 class EntretienFlow(Flow):
-    def __init__(self, max_echanges, profil_poste, profil_recruteur, profil_candidat):
+    def __init__(self, max_echanges, profil_poste, profil_recruteur, profil_candidat, file_output):
         super().__init__()
         self.max_echanges = max_echanges
         self.poste = JobDataUtils.get_job_title(profil_poste)
@@ -139,6 +139,7 @@ class EntretienFlow(Flow):
         self.session_agentops = agentops.init(auto_start_session=False)
         self.recruteur, self.task_recruteur, self.candidat, self.task_candidat = create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat)
         self.profil_candidat = profil_candidat
+        self.file_output = file_output
         print("Initialisation du flow terminée.")
 
     @start()
@@ -147,7 +148,7 @@ class EntretienFlow(Flow):
         question_initiale = dedent(
             f"""
             Bonjour {CandidateDataUtils.get_candidate_full_name(self.profil_candidat)},
-            vous postulez pour le poste de {self.poste}, dites m'en un peu plus sur vous ?
+            vous postulez pour le poste de {self.poste}, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?
             """
             )
         self.enregistrer_echange("Recruteur", question_initiale)
@@ -165,7 +166,7 @@ class EntretienFlow(Flow):
                 process=Process.sequential,
                 verbose=True
             )
-            result = crew.kickoff(inputs={'question': question, 'historique': self.conversation})
+            result = crew.kickoff(inputs={'question': question, 'historique': self.conversation, 'max_echanges': self.max_echanges})
             reponse = result.tasks_output[0].raw  # Accéder à la sortie brute de la première tâche
             self.enregistrer_echange("Candidat", reponse)
             self.session_agentops.end_session("Success")
@@ -198,16 +199,17 @@ class EntretienFlow(Flow):
 
     def terminer_entretien(self):
         # Sauvegarde la conversation dans un fichier JSON
-        with open('conversation_m_poste_1.json', 'w', encoding='utf-8') as f:
+        with open(self.file_output, 'w', encoding='utf-8') as f:
             json.dump(self.conversation, f, ensure_ascii=False, indent=2)
 
 
 # Exécuter le Flow
 if __name__ == "__main__":
     print("Initialisation ...")
-    db_jobs = JobDataUtils("../AgentIA_generation_postes/exemples/postes_generes_new_prompt_gpt4-o1.json")
+    db_jobs = JobDataUtils("../AgentIA_generation_postes/output/postes_generes_new_prompt_gpt4-o1.json")
     db_recruteurs = RecruiterDataUtils("../AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json")
-    db_candidats = CandidateDataUtils("../CrewAI_equipe_creation_BD_candidats/output/candidats_generes_m_poste_1.json")
+    db_candidats = CandidateDataUtils("../CrewAI_equipe_creation_BD_candidats/output/candidats_generes_f_poste_1.json")
+    file_output = "./output/conversation_f_poste_1.json"
 
     candidat = db_candidats.get_candidate_by_index(0)
     recruteur = db_recruteurs.get_recruiter_by_index(0)
@@ -221,6 +223,7 @@ if __name__ == "__main__":
             Le candidat {CandidateDataUtils.get_candidate_full_name(candidat)} postule.
             """
             ))
-        flow = EntretienFlow(max_echanges=10, profil_poste=job, profil_recruteur=recruteur, profil_candidat=candidat)
+        flow = EntretienFlow(max_echanges=7, profil_poste=job, profil_recruteur=recruteur,
+                             profil_candidat=candidat, file_output=file_output)
         flow_result = flow.kickoff()
 

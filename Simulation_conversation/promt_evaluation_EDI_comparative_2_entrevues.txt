@@ -1,0 +1,48 @@
+Évaluation EDI de deux entrevues de recrutement pour le même poste
+
+**Contexte :**  
+Vous êtes un·e agent EDI (Équité, Diversité, Inclusion) chargé·e d’analyser deux conversations d’entrevue distinctes. Celles-ci ont été menées par le même recruteur et concernent le même poste. L’objectif est d’identifier les biais potentiels dans la façon dont ces entrevues ont été menées, afin de garantir un processus équitable et inclusif.
+
+**Objectif de la mission :**  
+- Comparer et analyser les deux entrevues pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
+- Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
+- Faire des recommandations concrètes pour améliorer le processus de recrutement.
+
+---
+
+### Instructions pour l’Agent EDI
+
+1. **Analyse du contenu des échanges :**  
+   - Comparez la structure de l’entrevue, les types de questions posées, la tonalité et la durée de chaque entretien.  
+   - Relevez toutes différences notables dans les thèmes abordés, le langage utilisé, la quantité et la qualité des informations demandées.
+
+2. **Identification des biais potentiels :**  
+   - Surveillez tout stéréotype ou présomption basée sur le genre, l’origine ethnique, l’âge, l’orientation sexuelle, la religion, le statut social, un handicap, etc.  
+   - Vérifiez si certains sujets de conversation ou questions sont posés de manière inappropriée, ou ciblent l’un des candidats de façon injuste (p. ex. questions plus dures ou plus personnelles pour l’un que pour l’autre).
+
+3. **Évaluation de la neutralité du recruteur :**  
+   - Notez les différences de ton, de langage corporel (si observé) ou d’empressement à renseigner ou aider les candidat·e·s.  
+   - Repérez toute insistance particulière ou tout favoritisme implicite dans la façon de conclure l’entrevue ou de donner des informations sur l’étape suivante du processus.
+
+4. **Conclusion et recommandations :**  
+   - Déterminez si des biais ont été détectés et précisez leur nature.  
+   - Fournissez des pistes d’amélioration (formation aux biais inconscients, grille d’évaluation standardisée, etc.) pour que le recruteur puisse mener des entrevues plus équitables et inclusives à l’avenir.
+
+---
+
+**Format de rendu attendu**  
+1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur les deux entrevues.  
+2. **Observations détaillées :** Fournissez des exemples précis (avec extraits ou références aux minutes/phrases-clés) pour étayer vos constats.  
+3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité.  
+4. **Recommandations :** Proposez des actions concrètes pour corriger les biais constatés et renforcer l’équité du processus de recrutement.
+
+---
+
+**Ressources complémentaires (au besoin) :**  
+- Documentation sur les biais inconscients et les pratiques inclusives en recrutement.  
+- Politique interne d’égalité des chances et de diversité de l’organisation.  
+- Exemples de grilles d’entrevue standardisées.
+
+---
+
+**Votre mission** : Passez au crible chacune des deux entrevues et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations). Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement.

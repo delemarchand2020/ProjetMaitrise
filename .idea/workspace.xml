@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="amélioration du prompt de la tâche du recruteur">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="test simulation">
+      <change afterPath="$PROJECT_DIR$/Simulation_conversation/output/conversation_f_poste_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulation_conversation/output/conversation_m_poste_1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/postes_generes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation_conversation/conversation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/conversation_f_poste_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/conversation_m_poste_1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/gen_conversation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -376,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735060698078</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="test simulation">
+      <option name="closed" value="true" />
+      <created>1735178593356</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1735178593356</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Première version de l'agent IA de" />
     <MESSAGE value="Première version de l'agent IA de génération de postes" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Exemples de postes générés" />
@@ -416,6 +424,7 @@
     <MESSAGE value="ajout des méthodes pour récupérer les infos de recrutement (poste, profils candidts et recruteurs)" />
     <MESSAGE value="conversation adaptée aux postes et profils de la base de données" />
     <MESSAGE value="amélioration du prompt de la tâche du recruteur" />
-    <option name="LAST_COMMIT_MESSAGE" value="amélioration du prompt de la tâche du recruteur" />
+    <MESSAGE value="test simulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="test simulation" />
   </component>
 </project>

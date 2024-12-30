@@ -30,9 +30,14 @@ def encode_file(file_path):
         raise RuntimeError(f"An error occurred while encoding the file: {e}")
 
 def escape_json_content(file_path):
-    with open(file_path, "r") as file:
-        json_content = json.load(file)
-    return json.dumps(json_content, indent=2, ensure_ascii=False)
+    try:
+        with open(file_path, "r") as file:
+            json_content = json.load(file)
+        return json.dumps(json_content, indent=2, ensure_ascii=False)
+    except FileNotFoundError:
+        raise ValueError(f"File not found: {file_path}")
+    except Exception as e:
+        raise RuntimeError(f"An error occurred while encoding the file: {e}")
 
 def get_prompt(file_name):
     if not os.path.exists(file_name):

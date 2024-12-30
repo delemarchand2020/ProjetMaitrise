@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Émilie Durand,\nvous postulez pour le poste de Ingénieur Logiciel Full Stack, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis Émilie Durand, diplômée en ingénierie informatique avec une expérience notable en développement full stack, notamment avec React et Node.js. Je suis très motivée par le poste chez TechNova Solutions car il correspond parfaitement à mes compétences en conception d'applications web innovantes et à ma capacité à collaborer efficacement pour améliorer l'expérience utilisateur."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse, Émilie. Pourriez-vous me parler d'un projet complexe que vous avez géré récemment et des défis techniques que vous avez rencontrés?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez StartTech Innovations, j'ai géré un projet complexe où j'ai intégré plusieurs API tierces pour enrichir les fonctionnalités d'une application web, ce qui m'a confronté à des défis techniques liés à la compatibilité et aux performances, résolus grâce à une analyse approfondie et des solutions innovantes en utilisant Node.js et React."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ce retour détaillé sur votre expérience chez StartTech Innovations. Pourriez-vous nous expliquer comment vous envisagez de collaborer avec une équipe UX/UI pour améliorer l'expérience utilisateur, en tenant compte des défis techniques que vous avez déjà rencontrés ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Mon expérience chez StartTech Innovations m'a permis de collaborer étroitement avec l'équipe UX/UI, en échangeant régulièrement sur les meilleures pratiques pour optimiser l'interface utilisateur, tout en intégrant des solutions techniques innovantes pour surmonter les défis rencontrés et ainsi garantir une expérience utilisateur fluide et efficace."
+  }
+]

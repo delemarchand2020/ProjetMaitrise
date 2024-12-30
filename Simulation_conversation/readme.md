@@ -53,6 +53,18 @@ python .\gen_conversation.py  --fichier_db_postes "postes_generes_new_prompt_gpt
                               --index "0"
 
  ``` 
+## Évaluation d'une conversation
+```bash
+cd .\Simulation_conversation\   
+python .\eval_conversation.py --file1 "./output/conversation_f_poste_1.json" --output-dir "./output"
+
+ ``` 
+## Évaluation de 2 conversations 
+```bash
+cd .\Simulation_conversation\   
+python .\eval_conversation.py --file1 "./output/conversation_f_poste_1.json" --file2 "./output/conversation_m_poste_1.json" --output-dir "./output"
+
+ ``` 
 ## Apprentissages
 * points positifs :
   * L'utilisation de agentops est vraiment bénéfique pour déboguer et effectuer les réglages sur les tâches.

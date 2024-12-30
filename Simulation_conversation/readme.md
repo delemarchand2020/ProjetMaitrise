@@ -46,7 +46,12 @@ ${env:AGENTOPS_API_KEY} = "VOTRE CLE AGENTOPS"
 ## Génération d'une conversation
 ```bash
 cd .\Simulation_conversation\   
-python .\gen_conversation.py
+python .\gen_conversation.py  --fichier_db_postes "postes_generes_new_prompt_gpt4-o1.json" 
+                              --fichier_db_recruteurs "recruteurs_generes.json" 
+                              --fichier_db_candidats "candidats_generes_f_poste_1.json" 
+                              --output_file "conversation_f_poste_1.json" 
+                              --index "0"
+
  ``` 
 ## Apprentissages
 * points positifs :

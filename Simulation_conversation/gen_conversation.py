@@ -1,4 +1,5 @@
 import agentops
+import argparse
 from dotenv import load_dotenv
 from textwrap import dedent
 import json
@@ -213,16 +214,37 @@ class EntretienFlow(Flow):
 
 
 # Exécuter le Flow
-if __name__ == "__main__":
-    print("Initialisation ...")
-    db_jobs = JobDataUtils("../AgentIA_generation_postes/output/postes_generes_new_prompt_gpt4-o1.json")
-    db_recruteurs = RecruiterDataUtils("../AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json")
-    db_candidats = CandidateDataUtils("../CrewAI_equipe_creation_BD_candidats/output/candidats_generes_m_poste_1.json")
-    file_output = "./output/conversation_m_poste_1.json"
+# python .\gen_conversation.py --fichier_db_candidats "candidats_generes_f_poste_1.json" --output_file "conversation_f_poste_1.json"
+# python .\gen_conversation.py --fichier_db_candidats "candidats_generes_m_poste_1.json" --output_file "conversation_m_poste_1.json"
 
-    candidat = db_candidats.get_candidate_by_index(0)
-    recruteur = db_recruteurs.get_recruiter_by_index(0)
-    job = db_jobs.get_job_by_index(0)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Process some parameters.")
+    parser.add_argument('--fichier_db_postes', type=str, default="postes_generes_new_prompt_gpt4-o1.json",
+                        help='Db postes file')
+    parser.add_argument('--fichier_db_recruteurs', type=str, default="recruteurs_generes.json",
+                        help='Db recruteurs file')
+    parser.add_argument('--fichier_db_candidats', type=str, default="candidats_generes_f_poste_1.json",
+                        help='Db candidats file')
+    parser.add_argument('--output_file', type=str, default="conversation_f_poste_1.json", help='Output file')
+    parser.add_argument('--index', type=str, default="0", help='Index number')
+
+    args = parser.parse_args()
+
+    fichier_db_postes = f"../AgentIA_generation_postes/output/{args.fichier_db_postes}"
+    fichier_db_recruteurs = f"../AgentAI_creation_BD_recruteurs/output/{args.fichier_db_recruteurs}"
+    fichier_db_candidats = f"../CrewAI_equipe_creation_BD_candidats/output/{args.fichier_db_candidats}"
+
+    output_file = f"./output/{args.output_file}"
+    index = args.index
+
+    print("Initialisation ...")
+    db_jobs = JobDataUtils(fichier_db_postes)
+    db_recruteurs = RecruiterDataUtils(fichier_db_recruteurs)
+    db_candidats = CandidateDataUtils(fichier_db_candidats)
+
+    candidat = db_candidats.get_candidate_by_index(int(index))
+    recruteur = db_recruteurs.get_recruiter_by_index(int(index))
+    job = db_jobs.get_job_by_index(int(index))
 
     if job and candidat and recruteur:
         print(dedent(
@@ -233,6 +255,6 @@ if __name__ == "__main__":
             """
             ))
         flow = EntretienFlow(max_echanges=7, profil_poste=job, profil_recruteur=recruteur,
-                             profil_candidat=candidat, file_output=file_output)
+                             profil_candidat=candidat, file_output=output_file)
         flow_result = flow.kickoff()
 

@@ -5,54 +5,54 @@
   },
   {
     "role": "Candidat",
-    "message": "J'ai une solide expérience en développement full stack et une expertise en JavaScript, HTML, CSS, React et Angular, ce qui me permet de concevoir et développer efficacement des applications web modernes. Ma motivation est grande pour rejoindre TechNova Solutions, car je suis passionné par la création de solutions innovantes pour une clientèle internationale et j'aime collaborer avec des équipes interdisciplinaires pour améliorer l'expérience utilisateur."
+    "message": "En tant que passionné de développement full stack avec une solide expérience chez WebTech Innovations, je suis motivé à apporter mes compétences techniques en JavaScript, Node.js et bases de données NoSQL pour concevoir des applications innovantes chez TechNova Solutions. Mon esprit d'équipe et mon expertise en résolution de problèmes sont alignés avec les responsabilités du poste."
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour votre réponse. Votre expérience semble alignée avec nos besoins. Pourriez-vous me donner un exemple concret de la manière dont vous avez intégré des API et des services tiers dans un projet antérieur, et les défis techniques que vous avez rencontrés ?"
+    "message": "Merci Antoine pour votre réponse. Pourriez-vous nous en dire plus sur votre expérience dans la collaboration avec des équipes UX/UI pour améliorer l'expérience utilisateur ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon expérience chez WebTech Innovations, j'ai intégré l'API de paiement Stripe dans une application e-commerce, ce qui a impliqué des défis techniques tels que la gestion des webhooks pour sécuriser les transactions, mais grâce à ma capacité à résoudre des problèmes complexes, j'ai pu les surmonter efficacement."
+    "message": "Lors de mon expérience chez WebTech Innovations, j'ai collaboré étroitement avec l'équipe UX/UI pour intégrer les retours des utilisateurs, ce qui a permis d'améliorer significativement l'expérience utilisateur des applications développées. Cette approche collaborative est essentielle pour créer des solutions intuitives et efficaces."
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour cet exemple concret. Pour aller un peu plus loin, pourriez-vous me décrire comment vous avez collaboré avec l'équipe UX/UI dans vos projets précédents et comment cela a impacté l'expérience utilisateur ?"
+    "message": "Merci Antoine, c'est intéressant de voir comment vous avez intégré les retours utilisateurs. Pour ce poste chez TechNova Solutions, nous cherchons quelqu'un capable de gérer des projets complexes. Pouvez-vous me parler d'une expérience où vous avez dû résoudre un problème technique particulièrement difficile ?"
   },
   {
     "role": "Candidat",
-    "message": "Dans mes projets précédents chez WebTech Innovations, j'ai collaboré étroitement avec l'équipe UX/UI pour recueillir et implémenter les retours utilisateurs, ce qui a permis d'améliorer considérablement l'interface utilisateur et de rendre nos applications plus intuitives et conviviales."
+    "message": "Lors de mon passage chez WebTech Innovations, j'ai dû résoudre un problème technique complexe lié à l'optimisation des performances d'une application web, en restructurant le code et en intégrant des solutions novatrices, ce qui a permis d'améliorer significativement la réactivité et la satisfaction client."
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour ces précisions. Il semble que vous ayez une bonne expérience en collaboration avec les équipes UX/UI. Pourriez-vous me parler d'une situation où vous avez dû résoudre un problème technique complexe dans un de vos projets et comment cela a impacté le résultat final ?"
+    "message": "Merci Antoine pour ce partage d'expérience, cela montre une bonne capacité à résoudre des problèmes. Pour approfondir, pourriez-vous expliquer comment vous avez géré la coordination avec différents membres de l'équipe lors de ce projet complexe ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors d'un projet précédent, j'ai dû optimiser le temps de chargement d'une application en refactorisant le code et en utilisant des techniques de lazy loading pour les ressources critiques, ce qui a permis d'améliorer significativement la performance globale et l'expérience utilisateur, tout en respectant les exigences des clients."
+    "message": "Pour gérer la coordination, j'ai utilisé des outils de gestion de projet comme Jira et des réunions régulières pour assurer une communication fluide entre les développeurs, l'équipe UX/UI et les parties prenantes, garantissant ainsi que chacun était aligné sur les objectifs du projet."
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour cet exemple détaillé, votre capacité à optimiser les performances est impressionnante. Pour continuer, pouvez-vous m'expliquer comment vous gérez la pression lorsque vous travaillez sur plusieurs projets complexes en même temps et comment cela influence votre productivité ?"
+    "message": "Votre approche de la gestion de projet semble bien structurée, Antoine. Pourriez-vous nous décrire une situation où vous avez dû collaborer avec une collègue féminine sur un projet complexe et comment cela a influencé votre travail d'équipe ?"
   },
   {
     "role": "Candidat",
-    "message": "Pour gérer la pression lors de projets complexes, je hiérarchise les tâches et utilise des outils de gestion de projet pour assurer une organisation optimale, ce qui me permet de maintenir un haut niveau de productivité tout en respectant les délais. Mon esprit collaboratif et ma capacité à résoudre des problèmes me permettent également d'anticiper et d'atténuer les obstacles potentiels."
+    "message": "Lors d'un projet chez WebTech Innovations, j'ai travaillé avec une collègue talentueuse sur l'intégration d'API tierces, et notre collaboration a renforcé l'efficacité et la créativité de l'équipe, nous permettant de surmonter les défis techniques ensemble."
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour votre réponse sur la gestion de la pression, cela montre une grande maturité professionnelle. Juste par curiosité, comment vous assurez-vous de rester à jour avec les dernières technologies et tendances dans le domaine du développement logiciel, notamment dans un environnement où l'innovation est essentielle ?"
+    "message": "Merci pour ce partage, Antoine. C'est encourageant de voir une telle collaboration fructueuse. Pour ce poste, pourriez-vous me parler de votre approche pour gérer des projets techniquement complexes et comment vous vous assurez que toutes les parties prenantes soient satisfaites, surtout dans un environnement où il y a une majorité de collègues masculins ?"
   },
   {
     "role": "Candidat",
-    "message": "Pour rester à jour avec les dernières technologies et tendances, je participe activement à des projets de programmation open-source, ce qui me permet de pratiquer continuellement et d'apprendre de nouvelles techniques. Je suis également régulièrement des cours en ligne et assiste à des conférences pour m'assurer que mes compétences restent pertinentes et à la pointe de l'innovation."
+    "message": "Dans un environnement majoritairement masculin, je m'assure de maintenir une communication ouverte et inclusive, en utilisant des outils de gestion collaborative pour coordonner efficacement les projets. Mon expérience en résolution de problèmes techniques complexes me permet de garantir la satisfaction des parties prenantes tout en valorisant chaque contribution individuelle au sein de l'équipe."
   },
   {
     "role": "Recruteur",
-    "message": "Merci Antoine pour votre réponse, cela montre votre engagement envers l'apprentissage continu et l'innovation. Pourriez-vous me donner un exemple d'un projet techniquement complexe que vous avez dirigé et comment vous avez assuré le succès du projet ?"
+    "message": "Merci pour votre réponse, Antoine. Il est crucial de maintenir une bonne communication dans des environnements variés. En tant qu'ingénieur logiciel full stack, comment vous assurez-vous que la qualité du code produit soit toujours optimale, surtout lors des revues de code où il pourrait y avoir différents niveaux d'expérience parmi les collègues ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors d'un projet complexe chez WebTech Innovations, j'ai dirigé une équipe pour développer une application web de gestion de contenu en utilisant React et Node.js, en m'assurant que toutes les intégrations API et fonctionnalités techniques étaient optimisées, ce qui a conduit à un déploiement réussi et à la satisfaction du client."
+    "message": "Pour garantir une qualité optimale du code, je m'appuie sur des pratiques de revues de code rigoureuses et encourage le partage de connaissances entre collègues de différents niveaux d'expérience, tout en intégrant des standards de codage clairs et une documentation précise pour assurer la cohérence et l'efficacité."
   }
 ]

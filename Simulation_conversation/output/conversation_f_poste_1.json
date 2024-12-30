@@ -5,54 +5,54 @@
   },
   {
     "role": "Candidat",
-    "message": "Je suis passionnée par la technologie et possède une solide formation en ingénierie informatique avec une expertise en développement full stack, notamment en React et Node.js, ce qui me motive à contribuer à des applications web innovantes chez TechNova Solutions. Mon expérience en collaboration avec des équipes UX/UI et en intégration d'API me permettra d'apporter une valeur ajoutée significative à ce poste."
+    "message": "Je suis passionnée par le développement full stack et possède une solide expertise en React et Node.js, ce qui me permet de concevoir et développer des applications web modernes. Je suis motivée par l'opportunité de travailler avec TechNova Solutions pour créer des solutions innovantes destinées à une clientèle internationale."
   },
   {
     "role": "Recruteur",
-    "message": "Votre parcours est intéressant, Émilie. Pourriez-vous détailler une expérience passée où vous avez dû résoudre un problème technique complexe et comment vous l'avez abordé ?"
+    "message": "Merci pour votre réponse, Émilie. Vous avez mentionné votre expertise en React et Node.js. Pouvez-vous me donner un exemple de projet complexe que vous avez dirigé et comment vous avez géré les défis techniques associés ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon expérience chez StartTech Innovations, j'ai résolu un problème complexe en optimisant l'intégration d'une API tierce, ce qui a amélioré la performance de l'application web. J'ai utilisé mes compétences en Node.js et mes connaissances des bases de données NoSQL pour élaborer une solution innovante, tout en collaborant étroitement avec l'équipe pour assurer une implémentation fluide."
+    "message": "Lors de mon passage chez StartTech Innovations, j'ai dirigé un projet complexe consistant à intégrer plusieurs API tierces dans une application web. J'ai surmonté les défis techniques en collaborant étroitement avec l'équipe UX pour garantir une interface utilisateur optimisée et en effectuant des revues de code régulières pour maintenir la qualité du code."
   },
   {
     "role": "Recruteur",
-    "message": "Votre capacité à optimiser l'intégration d'une API tierce est impressionnante, Émilie. Pourriez-vous nous expliquer comment vous assurez la qualité du code produit lors des revues de code, et si vous avez déjà eu l'opportunité de diriger ces revues dans vos expériences précédentes ?"
+    "message": "Merci pour cette réponse détaillée, Émilie. Puisque vous avez travaillé sur l'intégration d'API tierces, pourriez-vous expliquer comment vous gérez la résolution de problèmes techniques complexes au sein d'une équipe et quelles solutions innovantes vous avez pu proposer ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mes revues de code chez StartTech Innovations, j'ai veillé à respecter les standards de qualité en vérifiant la conformité du code et en encourageant une collaboration constructive au sein de l'équipe, bien que je n'aie pas dirigé ces revues, ma participation active a renforcé notre processus collectif d'amélioration continue."
+    "message": "Pour résoudre des problèmes techniques complexes, j'analyse d'abord la source du problème en collaboration avec l'équipe concernée, puis je propose des solutions basées sur mes connaissances en conception orientée objet et en développement full stack. Par exemple, lors d'un projet précédent, j'ai proposé une solution innovante en utilisant un modèle de microservices pour améliorer la modularité et la maintenance du code."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse détaillée, Émilie. Votre implication dans les revues de code est appréciable. Pourriez-vous nous en dire plus sur votre capacité à travailler sur des projets techniquement complexes en collaboration avec d'autres équipes, et comment vous gérez les éventuels défis rencontrés ?"
+    "message": "Merci pour cette explication, Émilie. Vous semblez avoir une bonne approche des problèmes techniques. Pourriez-vous me parler de votre expérience en termes de collaboration avec l'équipe UX/UI et comment vous assurez-vous que l'expérience utilisateur est améliorée tout en respectant les contraintes techniques ?"
   },
   {
     "role": "Candidat",
-    "message": "Grâce à mon expérience chez StartTech Innovations, j'ai développé une aptitude à collaborer efficacement avec différentes équipes, notamment UX/UI, pour mener à bien des projets complexes. Je gère les défis en adoptant une approche proactive de résolution de problèmes, en communiquant clairement et en mettant en œuvre des solutions innovantes pour garantir la réussite du projet."
+    "message": "\"Je collabore étroitement avec l'équipe UX/UI pour comprendre leurs besoins tout en respectant les contraintes techniques, et grâce à mon expérience, je veille à ce que les solutions proposées soient à la fois innovantes et orientées vers une amélioration continue de l'expérience utilisateur.\""
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour ces précisions, Émilie. C'est intéressant de voir comment vous gérez les défis techniques en collaboration. Pourriez-vous me dire comment vous vous assurez que vos compétences restent à jour dans ce domaine en constante évolution, et comment cela pourrait bénéficier à une entreprise comme TechNova Solutions ?"
+    "message": "Merci pour votre réponse, Émilie. Je suis impressionné par votre approche collaborative avec l'équipe UX/UI. Cependant, pourriez-vous partager une expérience où vous avez dû gérer un projet techniquement complexe et comment vous avez assuré que chaque membre de l'équipe ait pu suivre et s'adapter aux exigences techniques, surtout lorsque des ajustements rapides étaient nécessaires ?"
   },
   {
     "role": "Candidat",
-    "message": "Pour m'assurer que mes compétences restent à jour, je suis activement impliquée dans des projets open source et je suis des formations continues, ce qui me permet de suivre les dernières tendances technologiques. Cela permettra à TechNova Solutions de bénéficier de solutions modernes et innovantes dans le développement de ses applications web."
+    "message": "\"Lors d'un projet complexe chez StartTech Innovations, j'ai organisé des sessions de travail régulières pour assurer que chaque membre de l'équipe comprenne les exigences techniques. J'ai également mis en place un système de documentation claire et des outils de gestion de projet pour faciliter les ajustements rapides et maintenir l'alignement de toute l'équipe.\""
   },
   {
     "role": "Recruteur",
-    "message": "Votre engagement à rester à jour est certainement un atout pour TechNova Solutions, Émilie. Pourriez-vous nous parler d'une expérience où vous avez dirigé ou fortement influencé une équipe sur un projet de développement web techniquement complexe et comment cela s'est traduit en succès ?"
+    "message": "Merci pour votre réponse, Émilie. Il semble que vous avez une bonne gestion de projet en équipe. Cependant, je suis curieux de savoir comment vous envisagez de diriger un projet techniquement complexe chez TechNova Solutions, en assurant que tous les membres, y compris ceux qui peuvent être moins expérimentés, soient à l'aise avec les technologies modernes utilisées ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors d'un projet complexe chez StartTech Innovations, j'ai fortement influencé l'équipe en proposant une architecture modulaire innovante qui a permis d'améliorer la scalabilité de notre application web, tout en assurant une collaboration étroite avec les équipes UX/UI pour garantir une expérience utilisateur optimale."
+    "message": "Pour diriger un projet techniquement complexe chez TechNova Solutions, je compte sur mes compétences en communication et en encadrement pour organiser des sessions de formation et de mentorat. Cela garantira que même les membres moins expérimentés se familiarisent avec les technologies modernes, tout en maintenant une collaboration efficace au sein de l'équipe."
   },
   {
     "role": "Recruteur",
-    "message": "Votre approche innovante dans la gestion de l'architecture modulaire est impressionnante, Émilie. Pourriez-vous me parler d'une situation où vous avez dû faire face à des défis en termes de leadership technique, et comment vous avez réussi à les surmonter ?"
+    "message": "Merci pour votre réponse, Émilie. Votre approche de mentorat est intéressante. Cependant, j'aimerais savoir comment vous vous assureriez que tous les membres de l'équipe, en particulier les femmes, soient traités équitablement et aient des opportunités égales pour s'épanouir dans des rôles techniques ?"
   },
   {
     "role": "Candidat",
-    "message": "Dans une situation où j'ai dû faire face à des défis de leadership technique, j'ai réussi à surmonter les obstacles en adoptant une communication claire et en encourageant la collaboration entre les équipes, tout en proposant des solutions techniques innovantes pour garantir le succès du projet."
+    "message": "\"Je veillerai à instaurer une culture de respect et d'égalité au sein de l'équipe en promouvant des pratiques inclusives, et je m'assurerai que chaque membre, notamment les femmes, ait accès aux mêmes opportunités de développement professionnel et de progression dans des rôles techniques.\""
   }
 ]

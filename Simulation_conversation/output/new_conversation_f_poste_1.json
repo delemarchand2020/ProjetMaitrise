@@ -5,22 +5,34 @@
   },
   {
     "role": "Candidat",
-    "message": "Bonjour, je suis Émilie Durand, diplômée en ingénierie informatique avec une expérience notable en développement full stack, notamment avec React et Node.js. Je suis très motivée par le poste chez TechNova Solutions car il correspond parfaitement à mes compétences en conception d'applications web innovantes et à ma capacité à collaborer efficacement pour améliorer l'expérience utilisateur."
+    "message": "Bonjour, je suis Émilie Durand, diplômée en ingénierie informatique de l'École Centrale de Paris, avec une solide expérience en développement full stack, notamment en React et Node.js. Je suis très motivée par le poste chez TechNova Solutions car il me permettrait d'appliquer mes compétences techniques pour concevoir des applications web innovantes tout en travaillant en étroite collaboration avec l'équipe UX/UI pour offrir une expérience utilisateur optimale."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse, Émilie. Pourriez-vous me parler d'un projet complexe que vous avez géré récemment et des défis techniques que vous avez rencontrés?"
+    "message": "Merci pour votre réponse, Émilie. Pourriez-vous me parler d'une situation où vous avez dû résoudre un problème technique complexe et comment vous avez abordé la solution ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon expérience chez StartTech Innovations, j'ai géré un projet complexe où j'ai intégré plusieurs API tierces pour enrichir les fonctionnalités d'une application web, ce qui m'a confronté à des défis techniques liés à la compatibilité et aux performances, résolus grâce à une analyse approfondie et des solutions innovantes en utilisant Node.js et React."
+    "message": "Lors de mon expérience chez StartTech Innovations, j'ai dû intégrer plusieurs API tierces pour enrichir les fonctionnalités d'une application web. J'ai abordé ce défi en collaborant étroitement avec l'équipe UX pour assurer une intégration fluide et en appliquant mes compétences en Node.js pour surmonter les obstacles techniques, ce qui m'a permis de garantir la qualité et l'innovation de la solution."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour ce retour détaillé sur votre expérience chez StartTech Innovations. Pourriez-vous nous expliquer comment vous envisagez de collaborer avec une équipe UX/UI pour améliorer l'expérience utilisateur, en tenant compte des défis techniques que vous avez déjà rencontrés ?"
+    "message": "Merci pour votre réponse concernant l'intégration d'API chez StartTech Innovations. Pourriez-vous me parler d'une expérience où vous avez eu à collaborer avec des ingénieurs masculins sur un projet complexe et comment vous avez abordé la gestion de ces dynamiques d'équipe pour assurer une résolution efficace des problèmes ?"
   },
   {
     "role": "Candidat",
-    "message": "Mon expérience chez StartTech Innovations m'a permis de collaborer étroitement avec l'équipe UX/UI, en échangeant régulièrement sur les meilleures pratiques pour optimiser l'interface utilisateur, tout en intégrant des solutions techniques innovantes pour surmonter les défis rencontrés et ainsi garantir une expérience utilisateur fluide et efficace."
+    "message": "Lors d'un projet complexe chez StartTech Innovations, j'ai collaboré étroitement avec des ingénieurs masculins en m'appuyant sur une communication ouverte et le partage de nos expertises respectives, ce qui a permis de surmonter les défis techniques ensemble et de garantir une intégration fluide des API, alignée avec les responsabilités du poste chez TechNova Solutions."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse détaillée sur votre collaboration chez StartTech Innovations. Pourriez-vous décrire comment vous assurez la qualité du code produit lors de revues de code, surtout dans un contexte où vous travaillez avec des ingénieurs ayant des niveaux d'expérience variés ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors des revues de code, je veille à ce que le code respecte les standards de qualité en partageant des retours constructifs, encourageant le dialogue entre collègues, et en mettant l'accent sur l'apprentissage mutuel, tout en garantissant que les solutions proposées s'alignent avec les exigences du projet et les pratiques exemplaires de développement."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse sur votre méthode de revue de code. Pourriez-vous me donner un exemple où vous avez résolu un problème technique complexe lors de l'intégration d'un service tiers ?"
   }
 ]

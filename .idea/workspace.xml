@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="ajout fonctionnalité d'évaluation des conversations (biais de genre uniquement)">
-      <change afterPath="$PROJECT_DIR$/Simulation_conversation/gen_full_crewai_conversation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="autre solution pour la generation de la conversation (avec 1 seule Crew)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation_conversation/eval_conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/eval_conversation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/gen_full_crewai_conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/gen_full_crewai_conversation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/output/new_conversation_f_poste_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/output/new_conversation_f_poste_1.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735574173263</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="autre solution pour la generation de la conversation (avec 1 seule Crew)">
+      <option name="closed" value="true" />
+      <created>1735598978758</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1735598978758</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Git ignore" />
     <MESSAGE value="Début pour le codage de l'équipe" />
     <MESSAGE value="creation équipe" />
     <MESSAGE value="gitignore" />
@@ -456,6 +462,7 @@
     <MESSAGE value="amélioration des prompts et documentation" />
     <MESSAGE value="gestion de la ligne de commande" />
     <MESSAGE value="ajout fonctionnalité d'évaluation des conversations (biais de genre uniquement)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout fonctionnalité d'évaluation des conversations (biais de genre uniquement)" />
+    <MESSAGE value="autre solution pour la generation de la conversation (avec 1 seule Crew)" />
+    <option name="LAST_COMMIT_MESSAGE" value="autre solution pour la generation de la conversation (avec 1 seule Crew)" />
   </component>
 </project>

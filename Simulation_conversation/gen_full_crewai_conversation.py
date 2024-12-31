@@ -35,22 +35,17 @@ llm_middle_creative = LLM(
     presence_penalty=0.1,
 )
 
-class dummy():
-    def enregistrer_echange(self, role, message):
-        pass
+
+def recruteur_task_callback(output, flow_instance):
+    flow_instance.enregistrer_echange("Recruteur", output.raw)
 
 
-call_back_loger = dummy()
+def candidat_task_callback(output, flow_instance):
+    flow_instance.enregistrer_echange("Candidat", output.raw)
 
-def recruteur_task_callback(output):
-    call_back_loger.enregistrer_echange("Recruteur", output.raw)
-
-
-def candidat_task_callback(output):
-    call_back_loger.enregistrer_echange("Candidat", output.raw)
 
 # Définition des agents et de leurs tâches
-def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
+def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flow_instance):
     biais = False if RecruiterDataUtils.get_bias(profil_recruteur) == "" else True
     recruteur = Agent(
         role=f"{RecruiterDataUtils.get_recruiter_full_name(profil_recruteur)}, un recruteur",
@@ -117,6 +112,7 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
             """
             Réagis brièvement à la dernière réponse du/de la candidat(e) puis pose une nouvelle question 
             selon tes convictions personnelles (subtilement) et en rapport avec les responsabilités du poste à combler.
+            Évite de poser le même genre de question que tu aurais posée précédemment.
             """
         ),
         expected_output=dedent(
@@ -125,19 +121,19 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
             """
         ),
         agent=recruteur,
-        callback=recruteur_task_callback
+        callback=lambda output: recruteur_task_callback(output, flow_instance)
     )
 
     task_candidat = Task(
         description=dedent(
             """
-            Répond brièvement à la dernière question du recruteur mettant en avant tes compétences et ton expérience 
-            en rapport avec les responsabilités du poste auquel tu postules.
+            Répond brièvement à la dernière question du recruteur mettant en avant tes compétences et ton expérience. 
+            Ta réponse devra si possible faire un lien avec les responsabilités du poste visé.
             """
         ),
         expected_output="Une ou deux phrases.",
         agent=candidat,
-        callback=candidat_task_callback
+        callback=lambda output: candidat_task_callback(output, flow_instance)
     )
 
     task_initiale = Task(
@@ -150,7 +146,7 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat):
         ),
         expected_output="Une ou deux phrases.",
         agent=candidat,
-        callback=candidat_task_callback
+        callback=lambda output: candidat_task_callback(output, flow_instance)
     )
 
     return recruteur, task_recruteur, candidat, task_candidat, task_initiale
@@ -165,14 +161,13 @@ class EntretienFlow(Flow):
         self.echanges_actuels = 1
         self.conversation = []
         self.session_agentops = agentops.init(auto_start_session=False)
-        self.recruteur, self.task_recruteur, self.candidat, self.task_candidat, self.task_initiale = create_agents_and_tasks(profil_poste,
-                                                                                                         profil_recruteur,
-                                                                                                         profil_candidat)
+
+        (self.recruteur, self.task_recruteur, self.candidat,
+         self.task_candidat, self.task_initiale) = (
+            create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flow_instance=self))
+
         self.profil_candidat = profil_candidat
         self.file_output = file_output
-
-        global call_back_loger
-        call_back_loger = self
 
         print("Initialisation du flow terminée.")
 
@@ -195,12 +190,16 @@ class EntretienFlow(Flow):
         # Le candidat répond à la question du recruteur
         self.session_agentops = agentops.start_session(tags=["échange candidat recruteur"])
 
-        list_task = [self.task_initiale, self.task_recruteur, self.task_candidat, self.task_recruteur, self.task_candidat]
+        list_task = [self.task_initiale, self.task_recruteur,
+                     self.task_candidat, self.task_recruteur,
+                     self.task_candidat, self.task_recruteur,
+                     self.task_candidat, self.task_recruteur]
         crew = Crew(
                 agents=[self.candidat, self.recruteur],
                 tasks=list_task,
                 process=Process.sequential,
-                verbose=True
+                verbose=True,
+                memory=True
             )
         result = crew.kickoff(inputs={'question': question})
 

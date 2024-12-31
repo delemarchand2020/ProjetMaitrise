@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Antoine Dupont,\nvous postulez pour le poste de Ingénieur Logiciel Full Stack, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis Antoine Dupont, un ingénieur passionné par le développement full stack avec une solide expérience en JavaScript, HTML, CSS, ainsi que les frameworks React et Angular. Mon expérience chez WebTech Innovations m'a permis de travailler sur des applications web pour une clientèle internationale, ce qui correspond parfaitement aux responsabilités chez TechNova Solutions. Je suis motivé par l'idée de contribuer à des solutions innovantes et de collaborer avec une équipe dynamique pour améliorer l'expérience utilisateur."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse, Antoine. Étant donné votre expérience avec une clientèle internationale, pourriez-vous partager comment vous avez réussi à collaborer efficacement au sein d'une équipe pour intégrer des services tiers tout en respectant les normes de qualité du code ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez WebTech Innovations, j'ai collaboré avec des équipes interdisciplinaires pour intégrer efficacement des services tiers tout en respectant les normes de qualité du code, notamment en organisant des revues de code régulières et en optimisant les processus pour garantir la satisfaction de notre clientèle internationale."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ce partage d'expérience. Pourriez-vous me donner un exemple où vous avez dû résoudre un problème technique complexe dans le cadre d'une collaboration interdisciplinaire, et comment cela a influencé la qualité du produit final ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez WebTech Innovations, j'ai collaboré avec l'équipe UX/UI pour résoudre un problème complexe d'optimisation de l'expérience utilisateur, ce qui a conduit à une amélioration significative de la fluidité et de l'efficacité de notre application web finale."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Votre expérience chez WebTech Innovations montre une solide collaboration interdisciplinaire. Pourriez-vous partager un exemple où vous avez résolu un problème technique complexe en intégrant des API ou des services tiers?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon passage chez WebTech Innovations, j'ai intégré avec succès des services tiers en utilisant des API pour améliorer les fonctionnalités de nos applications web, ce qui a contribué à une augmentation de 20% de l'engagement utilisateur, tout en collaborant étroitement avec l'équipe UX/UI pour assurer une expérience fluide et efficace."
+  },
+  {
+    "role": "Recruteur",
+    "message": "C'est impressionnant de voir comment vous avez réussi à augmenter l'engagement utilisateur grâce à votre travail sur les API. Pourriez-vous partager une expérience où vous avez résolu un problème technique complexe tout en respectant des délais serrés ?"
+  }
+]

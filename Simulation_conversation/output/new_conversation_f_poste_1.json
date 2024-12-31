@@ -9,30 +9,34 @@
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse, Émilie. Pourriez-vous me parler d'une situation où vous avez dû résoudre un problème technique complexe et comment vous avez abordé la solution ?"
+    "message": "Merci pour votre réponse, Émilie. Votre parcours est impressionnant. Pour approfondir votre expérience technique, pourriez-vous me parler d'un défi particulier que vous avez rencontré en travaillant avec React et Node.js et comment vous l'avez surmonté?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon expérience chez StartTech Innovations, j'ai dû intégrer plusieurs API tierces pour enrichir les fonctionnalités d'une application web. J'ai abordé ce défi en collaborant étroitement avec l'équipe UX pour assurer une intégration fluide et en appliquant mes compétences en Node.js pour surmonter les obstacles techniques, ce qui m'a permis de garantir la qualité et l'innovation de la solution."
+    "message": "Lors d'un projet chez StartTech Innovations, j'ai rencontré un défi d'intégration complexe où plusieurs API tierces devaient fonctionner harmonieusement dans une application React et Node.js. En collaborant étroitement avec l'équipe, j'ai pu concevoir une solution innovante en optimisant les appels API et en gérant efficacement les états asynchrones, ce qui a amélioré significativement la performance et l'expérience utilisateur."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse concernant l'intégration d'API chez StartTech Innovations. Pourriez-vous me parler d'une expérience où vous avez eu à collaborer avec des ingénieurs masculins sur un projet complexe et comment vous avez abordé la gestion de ces dynamiques d'équipe pour assurer une résolution efficace des problèmes ?"
+    "message": "Merci pour votre réponse sur l'optimisation des appels API chez StartTech Innovations. Je suis curieux de savoir comment vous gérez la communication et la collaboration avec vos coéquipiers pour assurer une bonne coordination lors de projets complexes, notamment en ce qui concerne l'expérience utilisateur ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors d'un projet complexe chez StartTech Innovations, j'ai collaboré étroitement avec des ingénieurs masculins en m'appuyant sur une communication ouverte et le partage de nos expertises respectives, ce qui a permis de surmonter les défis techniques ensemble et de garantir une intégration fluide des API, alignée avec les responsabilités du poste chez TechNova Solutions."
+    "message": "Chez StartTech Innovations, j'ai développé d'excellentes compétences en communication et collaboration, ce qui m'a permis de travailler efficacement avec l'équipe UX pour améliorer l'expérience utilisateur en veillant à une coordination fluide et à l'intégration harmonieuse des solutions techniques."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse détaillée sur votre collaboration chez StartTech Innovations. Pourriez-vous décrire comment vous assurez la qualité du code produit lors de revues de code, surtout dans un contexte où vous travaillez avec des ingénieurs ayant des niveaux d'expérience variés ?"
+    "message": "Merci pour votre partage d'expérience sur la collaboration avec l'équipe UX. Pour varier, j'aimerais en savoir plus sur vos intérêts personnels : quelles sont vos passions ou hobbies qui, selon vous, contribuent à votre travail en tant qu'ingénieur logiciel ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors des revues de code, je veille à ce que le code respecte les standards de qualité en partageant des retours constructifs, encourageant le dialogue entre collègues, et en mettant l'accent sur l'apprentissage mutuel, tout en garantissant que les solutions proposées s'alignent avec les exigences du projet et les pratiques exemplaires de développement."
+    "message": "En tant que passionnée de randonnée en montagne, j'ai développé une capacité à résoudre des problèmes complexes et à innover dans des environnements imprévisibles, ce qui me permet de proposer des solutions créatives et robustes dans le développement d'applications web chez TechNova Solutions."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse sur votre méthode de revue de code. Pourriez-vous me donner un exemple où vous avez résolu un problème technique complexe lors de l'intégration d'un service tiers ?"
+    "message": "Merci beaucoup d'avoir pris le temps de discuter avec nous aujourd'hui, Émilie. Les prochaines étapes du processus de recrutement incluent une évaluation technique et un entretien final avec l'équipe. Nous vous tiendrons informée sous peu. Votre passion et vos compétences correspondent bien à ce que nous recherchons, et j'ai bon espoir pour la suite de votre candidature chez TechNova Solutions."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cette opportunité et j'attends avec impatience l'évaluation technique. Mon expertise en développement full stack, combinée à mon expérience avec React et Node.js, correspond parfaitement aux responsabilités du poste, notamment la conception d'applications web modernes et la collaboration avec l'équipe UX/UI pour améliorer l'expérience utilisateur."
   }
 ]

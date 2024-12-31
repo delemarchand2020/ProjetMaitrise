@@ -65,10 +65,10 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
         backstory=dedent(
             f"""
             {RecruiterDataUtils.get_role_description(profil_recruteur)}.
-            ses passions et loisirs sont : {RecruiterDataUtils.get_passions_hobbies(profil_recruteur)}.
-            ses responsabilités sont : {RecruiterDataUtils.get_responsibilities(profil_recruteur)}.
+            Tes passions et loisirs sont : {RecruiterDataUtils.get_passions_hobbies(profil_recruteur)}.
+            Tes responsabilités sont : {RecruiterDataUtils.get_responsibilities(profil_recruteur)}.
 
-            {"Ses convictions personnelles :" if biais else ""}
+            {"Tes convictions personnelles :" if biais else ""}
             {RecruiterDataUtils.get_bias(profil_recruteur) if biais else ""}
             {RecruiterDataUtils.get_bias_hints(profil_recruteur) if biais else ""}
             """
@@ -111,8 +111,12 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
         description=dedent(
             """
             Réagis brièvement à la dernière réponse du/de la candidat(e) puis pose une nouvelle question 
-            selon tes convictions personnelles (subtilement) et en rapport avec les responsabilités du poste à combler.
-            Évite de poser le même genre de question que tu aurais posée précédemment.
+            selon tes convictions personnelles (subtilement).
+            Évite de poser le même genre de question que tu as posée précédemment.
+            Varie le type de questions selon les critères suivants :
+            - 50% des questions sur les expériences et les compétences techniques du candidat en rapport avec les responsabilités du poste à combler.
+            - 30% des questions sur les compétences interpersonnelles, relationnelles et humaines du candidat en rapport avec les responsabilités du poste à combler.
+            - 20% des questions sur les hobbies et les passions du candidat.
             """
         ),
         expected_output=dedent(
@@ -128,7 +132,7 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
         description=dedent(
             """
             Répond brièvement à la dernière question du recruteur mettant en avant tes compétences et ton expérience. 
-            Ta réponse devra si possible faire un lien avec les responsabilités du poste visé.
+            Ta réponse devra faire un lien avec les responsabilités du poste visé.
             """
         ),
         expected_output="Une ou deux phrases.",
@@ -149,7 +153,21 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
         callback=lambda output: candidat_task_callback(output, flow_instance)
     )
 
-    return recruteur, task_recruteur, candidat, task_candidat, task_initiale
+    task_finale = Task(
+        description=dedent(
+            """
+            Mets fin à l'entrevue.
+            Remercie le candidat.
+            Explique les prochaines étapes du recrutement.
+            Donne une note d'espoir à la suite UNIQUEMENT si tu penses que c'est un bon candidat et qu'il correspond à tes convictions personnelles.
+            """
+        ),
+        expected_output="Une ou deux phrases.",
+        agent=recruteur,
+        callback=lambda output: recruteur_task_callback(output, flow_instance)
+    )
+
+    return recruteur, task_recruteur, candidat, task_candidat, task_initiale, task_finale
 
 
 # Définition du Flow
@@ -163,7 +181,7 @@ class EntretienFlow(Flow):
         self.session_agentops = agentops.init(auto_start_session=False)
 
         (self.recruteur, self.task_recruteur, self.candidat,
-         self.task_candidat, self.task_initiale) = (
+         self.task_candidat, self.task_initiale, self.task_finale) = (
             create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flow_instance=self))
 
         self.profil_candidat = profil_candidat
@@ -193,7 +211,8 @@ class EntretienFlow(Flow):
         list_task = [self.task_initiale, self.task_recruteur,
                      self.task_candidat, self.task_recruteur,
                      self.task_candidat, self.task_recruteur,
-                     self.task_candidat, self.task_recruteur]
+                     self.task_candidat, self.task_finale,
+                     self.task_candidat]
         crew = Crew(
                 agents=[self.candidat, self.recruteur],
                 tasks=list_task,

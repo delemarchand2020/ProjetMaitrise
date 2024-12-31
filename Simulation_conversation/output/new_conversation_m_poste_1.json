@@ -9,30 +9,34 @@
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse, Antoine. Étant donné votre expérience avec une clientèle internationale, pourriez-vous partager comment vous avez réussi à collaborer efficacement au sein d'une équipe pour intégrer des services tiers tout en respectant les normes de qualité du code ?"
+    "message": "Votre expérience chez WebTech Innovations semble effectivement alignée avec les responsabilités chez TechNova Solutions. Pouvez-vous me parler d'une situation où vous avez dû surmonter un défi technique particulièrement complexe et comment vous avez collaboré avec votre équipe pour le résoudre ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon expérience chez WebTech Innovations, j'ai collaboré avec des équipes interdisciplinaires pour intégrer efficacement des services tiers tout en respectant les normes de qualité du code, notamment en organisant des revues de code régulières et en optimisant les processus pour garantir la satisfaction de notre clientèle internationale."
+    "message": "Lors d'un projet chez WebTech Innovations, j'ai dû intégrer un service tiers pour une application web, ce qui a présenté des défis techniques complexes. Grâce à une collaboration étroite avec l'équipe UX/UI et des tests rigoureux, nous avons réussi à assurer une intégration fluide, améliorant ainsi l'expérience utilisateur, une compétence clé pour le poste chez TechNova Solutions."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour ce partage d'expérience. Pourriez-vous me donner un exemple où vous avez dû résoudre un problème technique complexe dans le cadre d'une collaboration interdisciplinaire, et comment cela a influencé la qualité du produit final ?"
+    "message": "Votre expérience chez WebTech Innovations montre une bonne capacité à collaborer avec l'équipe UX/UI. Pour mieux comprendre vos compétences interpersonnelles, pouvez-vous partager un moment où vous avez dû gérer un conflit au sein de l'équipe et comment vous l'avez résolu ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon expérience chez WebTech Innovations, j'ai collaboré avec l'équipe UX/UI pour résoudre un problème complexe d'optimisation de l'expérience utilisateur, ce qui a conduit à une amélioration significative de la fluidité et de l'efficacité de notre application web finale."
+    "message": "Lors d'un projet chez WebTech Innovations, un conflit est survenu entre les développeurs et l'équipe UX/UI concernant l'implémentation de certaines fonctionnalités. J'ai facilité une réunion pour écouter les préoccupations de chaque partie, ce qui a permis d'élaborer un compromis en intégrant des ajustements techniques qui respectaient l'expérience utilisateur souhaitée, démontrant ainsi mes compétences en communication et en résolution de problèmes."
   },
   {
     "role": "Recruteur",
-    "message": "Votre expérience chez WebTech Innovations montre une solide collaboration interdisciplinaire. Pourriez-vous partager un exemple où vous avez résolu un problème technique complexe en intégrant des API ou des services tiers?"
+    "message": "Votre expérience chez WebTech Innovations montre votre aptitude à résoudre des conflits techniques tout en préservant l'harmonie d'équipe. Pour diversifier notre échange, pouvez-vous me parler d'un projet personnel ou d'un hobby qui a enrichi vos compétences en résolution de problèmes ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon passage chez WebTech Innovations, j'ai intégré avec succès des services tiers en utilisant des API pour améliorer les fonctionnalités de nos applications web, ce qui a contribué à une augmentation de 20% de l'engagement utilisateur, tout en collaborant étroitement avec l'équipe UX/UI pour assurer une expérience fluide et efficace."
+    "message": "Lors de mes randonnées, j'ai souvent été confronté à des défis d'orientation qui m'ont appris à analyser rapidement les situations et à proposer des solutions innovantes, une compétence essentielle que j'ai pu appliquer en intégrant des API complexes chez WebTech Innovations."
   },
   {
     "role": "Recruteur",
-    "message": "C'est impressionnant de voir comment vous avez réussi à augmenter l'engagement utilisateur grâce à votre travail sur les API. Pourriez-vous partager une expérience où vous avez résolu un problème technique complexe tout en respectant des délais serrés ?"
+    "message": "Merci d'avoir pris le temps de discuter avec nous aujourd'hui. Nous allons maintenant examiner toutes les candidatures et vous devriez recevoir une réponse de notre part dans les deux semaines. Bonne chance pour la suite !"
+  },
+  {
+    "role": "Candidat",
+    "message": "Je suis convaincu que mon expérience en développement full stack et ma capacité à collaborer avec l'équipe UX/UI, comme démontré chez WebTech Innovations, me permettront de contribuer efficacement aux projets innovants de TechNova Solutions."
   }
 ]

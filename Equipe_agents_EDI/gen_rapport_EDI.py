@@ -53,10 +53,10 @@ preparateur_dossier = Agent(
 
 auditeur_EDI = Agent(
     role="Auditeur EDI",
-    goal="Fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement",
+    goal="Fournir une analyse objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement",
     backstory=dedent(
         """
-        Tu es un agent EDI (Équité, Diversité, Inclusion) chargé d’identifier les biais potentiels 
+        Tu es un analyste EDI (Équité, Diversité, Inclusion) chargé d’identifier les biais (stéréotypes) potentiels 
         dans la façon dont les entrevues ont été menées, afin de garantir un processus équitable et inclusif.
         """
     ),
@@ -68,7 +68,7 @@ auditeur_EDI = Agent(
 
 redacteur_audit = Agent(
     role="Rédacteur d'audit EDI",
-    goal="Rédiger le rapport d'audit selon les analyses de l'auditeur",
+    goal="Rédiger le rapport d'audit selon l'analyse EDI.",
     backstory=dedent(
         """
         Tu es un rédacteur expérimenté chargé de produire un rapport EDI (Équité, Diversité, Inclusion). 
@@ -83,12 +83,14 @@ redacteur_audit = Agent(
 
 # ============== définition des tâches =======================
 
-preparer_dossier_1 = Task(
-    description=dedent("""Tu dois transmettre la conversation anonymisée de l'entrevue 1 à un auditeur.
+preparer_dossier = Task(
+    description=dedent("""Tu dois transmettre les conversations anonymisées des entrevues 1 et 2 à un auditeur.
         Instructions
         ------------       
         1) Lis le fichier {conversation_1} qui correspond à l'entrevue 1 entre le recruteur et le candidat 1.
-        2) Remplace le prénom du candidat dans les questions du recruteur lors de l'entrevue 1 par candidat_1.
+        2) Remplace le prénom du candidat dans les échanges de l'entrevue 1 par candidat_1.
+        3) Lis le fichier {conversation_2} qui correspond à l'entrevue 2 entre le recruteur et le candidat 2.
+        4) Remplace le prénom du candidat dans les échanges de l'entrevue 2 par candidat_2.
         """),
     expected_output=dedent("""
         L'entrevue 1 anonymisée selon le format indiqué :
@@ -98,19 +100,6 @@ preparer_dossier_1 = Task(
             * Recruteur : ""
             * Candidat 1 : ""
             ...
-        """),
-    agent=preparateur_dossier,
-)
-
-preparer_dossier_2 = Task(
-    description=dedent("""Tu dois transmettre la conversation anonymisée de l'entrevue 2 à un auditeur.
-        Instructions
-        ------------       
-        1) Lis le fichier {conversation_2} qui correspond à l'entrevue 2 entre le recruteur et le candidat 2.
-        2) Remplace le prénom du candidat dans les questions du recruteur lors de l'entrevue 2 par candidat_2.
-        """),
-    expected_output=dedent("""
-        L'entrevue 2 anonymisée selon le format indiqué :
         ###Entrevue 2:
             * Recruteur : ""
             * Candidat 2 : ""
@@ -121,98 +110,24 @@ preparer_dossier_2 = Task(
     agent=preparateur_dossier,
 )
 
-analyser_conversation_1 = Task(
+analyser_entrevues = Task(
     description=dedent("""
         ###Objectif de la tâche :  
-            - Comparer et analyser l'entrevue 1 pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
-            - Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
-            - Faire des recommandations concrètes pour améliorer le processus de recrutement.
-
-        ### Instructions      
-            1. **Analyse du contenu de l'échange :**  
-               - Analyser la structure de l’entrevue 1, les types de questions posées, la tonalité.  
-               - Relevez les indices dans les thèmes abordés, le langage utilisé, la quantité et la qualité des informations demandées.
-            
-            2. **Identification des biais potentiels :**  
-               - Surveillez tout stéréotype ou présomption basée sur le genre, l’origine ethnique, l’âge, l’orientation sexuelle, la religion, le statut social, un handicap, etc.  
-               - Vérifiez si certains sujets de conversation ou questions sont posés de manière inappropriée.
-            
-            3. **Évaluation de la neutralité du recruteur :**  
-               - Notez le ton, de langage corporel (si observé) ou d’empressement à renseigner ou aider les candidat·e·s.  
-               - Repérez toute insistance particulière ou tout favoritisme implicite dans la façon de conclure l’entrevue ou de donner des informations sur l’étape suivante du processus.
-            
-            4. **Conclusion et recommandations :**  
-               - Déterminez si des biais ont été détectés et précisez leur nature.  
-               - Fournissez des pistes d’amélioration (formation aux biais inconscients, grille d’évaluation standardisée, etc.) pour que le recruteur puisse mener des entrevues plus équitables et inclusives à l’avenir.
-        """),
-    expected_output=dedent("""
-        Passez au crible l'entrevue 1 et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score). 
-        Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. 
-         **Rapport d'analyse de l'entrevue 1**  
-            1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur l'entrevue 1.  
-            2. **Observations détaillées :** Fournissez des exemples précis (avec extraits ou références aux minutes/phrases-clés) pour étayer vos constats.  
-            3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité.  
-            4. **Recommandations :** Proposez des actions concrètes pour corriger les biais constatés et renforcer l’équité du processus de recrutement.
-            5. **Score biais entrevue 1:** Donnez un score sur 100 de la présence de biais potentiel de la part du recruteur lors de l'entrevue 1.
-        """),
-    agent=auditeur_EDI,
-)
-
-analyser_conversation_2 = Task(
-    description=dedent("""
-        ###Objectif de la tâche :  
-            - Comparer et analyser l'entrevue 2 pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
-            - Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
-            - Faire des recommandations concrètes pour améliorer le processus de recrutement.
-
-        ### Instructions      
-            1. **Analyse du contenu de l'échange :**  
-               - Analyser la structure de l’entrevue 2, les types de questions posées, la tonalité.  
-               - Relevez les indices dans les thèmes abordés, le langage utilisé, la quantité et la qualité des informations demandées.
-
-            2. **Identification des biais potentiels :**  
-               - Surveillez tout stéréotype ou présomption basée sur le genre, l’origine ethnique, l’âge, l’orientation sexuelle, la religion, le statut social, un handicap, etc.  
-               - Vérifiez si certains sujets de conversation ou questions sont posés de manière inappropriée.
-
-            3. **Évaluation de la neutralité du recruteur :**  
-               - Notez le ton, de langage corporel (si observé) ou d’empressement à renseigner ou aider les candidat·e·s.  
-               - Repérez toute insistance particulière ou tout favoritisme implicite dans la façon de conclure l’entrevue ou de donner des informations sur l’étape suivante du processus.
-
-            4. **Conclusion et recommandations :**  
-               - Déterminez si des biais ont été détectés et précisez leur nature.  
-               - Fournissez des pistes d’amélioration (formation aux biais inconscients, grille d’évaluation standardisée, etc.) pour que le recruteur puisse mener des entrevues plus équitables et inclusives à l’avenir.
-        """),
-    expected_output=dedent("""
-        Passez au crible l'entrevue 2 et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score). 
-        Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. 
-         **Rapport d'analyse de l'entrevue 2**  
-            1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur l'entrevue 2.  
-            2. **Observations détaillées :** Fournissez des exemples précis (avec extraits ou références aux minutes/phrases-clés) pour étayer vos constats.  
-            3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité.  
-            4. **Recommandations :** Proposez des actions concrètes pour corriger les biais constatés et renforcer l’équité du processus de recrutement.
-            5. **Score biais entrevue 2:** Donnez un score sur 100 de la présence de biais potentiel de la part du recruteur lors de l'entrevue 2.
-        """),
-    agent=auditeur_EDI,
-)
-
-comparer_2_conversations = Task(
-    description=dedent("""
-        ###Objectif de la tâche :  
-            - Comparer et analyser les entrevues 1 et 2 pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
+            - Analyser les entrevues pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
             - Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
             - Faire des recommandations concrètes pour améliorer le processus de recrutement.
 
         ### Instructions      
             1. **Analyse du contenu des échanges :**  
-               - Comparez la structure de l’entrevue, les types de questions posées, la tonalité et la durée de chaque entretien.  
-               - Relevez toutes différences notables dans les thèmes abordés, le langage utilisé, la quantité et la qualité des informations demandées.
+               - Analyser la structure des entrevues, les types de questions posées, la tonalité.  
+               - Relevez les indices dans les thèmes abordés, le langage utilisé, la quantité et la qualité des informations demandées.
             
             2. **Identification des biais potentiels :**  
                - Surveillez tout stéréotype ou présomption basée sur le genre, l’origine ethnique, l’âge, l’orientation sexuelle, la religion, le statut social, un handicap, etc.  
-               - Vérifiez si certains sujets de conversation ou questions sont posés de manière inappropriée, ou ciblent l’un des candidats de façon injuste (p. ex. questions plus dures ou plus personnelles pour l’un que pour l’autre).
+               - Vérifiez si certains sujets de conversation ou questions sont posés de manière inappropriée.
             
             3. **Évaluation de la neutralité du recruteur :**  
-               - Notez les différences de ton, de langage corporel (si observé) ou d’empressement à renseigner ou aider les candidat·e·s.  
+               - Notez le ton, de langage corporel (si observé) ou d’empressement à renseigner ou aider les candidat·e·s.  
                - Repérez toute insistance particulière ou tout favoritisme implicite dans la façon de conclure l’entrevue ou de donner des informations sur l’étape suivante du processus.
             
             4. **Conclusion et recommandations :**  
@@ -220,25 +135,26 @@ comparer_2_conversations = Task(
                - Fournissez des pistes d’amélioration (formation aux biais inconscients, grille d’évaluation standardisée, etc.) pour que le recruteur puisse mener des entrevues plus équitables et inclusives à l’avenir.
         """),
     expected_output=dedent("""
-        Passez au crible chacune des deux entrevues et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score, Candidat favorisé). 
+        Passez au crible les 2 entrevues et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score). 
         Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. 
-         **Rapport d'analyse des 2 entrevues **  
-            1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur les deux entrevues.  
+         **Rapport d'analyse des entrevues **  
+            1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur chaque entrevue.  
             2. **Observations détaillées :** Fournissez des exemples précis (avec extraits ou références aux minutes/phrases-clés) pour étayer vos constats.  
-            3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité.  
+            3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité de chaque entrevue.  
             4. **Recommandations :** Proposez des actions concrètes pour corriger les biais constatés et renforcer l’équité du processus de recrutement.
-            5. **Score biais global:** Donnez un score sur 100 de la présence de biais potentiel chez ce recruteur. 
-            6. **Candidat favorisé :** Nommer le candidat qui a été favorisé selon vous.
+            5. **Score biais par entrevue :** Donnez un score sur 100 de la présence de biais (stéréotypes) potentiel de la part du recruteur dans chaque entrevue.
+            6. **Score biais global:** Donnez un score sur 100 de la présence de biais (stéréotypes) potentiel chez ce recruteur. 
+            7. **Candidat favorisé :** Nommer le candidat qui semble avoir été favorisé selon vous et pourquoi.
         """),
     agent=auditeur_EDI,
 )
 
 rediger_rapport_audit = Task(
-    description=dedent("""Tu dois rédiger un rapport d'audit en 3 parties :    
-        1) Rapport d'analyse de l'entrevue 1.
-        2) Rapport d'analyse de l'entrevue 2.
-        3) Rapport d'analyse des 2 entrevues.
-        Rassemble les 3 rapports dans un seul rapport d'audit.
+    description=dedent("""
+        Reprendre l'analyse EDI et rédiger un rapport d'audit pour un public de gestionnaires.
+        Présente la méthodologie et l'analyse effectuée.
+        Présente les observations et les conclusions de l'analyse.
+        Conclue avec le score de biais (stéréotypes) attribué lors de l'analyse.
         """),
     expected_output=dedent("""
         Écrit le rapport complet au format MD dans le fichier {output_file} dans le répertoire {output_dir}.
@@ -246,34 +162,16 @@ rediger_rapport_audit = Task(
     agent=redacteur_audit,
 )
 
-# Define the manager agent
-manager = Agent(
-    role="Gestionnaire du projet",
-    goal="Gérer efficacement l'équipe et assurer la réalisation de tâches de haute qualité",
-    backstory=dedent("""
-        Vous êtes un chef de projet expérimenté, capable de superviser des projets complexes et de guider des équipes 
-        vers le succès. Votre rôle consiste à coordonner les efforts des membres de l'équipe, en veillant à ce que 
-        chaque tâche soit achevée dans les délais et selon les normes les plus strictes. 
-        """),
-    allow_delegation=True,
-    verbose=False,
-    cache=True,
-    llm=llm_creative
-)
-
 # ============== définition de l'équipe =======================
 
 crew = Crew(
     agents=[preparateur_dossier, auditeur_EDI, redacteur_audit],
-#    tasks=[preparer_dossier_1, analyser_conversation_1, preparer_dossier_2,
-#           analyser_conversation_2, comparer_2_conversations, rediger_rapport_audit],
-    tasks=[preparer_dossier_1, preparer_dossier_2,
-           comparer_2_conversations, rediger_rapport_audit],
+    tasks=[preparer_dossier, analyser_entrevues, rediger_rapport_audit],
     verbose=False,  # You can set it to 1 or 2 to different logging levels
     process=Process.sequential,  # Specifies the sequential or hierarchical management approach
     respect_context_window=False,  # Enable respect of the context window for tasks
     memory=True,  # Enable memory usage for enhanced task execution
-    cache=False,
+    cache=True,
     #manager_agent=None, #manager,  # Optional: explicitly set a specific agent as manager instead of the manager_llm
     #planning=False,  # Enable planning feature for pre-execution strategy
 )

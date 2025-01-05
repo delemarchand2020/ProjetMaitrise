@@ -1,8 +1,56 @@
-# Analyse entrevue 1 seule :
-Lors de l'examen de l'Entrevue 1, le recruteur a fait preuve de degrés variables de neutralité. Il y avait des biais potentiels dans les questions pouvant affecter l'équité du processus de recrutement. Les questions portaient sur l'expertise technique, la collaboration, et les compétences en gestion de projet, avec des différences notables dans le ton et les sujets abordés.
+# Rapport d'Audit EDI
 
-# Analyse entrevue 2 seule :
-L'Entrevue 2 a révélé une approche moins explicite envers les biais basés sur le genre, bien que des questions similaires aient été posées concernant la collaboration avec des collègues féminines. Le recruteur a montré un intérêt notable pour la gestion des dynamiques de genre par le candidat.
+## 1. Rapport d'analyse de l'entrevue 1
 
-# Analyse comparative des 2 entrevues :
-En comparant les deux entrevues, il apparaît que l'Entrevue 1 avait une orientation plus prononcée vers l'équité entre les genres, potentiellement due à un biais du recruteur. Les recommandations incluent une formation sur les biais inconscients et la standardisation des questions d'entretien pour assurer un traitement équitable de tous les candidats. Un score potentiel de biais a été évalué à 65/100.
+### Résumé de l'analyse
+L'entrevue 1 a été menée de manière générale, avec un accent sur l'expérience et les motivations du candidat. Le recruteur a maintenu un ton neutre et professionnel, sans poser de questions sur des caractéristiques personnelles non pertinentes.
+
+### Observations détaillées
+- Les questions portaient principalement sur l'expérience générale et les motivations.
+- Le recruteur a évité les biais en maintenant un ton neutre.
+
+### Diagnostic de biais
+Aucun biais notable n'a été identifié dans l'entrevue 1.
+
+### Recommandations
+- Continuer à utiliser une approche neutre et professionnelle.
+
+## 2. Rapport d'analyse de l'entrevue 2
+
+### Résumé de l'analyse
+L'entrevue 2 était plus ciblée sur les compétences techniques, mais des biais potentiels liés au genre ont été identifiés.
+
+### Observations détaillées
+- Questions techniques pertinentes, mais certaines ont mis l'accent sur le genre des collègues.
+- Mention d'un environnement de travail majoritairement masculin.
+
+### Diagnostic de biais
+- Biais de genre identifié, avec des questions soulignant le genre des collègues.
+
+### Recommandations
+- Formation sur les biais inconscients pour le recruteur.
+- Utilisation d'une grille d'évaluation standardisée.
+- Reformulation des questions pour éviter les stéréotypes de genre.
+
+## 3. Rapport d'analyse des 2 entrevues
+
+### Résumé de l’analyse
+L'analyse des deux entrevues révèle des différences notables dans la structure et le contenu des questions posées. L'entrevue 1 était plus générale, tandis que l'entrevue 2 était plus ciblée sur les compétences techniques avec des biais potentiels liés au genre.
+
+### Observations détaillées
+- **Entrevue 1 :** Axée sur l'expérience générale, ton neutre.
+- **Entrevue 2 :** Questions techniques et biais de genre potentiel.
+
+### Diagnostic de biais
+- **Biais de genre :** Présence de biais dans l'entrevue 2.
+
+### Recommandations
+- Formation sur les biais inconscients.
+- Grille d’évaluation standardisée.
+- Reformulation des questions.
+
+### Score biais global
+- Score de 30 sur 100, reflétant les biais potentiels dans l'entrevue 2.
+
+### Candidat favorisé
+- Aucun candidat explicitement favorisé, mais l'attention au genre pourrait influencer la perception du candidat.

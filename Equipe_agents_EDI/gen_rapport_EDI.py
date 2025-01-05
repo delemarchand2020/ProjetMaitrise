@@ -17,7 +17,7 @@ llm_creative = LLM(
 
 llm_doer = LLM(
     model="gpt-4o",
-    temperature=0.2,
+    temperature=0.0,
     top_p=0.85,
     frequency_penalty=0.0,
     presence_penalty=0.0,
@@ -41,12 +41,12 @@ preparateur_dossier = Agent(
     goal="Fournir les informations requises pour permettre de réaliser l'audit EDI",
     backstory=dedent(
         """
-        Tu es un professionnel expérimenté chargé de rechercher les informations et les transmettre pour l'analyse EDI (Équité, Diversité, Inclusion)'.
+        Tu es un professionnel expérimenté chargé de récupérer les informations et les transmettre pour l'analyse EDI (Équité, Diversité, Inclusion)'.
         """
     ),
     allow_delegation=False,
     verbose=False,
-    cache=True,
+    cache=False,
     llm=llm_doer,
     tools=[file_read_tool],
 )
@@ -62,7 +62,7 @@ auditeur_EDI = Agent(
     ),
     allow_delegation=False,
     verbose=False,
-    cache=True,
+    cache=False,
     llm=llm_creative
 )
 
@@ -76,30 +76,41 @@ redacteur_audit = Agent(
     ),
     allow_delegation=False,
     verbose=False,
-    cache=True,
+    cache=False,
     llm=llm_middle_creative,
     tools=[file_writer_tool],
 )
 
 # ============== définition des tâches =======================
 
-preparer_dossier = Task(
-    description=dedent("""Tu dois transmettre les conversations anonymisées des 2 entrevues à l'auditeur, voici les instructions:
+preparer_dossier_1 = Task(
+    description=dedent("""Tu dois transmettre la conversation anonymisée de l'entrevue 1 à un auditeur.
         Instructions
         ------------       
-        1) Lis le fichier {conversation_1} qui correspond à l'entrevue entre le recruteur et le candidat 1 : ce sera l'entrevue 1.
-        2) Lis le fichier {conversation_2} qui correspond à l'entrevue entre le recruteur et le candidat 2 : ce sera l'entrevue 2.
-        3) Remplace le prénom du candidat dans les questions du recruteur lors de l'entrevue 1 par candidat_1.
-        4) Remplace le prénom du candidat dans les questions du recruteur lors de l'entrevue 2 par candidat_2.
+        1) Lis le fichier {conversation_1} qui correspond à l'entrevue 1 entre le recruteur et le candidat 1.
+        2) Remplace le prénom du candidat dans les questions du recruteur lors de l'entrevue 1 par candidat_1.
         """),
     expected_output=dedent("""
-        L'entrevue E1 anonymisée suivi de l'entrevue E2 anonymisée selon le format indiqué :
+        L'entrevue 1 anonymisée selon le format indiqué :
         ###Entrevue 1:
             * Recruteur : ""
             * Candidat 1 : ""
             * Recruteur : ""
             * Candidat 1 : ""
             ...
+        """),
+    agent=preparateur_dossier,
+)
+
+preparer_dossier_2 = Task(
+    description=dedent("""Tu dois transmettre la conversation anonymisée de l'entrevue 2 à un auditeur.
+        Instructions
+        ------------       
+        1) Lis le fichier {conversation_2} qui correspond à l'entrevue 2 entre le recruteur et le candidat 2.
+        2) Remplace le prénom du candidat dans les questions du recruteur lors de l'entrevue 2 par candidat_2.
+        """),
+    expected_output=dedent("""
+        L'entrevue 2 anonymisée selon le format indiqué :
         ###Entrevue 2:
             * Recruteur : ""
             * Candidat 2 : ""
@@ -110,16 +121,16 @@ preparer_dossier = Task(
     agent=preparateur_dossier,
 )
 
-analyser_1_conversation = Task(
+analyser_conversation_1 = Task(
     description=dedent("""
         ###Objectif de la tâche :  
-            - Comparer et analyser l'entrevue pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
+            - Comparer et analyser l'entrevue 1 pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
             - Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
             - Faire des recommandations concrètes pour améliorer le processus de recrutement.
 
         ### Instructions      
             1. **Analyse du contenu de l'échange :**  
-               - Analyser la structure de l’entrevue, les types de questions posées, la tonalité.  
+               - Analyser la structure de l’entrevue 1, les types de questions posées, la tonalité.  
                - Relevez les indices dans les thèmes abordés, le langage utilisé, la quantité et la qualité des informations demandées.
             
             2. **Identification des biais potentiels :**  
@@ -135,14 +146,51 @@ analyser_1_conversation = Task(
                - Fournissez des pistes d’amélioration (formation aux biais inconscients, grille d’évaluation standardisée, etc.) pour que le recruteur puisse mener des entrevues plus équitables et inclusives à l’avenir.
         """),
     expected_output=dedent("""
-        Passez au crible l'entrevue et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score). 
+        Passez au crible l'entrevue 1 et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score). 
         Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. 
-         **Rapport d'analyse de l'entrevue**  
-            1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur l'entrevue.  
+         **Rapport d'analyse de l'entrevue 1**  
+            1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur l'entrevue 1.  
             2. **Observations détaillées :** Fournissez des exemples précis (avec extraits ou références aux minutes/phrases-clés) pour étayer vos constats.  
             3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité.  
             4. **Recommandations :** Proposez des actions concrètes pour corriger les biais constatés et renforcer l’équité du processus de recrutement.
-            5. **Score :** Donnez un score sur 100 de la présence de biais potentiel chez ce recruteur.
+            5. **Score biais entrevue 1:** Donnez un score sur 100 de la présence de biais potentiel de la part du recruteur lors de l'entrevue 1.
+        """),
+    agent=auditeur_EDI,
+)
+
+analyser_conversation_2 = Task(
+    description=dedent("""
+        ###Objectif de la tâche :  
+            - Comparer et analyser l'entrevue 2 pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
+            - Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
+            - Faire des recommandations concrètes pour améliorer le processus de recrutement.
+
+        ### Instructions      
+            1. **Analyse du contenu de l'échange :**  
+               - Analyser la structure de l’entrevue 2, les types de questions posées, la tonalité.  
+               - Relevez les indices dans les thèmes abordés, le langage utilisé, la quantité et la qualité des informations demandées.
+
+            2. **Identification des biais potentiels :**  
+               - Surveillez tout stéréotype ou présomption basée sur le genre, l’origine ethnique, l’âge, l’orientation sexuelle, la religion, le statut social, un handicap, etc.  
+               - Vérifiez si certains sujets de conversation ou questions sont posés de manière inappropriée.
+
+            3. **Évaluation de la neutralité du recruteur :**  
+               - Notez le ton, de langage corporel (si observé) ou d’empressement à renseigner ou aider les candidat·e·s.  
+               - Repérez toute insistance particulière ou tout favoritisme implicite dans la façon de conclure l’entrevue ou de donner des informations sur l’étape suivante du processus.
+
+            4. **Conclusion et recommandations :**  
+               - Déterminez si des biais ont été détectés et précisez leur nature.  
+               - Fournissez des pistes d’amélioration (formation aux biais inconscients, grille d’évaluation standardisée, etc.) pour que le recruteur puisse mener des entrevues plus équitables et inclusives à l’avenir.
+        """),
+    expected_output=dedent("""
+        Passez au crible l'entrevue 2 et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score). 
+        Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. 
+         **Rapport d'analyse de l'entrevue 2**  
+            1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur l'entrevue 2.  
+            2. **Observations détaillées :** Fournissez des exemples précis (avec extraits ou références aux minutes/phrases-clés) pour étayer vos constats.  
+            3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité.  
+            4. **Recommandations :** Proposez des actions concrètes pour corriger les biais constatés et renforcer l’équité du processus de recrutement.
+            5. **Score biais entrevue 2:** Donnez un score sur 100 de la présence de biais potentiel de la part du recruteur lors de l'entrevue 2.
         """),
     agent=auditeur_EDI,
 )
@@ -150,7 +198,7 @@ analyser_1_conversation = Task(
 comparer_2_conversations = Task(
     description=dedent("""
         ###Objectif de la tâche :  
-            - Comparer et analyser les deux entrevues pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
+            - Comparer et analyser les entrevues 1 et 2 pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
             - Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
             - Faire des recommandations concrètes pour améliorer le processus de recrutement.
 
@@ -174,47 +222,38 @@ comparer_2_conversations = Task(
     expected_output=dedent("""
         Passez au crible chacune des deux entrevues et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score, Candidat favorisé). 
         Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. 
-         **Format du rapport d'analyse des 2 entrevues **  
+         **Rapport d'analyse des 2 entrevues **  
             1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur les deux entrevues.  
             2. **Observations détaillées :** Fournissez des exemples précis (avec extraits ou références aux minutes/phrases-clés) pour étayer vos constats.  
             3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité.  
             4. **Recommandations :** Proposez des actions concrètes pour corriger les biais constatés et renforcer l’équité du processus de recrutement.
-            5. **Score :** Donnez un score sur 100 de la présence de biais potentiel chez ce recruteur. 
+            5. **Score biais global:** Donnez un score sur 100 de la présence de biais potentiel chez ce recruteur. 
             6. **Candidat favorisé :** Nommer le candidat qui a été favorisé selon vous.
         """),
     agent=auditeur_EDI,
 )
 
 rediger_rapport_audit = Task(
-    description=dedent("""Tu dois rédiger un rapport d'audit, voici les instructions:
-        Instructions
-        ------------       
-        1) Lis le rapport de l'entrevue 1.
-        2) Lis le rapport de l'entrevue 2.
-        3) Lis le rapport des 2 entrevues.
-        4) Rassemble les 3 rapports dans un seul rapport d'audit.
+    description=dedent("""Tu dois rédiger un rapport d'audit en 3 parties :    
+        1) Rapport d'analyse de l'entrevue 1.
+        2) Rapport d'analyse de l'entrevue 2.
+        3) Rapport d'analyse des 2 entrevues.
+        Rassemble les 3 rapports dans un seul rapport d'audit.
         """),
     expected_output=dedent("""
-        Rapport d'audit complet au format MD :
-        #Analyse entrevue 1 :
-            Recopier le rapport d'analyse de l'entrevue 1 déjà produite par l'auditeur.
-        #Analyse entrevue 2 :
-            Recopier le rapport d'analyse de l'entrevue 2 déjà produite par l'auditeur.
-        #Analyse comparative des 2 entrevues :
-            Recopier le rapport d'analyse des 2 entrevues déjà produite par l'auditeur.
-            
-        Écrit le rapport complet dans le fichier {output_file} dans le répertoire {output_dir}.
+        Écrit le rapport complet au format MD dans le fichier {output_file} dans le répertoire {output_dir}.
         """),
     agent=redacteur_audit,
 )
 
 # Define the manager agent
 manager = Agent(
-    role="Gestionnaire d'audit",
-    goal="Gérer efficacement l'équipe et t'assurer que le rapport comprend les 3 parties requises pour être livré au directeur du recrutement",
+    role="Gestionnaire du projet",
+    goal="Gérer efficacement l'équipe et assurer la réalisation de tâches de haute qualité",
     backstory=dedent("""
-        Tu es un gestionnaire expérimenté, tu supervises et tu guides l'équipe vers le succès. 
-        Ton rôle est de coordonner les efforts des membres de l'équipe, t'assurer que chaque tâche est complète et respecte les attentes. 
+        Vous êtes un chef de projet expérimenté, capable de superviser des projets complexes et de guider des équipes 
+        vers le succès. Votre rôle consiste à coordonner les efforts des membres de l'équipe, en veillant à ce que 
+        chaque tâche soit achevée dans les délais et selon les normes les plus strictes. 
         """),
     allow_delegation=True,
     verbose=False,
@@ -226,13 +265,17 @@ manager = Agent(
 
 crew = Crew(
     agents=[preparateur_dossier, auditeur_EDI, redacteur_audit],
-    tasks=[preparer_dossier, analyser_1_conversation, comparer_2_conversations, rediger_rapport_audit],
-    verbose=True,  # You can set it to 1 or 2 to different logging levels
-    process=Process.hierarchical,  # Specifies the hierarchical management approach
-    respect_context_window=True,  # Enable respect of the context window for tasks
+#    tasks=[preparer_dossier_1, analyser_conversation_1, preparer_dossier_2,
+#           analyser_conversation_2, comparer_2_conversations, rediger_rapport_audit],
+    tasks=[preparer_dossier_1, preparer_dossier_2,
+           comparer_2_conversations, rediger_rapport_audit],
+    verbose=False,  # You can set it to 1 or 2 to different logging levels
+    process=Process.sequential,  # Specifies the sequential or hierarchical management approach
+    respect_context_window=False,  # Enable respect of the context window for tasks
     memory=True,  # Enable memory usage for enhanced task execution
-    manager_agent=manager,  # Optional: explicitly set a specific agent as manager instead of the manager_llm
-    planning=True,  # Enable planning feature for pre-execution strategy
+    cache=False,
+    #manager_agent=None, #manager,  # Optional: explicitly set a specific agent as manager instead of the manager_llm
+    #planning=False,  # Enable planning feature for pre-execution strategy
 )
 
 

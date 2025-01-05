@@ -40,8 +40,25 @@ python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversat
  ``` 
 ## Apprentissages
 * points positifs :
-  * 
-* Points négatifs :
-  * 
+  * Les points mentionnés dans le rapport sont souvent pertinents et bien écrits.
+  * L'essentiel des entrevues est bien capté. Cela résume bien les échanges et les potentiels biais.
+  * Cela semble être un vrai rapport professionnel !
+* Points de vigilance :
+  * Assez difficile de comprendre comment fonctionne le mode hierarchique
+  * Le mode hierarchique est très gourmand en ressources LLM (planification et orchestration) :  jusqu'à 50 LLM mis en jeu contre 18 en mode séquentiel.
+  * Ne pas oublier de nettoyer la mémoire CrewAI lors des changements de tâches et d'agents (cela semble mélanger les agents et leurs tâches) :
+  ```bash 
+     crewai reset-memories -a 
+  ```
+  * Le choix des LLM (créatif ou pas) pour les agents est important : 
+    * On peut noter que selon les prompts, l'analyste loupe des petits détails de conversation (pourtant important pour la détection d'un biais).
+  * Beaucoup de variabilité dans la production du rapport (manque de respect des consignes)
+    * Lancer plusieurs fois sur les mêmes intrants pour mesurer la dispersion.
+      * Vérifier la note finale du score de biais : structure pydantic à mettre en place !
+      * Faire ces tests avec et sans nettoyage de la mémoire CrewAI !
+  * Parfois une entrevue n'est pas analysée !
+    * La structure des tâches ne semble pas adaptée non plus au mode séquentiel !
+      * Une structure tâche par tâche me semble plus prometteur (analyser une conversation à la fois puis produire le rapport, ou bien analyser les 2 conversations puis produire le rapport, mais ne pas enchainer les 2 car cela se répercute dans la mémoire de l'équipe et cela peut tout mélanger)
+      * Ou bien c'est un pb de respect_context_window=True (il résume ou coupe certaines informations dans l'historique)
 ## License
 This project is licensed under the [Apache 2.0 License](../LICENSE) - see the LICENSE file for details.

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="tests équipe audit EDI">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="version fonctionnelle équipe audit EDI">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Equipe_agents_EDI/gen_rapport_EDI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe_agents_EDI/gen_rapport_EDI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Equipe_agents_EDI/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe_agents_EDI/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -455,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736117742029</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="version fonctionnelle équipe audit EDI">
+      <option name="closed" value="true" />
+      <created>1736120271692</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1736120271692</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -470,7 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Première version opérationnelle" />
     <MESSAGE value="3 conf llm pour differents cas d'usage" />
     <MESSAGE value="amélioration prompt" />
     <MESSAGE value="ajout parametres ligne de commande" />
@@ -495,6 +502,7 @@
     <MESSAGE value="améliorations prompting" />
     <MESSAGE value="commit initial équipe audit EDI" />
     <MESSAGE value="tests équipe audit EDI" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests équipe audit EDI" />
+    <MESSAGE value="version fonctionnelle équipe audit EDI" />
+    <option name="LAST_COMMIT_MESSAGE" value="version fonctionnelle équipe audit EDI" />
   </component>
 </project>

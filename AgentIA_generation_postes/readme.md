@@ -117,5 +117,11 @@ https://dashboard.ngrok.com/endpoints
 
 Cette URL est à placer dans la description JSON ci-dessus avant de la copier dans la console ChatGPT+.
 
+## Version programmatique
+```bash
+cd .\AgentIA_generation_postes
+python .\agentai_gen_postes.py --nombre_postes "2" --langue_de_travail "français" --metier "ingénieur.e infra cloud" --file_path "./output/2_postes_inge_infra_cloud.json"
+ ``` 
+
 ## License
 This project is licensed under the [Apache 2.0 License](../LICENSE) - see the LICENSE file for details.

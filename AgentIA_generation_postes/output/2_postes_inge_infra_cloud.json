@@ -1,0 +1,48 @@
+{
+    "postes": [
+        {
+            "company_name": "CloudInnovate Solutions",
+            "job_title": "Ing\u00e9nieur.e Infrastructure Cloud - D\u00e9ploiement et Optimisation",
+            "job_description": "CloudInnovate Solutions recherche un.e ing\u00e9nieur.e infrastructure cloud passionn\u00e9.e pour rejoindre notre \u00e9quipe dynamique. Vous serez responsable de la gestion, du d\u00e9ploiement et de l'optimisation de nos solutions cloud afin de garantir des performances optimales et une haute disponibilit\u00e9.",
+            "responsibilities": [
+                "Concevoir, d\u00e9ployer et g\u00e9rer les infrastructures cloud sur AWS et Azure.",
+                "Optimiser les configurations cloud pour assurer des performances et une efficacit\u00e9 maximales.",
+                "Collaborer avec les \u00e9quipes de d\u00e9veloppement pour int\u00e9grer les solutions cloud dans les applications existantes.",
+                "Superviser la s\u00e9curit\u00e9 des infrastructures cloud, y compris la mise en place des politiques de s\u00e9curit\u00e9.",
+                "Mettre en \u0153uvre des plans de reprise apr\u00e8s sinistre et assurer la continuit\u00e9 des activit\u00e9s."
+            ],
+            "skills_required": [
+                "Ma\u00eetrise des plateformes AWS et Azure.",
+                "Comp\u00e9tence en automatisation via Terraform ou Ansible.",
+                "Solides connaissances en r\u00e9seaux et en s\u00e9curit\u00e9 informatique.",
+                "Capacit\u00e9 \u00e0 r\u00e9soudre des probl\u00e8mes complexes de mani\u00e8re autonome.",
+                "Excellentes comp\u00e9tences en communication pour travailler avec des \u00e9quipes interfonctionnelles."
+            ],
+            "location": "Paris, France",
+            "experience_level": "Interm\u00e9diaire",
+            "education_required": "Dipl\u00f4me en informatique, ing\u00e9nierie ou domaine connexe"
+        },
+        {
+            "company_name": "NextGen Cloud Builders",
+            "job_title": "Ing\u00e9nieur.e Cloud Infrastructure - Architecte Syst\u00e8mes",
+            "job_description": "NextGen Cloud Builders est \u00e0 la recherche d'un.e ing\u00e9nieur.e expert.e en infrastructure cloud pour architecturer et g\u00e9rer des syst\u00e8mes avanc\u00e9s. Vous jouerez un r\u00f4le cl\u00e9 dans la conception d'infrastructures scalables pour soutenir nos services num\u00e9riques innovants.",
+            "responsibilities": [
+                "Architecturer des solutions cloud \u00e9volutives sur GCP ou AWS.",
+                "Analyser les besoins techniques pour proposer des architectures adapt\u00e9es.",
+                "Mettre en place des pipelines CI/CD pour faciliter le d\u00e9ploiement continu.",
+                "Assurer la surveillance et le suivi de l'utilisation des ressources cloud.",
+                "Former les \u00e9quipes techniques sur les meilleures pratiques en mati\u00e8re d'infrastructure cloud."
+            ],
+            "skills_required": [
+                "Exp\u00e9rience approfondie avec GCP ou AWS.",
+                "Excellence en scripting avec Python ou Bash pour automatiser les t\u00e2ches.",
+                "Connaissances en Kubernetes pour l'orchestration de conteneurs.",
+                "Exp\u00e9rience dans la mise en \u0153uvre de CI/CD avec Jenkins ou GitLab CI.",
+                "Capacit\u00e9 \u00e0 travailler dans un environnement agile et collaboratif."
+            ],
+            "location": "Berlin, Allemagne",
+            "experience_level": "Senior",
+            "education_required": "Master en informatique, ing\u00e9nierie ou \u00e9quivalent"
+        }
+    ]
+}

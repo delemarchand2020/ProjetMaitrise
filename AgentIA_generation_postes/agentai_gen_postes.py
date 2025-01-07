@@ -3,7 +3,7 @@ import json
 import argparse
 import os
 from opik.integrations.openai import track_openai
-from openai import OpenAI
+from openai import OpenAI, NOT_GIVEN
 
 opik.configure()
 client_opik = opik.Opik()
@@ -61,7 +61,7 @@ def generate_postes(prompt):
         temperature=temperature_llm_profil_gen,
         top_p=top_p_llm_profil_gen,
         frequency_penalty=frequency_penalty_llm_profil_gen,
-        presence_penalty=presence_penalty_llm_profil_gen
+        presence_penalty=presence_penalty_llm_profil_gen,
     )
     return completion.choices[0].message.content
 
@@ -136,3 +136,4 @@ def main():
 if __name__ == "__main__":
     main()
 
+#python .\agentai_gen_postes.py --nombre_postes "3" --langue_de_travail "français" --metier "ingénieur.e infra cloud" --file_path "./output/3_postes_inge_infra_cloud.json"

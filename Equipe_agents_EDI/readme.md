@@ -51,6 +51,9 @@ python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversat
      crewai reset-memories -a 
   ```
   Voire supprimer tous les fichiers ici : C:\Users\USER_NAME\AppData\Local\CrewAI\Equipe_agents_EDI
+  ```bash 
+  Remove-Item -Path "C:\Users\delem\AppData\Local\CrewAI\Equipe_agents_EDI" -Recurse -Force
+  ```
   * Le choix des LLM (créatif ou pas) pour les agents est important : 
     * On peut noter que selon les prompts, l'analyste loupe des petits détails de conversation (pourtant important pour la détection d'un biais).
   * Beaucoup de variabilité dans la production du rapport (manque de respect des consignes)

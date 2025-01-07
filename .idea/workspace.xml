@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="version fonctionnelle équipe audit EDI">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="tests version fonctionnelle équipe audit EDI">
+      <change afterPath="$PROJECT_DIR$/AgentIA_generation_postes/agentai_gen_postes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgentIA_generation_postes/meta_prompt_gen_postes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_optimise.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_optimise_gpt_plus.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Equipe_agents_EDI/gen_rapport_EDI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe_agents_EDI/gen_rapport_EDI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Equipe_agents_EDI/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe_agents_EDI/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,28 +38,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.candidates_data_utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jobs_data_utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recruiters_data_utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recruitment_data_utils.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/Equipe_agents_EDI&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.candidates_data_utils.executor": "Run",
+    "Python.jobs_data_utils.executor": "Run",
+    "Python.recruiters_data_utils.executor": "Run",
+    "Python.recruitment_data_utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/delem/PycharmProjects/ProjetMemoireMatriseDenisLemarchand/AgentIA_generation_postes",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\AgentIA_generation_postes" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\Equipe_agents_EDI" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\Simulation_conversation" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\tests_framework_outils" />
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\AgentAI_creation_BD_recruteurs" />
-      <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\CrewAI_equipe_creation_BD_candidats" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\delem\PycharmProjects\ProjetMemoireMatriseDenisLemarchand\Simulation_conversation\output" />
@@ -463,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736120271692</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="tests version fonctionnelle équipe audit EDI">
+      <option name="closed" value="true" />
+      <created>1736168115452</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1736168115452</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3 conf llm pour differents cas d'usage" />
     <MESSAGE value="amélioration prompt" />
     <MESSAGE value="ajout parametres ligne de commande" />
     <MESSAGE value="structure de base pour profil recruteur" />
@@ -503,6 +515,7 @@
     <MESSAGE value="commit initial équipe audit EDI" />
     <MESSAGE value="tests équipe audit EDI" />
     <MESSAGE value="version fonctionnelle équipe audit EDI" />
-    <option name="LAST_COMMIT_MESSAGE" value="version fonctionnelle équipe audit EDI" />
+    <MESSAGE value="tests version fonctionnelle équipe audit EDI" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests version fonctionnelle équipe audit EDI" />
   </component>
 </project>

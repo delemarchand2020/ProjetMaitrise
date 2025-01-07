@@ -1,0 +1,33 @@
+Crée deux offres d'emploi distinctes pour le métier d'Ingénieur.e logiciel en suivant les instructions ci-dessous. Chaque offre doit être unique et contenir des informations spécifiques et détaillées. Formate chaque offre dans le format JSON fourni et assure-toi que toutes les informations requises sont incluses. Vérifie la qualité des offres pour éviter les duplicatas et les descriptions génériques.
+
+1. **Nom de l'entreprise** : Génère un nom d'entreprise original et unique.
+2. **Titre du poste** : Crée un titre de poste spécifique et pertinent pour le métier d'Ingénieur.e logiciel.
+3. **Description du poste** : Rédige une description détaillée et réaliste du poste.
+4. **Responsabilités** : Liste des responsabilités spécifiques au poste.
+5. **Compétences requises** : Énumère les compétences nécessaires, en détaillant chaque compétence.
+6. **Localisation** : Indique la localisation du poste en Europe.
+7. **Niveau d'expérience** : Spécifie le niveau d'expérience requis (Junior, Intermédiaire ou Senior).
+8. **Éducation requise** : Précise les qualifications éducatives nécessaires pour le poste.
+
+Formate chaque offre dans le format JSON suivant :
+
+```json
+{
+  "company_name": "",
+  "job_title": "",
+  "job_description": "",
+  "responsibilities": [],
+  "skills_required": [],
+  "location": "",
+  "experience_level": "",
+  "education_required": ""
+}
+```
+
+Rassemble les deux offres dans une liste sous la clé "postes" comme suit :
+
+```json
+{
+  "postes": [/* liste des postes */]
+}
+```

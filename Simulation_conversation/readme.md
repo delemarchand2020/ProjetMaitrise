@@ -72,7 +72,14 @@ python .\eval_conversation.py --file1 "./output/conversation_f_poste_1.json" --f
     * La documentation est riche et bien faite.
 * Points négatifs :
   * Le réglage des "prompts" (goal, backstory et task) est un processus itératif : beaucoup de variabilité dans la qualité des résultats dépend de cela.
- 
+  * Ne pas oublier de nettoyer la mémoire CrewAI lors des changements de tâches et d'agents (cela semble mélanger les agents et leurs tâches) :
+  ```bash 
+     crewai reset-memories -a 
+  ```
+  Voire supprimer tous les fichiers ici : C:\Users\USER_NAME\AppData\Local\CrewAI\Equipe_agents_EDI
+  ```bash 
+  Remove-Item -Path "C:\Users\delem\AppData\Local\CrewAI\Simulation_conversation" -Recurse -Force
+  ``` 
 
 ## License
 This project is licensed under the [Apache 2.0 License](../LICENSE) - see the LICENSE file for details.

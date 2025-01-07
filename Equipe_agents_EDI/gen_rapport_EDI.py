@@ -217,4 +217,5 @@ def main():
 if __name__ == "__main__":
     main()
 
+#Remove-Item -Path "C:\Users\delem\AppData\Local\CrewAI\Equipe_agents_EDI" -Recurse -Force
 #python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversation_f_poste_1.json" --file2 "../Simulation_conversation/output/conversation_m_poste_1.json" --output_dir "./output/" --output_file "rapport_audit.md"

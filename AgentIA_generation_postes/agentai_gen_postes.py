@@ -46,12 +46,11 @@ def generate_prompt_from_meta(meta_prompt):
 
 
 # création du prompt final pour l'agent ia de génération de postes
-def register_prompt_gen_postes(prompt_text, nombre_postes="2", langue_de_travail="français",
-                    metier="Ingénieur.e logiciel"):
+def register_prompt_gen_postes(prompt_text, nombre_postes="2", metier="Ingénieur.e logiciel"):
     with open("prompt_gen_postes.txt", "w") as f:
         f.write(prompt_text)
     prompt = client_opik.create_prompt(name="prompt_gen_postes", prompt=prompt_text)
-    return prompt.format(nombre_postes=nombre_postes, langue_de_travail=langue_de_travail, metier=metier)
+    return prompt.format(nombre_postes=nombre_postes, metier=metier)
 
 
 # génération des postes
@@ -105,7 +104,6 @@ def main():
     # Définir les arguments de ligne de commande avec des valeurs par défaut
     parser = argparse.ArgumentParser(description="Générer des postes.")
     parser.add_argument("--nombre_postes", type=str, default="2", help="nombre_postes")
-    parser.add_argument("--langue_de_travail", type=str, default="français", help="La langue de travail.")
     parser.add_argument("--metier", type=str, default="Ingénieur.e logiciel", help="métier")
     parser.add_argument("--file_path", type=str, default="./output/2_postes_inge_logiciel.json",
                         help="Le chemin du fichier JSON de sortie.")
@@ -117,7 +115,6 @@ def main():
     final_prompt_text = generate_prompt_from_meta(get_meta_prompt())
     # enregistrement du prompt final dans la librairie
     final_prompt_text = register_prompt_gen_postes(final_prompt_text, nombre_postes=args.nombre_postes,
-                                                                  langue_de_travail=args.langue_de_travail,
                                                                   metier=args.metier)
 
     # generation des postes
@@ -136,4 +133,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-#python .\agentai_gen_postes.py --nombre_postes "3" --langue_de_travail "français" --metier "ingénieur.e infra cloud" --file_path "./output/3_postes_inge_infra_cloud.json"
+#python .\agentai_gen_postes.py --nombre_postes "3" --metier "ingénieur.e infra cloud" --file_path "./output/3_postes_inge_infra_cloud.json"

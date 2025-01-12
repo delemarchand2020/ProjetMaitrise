@@ -1,3 +1,39 @@
+Créez {{nombre_postes}} postes distincts pour le métier {{metier}} en suivant les instructions ci-dessous. Chaque poste doit inclure les informations suivantes :
+
+- Nom de l'entreprise : Générez un nom d'entreprise original et unique.
+- Titre du poste : Créez un titre de poste spécifique et pertinent pour le métier.
+- Description du poste : Rédigez une description détaillée et réaliste, en évitant les généralités.
+- Responsabilités : Listez des responsabilités spécifiques au poste, en étant précis et exhaustif.
+- Compétences requises : Énumérez les compétences nécessaires, en détaillant chaque compétence.
+- Localisation : Indiquez la localisation du poste en Europe.
+- Niveau d'expérience : Spécifiez le niveau d'expérience requis (Junior, Intermédiaire ou Senior).
+- Éducation requise : Précisez les qualifications éducatives nécessaires pour le poste.
+
+Formatez chaque poste dans le format JSON suivant :
+
+```json
 {
-  "prompt": "Create {{nombre_postes}} unique job postings for the position of {{metier}}. Each posting should include the following details:\n\n- **Company Name**: Generate an original and unique company name.\n- **Job Title**: Create a specific and relevant job title for the position.\n- **Job Description**: Write a detailed and realistic job description, avoiding generalities.\n- **Responsibilities**: List specific responsibilities for the position, being precise and exhaustive.\n- **Skills Required**: Enumerate the necessary skills, detailing each one.\n- **Location**: Indicate the job location in Europe.\n- **Experience Level**: Specify the required experience level (Junior, Intermediate, or Senior).\n- **Education Required**: Detail the educational qualifications necessary for the position.\n\nFormat each job posting in the following JSON structure:\n\n```json\n{\n  \"company_name\": \"\",\n  \"job_title\": \"\",\n  \"job_description\": \"\",\n  \"responsibilities\": [],\n  \"skills_required\": [],\n  \"location\": \"\",\n  \"experience_level\": \"\",\n  \"education_required\": \"\"\n}\n```\n\nEnsure quality control by:\n- Verifying that each job posting is unique with no duplicates.\n- Ensuring that descriptions, responsibilities, and skills are specific and not generic.\n- Confirming that the requested number of job postings is created.\n\nGather all job postings in a list under the key \"postes\", for example:\n\n```json\n{\n  \"postes\": [/* list of job postings */]\n}\n```\n\nUse the language {{langue_de_travail}} to write your prompt."
+  "company_name": "",
+  "job_title": "",
+  "job_description": "",
+  "responsibilities": [],
+  "skills_required": [],
+  "location": "",
+  "experience_level": "",
+  "education_required": ""
 }
+```
+
+Effectuez un contrôle qualité pour :
+
+- Vérifier que chaque poste est unique et qu'il n'y a pas de duplicatas.
+- S'assurer que les descriptions, responsabilités et compétences sont spécifiques et non génériques.
+- Vérifier que vous avez bien créé la quantité de postes demandés.
+
+Rassemblez tous les JSON des postes dans une liste sous la clé "postes", par exemple :
+
+```json
+{
+  "postes": [/* liste des postes */]
+}
+```

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="réglages et documentations pour gen_postes">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="changement remplissage des {{variables}} à l'utilisation du prompt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/agentai_gen_postes.py" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/agentai_gen_postes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/meta_prompt_gen_postes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/meta_prompt_gen_postes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_gen_postes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_gen_postes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729445351687</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Premier commit">
-      <option name="closed" value="true" />
-      <created>1729448277046</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1729448277046</updated>
     </task>
     <task id="LOCAL-00004" summary="Premier commit">
       <option name="closed" value="true" />
@@ -471,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736292309395</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="changement remplissage des {{variables}} à l'utilisation du prompt">
+      <option name="closed" value="true" />
+      <created>1736716437309</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1736716437309</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="structure de base pour profil recruteur" />
     <MESSAGE value="premiere version pour générer le prompt" />
     <MESSAGE value="version pour la génération des profils" />
     <MESSAGE value="améliorations et documentation" />
@@ -511,6 +512,7 @@
     <MESSAGE value="tests version fonctionnelle équipe audit EDI" />
     <MESSAGE value="version programmatique pour la génération des postes" />
     <MESSAGE value="réglages et documentations pour gen_postes" />
-    <option name="LAST_COMMIT_MESSAGE" value="réglages et documentations pour gen_postes" />
+    <MESSAGE value="changement remplissage des {{variables}} à l'utilisation du prompt" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement remplissage des {{variables}} à l'utilisation du prompt" />
   </component>
 </project>

@@ -120,7 +120,7 @@ Cette URL est à placer dans la description JSON ci-dessus avant de la copier da
 ## Version programmatique
 ```bash
 cd .\AgentIA_generation_postes
-python .\agentai_gen_postes.py --nombre_postes "2" --langue_de_travail "français" --metier "ingénieur.e infra cloud" --file_path "./output/2_postes_inge_infra_cloud.json"
+python .\agentai_gen_postes.py --nombre_postes "2" --metier "ingénieur.e infra cloud" --file_path "./output/2_postes_inge_infra_cloud.json"
  ``` 
 
 ## License

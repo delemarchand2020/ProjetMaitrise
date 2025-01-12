@@ -1,48 +1,48 @@
 {
     "postes": [
         {
-            "company_name": "InnovAIM Solutions",
-            "job_title": "Responsable de Produit IA - Solutions d'Automatisation",
-            "job_description": "InnovAIM Solutions, une entreprise de pointe sp\u00e9cialis\u00e9e dans le d\u00e9veloppement de solutions d'automatisation bas\u00e9es sur l'intelligence artificielle, recherche un Responsable de Produit exp\u00e9riment\u00e9 pour piloter nos initiatives produits. Vous serez charg\u00e9 de la d\u00e9finition et de l'ex\u00e9cution de la strat\u00e9gie produit pour nos solutions IA destin\u00e9es \u00e0 optimiser les processus industriels.",
+            "company_name": "InnovAI Solutions",
+            "job_title": "Product Owner IA - Solutions Industrielles",
+            "job_description": "Chez InnovAI Solutions, nous recherchons un Product Owner sp\u00e9cialis\u00e9 dans les solutions industrielles bas\u00e9es sur l'intelligence artificielle. Vous travaillerez en \u00e9troite collaboration avec les \u00e9quipes de d\u00e9veloppement pour concevoir et am\u00e9liorer nos produits destin\u00e9s \u00e0 optimiser les processus industriels gr\u00e2ce \u00e0 l'IA.",
             "responsibilities": [
-                "D\u00e9velopper et maintenir la feuille de route des produits IA en collaboration avec les \u00e9quipes techniques et commerciales.",
-                "Analyser les besoins des clients et du march\u00e9 pour identifier les opportunit\u00e9s d'innovation produit.",
-                "Coordonner les phases de d\u00e9veloppement, de test et de lancement des nouveaux produits.",
-                "Assurer une communication efficace entre les parties prenantes internes et externes.",
-                "\u00c9valuer les performances des produits et proposer des am\u00e9liorations continues."
+                "D\u00e9finir la vision et la feuille de route des produits IA pour le secteur industriel.",
+                "Collaborer avec les \u00e9quipes de d\u00e9veloppement pour traduire les exigences m\u00e9tier en sp\u00e9cifications techniques.",
+                "Prioriser les fonctionnalit\u00e9s et g\u00e9rer le backlog produit en fonction des besoins des clients et des tendances du march\u00e9.",
+                "Effectuer des analyses de march\u00e9 pour identifier les opportunit\u00e9s d'am\u00e9lioration de nos solutions.",
+                "Assurer une communication fluide entre les parties prenantes internes et externes."
             ],
             "skills_required": [
-                "Excellente compr\u00e9hension des technologies IA et des algorithmes d'apprentissage automatique.",
-                "Comp\u00e9tences \u00e9prouv\u00e9es en gestion de projet agile.",
-                "Capacit\u00e9 \u00e0 traduire des besoins commerciaux en sp\u00e9cifications techniques claires.",
-                "Fortes comp\u00e9tences analytiques et capacit\u00e9 \u00e0 r\u00e9soudre des probl\u00e8mes complexes.",
-                "Ma\u00eetrise du fran\u00e7ais et de l'anglais, tant \u00e0 l'\u00e9crit qu'\u00e0 l'oral."
+                "Connaissance approfondie des technologies d'intelligence artificielle appliqu\u00e9es \u00e0 l'industrie.",
+                "Excellente capacit\u00e9 \u00e0 analyser et interpr\u00e9ter les besoins des clients.",
+                "Comp\u00e9tences en gestion de projet et exp\u00e9rience avec les m\u00e9thodologies Agile/Scrum.",
+                "Aptitudes en communication pour interagir efficacement avec diverses \u00e9quipes.",
+                "Exp\u00e9rience pratique avec des outils de gestion de produit comme JIRA ou Trello."
             ],
-            "location": "Lyon, France",
+            "location": "Munich, Allemagne",
             "experience_level": "Senior",
-            "education_required": "Dipl\u00f4me en informatique, ing\u00e9nierie ou domaine connexe avec une sp\u00e9cialisation en intelligence artificielle."
+            "education_required": "Master en Informatique, Ing\u00e9nierie ou domaine connexe."
         },
         {
-            "company_name": "NeuroGenTech",
-            "job_title": "Chef de Produit Innovation IA",
-            "job_description": "NeuroGenTech est \u00e0 la recherche d'un Chef de Produit passionn\u00e9 par l'innovation technologique pour diriger le d\u00e9veloppement de notre gamme de solutions IA destin\u00e9es au secteur m\u00e9dical. Vous aurez l'opportunit\u00e9 unique d'influencer la direction strat\u00e9gique de nos produits tout en travaillant avec une \u00e9quipe interdisciplinaire d'experts.",
+            "company_name": "DataFuture Labs",
+            "job_title": "Responsable Produit - Plateformes IA Conversational",
+            "job_description": "DataFuture Labs recherche un Responsable Produit exp\u00e9riment\u00e9 pour diriger le d\u00e9veloppement de nos plateformes d'IA conversationnelle. Vous serez responsable de l'\u00e9laboration de strat\u00e9gies produit qui anticipent les \u00e9volutions du march\u00e9 tout en r\u00e9pondant aux attentes des utilisateurs finaux.",
             "responsibilities": [
-                "D\u00e9finir la vision et la strat\u00e9gie produit pour les solutions IA appliqu\u00e9es \u00e0 la sant\u00e9.",
-                "Collaborer avec les \u00e9quipes R&D pour s'assurer que le d\u00e9veloppement des produits r\u00e9pond aux exigences du march\u00e9.",
-                "Conduire des \u00e9tudes de march\u00e9 pour comprendre les tendances \u00e9mergentes et les besoins des utilisateurs finaux.",
-                "G\u00e9rer le cycle de vie complet du produit, depuis sa conception jusqu'\u00e0 sa mise sur le march\u00e9.",
-                "Organiser des sessions de formation et des d\u00e9monstrations pour les clients afin d'accro\u00eetre l'adoption du produit."
+                "\u00c9laborer la strat\u00e9gie produit pour nos solutions d'IA conversationnelle, incluant chatbots et assistants virtuels.",
+                "Travailler avec les \u00e9quipes UX/UI pour garantir une exp\u00e9rience utilisateur optimale.",
+                "Conduire des sessions r\u00e9guli\u00e8res de feedback client pour ajuster le produit en fonction des besoins r\u00e9els.",
+                "Superviser le cycle complet du d\u00e9veloppement produit, du concept \u00e0 la mise en production.",
+                "Analyser les performances produit et d\u00e9finir des actions correctives si n\u00e9cessaire."
             ],
             "skills_required": [
-                "Exp\u00e9rience av\u00e9r\u00e9e dans le secteur des technologies m\u00e9dicales ou biotechnologiques.",
-                "Comp\u00e9tences solides en communication et pr\u00e9sentation aupr\u00e8s d'une audience technique et non technique.",
-                "Connaissance approfondie des m\u00e9thodologies agiles et du design thinking.",
-                "Capacit\u00e9 \u00e0 prioriser efficacement dans un environnement dynamique et rapide.",
-                "Bilinguisme fran\u00e7ais-anglais requis, troisi\u00e8me langue europ\u00e9enne souhait\u00e9e."
+                "Expertise dans le domaine des technologies d'IA conversationnelle et traitement du langage naturel (NLP).",
+                "Solides comp\u00e9tences analytiques et capacit\u00e9 \u00e0 transformer les donn\u00e9es en insights actionnables.",
+                "Excellente compr\u00e9hension des principes UX/UI et capacit\u00e9 \u00e0 collaborer avec des designers.",
+                "Exp\u00e9rience av\u00e9r\u00e9e dans la gestion de produits logiciels complexes.",
+                "Capacit\u00e9 \u00e0 travailler dans un environnement dynamique et \u00e0 g\u00e9rer plusieurs priorit\u00e9s simultan\u00e9ment."
             ],
-            "location": "Berlin, Allemagne",
+            "location": "Barcelone, Espagne",
             "experience_level": "Interm\u00e9diaire",
-            "education_required": "Master en informatique, bio-informatique ou autre discipline pertinente, avec une exp\u00e9rience dans le domaine m\u00e9dical."
+            "education_required": "Licence en Informatique, Intelligence Artificielle ou discipline similaire."
         }
     ]
 }

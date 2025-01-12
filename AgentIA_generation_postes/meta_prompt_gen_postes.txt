@@ -39,6 +39,6 @@ json
 }
 
 ### CONSIGNES COMPLEMENTAIRES ###
-- Utilise la langue {{langue_de_travail}} pour écrire ton prompt.
+- Utilise le français pour générer ton prompt
 - Ne génère pas les postes, mais génère uniquement le prompt pour l'assistant IA.
 - Ne donne pas de commentaire ou d'introduction sur ton travail.

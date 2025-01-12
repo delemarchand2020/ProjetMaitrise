@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="changement remplissage des {{variables}} à l'utilisation du prompt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/agentai_gen_postes.py" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/agentai_gen_postes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/meta_prompt_gen_postes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/meta_prompt_gen_postes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_gen_postes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_gen_postes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="ajout de la génération des scénarios des analyses bout en bout" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -488,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="premiere version pour générer le prompt" />
     <MESSAGE value="version pour la génération des profils" />
     <MESSAGE value="améliorations et documentation" />
     <MESSAGE value="premiere version simulation conversation" />
@@ -513,6 +506,7 @@
     <MESSAGE value="version programmatique pour la génération des postes" />
     <MESSAGE value="réglages et documentations pour gen_postes" />
     <MESSAGE value="changement remplissage des {{variables}} à l'utilisation du prompt" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement remplissage des {{variables}} à l'utilisation du prompt" />
+    <MESSAGE value="ajout de la génération des scénarios des analyses bout en bout" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de la génération des scénarios des analyses bout en bout" />
   </component>
 </project>

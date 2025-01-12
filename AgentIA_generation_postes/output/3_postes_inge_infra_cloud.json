@@ -1,0 +1,70 @@
+{
+    "postes": [
+        {
+            "company_name": "CloudInnov Solutions",
+            "job_title": "Ing\u00e9nieur.e Infra Cloud Senior",
+            "job_description": "Nous recherchons un.e ing\u00e9nieur.e infra cloud senior pour rejoindre notre \u00e9quipe dynamique et innovante. Vous serez responsable de la conception, de la mise en \u0153uvre et de l'optimisation de nos infrastructures cloud afin de garantir une performance optimale et une haute disponibilit\u00e9.",
+            "responsibilities": [
+                "Concevoir et d\u00e9ployer des solutions cloud s\u00e9curis\u00e9es et \u00e9volutives.",
+                "Assurer la gestion et la maintenance des infrastructures existantes.",
+                "Collaborer avec les \u00e9quipes de d\u00e9veloppement pour int\u00e9grer des solutions cloud dans les projets en cours.",
+                "Superviser les syst\u00e8mes de surveillance pour anticiper et r\u00e9soudre les probl\u00e8mes.",
+                "Effectuer des audits r\u00e9guliers pour garantir la conformit\u00e9 aux normes de s\u00e9curit\u00e9."
+            ],
+            "skills_required": [
+                "Ma\u00eetrise des plateformes cloud telles que AWS, Azure ou Google Cloud.",
+                "Comp\u00e9tences avanc\u00e9es en scripting (Python, Bash, etc.).",
+                "Exp\u00e9rience en gestion de bases de donn\u00e9es cloud (RDS, BigQuery).",
+                "Connaissance approfondie des r\u00e9seaux et protocoles Internet.",
+                "Capacit\u00e9 \u00e0 r\u00e9soudre des probl\u00e8mes complexes dans un environnement dynamique."
+            ],
+            "location": "Lyon, France",
+            "experience_level": "Senior",
+            "education_required": "Master en Informatique ou domaine connexe"
+        },
+        {
+            "company_name": "TechNova Europe",
+            "job_title": "Ing\u00e9nieur.e Cloud Infrastructure Junior",
+            "job_description": "TechNova Europe est \u00e0 la recherche d'un.e ing\u00e9nieur.e cloud infrastructure junior pour soutenir nos projets europ\u00e9ens. Vous travaillerez sous la supervision d'ing\u00e9nieurs exp\u00e9riment\u00e9s pour apprendre et d\u00e9velopper vos comp\u00e9tences en gestion d'infrastructures cloud.",
+            "responsibilities": [
+                "Participer \u00e0 la configuration et au d\u00e9ploiement initial d'environnements cloud.",
+                "Surveiller les performances du syst\u00e8me et effectuer des t\u00e2ches de routine de maintenance.",
+                "Apporter un support technique aux \u00e9quipes internes pour l'utilisation des ressources cloud.",
+                "Documenter les processus techniques et proc\u00e9dures standards.",
+                "Contribuer \u00e0 l'am\u00e9lioration continue des services cloud."
+            ],
+            "skills_required": [
+                "Connaissance de base des services cloud (AWS, Azure, etc.).",
+                "Comp\u00e9tences en programmation avec au moins un langage (Python, Java).",
+                "Compr\u00e9hension des principes fondamentaux des r\u00e9seaux informatiques.",
+                "Aptitude \u00e0 travailler en \u00e9quipe et \u00e0 communiquer efficacement.",
+                "Volont\u00e9 d'apprendre rapidement et capacit\u00e9 d'adaptation."
+            ],
+            "location": "Berlin, Allemagne",
+            "experience_level": "Junior",
+            "education_required": "Licence en Informatique ou \u00e9quivalent"
+        },
+        {
+            "company_name": "EuroTech Cloud Services",
+            "job_title": "Ing\u00e9nieur.e Infrastructure Cloud Interm\u00e9diaire",
+            "job_description": "Nous cherchons un.e ing\u00e9nieur.e infrastructure cloud interm\u00e9diaire pour renforcer notre \u00e9quipe technique. Vous jouerez un r\u00f4le cl\u00e9 dans l'am\u00e9lioration continue de nos solutions cloud tout en veillant \u00e0 la satisfaction des exigences clients.",
+            "responsibilities": [
+                "Optimiser les architectures cloud existantes pour am\u00e9liorer l'efficacit\u00e9 op\u00e9rationnelle.",
+                "Impl\u00e9menter des politiques de s\u00e9curit\u00e9 robustes pour prot\u00e9ger les donn\u00e9es sensibles.",
+                "Analyser les performances du syst\u00e8me et proposer des am\u00e9liorations continues.",
+                "Former les membres juniors de l'\u00e9quipe sur les meilleures pratiques du cloud.",
+                "Coordonner avec les fournisseurs externes pour r\u00e9soudre les probl\u00e8mes techniques."
+            ],
+            "skills_required": [
+                "Exp\u00e9rience avec Docker, Kubernetes ou autres technologies de conteneurisation.",
+                "Forte compr\u00e9hension des concepts DevOps et CI/CD pipelines.",
+                "Capacit\u00e9 \u00e0 g\u00e9rer plusieurs projets simultan\u00e9ment avec rigueur.",
+                "Excellentes comp\u00e9tences analytiques et r\u00e9solution de probl\u00e8mes.",
+                "Bonne ma\u00eetrise de l'anglais technique (\u00e9crit et oral)."
+            ],
+            "location": "Madrid, Espagne",
+            "experience_level": "Interm\u00e9diaire",
+            "education_required": "Master ou Licence avec exp\u00e9rience significative en Informatique"
+        }
+    ]
+}

@@ -26,12 +26,11 @@ presence_penalty_llm_profil_gen = 0.2
 
 
 # création du méta prompt
-def get_meta_prompt(nombre_postes="2", langue_de_travail="français",
-                    metier="Ingénieur.e logiciel"):
+def get_meta_prompt():
     with open("meta_prompt_gen_postes.txt", "r") as f:
         prompt_text = f.read()
     prompt = client_opik.create_prompt(name="meta_prompt_gen_postes", prompt=prompt_text)
-    return prompt.format(nombre_postes=nombre_postes, langue_de_travail=langue_de_travail, metier=metier)
+    return prompt.prompt
 
 
 # génération du prompt pour l'agent IA de génération de postes
@@ -47,11 +46,12 @@ def generate_prompt_from_meta(meta_prompt):
 
 
 # création du prompt final pour l'agent ia de génération de postes
-def register_prompt_gen_postes(prompt_text):
+def register_prompt_gen_postes(prompt_text, nombre_postes="2", langue_de_travail="français",
+                    metier="Ingénieur.e logiciel"):
     with open("prompt_gen_postes.txt", "w") as f:
         f.write(prompt_text)
     prompt = client_opik.create_prompt(name="prompt_gen_postes", prompt=prompt_text)
-    return prompt.prompt
+    return prompt.format(nombre_postes=nombre_postes, langue_de_travail=langue_de_travail, metier=metier)
 
 
 # génération des postes
@@ -114,11 +114,11 @@ def main():
     args = parser.parse_args()
 
     # génération du prompt final à partir du meta prompt
-    final_prompt_text = generate_prompt_from_meta(get_meta_prompt(nombre_postes=args.nombre_postes,
-                                                                  langue_de_travail=args.langue_de_travail,
-                                                                  metier=args.metier))
+    final_prompt_text = generate_prompt_from_meta(get_meta_prompt())
     # enregistrement du prompt final dans la librairie
-    final_prompt_text = register_prompt_gen_postes(final_prompt_text)
+    final_prompt_text = register_prompt_gen_postes(final_prompt_text, nombre_postes=args.nombre_postes,
+                                                                  langue_de_travail=args.langue_de_travail,
+                                                                  metier=args.metier)
 
     # generation des postes
     gen_profil_txt = generate_postes(final_prompt_text)

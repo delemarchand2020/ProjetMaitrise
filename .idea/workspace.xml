@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="version programmatique pour la génération des postes">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="réglages et documentations pour gen_postes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/agentai_gen_postes.py" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/agentai_gen_postes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/meta_prompt_gen_postes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/meta_prompt_gen_postes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_gen_postes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_gen_postes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,14 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729445351687</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Premier commit">
-      <option name="closed" value="true" />
-      <created>1729448252184</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1729448252184</updated>
     </task>
     <task id="LOCAL-00003" summary="Premier commit">
       <option name="closed" value="true" />
@@ -473,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736257685504</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="réglages et documentations pour gen_postes">
+      <option name="closed" value="true" />
+      <created>1736292309395</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736292309395</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajout parametres ligne de commande" />
     <MESSAGE value="structure de base pour profil recruteur" />
     <MESSAGE value="premiere version pour générer le prompt" />
     <MESSAGE value="version pour la génération des profils" />
@@ -513,6 +510,7 @@
     <MESSAGE value="version fonctionnelle équipe audit EDI" />
     <MESSAGE value="tests version fonctionnelle équipe audit EDI" />
     <MESSAGE value="version programmatique pour la génération des postes" />
-    <option name="LAST_COMMIT_MESSAGE" value="version programmatique pour la génération des postes" />
+    <MESSAGE value="réglages et documentations pour gen_postes" />
+    <option name="LAST_COMMIT_MESSAGE" value="réglages et documentations pour gen_postes" />
   </component>
 </project>

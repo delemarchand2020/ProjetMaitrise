@@ -1,0 +1,36 @@
+Je voudrais une solution technique pour orchestrer plusieurs scripts afin de compléter un travail bout en bout (fournir un rapport EDI sur 2 conversations).
+Les scripts appellent des agents IA pour accomplir une tâche.
+Les scripts disponibles sont les suivants (doivent être lancés dans l'ordre):
+-----
+commandes :
+cd .\AgentIA_generation_postes
+python .\agentai_gen_postes.py --nombre_postes "2" --metier "ingénieur.e infra cloud" --file_path "./output/postes_generes.json"
+-----
+commandes :
+cd .\CrewAI_equipe_creation_BD_candidats\
+python .\crewai_gen_candidats.py --fichier_postes "postes_generes.json"
+        --output_path "./output/" --langue_de_travail "français"
+        --genre "féminin" --poste_num "1"
+-----
+commandes :
+cd .\AgentAI_creation_BD_recruteurs
+python .\agentai_gen_recruteurs.py  --biais "stéréotype sur le genre féminin"
+        --langue_de_travail "français"
+        --genre "masculin" --secteur "informatique"
+        --file_path "./output/recruteurs_generes.json"
+-----
+commandes :
+cd .\Simulation_conversation\
+python .\gen_full_crewai_conversation.py  --fichier_db_postes "postes_generes.json"
+                              --fichier_db_recruteurs "recruteurs_generes.json"
+                              --fichier_db_candidats "candidats_generes.json"
+                              --output_file "conversation.json"
+                              --index "0"
+Notes : ici index doit toujours être à 0
+-----
+commandes :
+cd .\Equipe_agents_EDI\
+python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversation_1.json" --file2 "../Simulation_conversation/output/conversation_1.json" --output_dir "./output/" --output_file "rapport_audit.md"
+
+Notes : il faudra donc générer 2 conversations : 1 avec un candidat feminin et l'autre masculin !
+-----

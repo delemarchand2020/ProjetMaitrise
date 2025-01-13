@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="ajout de la génération des scénarios des analyses bout en bout" />
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="orchestration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,30 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729445351687</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Premier commit">
-      <option name="closed" value="true" />
-      <created>1729449616521</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1729449616521</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Première version de l'agent IA de">
-      <option name="closed" value="true" />
-      <created>1729454218412</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1729454218412</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Première version de l'agent IA de génération de postes">
-      <option name="closed" value="true" />
-      <created>1729454286565</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1729454286565</updated>
     </task>
     <task id="LOCAL-00007" summary="Première version de l'agent IA de génération de postes">
       <option name="closed" value="true" />
@@ -467,7 +445,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736716437309</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="orchestration">
+      <option name="closed" value="true" />
+      <created>1736725796755</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1736725796755</updated>
+    </task>
+    <task id="LOCAL-00054" summary="orchestration">
+      <option name="closed" value="true" />
+      <created>1736725827481</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1736725827481</updated>
+    </task>
+    <task id="LOCAL-00055" summary="orchestration">
+      <option name="closed" value="true" />
+      <created>1736726075854</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1736726075854</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="version pour la génération des profils" />
     <MESSAGE value="améliorations et documentation" />
     <MESSAGE value="premiere version simulation conversation" />
     <MESSAGE value="version fonctionnelle simulation conversation" />
@@ -507,6 +508,7 @@
     <MESSAGE value="réglages et documentations pour gen_postes" />
     <MESSAGE value="changement remplissage des {{variables}} à l'utilisation du prompt" />
     <MESSAGE value="ajout de la génération des scénarios des analyses bout en bout" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout de la génération des scénarios des analyses bout en bout" />
+    <MESSAGE value="orchestration" />
+    <option name="LAST_COMMIT_MESSAGE" value="orchestration" />
   </component>
 </project>

@@ -3,10 +3,12 @@ import json
 import subprocess
 import argparse
 
+
 def load_api_keys(file_path):
     """Charge les clés API à partir d'un fichier JSON."""
     with open(file_path, 'r') as file:
         return json.load(file)
+
 
 def run_command(command, cwd=None):
     """Exécute une commande shell et affiche la sortie en temps réel."""
@@ -19,10 +21,12 @@ def run_command(command, cwd=None):
     if process.returncode != 0:
         raise RuntimeError(f"Command failed: {command}")
 
+
 def set_environment(api_keys):
     """Configure les variables d'environnement nécessaires."""
     for key, value in api_keys.items():
         os.environ[key] = value
+
 
 # Orchestration des scripts
 def main():
@@ -79,6 +83,7 @@ def main():
         )
 
         # Étape 5 : Générer les candidats masculins
+        os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP2"]
         print("Étape 5 : Génération des candidats masculins")
         run_command(
             "python crewai_gen_candidats.py --fichier_postes postes_generes.json --output_path output\\ --langue_de_travail français --genre masculin --poste_num 1",
@@ -86,6 +91,7 @@ def main():
         )
 
         # Étape 6 : Générer la deuxième conversation
+        os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP4"]
         print("Étape 6 : Génération de la deuxième conversation")
         run_command(
             "python gen_full_crewai_conversation.py --fichier_db_postes postes_generes.json --fichier_db_recruteurs recruteurs_generes.json --fichier_db_candidats candidats_generes.json --output_file conversation_2.json --index 0",
@@ -96,7 +102,7 @@ def main():
         os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP7"]
         print("Étape 7 : Génération du rapport EDI")
         run_command(
-            "python gen_rapport_EDI.py --file1 ..\\Simulation_conversation\\conversation_1.json --file2 ..\\Simulation_conversation\\conversation_2.json --output_dir output\\ --output_file rapport_audit.md",
+            "python gen_rapport_EDI.py --file1 ..\\Simulation_conversation\\output\\conversation_1.json --file2 ..\\Simulation_conversation\\output\\conversation_2.json --output_dir output\\ --output_file rapport_audit.md",
             cwd="..\\Equipe_agents_EDI"
         )
 

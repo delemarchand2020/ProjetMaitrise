@@ -1,128 +1,27 @@
-[
-  {
-    "company_name": "Tech Innovators",
-    "job_title": "Ing\u00e9nieur(e) logiciel full stack",
-    "job_description": "Vous serez en charge du d\u00e9veloppement et de la maintenance d'applications web et mobiles, en collaboration avec une \u00e9quipe pluridisciplinaire.",
-    "responsibilities": [
-      "D\u00e9velopper des applications web et mobiles",
-      "Collaborer avec l'\u00e9quipe produit et design",
-      "R\u00e9diger du code propre et maintenable",
-      "Effectuer des revues de code",
-      "Participer \u00e0 la conception de nouvelles fonctionnalit\u00e9s"
-    ],
-    "skills_required": [
-      "Ma\u00eetrise de JavaScript, HTML, CSS",
-      "Exp\u00e9rience avec React et Node.js",
-      "Connaissances en bases de donn\u00e9es SQL/NoSQL",
-      "Bonnes comp\u00e9tences en communication"
-    ],
-    "location": "Paris, France",
-    "experience_level": "Interm\u00e9diaire",
-    "education_required": "Licence en informatique ou domaine connexe"
-  },
-  {
-    "company_name": "Code Factory",
-    "job_title": "Ing\u00e9nieur(e) logiciel backend",
-    "job_description": "En tant qu'ing\u00e9nieur(e) logiciel backend, vous contribuerez \u00e0 la cr\u00e9ation et \u00e0 l'optimisation d'architectures de services backend robustes et s\u00e9curis\u00e9es.",
-    "responsibilities": [
-      "D\u00e9velopper des API et services backend",
-      "Optimiser les performances des syst\u00e8mes existants",
-      "Participer aux choix d'architecture technique",
-      "Collaborer avec les \u00e9quipes frontend et mobile",
-      "R\u00e9soudre les probl\u00e8mes de scalabilit\u00e9"
-    ],
-    "skills_required": [
-      "Excellentes connaissances en Java, Python ou Go",
-      "Exp\u00e9rience en microservices et architectures distribu\u00e9es",
-      "Comp\u00e9tence en gestion de bases de donn\u00e9es",
-      "Capacit\u00e9 \u00e0 travailler en \u00e9quipe"
-    ],
-    "location": "Lyon, France",
-    "experience_level": "Senior",
-    "education_required": "Master en informatique ou \u00e9quivalent"
-  },
-  {
-    "company_name": "Clinique Sant\u00e9 Plus",
-    "job_title": "M\u00e9decin g\u00e9n\u00e9raliste",
-    "job_description": "Le m\u00e9decin g\u00e9n\u00e9raliste sera responsable des consultations m\u00e9dicales, du suivi des patients et des soins pr\u00e9ventifs dans une clinique de soins primaires.",
-    "responsibilities": [
-      "R\u00e9aliser des consultations m\u00e9dicales",
-      "\u00c9laborer des diagnostics et proposer des traitements",
-      "Suivre les patients sur le long terme",
-      "Participer \u00e0 des campagnes de pr\u00e9vention",
-      "Collaborer avec d'autres professionnels de sant\u00e9"
-    ],
-    "skills_required": [
-      "Dipl\u00f4me en m\u00e9decine g\u00e9n\u00e9rale",
-      "Excellentes comp\u00e9tences en communication",
-      "Capacit\u00e9 \u00e0 travailler en \u00e9quipe",
-      "Empathie et \u00e9coute active"
-    ],
-    "location": "Marseille, France",
-    "experience_level": "Interm\u00e9diaire",
-    "education_required": "Doctorat en m\u00e9decine g\u00e9n\u00e9rale"
-  },
-  {
-    "company_name": "H\u00f4pital Central",
-    "job_title": "Chirurgien(ne) orthop\u00e9dique",
-    "job_description": "En tant que chirurgien(ne) orthop\u00e9dique, vous effectuerez des interventions chirurgicales sp\u00e9cialis\u00e9es dans les troubles musculosquelettiques.",
-    "responsibilities": [
-      "Planifier et r\u00e9aliser des interventions chirurgicales",
-      "Collaborer avec une \u00e9quipe de chirurgiens et infirmiers",
-      "Assurer le suivi postop\u00e9ratoire des patients",
-      "Participer \u00e0 la formation des internes",
-      "Assurer la documentation des cas m\u00e9dicaux"
-    ],
-    "skills_required": [
-      "Expertise en chirurgie orthop\u00e9dique",
-      "Dipl\u00f4me sp\u00e9cialis\u00e9 en chirurgie",
-      "Capacit\u00e9 \u00e0 g\u00e9rer des situations critiques",
-      "Excellentes comp\u00e9tences en r\u00e9solution de probl\u00e8mes"
-    ],
-    "location": "Bordeaux, France",
-    "experience_level": "Senior",
-    "education_required": "Doctorat en m\u00e9decine avec sp\u00e9cialisation en chirurgie"
-  },
-  {
-    "company_name": "FinEx Solutions",
-    "job_title": "Comptable financier",
-    "job_description": "Le comptable financier sera responsable de la gestion des \u00e9tats financiers, de la comptabilit\u00e9 g\u00e9n\u00e9rale et de l'analyse des rapports financiers.",
-    "responsibilities": [
-      "Pr\u00e9parer et analyser les \u00e9tats financiers",
-      "Effectuer des audits internes",
-      "Superviser les processus de cl\u00f4ture mensuelle",
-      "Collaborer avec les \u00e9quipes financi\u00e8res",
-      "Fournir des rapports aux dirigeants"
-    ],
-    "skills_required": [
-      "Ma\u00eetrise des normes comptables fran\u00e7aises",
-      "Excellentes comp\u00e9tences analytiques",
-      "Exp\u00e9rience avec les logiciels comptables",
-      "Capacit\u00e9 \u00e0 respecter les d\u00e9lais"
-    ],
-    "location": "Paris, France",
-    "experience_level": "Interm\u00e9diaire",
-    "education_required": "Licence en comptabilit\u00e9 ou finance"
-  },
-  {
-    "company_name": "Consultis Group",
-    "job_title": "Auditeur financier",
-    "job_description": "En tant qu'auditeur financier, vous serez charg\u00e9 de v\u00e9rifier les comptes des clients, d'analyser leurs syst\u00e8mes de contr\u00f4le interne et de r\u00e9diger des rapports d'audit.",
-    "responsibilities": [
-      "R\u00e9aliser des audits financiers",
-      "\u00c9valuer les syst\u00e8mes de contr\u00f4le interne",
-      "R\u00e9diger et pr\u00e9senter des rapports d'audit",
-      "Collaborer avec les \u00e9quipes d'audit",
-      "Assurer la conformit\u00e9 aux r\u00e9glementations"
-    ],
-    "skills_required": [
-      "Connaissance approfondie des normes d'audit",
-      "Excellentes comp\u00e9tences en communication",
-      "Capacit\u00e9 \u00e0 travailler sous pression",
-      "Exp\u00e9rience avec les outils d'audit informatique"
-    ],
-    "location": "Nice, France",
-    "experience_level": "Senior",
-    "education_required": "Master en comptabilit\u00e9 ou audit"
-  }
-]
+{
+    "postes": [
+        {
+            "company_name": "InnovAI Systems",
+            "job_title": "Chef de Projet IA en Vision par Ordinateur",
+            "job_description": "InnovAI Systems, un pionnier dans les solutions d'intelligence artificielle, recherche un Chef de Projet IA sp\u00e9cialis\u00e9 en vision par ordinateur pour diriger des projets innovants et transformer les id\u00e9es en applications concr\u00e8tes. Vous travaillerez au sein d'une \u00e9quipe dynamique pour concevoir, d\u00e9velopper et d\u00e9ployer des solutions visuelles intelligentes qui r\u00e9pondent aux besoins de nos clients.",
+            "responsibilities": [
+                "Concevoir et planifier des projets de vision par ordinateur align\u00e9s sur les objectifs strat\u00e9giques de l'entreprise.",
+                "Collaborer avec des data scientists et ing\u00e9nieurs pour d\u00e9velopper des mod\u00e8les d'apprentissage profond.",
+                "Assurer le suivi des budgets et des \u00e9ch\u00e9anciers, garantissant le respect des d\u00e9lais et des co\u00fbts.",
+                "Analyser les performances des mod\u00e8les d\u00e9velopp\u00e9s et proposer des am\u00e9liorations.",
+                "\u00c9tablir une communication fluide avec les clients pour comprendre leurs besoins et assurer leur satisfaction.",
+                "Superviser les tests et la validation des prototypes avant leur d\u00e9ploiement."
+            ],
+            "skills_required": [
+                "Expertise en vision par ordinateur, notamment dans l'utilisation de biblioth\u00e8ques comme OpenCV et TensorFlow.",
+                "Excellente compr\u00e9hension des algorithmes d'apprentissage profond et de r\u00e9seaux de neurones convolutifs.",
+                "Capacit\u00e9 \u00e0 g\u00e9rer plusieurs projets simultan\u00e9ment avec un fort sens de l'organisation.",
+                "Comp\u00e9tences exceptionnelles en r\u00e9solution de probl\u00e8mes complexes.",
+                "Exp\u00e9rience dans la gestion de projets technologiques dans un environnement agile."
+            ],
+            "location": "Lyon, France",
+            "experience_level": "Senior",
+            "education_required": "Master en Informatique, Intelligence Artificielle ou domaine connexe"
+        }
+    ]
+}

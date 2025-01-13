@@ -1,56 +1,38 @@
 # Rapport d'Audit EDI
 
-## 1. Rapport d'analyse de l'entrevue 1
+## Introduction
+Ce rapport présente les résultats d'une analyse EDI (Équité, Diversité, Inclusion) menée sur deux entrevues de recrutement. L'objectif était d'évaluer les biais potentiels dans le processus de sélection des candidats pour le poste de Chef de Projet IA en Vision par Ordinateur chez InnovAI Systems.
 
-### Résumé de l'analyse
-L'entrevue 1 a été menée de manière générale, avec un accent sur l'expérience et les motivations du candidat. Le recruteur a maintenu un ton neutre et professionnel, sans poser de questions sur des caractéristiques personnelles non pertinentes.
+## Méthodologie
+L'analyse a été réalisée à partir des transcriptions des entrevues avec deux candidats, identifiés ici comme candidat_1 et candidat_2. Chaque entrevue a été examinée pour identifier les biais potentiels dans les questions posées et dans l'orientation générale de l'entretien.
 
-### Observations détaillées
-- Les questions portaient principalement sur l'expérience générale et les motivations.
-- Le recruteur a évité les biais en maintenant un ton neutre.
+## Analyse
+### Entrevue 1:
+L'entrevue avec candidat_1 a mis l'accent sur les compétences techniques spécifiques et l'expérience en gestion de projets complexes, notamment l'utilisation de bibliothèques comme OpenCV et TensorFlow.
 
-### Diagnostic de biais
-Aucun biais notable n'a été identifié dans l'entrevue 1.
+### Entrevue 2:
+L'entretien avec candidat_2 s'est concentré sur la gestion de projet en environnement agile et la collaboration avec des équipes diversifiées.
 
-### Recommandations
-- Continuer à utiliser une approche neutre et professionnelle.
+## Observations et Conclusions
+### Entrevue 1:
+- **Biais technique potentiel** : Une forte focalisation sur les compétences techniques spécifiques pourrait désavantager des candidats ayant une expertise différente mais pertinente.
+- **Neutralité globale** : Pas de biais évident lié au genre ou à l'origine ethnique.
 
-## 2. Rapport d'analyse de l'entrevue 2
+### Entrevue 2:
+- **Biais vers l'expérience agile** : Une préférence marquée pour l'expérience en environnement agile qui pourrait ne pas convenir à tous les profils.
+- **Neutralité globale** : Interaction neutre sans indication de discrimination.
 
-### Résumé de l'analyse
-L'entrevue 2 était plus ciblée sur les compétences techniques, mais des biais potentiels liés au genre ont été identifiés.
+## Score de Biais
+- **Entrevue 1:** 20/100
+- **Entrevue 2:** 25/100
 
-### Observations détaillées
-- Questions techniques pertinentes, mais certaines ont mis l'accent sur le genre des collègues.
-- Mention d'un environnement de travail majoritairement masculin.
+## Score Global de Biais
+Le score global de biais pour les deux entrevues est de 22.5/100, indiquant un léger biais technique et méthodologique sans indications majeures de discrimination personnelle.
 
-### Diagnostic de biais
-- Biais de genre identifié, avec des questions soulignant le genre des collègues.
+## Recommandations
+- **Formation aux biais inconscients** : Il est recommandé d'offrir une formation pour sensibiliser aux biais potentiels liés à une focalisation excessive sur certains aspects techniques ou méthodologiques.
+- **Grille d'évaluation standardisée** : L'utilisation d'une grille qui évalue à la fois les compétences techniques et interpersonnelles pour chaque candidat est suggérée.
+- **Diversité dans les questions** : Intégrer une variété de questions qui permettent aux candidats de démontrer diverses compétences et expériences pertinentes pour le poste.
 
-### Recommandations
-- Formation sur les biais inconscients pour le recruteur.
-- Utilisation d'une grille d'évaluation standardisée.
-- Reformulation des questions pour éviter les stéréotypes de genre.
-
-## 3. Rapport d'analyse des 2 entrevues
-
-### Résumé de l’analyse
-L'analyse des deux entrevues révèle des différences notables dans la structure et le contenu des questions posées. L'entrevue 1 était plus générale, tandis que l'entrevue 2 était plus ciblée sur les compétences techniques avec des biais potentiels liés au genre.
-
-### Observations détaillées
-- **Entrevue 1 :** Axée sur l'expérience générale, ton neutre.
-- **Entrevue 2 :** Questions techniques et biais de genre potentiel.
-
-### Diagnostic de biais
-- **Biais de genre :** Présence de biais dans l'entrevue 2.
-
-### Recommandations
-- Formation sur les biais inconscients.
-- Grille d’évaluation standardisée.
-- Reformulation des questions.
-
-### Score biais global
-- Score de 30 sur 100, reflétant les biais potentiels dans l'entrevue 2.
-
-### Candidat favorisé
-- Aucun candidat explicitement favorisé, mais l'attention au genre pourrait influencer la perception du candidat.
+## Conclusion
+Le processus d'entrevue pourrait bénéficier d'améliorations pour réduire les biais et promouvoir un environnement plus inclusif et équitable. La mise en œuvre des recommandations proposées pourrait aider à atteindre ces objectifs.

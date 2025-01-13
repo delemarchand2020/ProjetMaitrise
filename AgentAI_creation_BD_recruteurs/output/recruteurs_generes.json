@@ -102,5 +102,27 @@
             "Il exprime souvent une surprise positive lorsqu'une candidate d\u00e9montre un haut niveau de comp\u00e9tence technique, ce qui peut \u00eatre per\u00e7u comme condescendant.",
             "Dans ses conversations avec les coll\u00e8gues, il utilise parfois des tournures de phrases qui minimisent involontairement les r\u00e9alisations des femmes dans le domaine technologique."
         ]
+    },
+    {
+        "recruiter_full_name": "Marc Dupont",
+        "role_description": "Marc Dupont est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique, travaillant pour une grande entreprise technologique. Il est charg\u00e9 de trouver, d'\u00e9valuer et de s\u00e9lectionner les meilleurs talents pour des postes techniques vari\u00e9s, allant du d\u00e9veloppement logiciel \u00e0 la gestion de projets IT.",
+        "responsibilities": [
+            "Analyser les besoins en recrutement de l'entreprise et d\u00e9finir les profils recherch\u00e9s.",
+            "R\u00e9diger et publier des offres d'emploi sur diverses plateformes.",
+            "Conduire des entretiens t\u00e9l\u00e9phoniques et en face-\u00e0-face avec les candidats potentiels.",
+            "Collaborer avec les responsables techniques pour \u00e9valuer les comp\u00e9tences techniques des candidats.",
+            "Suivre le processus de recrutement jusqu'\u00e0 l'int\u00e9gration du candidat."
+        ],
+        "passions_hobbies": [
+            "Passionn\u00e9 par la technologie et l'innovation, il aime se tenir inform\u00e9 des derni\u00e8res tendances en mati\u00e8re d'IA et de blockchain.",
+            "Adepte de la course \u00e0 pied, il participe r\u00e9guli\u00e8rement \u00e0 des marathons locaux.",
+            "Amateur de voyages, il adore d\u00e9couvrir de nouvelles cultures et cuisines."
+        ],
+        "bias": "Marc a tendance \u00e0 avoir un biais inconscient bas\u00e9 sur le st\u00e9r\u00e9otype selon lequel les femmes sont moins comp\u00e9tentes dans le domaine technologique que leurs homologues masculins.",
+        "bias_hints": [
+            "Lors des entretiens, Marc peut adopter une posture plus sceptique lorsqu'il \u00e9value les comp\u00e9tences techniques d'une candidate par rapport \u00e0 un candidat masculin.",
+            "Il pose souvent des questions suppl\u00e9mentaires aux femmes concernant leur exp\u00e9rience technique, cherchant \u00e0 valider leur expertise de mani\u00e8re plus rigoureuse.",
+            "Dans ses communications verbales, il peut inconsciemment employer un ton condescendant ou paternaliste lorsqu'il parle avec des candidates, ce qui peut nuire \u00e0 l'\u00e9quilibre de la conversation."
+        ]
     }
 ]

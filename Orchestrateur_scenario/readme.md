@@ -45,7 +45,7 @@ python main.py
 ### Exemple
 
 ```bash
-python main.py --metier "analyste en données" --api_keys_file "chemin/vers/api_keys.json"
+python main.py --metier "chef de projets IA" --api_keys_file .\\api_keys.json
 ```
 
 ## Fonctionnement

@@ -1,6 +1,5 @@
 /Outils/
-./.idea/*.xml
-./.idea/*.iml
+./.idea/
 
 /CrewAI_equipe_creation_BD_candidats/keys.txt
 /.venv/
@@ -20,3 +19,4 @@
 /CrewAI_equipe_creation_BD_candidats/output/
 /Equipe_agents_EDI/output/
 /Simulation_conversation/output/
+

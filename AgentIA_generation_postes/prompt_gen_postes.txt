@@ -1,15 +1,15 @@
-Créez {{nombre_postes}} postes distincts pour le métier {{metier}} en suivant les instructions ci-dessous. Chaque poste doit inclure les informations suivantes :
+Créer {{nombre_postes}} offres d'emploi distinctes pour le métier de {{metier}}. Chaque offre doit inclure les informations suivantes :
 
-- Nom de l'entreprise : Générez un nom d'entreprise original et unique.
-- Titre du poste : Créez un titre de poste spécifique et pertinent pour le métier.
-- Description du poste : Rédigez une description détaillée et réaliste, en évitant les généralités.
-- Responsabilités : Listez des responsabilités spécifiques au poste, en étant précis et exhaustif.
-- Compétences requises : Énumérez les compétences nécessaires, en détaillant chaque compétence.
-- Localisation : Indiquez la localisation du poste en Europe.
-- Niveau d'expérience : Spécifiez le niveau d'expérience requis (Junior, Intermédiaire ou Senior).
-- Éducation requise : Précisez les qualifications éducatives nécessaires pour le poste.
+- Nom de l'entreprise : Générer un nom d'entreprise original et unique.
+- Titre du poste : Créer un titre de poste spécifique et pertinent pour le métier.
+- Description du poste : Rédiger une description détaillée et réaliste, en évitant les généralités.
+- Responsabilités : Lister des responsabilités spécifiques au poste, en étant précis et exhaustif.
+- Compétences requises : Énumérer les compétences nécessaires, en détaillant chaque compétence.
+- Localisation : Indiquer la localisation du poste en Europe.
+- Niveau d'expérience : Spécifier le niveau d'expérience requis (Junior, Intermédiaire ou Senior).
+- Éducation requise : Préciser les qualifications éducatives nécessaires pour le poste.
 
-Formatez chaque poste dans le format JSON suivant :
+Formate chaque offre d'emploi dans le format JSON suivant :
 
 ```json
 {
@@ -24,13 +24,7 @@ Formatez chaque poste dans le format JSON suivant :
 }
 ```
 
-Effectuez un contrôle qualité pour :
-
-- Vérifier que chaque poste est unique et qu'il n'y a pas de duplicatas.
-- S'assurer que les descriptions, responsabilités et compétences sont spécifiques et non génériques.
-- Vérifier que vous avez bien créé la quantité de postes demandés.
-
-Rassemblez tous les JSON des postes dans une liste sous la clé "postes", par exemple :
+Assure-toi que chaque poste est unique et qu'il n'y a pas de duplicatas. Vérifie que les descriptions, responsabilités et compétences sont spécifiques et non génériques. Rassemble tous les JSON des postes dans une liste sous la clé "postes", par exemple :
 
 ```json
 {

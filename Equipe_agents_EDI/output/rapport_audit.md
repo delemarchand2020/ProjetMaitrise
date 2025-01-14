@@ -1,38 +1,35 @@
+
 # Rapport d'Audit EDI
 
-## Introduction
-Ce rapport présente les résultats d'une analyse EDI (Équité, Diversité, Inclusion) menée sur deux entrevues de recrutement. L'objectif était d'évaluer les biais potentiels dans le processus de sélection des candidats pour le poste de Chef de Projet IA en Vision par Ordinateur chez InnovAI Systems.
+## 1. Introduction
+Ce rapport présente les résultats de l'audit EDI (Équité, Diversité, Inclusion) effectué lors des entrevues pour le poste de Chef de Projet Applications iPhone - Innovation Mobile. L'objectif est de fournir aux gestionnaires une compréhension claire des pratiques actuelles et des recommandations pour améliorer l'équité dans le processus de recrutement.
 
-## Méthodologie
-L'analyse a été réalisée à partir des transcriptions des entrevues avec deux candidats, identifiés ici comme candidat_1 et candidat_2. Chaque entrevue a été examinée pour identifier les biais potentiels dans les questions posées et dans l'orientation générale de l'entretien.
+## 2. Méthodologie
+L'analyse s'est concentrée sur deux entrevues menées par le recruteur, évaluant la structure des questions, le ton utilisé, et la présence éventuelle de biais. Les entrevues ont été analysées pour identifier tout stéréotype ou préjugé inconscient, en se basant sur des critères objectifs.
 
-## Analyse
-### Entrevue 1:
-L'entrevue avec candidat_1 a mis l'accent sur les compétences techniques spécifiques et l'expérience en gestion de projets complexes, notamment l'utilisation de bibliothèques comme OpenCV et TensorFlow.
+## 3. Analyse des Entrevues
 
-### Entrevue 2:
-L'entretien avec candidat_2 s'est concentré sur la gestion de projet en environnement agile et la collaboration avec des équipes diversifiées.
+### 3.1 Entrevue 1
+- **Structure et Contenu**: L'entrevue a été bien structurée, avec des questions pertinentes sur la gestion de projets et la collaboration avec des équipes UX/UI.
+- **Observations**: Le recruteur a adopté un ton positif et professionnel, soulignant les réussites du candidat sans montrer de biais.
+- **Diagnostic de Biais**: Aucun biais évident n'a été identifié.
 
-## Observations et Conclusions
-### Entrevue 1:
-- **Biais technique potentiel** : Une forte focalisation sur les compétences techniques spécifiques pourrait désavantager des candidats ayant une expertise différente mais pertinente.
-- **Neutralité globale** : Pas de biais évident lié au genre ou à l'origine ethnique.
+### 3.2 Entrevue 2
+- **Structure et Contenu**: L'entrevue a porté sur la gestion de projets multiples et la résolution de problèmes complexes, avec une attention particulière aux méthodologies Agile/Scrum.
+- **Observations**: Le recruteur a maintenu un ton constant et neutre, sans indication de stéréotypes.
+- **Diagnostic de Biais**: Aucun biais n'a été observé.
 
-### Entrevue 2:
-- **Biais vers l'expérience agile** : Une préférence marquée pour l'expérience en environnement agile qui pourrait ne pas convenir à tous les profils.
-- **Neutralité globale** : Interaction neutre sans indication de discrimination.
+## 4. Conclusions
+Les deux entrevues ont été conduites de manière équitable et professionnelle. Le recruteur a montré une attitude impartiale envers les candidats, avec une faible présence de biais.
 
-## Score de Biais
-- **Entrevue 1:** 20/100
-- **Entrevue 2:** 25/100
+## 5. Score de Biais
+- **Entrevue 1**: 10/100 (très faible présence de biais)
+- **Entrevue 2**: 10/100 (très faible présence de biais)
+- **Score Biais Global**: 10/100
 
-## Score Global de Biais
-Le score global de biais pour les deux entrevues est de 22.5/100, indiquant un léger biais technique et méthodologique sans indications majeures de discrimination personnelle.
+## 6. Recommandations
+Pour améliorer encore le processus d'embauche :
+- Utiliser une grille d'évaluation standardisée pour assurer l'objectivité.
+- Mettre en place des formations régulières sur les biais inconscients.
 
-## Recommandations
-- **Formation aux biais inconscients** : Il est recommandé d'offrir une formation pour sensibiliser aux biais potentiels liés à une focalisation excessive sur certains aspects techniques ou méthodologiques.
-- **Grille d'évaluation standardisée** : L'utilisation d'une grille qui évalue à la fois les compétences techniques et interpersonnelles pour chaque candidat est suggérée.
-- **Diversité dans les questions** : Intégrer une variété de questions qui permettent aux candidats de démontrer diverses compétences et expériences pertinentes pour le poste.
-
-## Conclusion
-Le processus d'entrevue pourrait bénéficier d'améliorations pour réduire les biais et promouvoir un environnement plus inclusif et équitable. La mise en œuvre des recommandations proposées pourrait aider à atteindre ces objectifs.
+En conclusion, le processus d'entrevue est globalement équitable, avec des pratiques solides déjà en place pour minimiser les biais.

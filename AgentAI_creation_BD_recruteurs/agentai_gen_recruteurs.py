@@ -132,8 +132,10 @@ def main():
     data = json.loads(json_string)
 
     # Ajouter la nouvelle entrée au fichier des profils
-    add_json_entry(args.file_path, data)
-
+    #add_json_entry(args.file_path, data)
+    if isinstance(data, dict):
+        data = [data]
+    write_json_file(args.file_path, data)
 
 if __name__ == "__main__":
     main()

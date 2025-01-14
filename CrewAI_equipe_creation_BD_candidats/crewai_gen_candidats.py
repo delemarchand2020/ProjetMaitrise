@@ -223,7 +223,7 @@ def main():
     genre = args.genre
     poste_num = args.poste_num
 
-    session_agentops = agentops.init()
+    session_agentops = agentops.init(default_tags=["génération candidat"])
 
     fichier_candidats = file_name
     params = {

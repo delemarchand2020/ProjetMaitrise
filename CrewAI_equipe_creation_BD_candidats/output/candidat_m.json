@@ -1,0 +1,15 @@
+{
+  "poste_num": "1",
+  "company_name": "TechNova Solutions",
+  "job_title": "Chef de Projet Applications iPhone - Innovation Mobile",
+  "candidate_full_name": "Paul Lefebvre",
+  "passions_hobbies": ["Randonnée", "Programmation de jeux vidéo", "Lecture de science-fiction", "Voyages"],
+  "why_is_a_good_fit": ["Expérience éprouvée dans le développement d'applications iOS innovantes.", "Compétences certifiées en gestion de projet Agile/Scrum.", "Capacité à travailler efficacement en équipe et à gérer des projets complexes."],
+  "academic_background_certifications": ["Diplôme en Informatique - Université de Technologie de Berlin, obtenu en 2015", "Certification Scrum Master - Scrum Alliance, obtenue en 2017"],
+  "technical_professional_skills": ["Maîtrise du langage Swift et connaissance approfondie des frameworks iOS", "Expérience en gestion de projet Agile/Scrum", "Connaissance des outils de gestion de version comme Git"],
+  "interpersonal_soft_skills": ["Compétences exceptionnelles en communication et en résolution de problèmes", "Capacité à gérer plusieurs projets simultanément dans un environnement dynamique", "Passion pour l'innovation technologique et aptitude à collaborer avec différentes équipes"],
+  "professional_experiences": [
+    {"title": "Chef de Projet iOS - AppVision Tech, Berlin, Allemagne (2018 - 2023)", "responsibilities": ["Dirigé une équipe pour développer et lancer cinq applications iPhone innovantes.", "Collaboré étroitement avec les équipes UX/UI pour optimiser l'expérience utilisateur.", "Mis en œuvre la méthodologie Agile/Scrum pour améliorer l'efficacité des projets."]},
+    {"title": "Développeur iOS Junior - FutureApps Solutions, Berlin, Allemagne (2015 - 2018)", "responsibilities": ["Développé des fonctionnalités clés pour plusieurs applications mobiles iOS.", "Assisté dans la gestion de versions avec Git et participé aux tests d'intégration."]}
+  ]
+}

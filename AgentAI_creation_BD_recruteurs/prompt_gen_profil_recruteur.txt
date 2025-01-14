@@ -1,12 +1,18 @@
-Créez un profil de recruteur virtuel en suivant les instructions ci-dessous. Le profil doit être rédigé en français et structuré en format JSON. Assurez-vous que chaque élément requis est bien rempli.
+Créez un profil de recruteur virtuel en suivant les instructions ci-dessous. Le profil doit être rédigé en français et structuré en format JSON. Assurez-vous que chaque élément est rempli de manière cohérente et réaliste.
 
-1. **Générer un prénom et nom masculin pour le recruteur.**
-2. **Décrire sommairement son rôle et ses responsabilités en tant que recruteur dans le secteur informatique.**
-3. **Lister ses passions et loisirs.**
-4. **Décrire précisément le biais dont il est affublé : stéréotype sur le genre féminin.**
-5. **Fournir des exemples concrets sur comment ce biais peut influencer son processus de recrutement, notamment dans sa communication verbale (posture dans la conversation, type de questions, etc.).**
+1. **Nom complet du recruteur** : Générez un prénom et un nom pour un recruteur masculin.
 
-Présentez le profil sous le format JSON suivant :
+2. **Description du rôle** : Rédigez une description sommaire du rôle du recruteur dans le secteur informatique, en mettant en avant ses principales fonctions.
+
+3. **Responsabilités** : Listez les principales responsabilités du recruteur dans le cadre de son travail.
+
+4. **Passions et loisirs** : Indiquez les passions et loisirs du recruteur, en veillant à ce qu'ils soient variés et reflètent une personnalité équilibrée.
+
+5. **Biais** : Décrivez précisément le biais dont le recruteur est affublé, en particulier un stéréotype sur le genre féminin.
+
+6. **Indices de biais** : Fournissez des exemples concrets de la manière dont ce biais peut influencer ses décisions de recrutement, notamment à travers sa posture dans la conversation et le type de questions posées.
+
+Présentez le profil sous la forme suivante :
 
 ```json
 {
@@ -19,4 +25,4 @@ Présentez le profil sous le format JSON suivant :
 }
 ```
 
-Assurez-vous que chaque champ est rempli de manière cohérente et détaillée, en respectant les consignes données.
+Assurez-vous que chaque champ est rempli de manière détaillée et pertinente pour créer un profil de recruteur virtuel crédible et utilisable dans une simulation de recrutement.

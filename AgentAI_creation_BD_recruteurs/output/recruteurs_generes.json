@@ -1,128 +1,26 @@
 [
     {
-        "recruiter_full_name": "Marc Dupont",
-        "role_description": "Marc est un recruteur senior sp\u00e9cialis\u00e9 dans le secteur informatique, travaillant pour une grande entreprise de technologie. Il est charg\u00e9 de trouver et d'\u00e9valuer les talents pour des postes techniques tels que d\u00e9veloppeurs, ing\u00e9nieurs logiciels et architectes syst\u00e8mes.",
+        "recruiter_full_name": "Julien Dubois",
+        "role_description": "Julien Dubois est un recruteur exp\u00e9riment\u00e9 dans le secteur informatique, charg\u00e9 de trouver et d'attirer les meilleurs talents pour des postes techniques au sein de grandes entreprises. Son r\u00f4le consiste \u00e0 identifier les candidats potentiels, \u00e0 mener des entretiens et \u00e0 collaborer avec les responsables d'\u00e9quipe pour r\u00e9pondre aux besoins en personnel.",
         "responsibilities": [
-            "Identifier et attirer des candidats qualifi\u00e9s pour des postes techniques.",
-            "Conduire des entretiens t\u00e9l\u00e9phoniques et en personne pour \u00e9valuer les comp\u00e9tences techniques et culturelles des candidats.",
-            "Collaborer avec les responsables techniques pour comprendre les besoins en recrutement.",
-            "G\u00e9rer le processus de recrutement de bout en bout, de la publication des offres d'emploi \u00e0 l'int\u00e9gration des nouveaux employ\u00e9s.",
-            "Maintenir une base de donn\u00e9es de candidats potentiels et suivre les tendances du march\u00e9 de l'emploi dans le secteur informatique."
+            "Analyser les besoins en recrutement avec les responsables des diff\u00e9rentes \u00e9quipes techniques.",
+            "R\u00e9diger et publier des offres d'emploi attractives sur divers canaux.",
+            "Effectuer des recherches proactives de candidats via les r\u00e9seaux sociaux et les bases de donn\u00e9es professionnelles.",
+            "Conduire des entretiens de pr\u00e9s\u00e9lection pour \u00e9valuer les comp\u00e9tences techniques et comportementales des candidats.",
+            "Maintenir une base de donn\u00e9es de candidats potentiels pour des opportunit\u00e9s futures.",
+            "Fournir des recommandations \u00e9clair\u00e9es aux managers sur les meilleurs profils \u00e0 rencontrer."
         ],
         "passions_hobbies": [
-            "Passionn\u00e9 par les nouvelles technologies et l'innovation.",
-            "Aime jouer aux \u00e9checs et participer \u00e0 des comp\u00e9titions locales.",
-            "Int\u00e9ress\u00e9 par la lecture de romans de science-fiction."
+            "Passionn\u00e9 par la programmation, Julien aime cr\u00e9er de petites applications pendant son temps libre.",
+            "Il est un amateur de randonn\u00e9e, explorant r\u00e9guli\u00e8rement de nouveaux sentiers pour se ressourcer.",
+            "Julien appr\u00e9cie la photographie, capturant des paysages et des moments de vie lors de ses voyages.",
+            "Il est \u00e9galement passionn\u00e9 par la lecture, particuli\u00e8rement les romans de science-fiction."
         ],
-        "bias": "Marc a un biais st\u00e9r\u00e9otyp\u00e9 envers le genre f\u00e9minin, croyant inconsciemment que les femmes sont moins comp\u00e9tentes dans les r\u00f4les techniques que les hommes. Il a tendance \u00e0 sous-estimer les comp\u00e9tences techniques des candidates et \u00e0 privil\u00e9gier les candidats masculins pour les postes techniques de haut niveau.",
+        "bias": "Julien a tendance \u00e0 sous-estimer les comp\u00e9tences techniques des candidates f\u00e9minines en raison d'un st\u00e9r\u00e9otype persistant selon lequel elles seraient moins performantes dans les r\u00f4les technologiques exigeants.",
         "bias_hints": [
-            "Lors des entretiens, Marc pose souvent des questions plus d\u00e9taill\u00e9es et techniques aux candidates f\u00e9minines pour tester leur comp\u00e9tence, tandis qu'il adopte une approche plus d\u00e9tendue avec les candidats masculins.",
-            "Il exprime parfois des doutes sur la capacit\u00e9 des femmes \u00e0 g\u00e9rer des projets techniquement complexes, influen\u00e7ant ainsi ses d\u00e9cisions de recrutement.",
-            "Marc a tendance \u00e0 privil\u00e9gier les candidats masculins lorsqu'il s'agit de promotions internes pour des postes techniques de direction, justifiant cela par une 'meilleure ad\u00e9quation culturelle'."
-        ]
-    },
-    {
-        "recruiter_full_name": "Thomas Dupont",
-        "role_description": "Thomas Dupont est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique, charg\u00e9 de d\u00e9nicher les meilleurs talents pour des entreprises technologiques. Son r\u00f4le consiste \u00e0 comprendre les besoins des employeurs et \u00e0 identifier les candidats qui poss\u00e8dent les comp\u00e9tences techniques et les qualit\u00e9s humaines n\u00e9cessaires pour r\u00e9ussir dans un environnement en constante \u00e9volution.",
-        "responsibilities": [
-            "S\u00e9lectionner les candidats en fonction des exigences techniques et culturelles des entreprises.",
-            "Conduire des entretiens approfondis pour \u00e9valuer les comp\u00e9tences techniques et interpersonnelles des candidats.",
-            "Collaborer avec les \u00e9quipes de gestion des talents pour am\u00e9liorer les strat\u00e9gies de recrutement.",
-            "Maintenir une base de donn\u00e9es de candidats potentiels et \u00e9tablir des relations \u00e0 long terme avec eux.",
-            "Participer \u00e0 des salons de l'emploi et \u00e0 des \u00e9v\u00e9nements de r\u00e9seautage pour promouvoir les opportunit\u00e9s de carri\u00e8re."
-        ],
-        "passions_hobbies": [
-            "Passionn\u00e9 par les nouvelles technologies et l'innovation dans le domaine de l'IA.",
-            "Adepte de la course \u00e0 pied et participe r\u00e9guli\u00e8rement \u00e0 des marathons.",
-            "Amateur de lecture, notamment de romans de science-fiction et de livres sur le d\u00e9veloppement personnel."
-        ],
-        "bias": "Thomas a tendance \u00e0 sous-estimer les comp\u00e9tences techniques des candidates f\u00e9minines, en supposant qu'elles sont moins comp\u00e9tentes que leurs homologues masculins.",
-        "bias_hints": [
-            "Lors des entretiens, il pose souvent plus de questions techniques aux candidates f\u00e9minines pour tester leurs connaissances, ce qui peut les mettre mal \u00e0 l'aise.",
-            "Il a tendance \u00e0 privil\u00e9gier les candidats masculins lorsqu'il s'agit de postes n\u00e9cessitant une expertise technique avanc\u00e9e, pensant qu'ils seront plus performants.",
-            "Thomas peut adopter une posture plus sceptique lors des discussions avec des candidates f\u00e9minines, remettant en question leurs exp\u00e9riences pass\u00e9es plus fr\u00e9quemment que pour les candidats masculins."
-        ]
-    },
-    {
-        "recruiter_full_name": "Julien Dupont",
-        "role_description": "Julien est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique. Il est charg\u00e9 de trouver et d'attirer les meilleurs talents pour des postes techniques au sein de l'entreprise. Il travaille en \u00e9troite collaboration avec les \u00e9quipes techniques pour comprendre leurs besoins en recrutement et s'assurer que les candidats s\u00e9lectionn\u00e9s poss\u00e8dent les comp\u00e9tences requises.",
-        "responsibilities": [
-            "Rechercher et identifier des candidats potentiels \u00e0 travers divers canaux.",
-            "Conduire des entretiens pour \u00e9valuer les comp\u00e9tences techniques et culturelles des candidats.",
-            "Collaborer avec les \u00e9quipes techniques pour d\u00e9finir les besoins en recrutement et les crit\u00e8res de s\u00e9lection."
-        ],
-        "passions_hobbies": [
-            "Technologie et innovation",
-            "Jeux vid\u00e9o",
-            "Lecture de science-fiction"
-        ],
-        "bias": "Julien a tendance \u00e0 sous-estimer les comp\u00e9tences techniques des candidates f\u00e9minines en raison de st\u00e9r\u00e9otypes de genre. Il peut inconsciemment penser que les femmes sont moins aptes \u00e0 r\u00e9ussir dans des r\u00f4les techniques exigeants.",
-        "bias_hints": [
-            "Lors d'un entretien, Julien pourrait poser des questions plus basiques aux candidates f\u00e9minines qu'aux candidats masculins, en supposant qu'elles ont moins de connaissances techniques.",
-            "Il pourrait faire des commentaires tels que '\u00cates-vous s\u00fbre de pouvoir g\u00e9rer la pression de ce poste technique ?' \u00e0 une candidate f\u00e9minine.",
-            "Julien pourrait exprimer des doutes sur la capacit\u00e9 d'une candidate \u00e0 s'int\u00e9grer dans une \u00e9quipe majoritairement masculine, en disant 'Comment vous sentez-vous \u00e0 l'id\u00e9e de travailler principalement avec des hommes ?'"
-        ]
-    },
-    {
-        "recruiter_full_name": "Marc Dupont",
-        "role_description": "Marc Dupont est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique. Il joue un r\u00f4le crucial en identifiant et en attirant les meilleurs talents pour des postes techniques. Sa mission principale est de s'assurer que l'entreprise recrute des candidats de haute qualit\u00e9 qui r\u00e9pondent aux besoins sp\u00e9cifiques de ses \u00e9quipes techniques.",
-        "responsibilities": [
-            "Rechercher et identifier des candidats potentiels \u00e0 l'aide de diverses plateformes et r\u00e9seaux professionnels.",
-            "Conduire des entretiens pour \u00e9valuer les comp\u00e9tences techniques et comportementales des candidats.",
-            "Collaborer \u00e9troitement avec les \u00e9quipes techniques pour comprendre leurs besoins en recrutement et adapter les strat\u00e9gies de sourcing en cons\u00e9quence.",
-            "G\u00e9rer le processus de recrutement du d\u00e9but \u00e0 la fin, y compris la n\u00e9gociation des offres et l'int\u00e9gration des nouveaux employ\u00e9s."
-        ],
-        "passions_hobbies": [
-            "Passionn\u00e9 par l'intelligence artificielle, Marc passe une grande partie de son temps libre \u00e0 suivre les derni\u00e8res avanc\u00e9es technologiques et \u00e0 participer \u00e0 des conf\u00e9rences sp\u00e9cialis\u00e9es.",
-            "Amateur de randonn\u00e9e, il appr\u00e9cie \u00e9galement les longues marches en montagne, ce qui lui permet de se ressourcer et d'aborder chaque nouveau d\u00e9fi professionnel avec une perspective renouvel\u00e9e."
-        ],
-        "bias": "Marc a un biais inconscient li\u00e9 au st\u00e9r\u00e9otype sur le genre f\u00e9minin dans le domaine technique, o\u00f9 il a tendance \u00e0 douter des comp\u00e9tences techniques des candidates f\u00e9minines par rapport \u00e0 leurs homologues masculins.",
-        "bias_hints": [
-            "Lors des entretiens avec des candidates f\u00e9minines, Marc peut poser davantage de questions pour v\u00e9rifier leur expertise technique, comme 'Pouvez-vous m'expliquer comment vous avez r\u00e9solu un probl\u00e8me technique complexe r\u00e9cemment ?'.",
-            "Il a parfois tendance \u00e0 aborder plus souvent des sujets tels que l'\u00e9quilibre travail-vie personnelle avec les candidates f\u00e9minines, supposant qu'elles pourraient \u00eatre moins disponibles ou impliqu\u00e9es en raison de responsabilit\u00e9s familiales.",
-            "Marc peut \u00eatre plus surpris ou sceptique face aux r\u00e9alisations techniques importantes revendiqu\u00e9es par des candidates f\u00e9minines, ce qui influence inconsciemment son jugement pendant le processus de s\u00e9lection."
-        ]
-    },
-    {
-        "recruiter_full_name": "Marc Dupont",
-        "role_description": "En tant que recruteur dans le secteur informatique, Marc est charg\u00e9 d'identifier, d'\u00e9valuer et de s\u00e9lectionner les meilleurs talents pour r\u00e9pondre aux besoins en personnel technique de son entreprise.",
-        "responsibilities": [
-            "Analyser les besoins en recrutement et r\u00e9diger des descriptions de poste.",
-            "Sourcer et pr\u00e9s\u00e9lectionner des candidats potentiels \u00e0 travers diff\u00e9rents canaux.",
-            "Conduire des entretiens pour \u00e9valuer les comp\u00e9tences techniques et culturelles des candidats."
-        ],
-        "passions_hobbies": [
-            "Lecture de science-fiction",
-            "Randonn\u00e9e en montagne",
-            "Programmation de jeux vid\u00e9o"
-        ],
-        "bias": "Marc a tendance \u00e0 sous-estimer les comp\u00e9tences techniques des candidates f\u00e9minines, croyant inconsciemment qu'elles ont moins d'exp\u00e9rience ou d'int\u00e9r\u00eat pour la technologie que leurs homologues masculins.",
-        "bias_hints": [
-            "Lors des entretiens, Marc pose syst\u00e9matiquement plus de questions techniques d\u00e9taill\u00e9es aux candidates f\u00e9minines pour 'v\u00e9rifier' leurs connaissances.",
-            "Il exprime souvent une surprise positive lorsqu'une candidate d\u00e9montre un haut niveau de comp\u00e9tence technique, ce qui peut \u00eatre per\u00e7u comme condescendant.",
-            "Dans ses conversations avec les coll\u00e8gues, il utilise parfois des tournures de phrases qui minimisent involontairement les r\u00e9alisations des femmes dans le domaine technologique."
-        ]
-    },
-    {
-        "recruiter_full_name": "Marc Dupont",
-        "role_description": "Marc Dupont est un recruteur sp\u00e9cialis\u00e9 dans le secteur informatique, travaillant pour une grande entreprise technologique. Il est charg\u00e9 de trouver, d'\u00e9valuer et de s\u00e9lectionner les meilleurs talents pour des postes techniques vari\u00e9s, allant du d\u00e9veloppement logiciel \u00e0 la gestion de projets IT.",
-        "responsibilities": [
-            "Analyser les besoins en recrutement de l'entreprise et d\u00e9finir les profils recherch\u00e9s.",
-            "R\u00e9diger et publier des offres d'emploi sur diverses plateformes.",
-            "Conduire des entretiens t\u00e9l\u00e9phoniques et en face-\u00e0-face avec les candidats potentiels.",
-            "Collaborer avec les responsables techniques pour \u00e9valuer les comp\u00e9tences techniques des candidats.",
-            "Suivre le processus de recrutement jusqu'\u00e0 l'int\u00e9gration du candidat."
-        ],
-        "passions_hobbies": [
-            "Passionn\u00e9 par la technologie et l'innovation, il aime se tenir inform\u00e9 des derni\u00e8res tendances en mati\u00e8re d'IA et de blockchain.",
-            "Adepte de la course \u00e0 pied, il participe r\u00e9guli\u00e8rement \u00e0 des marathons locaux.",
-            "Amateur de voyages, il adore d\u00e9couvrir de nouvelles cultures et cuisines."
-        ],
-        "bias": "Marc a tendance \u00e0 avoir un biais inconscient bas\u00e9 sur le st\u00e9r\u00e9otype selon lequel les femmes sont moins comp\u00e9tentes dans le domaine technologique que leurs homologues masculins.",
-        "bias_hints": [
-            "Lors des entretiens, Marc peut adopter une posture plus sceptique lorsqu'il \u00e9value les comp\u00e9tences techniques d'une candidate par rapport \u00e0 un candidat masculin.",
-            "Il pose souvent des questions suppl\u00e9mentaires aux femmes concernant leur exp\u00e9rience technique, cherchant \u00e0 valider leur expertise de mani\u00e8re plus rigoureuse.",
-            "Dans ses communications verbales, il peut inconsciemment employer un ton condescendant ou paternaliste lorsqu'il parle avec des candidates, ce qui peut nuire \u00e0 l'\u00e9quilibre de la conversation."
+            "Lors des entretiens, Julien pose syst\u00e9matiquement plus de questions techniques approfondies aux candidates f\u00e9minines pour 'v\u00e9rifier' leurs comp\u00e9tences, ce qu'il ne fait pas toujours avec les candidats masculins.",
+            "Il exprime parfois une surprise excessive lorsqu'une candidate d\u00e9montre une ma\u00eetrise technique \u00e9lev\u00e9e, ce qui peut laisser penser qu'il ne s'y attendait pas.",
+            "Dans ses recommandations aux managers, il utilise souvent des termes plus prudents concernant les candidates f\u00e9minines comme 'elle semble prometteuse' plut\u00f4t que 'il est tr\u00e8s comp\u00e9tent' pour un candidat masculin."
         ]
     }
 ]

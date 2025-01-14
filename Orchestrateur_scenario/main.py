@@ -2,6 +2,10 @@ import os
 import json
 import subprocess
 import argparse
+import shutil
+
+# Chemin du répertoire à nettoyer
+dir_to_clean = r"C:\Users\delem\AppData\Local\CrewAI"
 
 
 def load_api_keys(file_path):
@@ -20,6 +24,17 @@ def run_command(command, cwd=None):
     process.wait()
     if process.returncode != 0:
         raise RuntimeError(f"Command failed: {command}")
+
+
+def nettoyer_cache_crewai():
+    try:
+        run_command(
+            "crewai reset-memories -a"
+        )
+        shutil.rmtree(dir_to_clean, ignore_errors=True)  # Suppression récursive, ignore les erreurs
+        #print(f"Le répertoire {dir_to_clean} a été nettoyé avec succès.")
+    except Exception as e:
+        print(f"Une erreur s'est produite lors du nettoyage du répertoire {dir_to_clean} : {e}")
 
 
 def set_environment(api_keys):
@@ -50,6 +65,8 @@ def main():
         api_keys = load_api_keys(args.api_keys_file)
         set_environment(api_keys)
 
+        nettoyer_cache_crewai()
+
         # Étape 1 : Générer les postes
         os.environ["OPIK_PROJECT_NAME"] = "agentai_gen_postes"
         print("Étape 1 : Génération des postes")
@@ -59,7 +76,6 @@ def main():
         )
 
         # Étape 2 : Générer les candidats féminins
-        os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP2"]
         print("Étape 2 : Génération des candidates féminines")
         run_command(
             "python crewai_gen_candidats.py --fichier_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --output_path output\\ --file_name candidat_f.json --langue_de_travail français --genre féminin --poste_num 1",
@@ -75,15 +91,15 @@ def main():
         )
 
         # Étape 4 : Générer la première conversation
-        os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP4"]
         print("Étape 4 : Génération de la première conversation")
         run_command(
             "python gen_full_crewai_conversation.py --fichier_db_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --fichier_db_recruteurs ..\\AgentAI_creation_BD_recruteurs\\output\\recruteurs_generes.json --fichier_db_candidats ..\\CrewAI_equipe_creation_BD_candidats\\output\\candidat_f.json --output_file conversation_1.json --index 0",
             cwd="..\\Simulation_conversation"
         )
 
+        nettoyer_cache_crewai()
+
         # Étape 5 : Générer les candidats masculins
-        os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP2"]
         print("Étape 5 : Génération des candidats masculins")
         run_command(
             "python crewai_gen_candidats.py --fichier_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --output_path output\\ --file_name candidat_m.json --langue_de_travail français --genre masculin --poste_num 1",
@@ -91,7 +107,6 @@ def main():
         )
 
         # Étape 6 : Générer la deuxième conversation
-        os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP4"]
         print("Étape 6 : Génération de la deuxième conversation")
         run_command(
             "python gen_full_crewai_conversation.py --fichier_db_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --fichier_db_recruteurs ..\\AgentAI_creation_BD_recruteurs\\output\\recruteurs_generes.json --fichier_db_candidats ..\\CrewAI_equipe_creation_BD_candidats\\output\\candidat_m.json --output_file conversation_2.json --index 0",
@@ -99,7 +114,6 @@ def main():
         )
 
         # Étape 7 : Générer le rapport EDI
-        os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP7"]
         print("Étape 7 : Génération du rapport EDI")
         run_command(
             "python gen_rapport_EDI.py --file1 ..\\Simulation_conversation\\output\\conversation_1.json --file2 ..\\Simulation_conversation\\output\\conversation_2.json --output_dir output\\ --output_file rapport_audit.md",
@@ -109,6 +123,7 @@ def main():
         print("Tous les scripts ont été exécutés avec succès !")
     except RuntimeError as e:
         print(f"Une erreur s'est produite : {e}")
+
 
 if __name__ == "__main__":
     main()

@@ -1,42 +1,42 @@
 [
   {
     "role": "Recruteur",
-    "message": "\nBonjour Élise Dubois,\nvous postulez pour le poste de Chef de Projet IA en Vision par Ordinateur, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+    "message": "\nBonjour Sophie Dupont,\nvous postulez pour le poste de Chef de Projet Applications iPhone - Innovation Mobile, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
   },
   {
     "role": "Candidat",
-    "message": "Bonjour, je suis Élise Dubois, titulaire d'un Master en Informatique et certifiée Scrum Master, avec une solide expérience dans le développement de logiciels performants. Ma passion pour l'excellence technologique et ma capacité à collaborer efficacement avec des équipes interfonctionnelles me motivent à contribuer à des projets innovants chez InnovAI Systems."
+    "message": "Bonjour, je suis Sophie Dupont, passionnée par les technologies mobiles et expérimentée en tant que Chef de Projet iOS. J'ai dirigé avec succès des projets de développement d'applications iPhone chez MobileTech Innovations et suis motivée par l'opportunité d'innover et de créer des solutions de pointe chez TechNova Solutions."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse, Élise. Pouvez-vous nous parler d'un projet particulièrement complexe que vous avez géré et comment vous avez utilisé des bibliothèques comme OpenCV ou TensorFlow pour surmonter les défis techniques ?"
+    "message": "Merci pour votre réponse, Sophie. Pourriez-vous me parler d'une situation où vous avez dû collaborer avec une équipe UX/UI pour améliorer l'expérience utilisateur d'une application iOS ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors d'un projet précédent, j'ai dirigé le développement d'une application de reconnaissance d'images où j'ai utilisé OpenCV et TensorFlow pour implémenter des modèles d'apprentissage profond. Cela m'a permis de résoudre des défis techniques complexes liés à l'analyse d'images, tout en garantissant des résultats performants et précis."
+    "message": "Lors de mon expérience chez MobileTech Innovations, j'ai collaboré étroitement avec une équipe UX/UI pour repenser l'interface d'une application iOS, ce qui a considérablement amélioré la satisfaction utilisateur et augmenté l'engagement de 20%."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse détaillée sur votre projet précédent, Élise. Pour varier un peu, pourriez-vous nous partager comment vous gérez les relations avec les clients pour assurer leur satisfaction dans le cadre de vos projets ?"
+    "message": "C'est impressionnant d'avoir pu augmenter l'engagement de 20% grâce à votre collaboration avec l'équipe UX/UI. Pourriez-vous partager une expérience où vous avez dû gérer plusieurs projets en même temps dans un environnement dynamique, tout en maintenant la qualité et les délais ?"
   },
   {
     "role": "Candidat",
-    "message": "Dans mes projets, j'établis une communication proactive avec les clients pour comprendre leurs besoins spécifiques et garantir leur satisfaction en intégrant leurs retours tout au long du développement, assurant ainsi que les solutions livrées répondent pleinement à leurs attentes, un aspect crucial pour le poste de Chef de Projet IA chez InnovAI Systems."
+    "message": "Lors de mon expérience chez MobileTech Innovations, j'ai dirigé simultanément plusieurs projets d'applications iPhone dans un environnement dynamique, en veillant à respecter les délais tout en maintenant la qualité grâce à une gestion efficace des ressources et une communication constante avec les parties prenantes."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse. Pourriez-vous nous décrire un projet spécifique où vous avez dû surmonter des défis techniques complexes en utilisant vos compétences en vision par ordinateur ?"
+    "message": "C'est formidable que vous ayez pu gérer efficacement plusieurs projets d'applications iPhone chez MobileTech Innovations. Pourriez-vous me parler d'une situation où vous avez rencontré un défi technique important et comment vous l'avez surmonté, particulièrement en travaillant avec une équipe diversifiée ?"
   },
   {
     "role": "Candidat",
-    "message": "Bien que ma spécialisation principale soit le développement logiciel, j'ai participé à des hackathons où j'ai collaboré avec des équipes pour intégrer des bibliothèques comme OpenCV dans des projets de vision par ordinateur, et cette expérience m'a permis de comprendre les défis techniques associés et d'affiner mes compétences en résolution de problèmes complexes."
+    "message": "Lors d'un projet complexe chez MobileTech Innovations, nous avons rencontré un défi technique lié à l'intégration d'une nouvelle API. Grâce à une collaboration étroite avec notre équipe multidisciplinaire, nous avons identifié les obstacles rapidement et mis en place des solutions innovantes, garantissant le respect du calendrier et la qualité des livrables."
   },
   {
     "role": "Recruteur",
-    "message": "Merci beaucoup pour votre temps aujourd'hui, Élise. Nous avons apprécié notre conversation et vos expériences partagées. Les prochaines étapes du processus de recrutement consistent en une révision interne des candidats, après quoi nous vous recontacterons pour vous informer de la suite. Nous espérons que votre expertise en vision par ordinateur et votre passion pour l'innovation s'alignent avec les valeurs de notre entreprise. Bonne journée !"
+    "message": "Je vous remercie pour cet entretien. Les prochaines étapes consistent en une évaluation approfondie de tous les candidats suivie d'une communication de notre décision finale dans les deux prochaines semaines. Je suis très impressionné par votre expérience et votre approche collaborative, et j'ai bon espoir que vous serez un excellent atout pour TechNova Solutions."
   },
   {
     "role": "Candidat",
-    "message": "Je vous remercie pour cette opportunité. Avec mon expérience dans le développement et la gestion de projets logiciels complexes, je suis convaincue que je peux diriger efficacement des initiatives de vision par ordinateur tout en assurant la satisfaction des clients chez InnovAI Systems."
+    "message": "Merci pour cette opportunité. Chez MobileTech Innovations, j'ai dirigé avec succès des projets d'applications iPhone du concept à la mise en production, en collaboration étroite avec des équipes UX/UI pour optimiser l'expérience utilisateur, ce qui me prépare idéalement à relever les défis chez TechNova Solutions."
   }
 ]

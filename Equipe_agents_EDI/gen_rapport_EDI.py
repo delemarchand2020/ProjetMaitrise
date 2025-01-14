@@ -203,7 +203,7 @@ def main():
     output_file = args.output_file
     output_dir = args.output_dir
 
-    session_agentops = agentops.init()
+    session_agentops = agentops.init(default_tags=["rédaction rapport EDI"])
 
     params = {
         "output_file": output_file,

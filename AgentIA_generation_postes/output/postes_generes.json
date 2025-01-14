@@ -1,27 +1,48 @@
 {
     "postes": [
         {
-            "company_name": "InnovAI Systems",
-            "job_title": "Chef de Projet IA en Vision par Ordinateur",
-            "job_description": "InnovAI Systems, un pionnier dans les solutions d'intelligence artificielle, recherche un Chef de Projet IA sp\u00e9cialis\u00e9 en vision par ordinateur pour diriger des projets innovants et transformer les id\u00e9es en applications concr\u00e8tes. Vous travaillerez au sein d'une \u00e9quipe dynamique pour concevoir, d\u00e9velopper et d\u00e9ployer des solutions visuelles intelligentes qui r\u00e9pondent aux besoins de nos clients.",
+            "company_name": "TechNova Solutions",
+            "job_title": "Chef de Projet Applications iPhone - Innovation Mobile",
+            "job_description": "TechNova Solutions, leader dans le d\u00e9veloppement d'applications mobiles innovantes, recherche un Chef de Projet Applications iPhone pour diriger notre \u00e9quipe de d\u00e9veloppement et superviser la cr\u00e9ation d'applications de pointe r\u00e9pondant aux besoins changeants du march\u00e9.",
             "responsibilities": [
-                "Concevoir et planifier des projets de vision par ordinateur align\u00e9s sur les objectifs strat\u00e9giques de l'entreprise.",
-                "Collaborer avec des data scientists et ing\u00e9nieurs pour d\u00e9velopper des mod\u00e8les d'apprentissage profond.",
-                "Assurer le suivi des budgets et des \u00e9ch\u00e9anciers, garantissant le respect des d\u00e9lais et des co\u00fbts.",
-                "Analyser les performances des mod\u00e8les d\u00e9velopp\u00e9s et proposer des am\u00e9liorations.",
-                "\u00c9tablir une communication fluide avec les clients pour comprendre leurs besoins et assurer leur satisfaction.",
-                "Superviser les tests et la validation des prototypes avant leur d\u00e9ploiement."
+                "Diriger des projets de d\u00e9veloppement d'applications iPhone du concept \u00e0 la mise en production.",
+                "Collaborer avec les \u00e9quipes UX/UI pour assurer une exp\u00e9rience utilisateur optimale.",
+                "Superviser les tests d'int\u00e9gration et de performance pour garantir la qualit\u00e9 des applications.",
+                "G\u00e9rer le calendrier de projet et allouer les ressources efficacement pour respecter les d\u00e9lais.",
+                "Communiquer r\u00e9guli\u00e8rement avec les parties prenantes pour fournir des mises \u00e0 jour sur l'\u00e9tat du projet."
             ],
             "skills_required": [
-                "Expertise en vision par ordinateur, notamment dans l'utilisation de biblioth\u00e8ques comme OpenCV et TensorFlow.",
-                "Excellente compr\u00e9hension des algorithmes d'apprentissage profond et de r\u00e9seaux de neurones convolutifs.",
-                "Capacit\u00e9 \u00e0 g\u00e9rer plusieurs projets simultan\u00e9ment avec un fort sens de l'organisation.",
-                "Comp\u00e9tences exceptionnelles en r\u00e9solution de probl\u00e8mes complexes.",
-                "Exp\u00e9rience dans la gestion de projets technologiques dans un environnement agile."
+                "Ma\u00eetrise du langage Swift et connaissance approfondie des frameworks iOS.",
+                "Exp\u00e9rience en gestion de projet Agile/Scrum.",
+                "Comp\u00e9tences exceptionnelles en communication et en r\u00e9solution de probl\u00e8mes.",
+                "Capacit\u00e9 \u00e0 g\u00e9rer plusieurs projets simultan\u00e9ment dans un environnement dynamique.",
+                "Connaissance des outils de gestion de version comme Git."
             ],
-            "location": "Lyon, France",
+            "location": "Berlin, Allemagne",
+            "experience_level": "Interm\u00e9diaire",
+            "education_required": "Dipl\u00f4me universitaire en informatique ou dans un domaine connexe"
+        },
+        {
+            "company_name": "AppVenture Labs",
+            "job_title": "Responsable D\u00e9veloppement d'Applications iOS Senior",
+            "job_description": "AppVenture Labs, une startup dynamique sp\u00e9cialis\u00e9e dans la cr\u00e9ation d'applications personnalis\u00e9es, recherche un Responsable D\u00e9veloppement d'Applications iOS Senior pour superviser l'\u00e9volution technique de nos projets et guider notre \u00e9quipe vers l'excellence.",
+            "responsibilities": [
+                "D\u00e9velopper et impl\u00e9menter des strat\u00e9gies techniques pour les applications iOS.",
+                "\u00c9valuer les nouvelles technologies pour am\u00e9liorer nos processus de d\u00e9veloppement.",
+                "Assurer la maintenance et l'\u00e9volution des applications existantes selon les retours utilisateurs.",
+                "Encadrer et former les d\u00e9veloppeurs juniors au sein de l'\u00e9quipe.",
+                "G\u00e9rer le budget du projet et optimiser l'utilisation des ressources."
+            ],
+            "skills_required": [
+                "Expertise en Swift, Objective-C et exp\u00e9rience avec Xcode.",
+                "Solide compr\u00e9hension des principes MVC/MVVM.",
+                "Capacit\u00e9 d\u00e9montr\u00e9e \u00e0 diriger une \u00e9quipe technique vers le succ\u00e8s.",
+                "Comp\u00e9tences analytiques avanc\u00e9es pour r\u00e9soudre des probl\u00e8mes complexes.",
+                "Exp\u00e9rience avec les services RESTful et API int\u00e9grations."
+            ],
+            "location": "Paris, France",
             "experience_level": "Senior",
-            "education_required": "Master en Informatique, Intelligence Artificielle ou domaine connexe"
+            "education_required": "Master en informatique ou discipline \u00e9quivalente"
         }
     ]
 }

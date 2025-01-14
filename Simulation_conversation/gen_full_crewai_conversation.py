@@ -255,9 +255,9 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    fichier_db_postes = f"../AgentIA_generation_postes/output/{args.fichier_db_postes}"
-    fichier_db_recruteurs = f"../AgentAI_creation_BD_recruteurs/output/{args.fichier_db_recruteurs}"
-    fichier_db_candidats = f"../CrewAI_equipe_creation_BD_candidats/output/{args.fichier_db_candidats}"
+    fichier_db_postes = args.fichier_db_postes
+    fichier_db_recruteurs = args.fichier_db_recruteurs
+    fichier_db_candidats = args.fichier_db_candidats
 
     output_file = f"./output/{args.output_file}"
     index = args.index

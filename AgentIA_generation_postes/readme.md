@@ -122,6 +122,8 @@ Cette URL est à placer dans la description JSON ci-dessus avant de la copier da
 cd .\AgentIA_generation_postes
 python .\agentai_gen_postes.py --nombre_postes "2" --metier "ingénieur.e infra cloud" --file_path "./output/2_postes_inge_infra_cloud.json"
  ``` 
+NB :
+* Doit avoir une définition des métiers car parfois il génère des candidats qui ne correspondent pas tout à fait au métier du poste : exemple, un chef de projets qui a des compétences d'architecture ou de tech lead (peut-être aussi un biais en fonction de la langue FR vs EN). Ex: "Expertise en vision par ordinateur, notamment dans l'utilisation de OpenCV et TensorFlow."
 
 ## License
 This project is licensed under the [Apache 2.0 License](../LICENSE) - see the LICENSE file for details.

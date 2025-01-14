@@ -62,7 +62,7 @@ def main():
         os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP2"]
         print("Étape 2 : Génération des candidates féminines")
         run_command(
-            "python crewai_gen_candidats.py --fichier_postes postes_generes.json --output_path output\\ --langue_de_travail français --genre féminin --poste_num 1",
+            "python crewai_gen_candidats.py --fichier_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --output_path output\\ --file_name candidat_f.json --langue_de_travail français --genre féminin --poste_num 1",
             cwd="..\\CrewAI_equipe_creation_BD_candidats"
         )
 
@@ -78,7 +78,7 @@ def main():
         os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP4"]
         print("Étape 4 : Génération de la première conversation")
         run_command(
-            "python gen_full_crewai_conversation.py --fichier_db_postes postes_generes.json --fichier_db_recruteurs recruteurs_generes.json --fichier_db_candidats candidats_generes.json --output_file conversation_1.json --index 0",
+            "python gen_full_crewai_conversation.py --fichier_db_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --fichier_db_recruteurs ..\\AgentAI_creation_BD_recruteurs\\output\\recruteurs_generes.json --fichier_db_candidats ..\\CrewAI_equipe_creation_BD_candidats\\output\\candidat_f.json --output_file conversation_1.json --index 0",
             cwd="..\\Simulation_conversation"
         )
 
@@ -86,7 +86,7 @@ def main():
         os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP2"]
         print("Étape 5 : Génération des candidats masculins")
         run_command(
-            "python crewai_gen_candidats.py --fichier_postes postes_generes.json --output_path output\\ --langue_de_travail français --genre masculin --poste_num 1",
+            "python crewai_gen_candidats.py --fichier_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --output_path output\\ --file_name candidat_m.json --langue_de_travail français --genre masculin --poste_num 1",
             cwd="..\\CrewAI_equipe_creation_BD_candidats"
         )
 
@@ -94,7 +94,7 @@ def main():
         os.environ["AGENTOPS_API_KEY"] = api_keys["AGENTOPS_API_KEY_STEP4"]
         print("Étape 6 : Génération de la deuxième conversation")
         run_command(
-            "python gen_full_crewai_conversation.py --fichier_db_postes postes_generes.json --fichier_db_recruteurs recruteurs_generes.json --fichier_db_candidats candidats_generes.json --output_file conversation_2.json --index 0",
+            "python gen_full_crewai_conversation.py --fichier_db_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --fichier_db_recruteurs ..\\AgentAI_creation_BD_recruteurs\\output\\recruteurs_generes.json --fichier_db_candidats ..\\CrewAI_equipe_creation_BD_candidats\\output\\candidat_m.json --output_file conversation_2.json --index 0",
             cwd="..\\Simulation_conversation"
         )
 

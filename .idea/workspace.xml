@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="orchestration">
+    <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="test orchestration et améliorations subséquentes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/output/postes_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/output/postes_generes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Equipe_agents_EDI/output/rapport_audit.md" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe_agents_EDI/output/rapport_audit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Equipe_agents_EDI/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe_agents_EDI/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orchestrateur_scenario/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orchestrateur_scenario/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orchestrateur_scenario/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Orchestrateur_scenario/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation_conversation/gen_full_crewai_conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/gen_full_crewai_conversation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729445351687</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Première version de l'agent IA de génération de postes">
-      <option name="closed" value="true" />
-      <created>1729454515756</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1729454515756</updated>
     </task>
     <task id="LOCAL-00009" summary="Refactoring">
       <option name="closed" value="true" />
@@ -475,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736726700216</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="test orchestration et améliorations subséquentes">
+      <option name="closed" value="true" />
+      <created>1736775470007</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1736775470007</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="améliorations et documentation" />
     <MESSAGE value="premiere version simulation conversation" />
     <MESSAGE value="version fonctionnelle simulation conversation" />
     <MESSAGE value="corrections mineures" />
@@ -515,6 +514,7 @@
     <MESSAGE value="changement remplissage des {{variables}} à l'utilisation du prompt" />
     <MESSAGE value="ajout de la génération des scénarios des analyses bout en bout" />
     <MESSAGE value="orchestration" />
-    <option name="LAST_COMMIT_MESSAGE" value="orchestration" />
+    <MESSAGE value="test orchestration et améliorations subséquentes" />
+    <option name="LAST_COMMIT_MESSAGE" value="test orchestration et améliorations subséquentes" />
   </component>
 </project>

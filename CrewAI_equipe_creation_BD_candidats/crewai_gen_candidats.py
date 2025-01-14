@@ -209,6 +209,7 @@ def main():
     parser = argparse.ArgumentParser(description="Process some parameters.")
     parser.add_argument('--fichier_postes', type=str, default="postes_generes.json", help='Path to the postes file')
     parser.add_argument('--output_path', type=str, default="./output/", help='Output path')
+    parser.add_argument('--file_name', type=str, default="candidats_generes.json", help='Output file name')
     parser.add_argument('--langue_de_travail', type=str, default="français", help='Working language')
     parser.add_argument('--genre', type=str, default="féminin", help='Genre')
     parser.add_argument('--poste_num', type=str, default="1", help='Poste number')
@@ -217,13 +218,14 @@ def main():
 
     fichier_postes = args.fichier_postes
     output_path = args.output_path
+    file_name = args.file_name
     langue_de_travail = args.langue_de_travail
     genre = args.genre
     poste_num = args.poste_num
 
     session_agentops = agentops.init()
 
-    fichier_candidats = f"candidats_generes.json"
+    fichier_candidats = file_name
     params = {
         "poste_num": poste_num,
         "fichier_postes": fichier_postes,

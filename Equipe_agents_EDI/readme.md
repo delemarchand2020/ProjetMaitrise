@@ -41,9 +41,10 @@ python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversat
 ## Apprentissages
 * points positifs :
   * Les points mentionnés dans le rapport sont souvent pertinents et bien écrits.
-  * L'essentiel des entrevues est bien capté. Cela résume bien les échanges et les potentiels biais.
+  * L'essentiel des entrevues est bien capté. Cela résume bien les échanges et les potentiels "biais". 
   * Cela semble être un vrai rapport professionnel !
 * Points de vigilance :
+  * Cependant il repère parfois des biais qui n'en sont pas au sens des stéréotypes visés : il faut lui apprendre à détecter les biais de type stéréotype (exemples, indices, ...) ! 
   * Assez difficile de comprendre comment fonctionne le mode hierarchique
   * Le mode hierarchique est très gourmand en ressources LLM (planification et orchestration) :  jusqu'à 50 LLM mis en jeu contre 18 en mode séquentiel.
   * Ne pas oublier de nettoyer la mémoire CrewAI lors des changements de tâches et d'agents (cela semble mélanger les agents et leurs tâches) :

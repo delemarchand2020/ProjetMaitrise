@@ -1,42 +1,42 @@
 [
   {
     "role": "Recruteur",
-    "message": "\nBonjour Sophie Dupont,\nvous postulez pour le poste de Chef de Projet Applications iPhone - Innovation Mobile, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+    "message": "\nBonjour Claire Martin,\nvous postulez pour le poste de Product Owner - Solutions de ChatBot Médical, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
   },
   {
     "role": "Candidat",
-    "message": "Bonjour, je suis Sophie Dupont, passionnée par les technologies mobiles et expérimentée en tant que Chef de Projet iOS. J'ai dirigé avec succès des projets de développement d'applications iPhone chez MobileTech Innovations et suis motivée par l'opportunité d'innover et de créer des solutions de pointe chez TechNova Solutions."
+    "message": "Bonjour, je suis Claire Martin, forte d'une expérience avérée en tant que Product Owner dans le domaine des technologies de santé, notamment en développement de solutions chatbot et IA. Ce qui me motive dans ce poste chez MediBot Innovators, c'est la possibilité d'utiliser mon expertise pour concevoir des solutions innovantes qui améliorent l'expérience des patients et optimisent les soins de santé."
   },
   {
     "role": "Recruteur",
-    "message": "Merci pour votre réponse, Sophie. Pourriez-vous me parler d'une situation où vous avez dû collaborer avec une équipe UX/UI pour améliorer l'expérience utilisateur d'une application iOS ?"
+    "message": "Merci pour votre réponse, Claire. Pouvez-vous me parler d'une situation où vous avez dû collaborer étroitement avec une équipe UX/UI pour créer une interface utilisateur intuitive et les défis que vous avez rencontrés ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon expérience chez MobileTech Innovations, j'ai collaboré étroitement avec une équipe UX/UI pour repenser l'interface d'une application iOS, ce qui a considérablement amélioré la satisfaction utilisateur et augmenté l'engagement de 20%."
+    "message": "Lors de mon rôle de Product Owner Senior dans le secteur de la santé, j'ai travaillé étroitement avec une équipe UX/UI pour concevoir des interfaces intuitives destinées à améliorer l'expérience patient. Un des principaux défis était de simplifier les fonctionnalités complexes tout en maintenant un design attrayant et fonctionnel, ce que nous avons réussi à surmonter grâce à une collaboration itérative et centrée sur le feedback utilisateur."
   },
   {
     "role": "Recruteur",
-    "message": "C'est impressionnant d'avoir pu augmenter l'engagement de 20% grâce à votre collaboration avec l'équipe UX/UI. Pourriez-vous partager une expérience où vous avez dû gérer plusieurs projets en même temps dans un environnement dynamique, tout en maintenant la qualité et les délais ?"
+    "message": "Merci pour ce partage d'expérience. Pourriez-vous nous parler d'une situation où vous avez dû motiver et fédérer une équipe autour d'un objectif commun, et comment vous avez géré les éventuelles divergences de points de vue ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors de mon expérience chez MobileTech Innovations, j'ai dirigé simultanément plusieurs projets d'applications iPhone dans un environnement dynamique, en veillant à respecter les délais tout en maintenant la qualité grâce à une gestion efficace des ressources et une communication constante avec les parties prenantes."
+    "message": "Lors de la gestion du développement d'un chatbot médical, j'ai motivé l'équipe en organisant des ateliers collaboratifs pour aligner notre vision produit. J'ai géré les divergences en facilitant des discussions ouvertes, permettant à chacun d'exprimer ses idées, ce qui a conduit à une roadmap commune et à l'adhésion collective au projet."
   },
   {
     "role": "Recruteur",
-    "message": "C'est formidable que vous ayez pu gérer efficacement plusieurs projets d'applications iPhone chez MobileTech Innovations. Pourriez-vous me parler d'une situation où vous avez rencontré un défi technique important et comment vous l'avez surmonté, particulièrement en travaillant avec une équipe diversifiée ?"
+    "message": "Votre approche pour organiser des ateliers collaboratifs et faciliter les discussions ouvertes est impressionnante. Pourriez-vous nous donner un exemple concret d'une fonctionnalité que vous avez priorisée dans la roadmap du chatbot médical, et comment cela a influencé l'expérience utilisateur finale ?"
   },
   {
     "role": "Candidat",
-    "message": "Lors d'un projet complexe chez MobileTech Innovations, nous avons rencontré un défi technique lié à l'intégration d'une nouvelle API. Grâce à une collaboration étroite avec notre équipe multidisciplinaire, nous avons identifié les obstacles rapidement et mis en place des solutions innovantes, garantissant le respect du calendrier et la qualité des livrables."
+    "message": "Lors de mon rôle de Chef de Projet pour un chatbot médical, j'ai priorisé l'intégration d'une fonctionnalité de rappel de prise de médicaments, ce qui a significativement amélioré l'engagement des utilisateurs et la satisfaction des patients en optimisant leur adhésion au traitement."
   },
   {
     "role": "Recruteur",
-    "message": "Je vous remercie pour cet entretien. Les prochaines étapes consistent en une évaluation approfondie de tous les candidats suivie d'une communication de notre décision finale dans les deux prochaines semaines. Je suis très impressionné par votre expérience et votre approche collaborative, et j'ai bon espoir que vous serez un excellent atout pour TechNova Solutions."
+    "message": "Merci beaucoup pour cet échange, j'ai apprécié notre discussion. Les prochaines étapes du recrutement consistent à examiner toutes les candidatures et à revenir vers vous sous deux semaines pour un éventuel entretien final. Je vous souhaite le meilleur dans la suite de votre carrière, et j'espère que nous aurons l'occasion de collaborer chez MediBot Innovators."
   },
   {
     "role": "Candidat",
-    "message": "Merci pour cette opportunité. Chez MobileTech Innovations, j'ai dirigé avec succès des projets d'applications iPhone du concept à la mise en production, en collaboration étroite avec des équipes UX/UI pour optimiser l'expérience utilisateur, ce qui me prépare idéalement à relever les défis chez TechNova Solutions."
+    "message": "Merci pour cet échange, et je suis enthousiaste à l'idée d'apporter ma solide expérience en gestion de produits technologiques dans le secteur de la santé, en particulier le développement de solutions chatbot et IA, pour contribuer à la mission de MediBot Innovators d'améliorer l'expérience des patients."
   }
 ]

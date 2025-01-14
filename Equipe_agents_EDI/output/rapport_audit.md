@@ -1,35 +1,33 @@
-
 # Rapport d'Audit EDI
 
-## 1. Introduction
-Ce rapport présente les résultats de l'audit EDI (Équité, Diversité, Inclusion) effectué lors des entrevues pour le poste de Chef de Projet Applications iPhone - Innovation Mobile. L'objectif est de fournir aux gestionnaires une compréhension claire des pratiques actuelles et des recommandations pour améliorer l'équité dans le processus de recrutement.
+## Introduction
+Ce rapport présente les résultats d'une analyse d'équité, de diversité et d'inclusion (EDI) menée sur deux entretiens dans le cadre du recrutement pour un poste de Product Owner - Solutions de ChatBot Médical.
 
-## 2. Méthodologie
-L'analyse s'est concentrée sur deux entrevues menées par le recruteur, évaluant la structure des questions, le ton utilisé, et la présence éventuelle de biais. Les entrevues ont été analysées pour identifier tout stéréotype ou préjugé inconscient, en se basant sur des critères objectifs.
+## Méthodologie
+L'analyse s'est concentrée sur l'évaluation des biais potentiels au sein des entrevues, en examinant la structure des questions, le ton utilisé par le recruteur, et toute indication de favoritisme ou de discrimination.
 
-## 3. Analyse des Entrevues
+## Analyse des Entrevues
+### Entrevue 1
+- **Résumé** : L'entretien a été conduit de manière professionnelle avec des questions ciblées permettant au candidat de démontrer ses compétences pertinentes pour le poste.
+- **Observations** : Le recruteur a maintenu un ton neutre et positif tout au long de l'entretien.
 
-### 3.1 Entrevue 1
-- **Structure et Contenu**: L'entrevue a été bien structurée, avec des questions pertinentes sur la gestion de projets et la collaboration avec des équipes UX/UI.
-- **Observations**: Le recruteur a adopté un ton positif et professionnel, soulignant les réussites du candidat sans montrer de biais.
-- **Diagnostic de Biais**: Aucun biais évident n'a été identifié.
+### Entrevue 2
+- **Résumé** : Bien que l'entretien ait mis en valeur les compétences du candidat, il contenait une question personnelle qui pourrait indiquer un biais.
+- **Observations** : Utilisation de termes valorisants et inclusion de questions personnelles non directement liées aux compétences professionnelles.
 
-### 3.2 Entrevue 2
-- **Structure et Contenu**: L'entrevue a porté sur la gestion de projets multiples et la résolution de problèmes complexes, avec une attention particulière aux méthodologies Agile/Scrum.
-- **Observations**: Le recruteur a maintenu un ton constant et neutre, sans indication de stéréotypes.
-- **Diagnostic de Biais**: Aucun biais n'a été observé.
+## Diagnostic de Biais
+- **Entrevue 1** : Faible présence de biais avec des questions alignées sur les exigences professionnelles.
+- **Entrevue 2** : Présence modérée de biais en raison des commentaires valorisants et questions personnelles.
 
-## 4. Conclusions
-Les deux entrevues ont été conduites de manière équitable et professionnelle. Le recruteur a montré une attitude impartiale envers les candidats, avec une faible présence de biais.
+## Recommandations
+- Former les recruteurs à éviter les commentaires subjectifs.
+- Utiliser une grille d’évaluation standardisée axée sur les compétences essentielles.
+- Réduire les questions personnelles dans les entretiens.
 
-## 5. Score de Biais
-- **Entrevue 1**: 10/100 (très faible présence de biais)
-- **Entrevue 2**: 10/100 (très faible présence de biais)
-- **Score Biais Global**: 10/100
+## Scores de Biais
+- **Entrevue 1** : 10/100 (faible biais)
+- **Entrevue 2** : 30/100 (biais modéré)
+- **Score Global** : 20/100 (pratiques améliorables pour renforcer l’équité)
 
-## 6. Recommandations
-Pour améliorer encore le processus d'embauche :
-- Utiliser une grille d'évaluation standardisée pour assurer l'objectivité.
-- Mettre en place des formations régulières sur les biais inconscients.
-
-En conclusion, le processus d'entrevue est globalement équitable, avec des pratiques solides déjà en place pour minimiser les biais.
+## Conclusion
+L'audit a révélé que bien que le processus soit généralement équitable, certaines améliorations sont nécessaires pour garantir une évaluation totalement objective et équitable des candidats.

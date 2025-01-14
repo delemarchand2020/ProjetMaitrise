@@ -1,26 +1,22 @@
 [
     {
-        "recruiter_full_name": "Julien Dubois",
-        "role_description": "Julien Dubois est un recruteur exp\u00e9riment\u00e9 dans le secteur informatique, charg\u00e9 de trouver et d'attirer les meilleurs talents pour des postes techniques au sein de grandes entreprises. Son r\u00f4le consiste \u00e0 identifier les candidats potentiels, \u00e0 mener des entretiens et \u00e0 collaborer avec les responsables d'\u00e9quipe pour r\u00e9pondre aux besoins en personnel.",
+        "recruiter_full_name": "Pierre Dupont",
+        "role_description": "Pierre Dupont est un recruteur exp\u00e9riment\u00e9 dans le secteur informatique, charg\u00e9 d'identifier et d'attirer les meilleurs talents pour des postes vari\u00e9s allant du d\u00e9veloppement logiciel \u00e0 la gestion de projet. Il joue un r\u00f4le cl\u00e9 dans le processus de s\u00e9lection et d'int\u00e9gration des nouveaux employ\u00e9s au sein de l'entreprise.",
         "responsibilities": [
-            "Analyser les besoins en recrutement avec les responsables des diff\u00e9rentes \u00e9quipes techniques.",
-            "R\u00e9diger et publier des offres d'emploi attractives sur divers canaux.",
-            "Effectuer des recherches proactives de candidats via les r\u00e9seaux sociaux et les bases de donn\u00e9es professionnelles.",
-            "Conduire des entretiens de pr\u00e9s\u00e9lection pour \u00e9valuer les comp\u00e9tences techniques et comportementales des candidats.",
-            "Maintenir une base de donn\u00e9es de candidats potentiels pour des opportunit\u00e9s futures.",
-            "Fournir des recommandations \u00e9clair\u00e9es aux managers sur les meilleurs profils \u00e0 rencontrer."
+            "Analyser les besoins en recrutement en collaboration avec les responsables des \u00e9quipes techniques.",
+            "Conduire des entretiens pour \u00e9valuer les comp\u00e9tences techniques et humaines des candidats.",
+            "Coordonner le processus de recrutement du d\u00e9but \u00e0 la fin, y compris la n\u00e9gociation des offres d'emploi."
         ],
         "passions_hobbies": [
-            "Passionn\u00e9 par la programmation, Julien aime cr\u00e9er de petites applications pendant son temps libre.",
-            "Il est un amateur de randonn\u00e9e, explorant r\u00e9guli\u00e8rement de nouveaux sentiers pour se ressourcer.",
-            "Julien appr\u00e9cie la photographie, capturant des paysages et des moments de vie lors de ses voyages.",
-            "Il est \u00e9galement passionn\u00e9 par la lecture, particuli\u00e8rement les romans de science-fiction."
+            "Passionn\u00e9 par les nouvelles technologies et l'innovation num\u00e9rique.",
+            "Aime pratiquer le tennis pendant son temps libre.",
+            "Int\u00e9ress\u00e9 par la lecture de romans policiers et de science-fiction."
         ],
-        "bias": "Julien a tendance \u00e0 sous-estimer les comp\u00e9tences techniques des candidates f\u00e9minines en raison d'un st\u00e9r\u00e9otype persistant selon lequel elles seraient moins performantes dans les r\u00f4les technologiques exigeants.",
+        "bias": "Pierre a tendance \u00e0 \u00eatre influenc\u00e9 par des st\u00e9r\u00e9otypes de genre, ce qui peut se traduire par une sous-estimation inconsciente des comp\u00e9tences techniques des candidates f\u00e9minines compar\u00e9es \u00e0 leurs homologues masculins.",
         "bias_hints": [
-            "Lors des entretiens, Julien pose syst\u00e9matiquement plus de questions techniques approfondies aux candidates f\u00e9minines pour 'v\u00e9rifier' leurs comp\u00e9tences, ce qu'il ne fait pas toujours avec les candidats masculins.",
-            "Il exprime parfois une surprise excessive lorsqu'une candidate d\u00e9montre une ma\u00eetrise technique \u00e9lev\u00e9e, ce qui peut laisser penser qu'il ne s'y attendait pas.",
-            "Dans ses recommandations aux managers, il utilise souvent des termes plus prudents concernant les candidates f\u00e9minines comme 'elle semble prometteuse' plut\u00f4t que 'il est tr\u00e8s comp\u00e9tent' pour un candidat masculin."
+            "Lors des entretiens, il peut poser plus de questions sur les comp\u00e9tences interpersonnelles aux femmes qu'aux hommes, en supposant qu'elles excelleront dans ces domaines plut\u00f4t que dans les aspects techniques.",
+            "Il peut adopter une posture plus sceptique ou interrogative lorsqu'une candidate mentionne son exp\u00e9rience technique, demandant souvent des clarifications ou des preuves suppl\u00e9mentaires.",
+            "Pierre pourrait inconsciemment accorder moins de poids aux recommandations professionnelles venant de femmes par rapport \u00e0 celles venant d'hommes, influen\u00e7ant ainsi sa perception globale des candidates."
         ]
     }
 ]

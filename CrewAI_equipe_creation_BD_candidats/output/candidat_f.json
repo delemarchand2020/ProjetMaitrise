@@ -1,15 +1,16 @@
 {
   "poste_num": "1",
-  "company_name": "TechNova Solutions",
-  "job_title": "Chef de Projet Applications iPhone - Innovation Mobile",
-  "candidate_full_name": "Sophie Dupont",
-  "passions_hobbies": ["voyages", "photographie", "randonnée", "technologies mobiles"],
-  "why_is_a_good_fit": ["Expérience avérée dans la gestion de projets iOS", "Compétences techniques solides en développement Swift", "Capacité à travailler efficacement en équipe multidisciplinaire", "Engagement envers l'innovation et la qualité"],
-  "academic_background_certifications": ["Master en Informatique, Université de Munich, Allemagne - 2015", "Certification Scrum Master, Scrum Alliance - 2017"],
-  "technical_professional_skills": ["Maîtrise du langage Swift et connaissance approfondie des frameworks iOS", "Expérience en gestion de projet Agile/Scrum", "Connaissance des outils de gestion de version comme Git", "Compétence dans la supervision des tests d'intégration et de performance"],
-  "interpersonal_soft_skills": ["Compétences exceptionnelles en communication et en résolution de problèmes", "Capacité à gérer plusieurs projets simultanément dans un environnement dynamique", "Innovation, proactivité et esprit d'équipe", "Passion pour l'excellence et l'engagement envers l'amélioration continue"],
+  "company_name": "MediBot Innovators",
+  "job_title": "Product Owner - Solutions de ChatBot Médical",
+  "candidate_full_name": "Claire Martin",
+  "passions_hobbies": ["Randonnée en montagne", "Peinture aquarelle", "Lecture de romans de science-fiction", "Yoga"],
+  "why_is_a_good_fit": ["Solide expérience dans la gestion de produits pour le secteur de la santé", "Expertise en développement de solutions chatbot et IA", "Excellente capacité à travailler en équipe et à inspirer les collaborateurs", "Passion pour l'innovation technologique au service des soins de santé"],
+  "academic_background_certifications": ["Master en Informatique - Université Technique de Munich, Allemagne (2005)", "Certification en Gestion de Produits - Institut de Management des Produits, Berlin (2008)", "Certification en Intelligence Artificielle pour la Santé - Coursera (2019)"],
+  "technical_professional_skills": ["Expertise en développement et gestion de produits technologiques pour le secteur de la santé", "Connaissance approfondie des technologies de chatbot et d'intelligence artificielle", "Maîtrise des méthodologies Agile/Scrum pour la gestion de projet", "Compétences avancées en analyse de données et interprétation des métriques utilisateurs"],
+  "interpersonal_soft_skills": ["Excellentes compétences en communication interpersonnelle et collaboration avec des équipes pluridisciplinaires", "Forte capacité analytique et sens de l'innovation pour concevoir des solutions centrées sur le patient", "Empathie envers les utilisateurs finaux et passion pour l'amélioration continue des soins de santé", "Capacité à inspirer et à motiver les équipes pour atteindre les objectifs communs"],
   "professional_experiences": [
-    {"title": "Chef de Projet iOS", "responsibilities": "Dirigé plusieurs projets de développement d'applications iPhone du concept à la mise en production. Collaboré avec des équipes UX/UI pour optimiser l'expérience utilisateur. Supervisé les tests d'intégration et de performance pour garantir la qualité des applications livrées.", "company": "MobileTech Innovations", "location": "Berlin, Allemagne", "dates": "Janvier 2019 à Septembre 2023"},
-    {"title": "Développeur iOS", "responsibilities": "Participé au développement d'applications mobiles innovantes en utilisant Swift et les frameworks iOS. Contribué à la gestion Agile des projets et à la maintenance des applications existantes.", "company": "Digital Solutions GmbH", "location": "Hambourg, Allemagne", "dates": "Mars 2015 à Décembre 2018"}
+    {"title": "Product Owner Senior - Solutions Digitales Santé", "responsibilities": ["Dirigé le développement de solutions digitales innovantes pour améliorer l'expérience des patients.", "Collaboré avec des équipes UX/UI pour concevoir des interfaces utilisateur intuitives.", "Analysé les besoins des utilisateurs finaux pour guider la roadmap produit."]},
+    {"title": "Chef de Projet - Chatbot Médical", "responsibilities": ["Géré le cycle complet du développement des solutions chatbot médicales.", "Partenariat étroit avec les développeurs pour assurer la livraison conforme aux spécifications.", "Suivi et analyse des métriques d'utilisation pour optimiser le produit."]},
+    {"title": "Ingénieur Produit Junior", "responsibilities": ["Participation au lancement de nouveaux produits technologiques pour les hôpitaux.", "Collaboration avec les équipes techniques pour le développement de fonctionnalités innovantes."]}
   ]
 }

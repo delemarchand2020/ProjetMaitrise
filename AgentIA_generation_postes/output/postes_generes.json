@@ -1,48 +1,27 @@
 {
     "postes": [
         {
-            "company_name": "TechNova Solutions",
-            "job_title": "Chef de Projet Applications iPhone - Innovation Mobile",
-            "job_description": "TechNova Solutions, leader dans le d\u00e9veloppement d'applications mobiles innovantes, recherche un Chef de Projet Applications iPhone pour diriger notre \u00e9quipe de d\u00e9veloppement et superviser la cr\u00e9ation d'applications de pointe r\u00e9pondant aux besoins changeants du march\u00e9.",
+            "company_name": "MediBot Innovators",
+            "job_title": "Product Owner - Solutions de ChatBot M\u00e9dical",
+            "job_description": "MediBot Innovators recherche un Product Owner passionn\u00e9 et exp\u00e9riment\u00e9 pour diriger le d\u00e9veloppement de nos applications de chatbot m\u00e9dical. Vous travaillerez en \u00e9troite collaboration avec des \u00e9quipes pluridisciplinaires pour concevoir des solutions qui am\u00e9liorent l'exp\u00e9rience des patients et optimisent les processus de soins de sant\u00e9.",
             "responsibilities": [
-                "Diriger des projets de d\u00e9veloppement d'applications iPhone du concept \u00e0 la mise en production.",
-                "Collaborer avec les \u00e9quipes UX/UI pour assurer une exp\u00e9rience utilisateur optimale.",
-                "Superviser les tests d'int\u00e9gration et de performance pour garantir la qualit\u00e9 des applications.",
-                "G\u00e9rer le calendrier de projet et allouer les ressources efficacement pour respecter les d\u00e9lais.",
-                "Communiquer r\u00e9guli\u00e8rement avec les parties prenantes pour fournir des mises \u00e0 jour sur l'\u00e9tat du projet."
+                "D\u00e9finir et prioriser la roadmap produit pour les solutions de chatbot m\u00e9dical.",
+                "Collaborer avec les \u00e9quipes UX/UI pour cr\u00e9er des interfaces utilisateur intuitives et efficaces.",
+                "Analyser les besoins des utilisateurs finaux et traduire ces besoins en exigences produit d\u00e9taill\u00e9es.",
+                "Travailler en partenariat avec les d\u00e9veloppeurs pour s'assurer que les fonctionnalit\u00e9s sont livr\u00e9es selon les sp\u00e9cifications.",
+                "Suivre et analyser les m\u00e9triques d'utilisation du produit pour informer les futures am\u00e9liorations.",
+                "Assurer une communication claire avec les parties prenantes internes et externes."
             ],
             "skills_required": [
-                "Ma\u00eetrise du langage Swift et connaissance approfondie des frameworks iOS.",
-                "Exp\u00e9rience en gestion de projet Agile/Scrum.",
-                "Comp\u00e9tences exceptionnelles en communication et en r\u00e9solution de probl\u00e8mes.",
-                "Capacit\u00e9 \u00e0 g\u00e9rer plusieurs projets simultan\u00e9ment dans un environnement dynamique.",
-                "Connaissance des outils de gestion de version comme Git."
+                "Exp\u00e9rience av\u00e9r\u00e9e en tant que Product Owner dans le domaine des technologies de sant\u00e9 ou similaire.",
+                "Connaissance approfondie des solutions de chatbot et d'intelligence artificielle.",
+                "Excellentes comp\u00e9tences en gestion de projet et capacit\u00e9 \u00e0 travailler sous pression.",
+                "Solides comp\u00e9tences en communication interpersonnelle pour collaborer avec des \u00e9quipes vari\u00e9es.",
+                "Capacit\u00e9 analytique pour interpr\u00e9ter les donn\u00e9es utilisateurs et proposer des am\u00e9liorations produit pertinentes."
             ],
             "location": "Berlin, Allemagne",
-            "experience_level": "Interm\u00e9diaire",
-            "education_required": "Dipl\u00f4me universitaire en informatique ou dans un domaine connexe"
-        },
-        {
-            "company_name": "AppVenture Labs",
-            "job_title": "Responsable D\u00e9veloppement d'Applications iOS Senior",
-            "job_description": "AppVenture Labs, une startup dynamique sp\u00e9cialis\u00e9e dans la cr\u00e9ation d'applications personnalis\u00e9es, recherche un Responsable D\u00e9veloppement d'Applications iOS Senior pour superviser l'\u00e9volution technique de nos projets et guider notre \u00e9quipe vers l'excellence.",
-            "responsibilities": [
-                "D\u00e9velopper et impl\u00e9menter des strat\u00e9gies techniques pour les applications iOS.",
-                "\u00c9valuer les nouvelles technologies pour am\u00e9liorer nos processus de d\u00e9veloppement.",
-                "Assurer la maintenance et l'\u00e9volution des applications existantes selon les retours utilisateurs.",
-                "Encadrer et former les d\u00e9veloppeurs juniors au sein de l'\u00e9quipe.",
-                "G\u00e9rer le budget du projet et optimiser l'utilisation des ressources."
-            ],
-            "skills_required": [
-                "Expertise en Swift, Objective-C et exp\u00e9rience avec Xcode.",
-                "Solide compr\u00e9hension des principes MVC/MVVM.",
-                "Capacit\u00e9 d\u00e9montr\u00e9e \u00e0 diriger une \u00e9quipe technique vers le succ\u00e8s.",
-                "Comp\u00e9tences analytiques avanc\u00e9es pour r\u00e9soudre des probl\u00e8mes complexes.",
-                "Exp\u00e9rience avec les services RESTful et API int\u00e9grations."
-            ],
-            "location": "Paris, France",
             "experience_level": "Senior",
-            "education_required": "Master en informatique ou discipline \u00e9quivalente"
+            "education_required": "Master en Informatique, Gestion de Produits ou domaine connexe."
         }
     ]
 }

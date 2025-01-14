@@ -6,16 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7b58f0bd-6daa-4887-bf8f-2cef5f91ed2c" name="Changes" comment="ajustements arguments et documentations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/agentai_gen_recruteurs.py" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/agentai_gen_recruteurs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/output/recruteurs_generes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/output/postes_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/output/postes_generes.json.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/output/postes_generes.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/output/postes_generes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_gen_postes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AgentIA_generation_postes/prompt_gen_postes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/crewai_gen_candidats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Equipe_agents_EDI/gen_rapport_EDI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe_agents_EDI/gen_rapport_EDI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/output/candidat_f.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/output/candidat_f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/output/candidat_m.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrewAI_equipe_creation_BD_candidats/output/candidat_m.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Equipe_agents_EDI/output/rapport_audit.md" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe_agents_EDI/output/rapport_audit.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orchestrateur_scenario/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orchestrateur_scenario/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Orchestrateur_scenario/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Orchestrateur_scenario/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation_conversation/output/conversation_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/output/conversation_1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation_conversation/output/conversation_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation_conversation/output/conversation_2.json" afterDir="false" />
     </list>
@@ -88,14 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729445351687</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Exemples de postes générés">
-      <option name="closed" value="true" />
-      <created>1729455892058</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1729455892058</updated>
     </task>
     <task id="LOCAL-00011" summary="Exemples de postes générés json reformaté">
       <option name="closed" value="true" />
@@ -481,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736856862586</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="ajustements arguments et documentations">
+      <option name="closed" value="true" />
+      <created>1736873412641</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1736873412641</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

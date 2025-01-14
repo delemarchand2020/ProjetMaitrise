@@ -15,3 +15,8 @@
 /AgentIA_generation_postes/keys.txt
 /Orchestrateur_scenario/api_keys.json
 /Orchestrateur_scenario/agentops.log
+/AgentAI_creation_BD_recruteurs/output/
+/AgentIA_generation_postes/output/
+/CrewAI_equipe_creation_BD_candidats/output/
+/Equipe_agents_EDI/output/
+/Simulation_conversation/output/

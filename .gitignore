@@ -29,3 +29,5 @@
 /.idea/ProjetMemoireMatriseDenisLemarchand.iml
 /.idea/vcs.xml
 /.idea/workspace.xml
+/AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt
+/AgentIA_generation_postes/prompt_gen_postes.txt

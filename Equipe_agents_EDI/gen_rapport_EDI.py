@@ -15,6 +15,8 @@ llm_creative = LLM(
     presence_penalty=0.2,
 )
 
+#llm_creative = "o1-mini"
+
 llm_doer = LLM(
     model="gpt-4o",
     temperature=0.0,
@@ -30,6 +32,8 @@ llm_middle_creative = LLM(
     frequency_penalty=0.1,
     presence_penalty=0.1,
 )
+
+#llm_middle_creative = "o1-mini"
 
 file_read_tool = FileReadTool()
 file_writer_tool = FileWriterTool()
@@ -218,4 +222,4 @@ if __name__ == "__main__":
     main()
 
 #Remove-Item -Path "C:\Users\delem\AppData\Local\CrewAI\Equipe_agents_EDI" -Recurse -Force
-#python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversation_f_poste_1.json" --file2 "../Simulation_conversation/output/conversation_m_poste_1.json" --output_dir "./output/" --output_file "rapport_audit.md"
+#python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversation_1.json" --file2 "../Simulation_conversation/output/conversation_2.json" --output_dir "./output/" --output_file "rapport_audit_o1_mini.md"

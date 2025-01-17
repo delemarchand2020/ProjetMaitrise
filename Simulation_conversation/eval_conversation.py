@@ -14,11 +14,12 @@ client = OpenAI()
 openai_client = track_openai(client)
 
 # Paramètres LLM
-model_llm = "gpt-4o"
+model_llm = "o1-mini" #"gpt-4o"
 temperature_llm = 0.8
 top_p_llm = 0.9
 frequency_penalty_llm = 0.2
 presence_penalty_llm = 0.2
+
 
 def encode_file(file_path):
     try:
@@ -28,6 +29,7 @@ def encode_file(file_path):
         raise ValueError(f"File not found: {file_path}")
     except Exception as e:
         raise RuntimeError(f"An error occurred while encoding the file: {e}")
+
 
 def escape_json_content(file_path):
     try:
@@ -39,6 +41,7 @@ def escape_json_content(file_path):
     except Exception as e:
         raise RuntimeError(f"An error occurred while encoding the file: {e}")
 
+
 def get_prompt(file_name):
     if not os.path.exists(file_name):
         raise ValueError(f"Prompt file does not exist: {file_name}")
@@ -49,6 +52,7 @@ def get_prompt(file_name):
         return prompt.format()
     except Exception as e:
         raise RuntimeError(f"An error occurred while creating the prompt: {e}")
+
 
 def generate_eval_1_conv(prompt, file_conv_1):
     file_content = escape_json_content(file_conv_1)
@@ -70,17 +74,24 @@ def generate_eval_1_conv(prompt, file_conv_1):
         },
     ]
     try:
-        completion = openai_client.chat.completions.create(
-            model=model_llm,
-            messages=messages,
-            temperature=temperature_llm,
-            top_p=top_p_llm,
-            frequency_penalty=frequency_penalty_llm,
-            presence_penalty=presence_penalty_llm,
-        )
+        if model_llm == "o1-mini":
+            completion = openai_client.chat.completions.create(
+                model=model_llm,
+                messages=messages,
+            )
+        else:
+            completion = openai_client.chat.completions.create(
+                model=model_llm,
+                messages=messages,
+                temperature=temperature_llm,
+                top_p=top_p_llm,
+                frequency_penalty=frequency_penalty_llm,
+                presence_penalty=presence_penalty_llm,
+            )
         return completion.choices[0].message.content
     except Exception as e:
         raise RuntimeError(f"An error occurred while generating the evaluation: {e}")
+
 
 def generate_eval_2_conv(prompt, file_conv_1, file_conv_2):
     file_content_1 = escape_json_content(file_conv_1)
@@ -108,14 +119,20 @@ def generate_eval_2_conv(prompt, file_conv_1, file_conv_2):
         },
     ]
     try:
-        completion = openai_client.chat.completions.create(
-            model=model_llm,
-            messages=messages,
-            temperature=temperature_llm,
-            top_p=top_p_llm,
-            frequency_penalty=frequency_penalty_llm,
-            presence_penalty=presence_penalty_llm,
-        )
+        if model_llm == "o1-mini":
+            completion = openai_client.chat.completions.create(
+                model=model_llm,
+                messages=messages,
+            )
+        else:
+            completion = openai_client.chat.completions.create(
+                model=model_llm,
+                messages=messages,
+                temperature=temperature_llm,
+                top_p=top_p_llm,
+                frequency_penalty=frequency_penalty_llm,
+                presence_penalty=presence_penalty_llm,
+            )
         return completion.choices[0].message.content
     except Exception as e:
         raise RuntimeError(f"An error occurred while generating the evaluation: {e}")
@@ -185,3 +202,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#python .\eval_conversation.py --file1 .\output\conversation_1.json --file2 .\output\conversation_2.json --output-dir .\output\

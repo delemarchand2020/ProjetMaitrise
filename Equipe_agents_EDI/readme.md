@@ -57,6 +57,7 @@ python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversat
   ```
   * Le choix des LLM (créatif ou pas) pour les agents est important : 
     * On peut noter que selon les prompts, l'analyste loupe des petits détails de conversation (pourtant important pour la détection d'un biais).
+    * Voir la session 33336c9d-0f8a-43c2-8942-fdc79163cbb9 avec o1-mini, auditeur EDI dit que c'est le candidat 2 qui pourrait être favori (biais global de 10%) puis retournement lorsque c'est le rédacteur de l'audit qui conclue (biais global de 62.5% et candidat 1 favorisé). Pourquoi le rédacteur refait une analyse !
   * Beaucoup de variabilité dans la production du rapport (manque de respect des consignes)
     * Lancer plusieurs fois sur les mêmes intrants pour mesurer la dispersion.
       * Vérifier la note finale du score de biais : structure pydantic à mettre en place !

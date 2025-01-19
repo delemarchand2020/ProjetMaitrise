@@ -1,23 +1,37 @@
 // Charger les données JSON
 fetch('conversation_1.json')
     .then(response => response.json())
-    .then(data => generateQuestions(data));
+    .then(data => generateQuestionAnswerPairs(data));
 
-// Générer les questions
-function generateQuestions(conversations) {
+// Fonction pour générer les paires question-réponse
+function generateQuestionAnswerPairs(conversations) {
     const container = document.getElementById('questions-container');
-    conversations.forEach((conv, index) => {
-        const questionHTML = `
+    const pairs = [];
+
+    // Extraire les paires question-réponse
+    for (let i = 0; i < conversations.length - 1; i++) {
+        if (conversations[i].role === "Recruteur" && conversations[i + 1].role === "Candidat") {
+            pairs.push({
+                question: conversations[i].message,
+                answer: conversations[i + 1].message
+            });
+        }
+    }
+
+    // Générer l'interface utilisateur
+    pairs.forEach((pair, index) => {
+        const questionAnswerHTML = `
             <div class="card mb-3">
                 <div class="card-body">
-                    <h5>Conversation ${index + 1}</h5>
-                    <p><strong>Question :</strong> ${conv.role === 'Recruteur' ? conv.message : ''}</p>
-                    <label>Cette conversation semble-t-elle réaliste ?</label>
+                    <h5>Échange ${index + 1}</h5>
+                    <p><strong>Question (Recruteur) :</strong> ${pair.question}</p>
+                    <p><strong>Réponse (Candidat) :</strong> ${pair.answer}</p>
+                    <label>Cette interaction semble-t-elle réaliste ?</label>
                     <div>
                         <input type="radio" name="realistic-${index}" value="Oui"> Oui
                         <input type="radio" name="realistic-${index}" value="Non"> Non
                     </div>
-                    <label>Notez la fluidité des échanges (1-5) :</label>
+                    <label>Notez la pertinence de la réponse (1-5) :</label>
                     <div>
                         ${[1, 2, 3, 4, 5].map(num => `
                             <input type="radio" name="fluency-${index}" value="${num}"> ${num}
@@ -25,7 +39,7 @@ function generateQuestions(conversations) {
                     </div>
                 </div>
             </div>`;
-        container.insertAdjacentHTML('beforeend', questionHTML);
+        container.insertAdjacentHTML('beforeend', questionAnswerHTML);
     });
 }
 
@@ -36,7 +50,7 @@ document.getElementById('submit-button').addEventListener('click', () => {
         const realistic = document.querySelector(`input[name="realistic-${index}"]:checked`);
         const fluency = document.querySelector(`input[name="fluency-${index}"]:checked`);
         results.push({
-            conversation: index + 1,
+            exchange: index + 1,
             realistic: realistic ? realistic.value : 'Non répondu',
             fluency: fluency ? fluency.value : 'Non répondu'
         });

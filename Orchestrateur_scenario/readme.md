@@ -13,7 +13,7 @@ Ce projet vise à automatiser l'exécution de plusieurs scripts pour générer u
 {
     "OPENAI_API_KEY": "votre_clé_openai",
     "OPENAI_ORG_ID": "votre_org_id",
-    "AGENTOPS_API_KEY": "votre_clé_agentops",
+    "AGENTOPS_API_KEY": "votre_clé_agentops"
 }
 ```
 

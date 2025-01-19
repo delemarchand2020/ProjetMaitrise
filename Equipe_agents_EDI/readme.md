@@ -47,7 +47,7 @@ python .\gen_rapport_EDI.py --file1 "../Simulation_conversation/output/conversat
   * Cependant il repère parfois des biais qui n'en sont pas au sens des stéréotypes visés : il faut lui apprendre à détecter les biais de type stéréotype (exemples, indices, ...) ! 
   * Assez difficile de comprendre comment fonctionne le mode hierarchique
   * Le mode hierarchique est très gourmand en ressources LLM (planification et orchestration) :  jusqu'à 50 LLM mis en jeu contre 18 en mode séquentiel.
-  * Ne pas oublier de nettoyer la mémoire CrewAI lors des changements de tâches et d'agents (cela semble mélanger les agents et leurs tâches) :
+  * Ne pas oublier de nettoyer la mémoire CrewAI lors des changements d'équipes (cela semble mélanger les agents et leurs tâches) :
   ```bash 
      crewai reset-memories -a 
   ```

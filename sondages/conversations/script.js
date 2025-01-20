@@ -1,3 +1,9 @@
+// Configurer le mode d'envoi
+const USE_GOOGLE_SHEETS = false; // true pour Google Sheets, false pour export CSV
+const SHEET_ID = "votre_sheet_id"; // Remplacez par l'ID de votre Google Sheet
+const API_URL = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/Sheet1!A1:append?valueInputOption=RAW`;
+const API_KEY = "votre_api_key"; // Remplacez par votre clé API
+
 // Charger les données JSON
 fetch('conversation_1.json')
     .then(response => response.json())
@@ -56,12 +62,17 @@ function generateQuestionAnswerPairs(conversations, fileName) {
 
     // Ajouter l'événement d'exportation des résultats
     document.getElementById('submit-button').addEventListener('click', () => {
-        exportResults(pairs, fileName);
+        const results = collectResults(pairs, fileName);
+        if (USE_GOOGLE_SHEETS) {
+            sendResultsToGoogleSheets(results);
+        } else {
+            exportResultsToCSV(results);
+        }
     });
 }
 
-// Fonction pour exporter les résultats en CSV
-function exportResults(pairs, fileName) {
+// Fonction pour collecter les résultats
+function collectResults(pairs, fileName) {
     const results = [];
     const dateTime = new Date().toISOString();
 
@@ -79,7 +90,38 @@ function exportResults(pairs, fileName) {
         });
     });
 
-    // Convertir en CSV
+    return results;
+}
+
+// Fonction pour envoyer les résultats à Google Sheets
+function sendResultsToGoogleSheets(results) {
+    const rows = results.map(row => [
+        row.fileName,
+        row.dateTime,
+        row.exchange,
+        row.realism,
+        row.questionRelevance,
+        row.answerRelevance
+    ]);
+
+    fetch(API_URL, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${API_KEY}`
+        },
+        body: JSON.stringify({ values: rows })
+    }).then(response => {
+        if (response.ok) {
+            alert("Résultats envoyés avec succès à Google Sheets !");
+        } else {
+            alert("Erreur lors de l'envoi des résultats à Google Sheets.");
+        }
+    });
+}
+
+// Fonction pour exporter les résultats en CSV
+function exportResultsToCSV(results) {
     const csvHeader = "Nom du fichier JSON,Date et Heure,Numéro échange,Réalisme interaction,Note pertinence question,Note pertinence réponse\n";
     const csvContent = csvHeader + results.map(row =>
         `${row.fileName},${row.dateTime},${row.exchange},${row.realism},${row.questionRelevance},${row.answerRelevance}`

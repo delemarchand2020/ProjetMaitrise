@@ -24,22 +24,26 @@ function generateQuestionAnswerPairs(conversations, fileName) {
             <div class="card mb-3">
                 <div class="card-body">
                     <h5>Échange ${index + 1}</h5>
-                    <p style="background-color: #fffacd; padding: 10px; border-radius: 5px;">
-                        <strong>Question (Recruteur) :</strong> ${pair.question}
-                    </p>
-                    <label>Notez la pertinence de la question (1-5) :</label>
+                    <p><strong>Question (Recruteur) :</strong> ${pair.question}</p>
+                    <label style="background-color: #fffacd; padding: 5px; border-radius: 5px;">
+                        Notez la pertinence de la question (1-5) :
+                    </label>
                     <div>
                         ${[1, 2, 3, 4, 5].map(num => `
                             <input type="radio" name="question-relevance-${index}" value="${num}"> ${num}
                         `).join(' ')}
                     </div>
                     <p><strong>Réponse (Candidat) :</strong> ${pair.answer}</p>
-                    <label>Cette interaction semble-t-elle réaliste ?</label>
+                    <label style="background-color: #fffacd; padding: 5px; border-radius: 5px;">
+                        Cette interaction semble-t-elle réaliste ?
+                    </label>
                     <div>
                         <input type="radio" name="realistic-${index}" value="Oui"> Oui
                         <input type="radio" name="realistic-${index}" value="Non"> Non
                     </div>
-                    <label>Notez la pertinence de la réponse (1-5) :</label>
+                    <label style="background-color: #fffacd; padding: 5px; border-radius: 5px;">
+                        Notez la pertinence de la réponse (1-5) :
+                    </label>
                     <div>
                         ${[1, 2, 3, 4, 5].map(num => `
                             <input type="radio" name="answer-relevance-${index}" value="${num}"> ${num}

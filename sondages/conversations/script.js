@@ -24,7 +24,9 @@ function generateQuestionAnswerPairs(conversations, fileName) {
             <div class="card mb-3">
                 <div class="card-body">
                     <h5>Échange ${index + 1}</h5>
-                    <p><strong>Question (Recruteur) :</strong> ${pair.question}</p>
+                    <p style="background-color: #fffacd; padding: 10px; border-radius: 5px;">
+                        <strong>Question (Recruteur) :</strong> ${pair.question}
+                    </p>
                     <label>Notez la pertinence de la question (1-5) :</label>
                     <div>
                         ${[1, 2, 3, 4, 5].map(num => `
@@ -67,16 +69,16 @@ function exportResults(pairs, fileName) {
             fileName: fileName,
             dateTime: dateTime,
             exchange: index + 1,
-            q1: realistic ? realistic.value : 'Non répondu',
-            q2: questionRelevance ? questionRelevance.value : 'Non répondu',
-            q3: answerRelevance ? answerRelevance.value : 'Non répondu'
+            realism: realistic ? realistic.value : 'Non répondu',
+            questionRelevance: questionRelevance ? questionRelevance.value : 'Non répondu',
+            answerRelevance: answerRelevance ? answerRelevance.value : 'Non répondu'
         });
     });
 
     // Convertir en CSV
-    const csvHeader = "Nom du fichier JSON,Date et Heure,Numéro échange,Réponse Q1,Réponse Q2,Réponse Q3\n";
+    const csvHeader = "Nom du fichier JSON,Date et Heure,Numéro échange,Réalisme interaction,Note pertinence question,Note pertinence réponse\n";
     const csvContent = csvHeader + results.map(row =>
-        `${row.fileName},${row.dateTime},${row.exchange},${row.q1},${row.q2},${row.q3}`
+        `${row.fileName},${row.dateTime},${row.exchange},${row.realism},${row.questionRelevance},${row.answerRelevance}`
     ).join('\n');
 
     const encodedUri = "data:text/csv;charset=utf-8," + encodeURIComponent(csvContent);

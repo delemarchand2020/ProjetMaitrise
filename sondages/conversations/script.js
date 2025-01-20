@@ -1,10 +1,10 @@
 // Charger les données JSON
 fetch('conversation_1.json')
     .then(response => response.json())
-    .then(data => generateQuestionAnswerPairs(data));
+    .then(data => generateQuestionAnswerPairs(data, 'conversation_1.json'));
 
 // Fonction pour générer les paires question-réponse
-function generateQuestionAnswerPairs(conversations) {
+function generateQuestionAnswerPairs(conversations, fileName) {
     const container = document.getElementById('questions-container');
     const pairs = [];
 
@@ -25,6 +25,12 @@ function generateQuestionAnswerPairs(conversations) {
                 <div class="card-body">
                     <h5>Échange ${index + 1}</h5>
                     <p><strong>Question (Recruteur) :</strong> ${pair.question}</p>
+                    <label>Notez la pertinence de la question (1-5) :</label>
+                    <div>
+                        ${[1, 2, 3, 4, 5].map(num => `
+                            <input type="radio" name="question-relevance-${index}" value="${num}"> ${num}
+                        `).join(' ')}
+                    </div>
                     <p><strong>Réponse (Candidat) :</strong> ${pair.answer}</p>
                     <label>Cette interaction semble-t-elle réaliste ?</label>
                     <div>
@@ -34,35 +40,49 @@ function generateQuestionAnswerPairs(conversations) {
                     <label>Notez la pertinence de la réponse (1-5) :</label>
                     <div>
                         ${[1, 2, 3, 4, 5].map(num => `
-                            <input type="radio" name="fluency-${index}" value="${num}"> ${num}
+                            <input type="radio" name="answer-relevance-${index}" value="${num}"> ${num}
                         `).join(' ')}
                     </div>
                 </div>
             </div>`;
         container.insertAdjacentHTML('beforeend', questionAnswerHTML);
     });
+
+    // Ajouter l'événement d'exportation des résultats
+    document.getElementById('submit-button').addEventListener('click', () => {
+        exportResults(pairs, fileName);
+    });
 }
 
-// Exporter les résultats
-document.getElementById('submit-button').addEventListener('click', () => {
+// Fonction pour exporter les résultats en CSV
+function exportResults(pairs, fileName) {
     const results = [];
+    const dateTime = new Date().toISOString();
+
     document.querySelectorAll('.card').forEach((card, index) => {
         const realistic = document.querySelector(`input[name="realistic-${index}"]:checked`);
-        const fluency = document.querySelector(`input[name="fluency-${index}"]:checked`);
+        const questionRelevance = document.querySelector(`input[name="question-relevance-${index}"]:checked`);
+        const answerRelevance = document.querySelector(`input[name="answer-relevance-${index}"]:checked`);
         results.push({
+            fileName: fileName,
+            dateTime: dateTime,
             exchange: index + 1,
-            realistic: realistic ? realistic.value : 'Non répondu',
-            fluency: fluency ? fluency.value : 'Non répondu'
+            q1: realistic ? realistic.value : 'Non répondu',
+            q2: questionRelevance ? questionRelevance.value : 'Non répondu',
+            q3: answerRelevance ? answerRelevance.value : 'Non répondu'
         });
     });
 
     // Convertir en CSV
-    const csvContent = "data:text/csv;charset=utf-8,"
-        + results.map(row => Object.values(row).join(',')).join('\n');
-    const encodedUri = encodeURI(csvContent);
+    const csvHeader = "Nom du fichier JSON,Date et Heure,Numéro échange,Réponse Q1,Réponse Q2,Réponse Q3\n";
+    const csvContent = csvHeader + results.map(row =>
+        `${row.fileName},${row.dateTime},${row.exchange},${row.q1},${row.q2},${row.q3}`
+    ).join('\n');
+
+    const encodedUri = "data:text/csv;charset=utf-8," + encodeURIComponent(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
     link.setAttribute("download", "results.csv");
     document.body.appendChild(link);
     link.click();
-});
+}

@@ -1,5 +1,5 @@
 // Configurer le mode d'envoi
-const USE_GOOGLE_SHEETS = false; // true pour Google Sheets, false pour export CSV
+const USE_GOOGLE_SHEETS = true; // true pour Google Sheets, false pour export CSV
 const SHEET_ID = "1XnupnE_K4lFd3HK27vWZkGa4M9xHiC-nTKndki5k0EE"; // Remplacez par l'ID de votre Google Sheet
 const API_URL = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/Sheet1!A1:append?valueInputOption=RAW`;
 const API_KEY = "e7fd0eef23b53977fca0939924d886b9c7e19e34"; // Remplacez par votre clé API

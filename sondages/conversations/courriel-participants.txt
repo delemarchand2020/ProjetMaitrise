@@ -4,12 +4,14 @@ Bonjour,
 
 Dans le cadre de mes travaux de recherche, je mène une étude pour la détection des biais de type stéréotype dans les processus de recrutement, notamment ceux où le recruteur est un agent d’intelligence artificielle (IA). Les entrevues présentées dans ce sondage sont fictives et servent à entraîner et à valider un agent IA capable de détecter ces biais.
 
-Votre participation consiste à évaluer ces entrevues à l’aide d’un formulaire. Cela ne prendra que quelques minutes de votre temps et votre contribution est essentielle pour faire avancer la recherche dans ce domaine.
+Votre participation consiste à évaluer une entrevue tirée aléatoirement à chaque rafraîchissement du formulaire (en appuyant sur la touche F5). Vous pouvez évaluer une seule entrevue à la fois. Déjà effectuer l’évaluation d’une seule entrevue est un bel effort pour moi et une aide précieuse pour cette recherche.
 
 👉 Accédez au formulaire ici :
 https://delemarchand2020.github.io/ProjetMaitrise/sondages/conversations/
 
-⚠️ Veuillez noter que les données recueillies ne sont pas anonymes, car vous devrez transmettre vos réponses par courriel après avoir exporté les résultats. Ce choix a été fait pour que vous sachiez exactement quelles informations sont transmises, à savoir uniquement vos réponses évaluatives générées localement par le formulaire.
+⚠️ Veuillez noter que les données recueillies ne sont pas anonymes, car vous devrez transmettre vos réponses par courriel après avoir exporté les résultats. Ce choix a été fait pour que vous sachiez exactement quelles informations sont transmises : uniquement vos réponses évaluatives générées localement par le formulaire.
+
+Note : Les entrevues sont tirées avec remise, ce qui signifie qu'une entrevue peut être sélectionnée plusieurs fois. Il se peut donc que vous deviez rafraîchir plusieurs fois pour trouver une entrevue correspondant à un poste qui vous intéresse. Les métiers abordés dans les entrevues sont variés, et le candidat peut être soit une femme, soit un homme.
 
 Merci de suivre les instructions indiquées dans le formulaire pour envoyer vos réponses.
 

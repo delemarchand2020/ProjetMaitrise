@@ -1,0 +1,21 @@
+Objet : Participez à une étude sur la détection des biais dans les processus de recrutement
+
+Bonjour,
+
+Dans le cadre de mes travaux de recherche, je mène une étude pour la détection des biais de type stéréotype dans les processus de recrutement, notamment ceux où le recruteur est un agent d’intelligence artificielle (IA). Les entrevues présentées dans ce sondage sont fictives et servent à entraîner et à valider un agent IA capable de détecter ces biais.
+
+Votre participation consiste à évaluer ces entrevues à l’aide d’un formulaire. Cela ne prendra que quelques minutes de votre temps et votre contribution est essentielle pour faire avancer la recherche dans ce domaine.
+
+👉 Accédez au formulaire ici :
+https://delemarchand2020.github.io/ProjetMaitrise/sondages/conversations/
+
+⚠️ Veuillez noter que les données recueillies ne sont pas anonymes, car vous devrez transmettre vos réponses par courriel après avoir exporté les résultats. Ce choix a été fait pour que vous sachiez exactement quelles informations sont transmises, à savoir uniquement vos réponses évaluatives générées localement par le formulaire.
+
+Merci de suivre les instructions indiquées dans le formulaire pour envoyer vos réponses.
+
+Votre aide est précieuse pour ce projet. Si vous avez des questions ou souhaitez obtenir plus d’informations, n’hésitez pas à me contacter.
+
+Bien cordialement,
+Denis Lemarchand
+delemarchand2020.github.io/ProjetMaitrise/
+denis.lemarchand@email.com

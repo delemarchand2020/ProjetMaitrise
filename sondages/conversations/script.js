@@ -1,13 +1,39 @@
-// Configurer le mode d'envoi
-const USE_GOOGLE_SHEETS = false; // true pour Google Sheets, false pour export CSV
-const SHEET_ID = ""; // Remplacez par l'ID de votre Google Sheet
-const API_URL = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/Sheet1!A1:append?valueInputOption=RAW`;
-const API_KEY = ""; // Remplacez par votre clé API
+// Charger un fichier JSON aléatoirement parmi les fichiers potentiels
+function getRandomConversationFile() {
+    const possibleFiles = [];
+    let i = 1;
 
-// Charger les données JSON
-fetch('conversation_1.json')
+    // Remplir les noms de fichiers possibles
+    while (true) {
+        const fileName = `conversation_${i}.json`;
+
+        try {
+            // Tester l'existence du fichier (utilisation du fetch en mode synchrone pour simuler)
+            const request = new XMLHttpRequest();
+            request.open('HEAD', fileName, false);
+            request.send();
+
+            if (request.status === 404) break; // Arrêter si le fichier n'existe pas
+            possibleFiles.push(fileName);
+            i++;
+        } catch {
+            break;
+        }
+    }
+
+    // Sélectionner un fichier aléatoire si plusieurs existent, sinon prendre le premier
+    if (possibleFiles.length > 0) {
+        const randomIndex = Math.floor(Math.random() * possibleFiles.length);
+        return possibleFiles[randomIndex];
+    }
+    return 'conversation_1.json'; // Par défaut, charger le premier fichier
+}
+
+// Charger le fichier aléatoire et générer le sondage
+const selectedFile = getRandomConversationFile();
+fetch(selectedFile)
     .then(response => response.json())
-    .then(data => generateQuestionAnswerPairs(data, 'conversation_1.json'));
+    .then(data => generateQuestionAnswerPairs(data, selectedFile));
 
 // Fonction pour générer les paires question-réponse
 function generateQuestionAnswerPairs(conversations, fileName) {
@@ -30,7 +56,7 @@ function generateQuestionAnswerPairs(conversations, fileName) {
             <div class="card mb-3">
                 <div class="card-body">
                     <h5>Échange ${index + 1}</h5>
-                    <p><strong>Question (Recruteur) :</strong> ${pair.question}</p>
+                    <p><strong>Question (recruteur) :</strong> ${pair.question}</p>
                     <label style="background-color: #fffacd; padding: 5px; border-radius: 5px;">
                         Notez la pertinence de la question (1-5) :
                     </label>
@@ -39,7 +65,7 @@ function generateQuestionAnswerPairs(conversations, fileName) {
                             <input type="radio" name="question-relevance-${index}" value="${num}"> ${num}
                         `).join(' ')}
                     </div>
-                    <p><strong>Réponse (Candidat) :</strong> ${pair.answer}</p>
+                    <p><strong>Réponse (candidat) :</strong> ${pair.answer}</p>
                     <label style="background-color: #fffacd; padding: 5px; border-radius: 5px;">
                         Cette interaction semble-t-elle réaliste ?
                     </label>
@@ -63,11 +89,7 @@ function generateQuestionAnswerPairs(conversations, fileName) {
     // Ajouter l'événement d'exportation des résultats
     document.getElementById('submit-button').addEventListener('click', () => {
         const results = collectResults(pairs, fileName);
-        if (USE_GOOGLE_SHEETS) {
-            sendResultsToGoogleSheets(results);
-        } else {
-            exportResultsToCSV(results);
-        }
+        exportResultsToCSV(results);
     });
 }
 
@@ -91,33 +113,6 @@ function collectResults(pairs, fileName) {
     });
 
     return results;
-}
-
-// Fonction pour envoyer les résultats à Google Sheets
-function sendResultsToGoogleSheets(results) {
-    const rows = results.map(row => [
-        row.fileName,
-        row.dateTime,
-        row.exchange,
-        row.realism,
-        row.questionRelevance,
-        row.answerRelevance
-    ]);
-
-    fetch(API_URL, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "Authorization": `Bearer ${API_KEY}`
-        },
-        body: JSON.stringify({ values: rows })
-    }).then(response => {
-        if (response.ok) {
-            alert("Résultats envoyés avec succès à Google Sheets !");
-        } else {
-            alert("Erreur lors de l'envoi des résultats à Google Sheets.");
-        }
-    });
 }
 
 // Fonction pour exporter les résultats en CSV

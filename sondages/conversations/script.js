@@ -42,6 +42,8 @@ function getNextConversationFile() {
 function loadConversation() {
     selectedFile = getNextConversationFile();
     if (!selectedFile) return; // Arrêter si aucun fichier n'est disponible
+
+    // Charger le fichier JSON sélectionné
     fetch(selectedFile)
         .then(response => response.json())
         .then(data => generateQuestionAnswerPairs(data, selectedFile));
@@ -105,6 +107,7 @@ function generateQuestionAnswerPairs(conversations, fileName) {
         container.insertAdjacentHTML('beforeend', questionAnswerHTML);
     });
 
+    // Mettre à jour l'événement du bouton d'exportation
     document.getElementById('submit-button').addEventListener('click', () => {
         if (evaluatedFiles.has(fileName)) {
             alert("Cette entrevue a déjà été exportée. Veuillez changer d'entrevue.");
@@ -113,6 +116,7 @@ function generateQuestionAnswerPairs(conversations, fileName) {
         const results = collectResults(pairs, fileName);
         exportResultsToCSV(results);
         evaluatedFiles.add(fileName); // Marquer ce fichier comme évalué
+        alert("Les résultats ont été exportés avec succès !");
     });
 }
 
@@ -138,14 +142,13 @@ function collectResults(pairs, fileName) {
     return results;
 }
 
-// Fonction pour exporter les résultats en CSV avec le nom de la conversation
+// Fonction pour exporter les résultats en CSV
 function exportResultsToCSV(results) {
     const csvHeader = "Nom du fichier JSON,Date et Heure,Numéro échange,Note pertinence question,Note pertinence réponse,Réalisme interaction\n";
     const csvContent = csvHeader + results.map(row =>
         `${row.fileName},${row.dateTime},${row.exchange},${row.questionRelevance},${row.answerRelevance},${row.realism}`
     ).join('\n');
 
-    // Utiliser le nom du fichier de la conversation dans le nom du fichier CSV
     const fileName = results[0]?.fileName?.replace('.json', '') || 'resultats';
     const encodedUri = "data:text/csv;charset=utf-8," + encodeURIComponent(csvContent);
     const link = document.createElement("a");
@@ -154,7 +157,6 @@ function exportResultsToCSV(results) {
     document.body.appendChild(link);
     link.click();
 }
-
 
 // Initialisation
 initializeConversationFiles();

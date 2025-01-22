@@ -9,10 +9,21 @@
 <body>
     <div class="container my-4">
         <h1 class="text-center">Évaluation des échanges d'entrevues de recrutement</h1>
+        <p class="mt-3">
+            Ce formulaire présente une transcription simulant un entretien par Teams ou Zoom. Chaque entrevue est tirée <strong>aléatoirement sans remise</strong> : une fois évaluée et exportée, elle ne sera plus disponible.
+        </p>
+        <p>
+            Si vous souhaitez évaluer une autre entrevue, cliquez sur le bouton <strong>"Changer d'entrevue"</strong>. Si vous voulez réinitialiser la liste des entrevues, utilisez le bouton <strong>"Réinitialiser le formulaire"</strong>.
+        </p>
+        <p>
+            L’évaluation est complétée lorsque vous avez exporté vos résultats et envoyé le fichier par courriel.
+        </p>
+        <button class="btn btn-secondary mb-3" id="change-conversation">Changer d'entrevue</button>
+        <button class="btn btn-warning mb-3" id="reset-form">Réinitialiser le formulaire</button>
         <form id="survey-form">
             <div id="questions-container"></div>
             <p class="mt-3">
-                Veuillez exporter les résultats et transmettre le fichier par courriel à la personne vous ayant transmis ce sondage.
+                Une fois terminé, veuillez exporter les résultats et les transmettre par courriel à la personne vous ayant transmis ce sondage.
             </p>
             <button type="button" class="btn btn-primary mt-3" id="submit-button">Exporter les résultats</button>
         </form>

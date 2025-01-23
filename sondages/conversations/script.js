@@ -30,7 +30,7 @@ function initializeConversationFiles() {
 // Tirer une conversation sans remise
 function getNextConversationFile() {
     if (remainingFiles.length === 0) {
-        alert("Toutes les entrevues ont été évaluées. Merci pour votre participation !");
+        alert("Toutes les entrevues ont été vues. Veuillez réinitialiser le formulaire !");
         return null;
     }
     const randomIndex = Math.floor(Math.random() * remainingFiles.length);
@@ -86,7 +86,7 @@ function generateQuestionAnswerPairs(conversations, fileName) {
                             <input type="radio" name="question-relevance-${index}" value="${num}" required> ${num}
                         `).join(' ')}
                     </div>
-                    <p><strong>Réponse (candidat) :</strong> ${pair.answer}</p>
+                    <p><strong>Réponse (candidat.e) :</strong> ${pair.answer}</p>
                     <label style="background-color: #fffacd; padding: 5px; border-radius: 5px;">
                         Notez la pertinence de la réponse (1-5) :
                     </label>
@@ -109,10 +109,10 @@ function generateQuestionAnswerPairs(conversations, fileName) {
 
     // Mettre à jour l'événement du bouton d'exportation
     document.getElementById('submit-button').addEventListener('click', () => {
-        if (evaluatedFiles.has(fileName)) {
-            alert("Cette entrevue a déjà été exportée. Veuillez changer d'entrevue.");
-            return;
-        }
+        //if (evaluatedFiles.has(fileName)) {
+        //    alert("Cette entrevue a déjà été exportée. Veuillez changer d'entrevue.");
+        //    return;
+        //}
         const results = collectResults(pairs, fileName);
         exportResultsToCSV(results);
         evaluatedFiles.add(fileName); // Marquer ce fichier comme évalué

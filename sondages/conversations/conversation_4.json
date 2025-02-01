@@ -1,0 +1,42 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Lucas Muller,\nvous postulez pour le poste de Scrum Master Agile Senior, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionné par la transformation numérique et l'amélioration continue, avec plus de dix ans d'expérience en tant que Scrum Master Senior. Je suis motivé par l'opportunité de faciliter des équipes de développement pour assurer une livraison efficace et de qualité des projets logiciels complexes, en mettant à profit mes compétences en méthodologies agiles et en leadership."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez dû gérer un conflit au sein d'une équipe Scrum et comment vous l'avez résolu?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans une situation précédente, un désaccord est survenu entre deux développeurs concernant l'approche technique à adopter pour un projet. J'ai facilité une session de médiation où chaque partie a pu exprimer ses points de vue. En utilisant mes compétences en écoute active et communication, nous avons travaillé ensemble pour trouver un compromis aligné sur les objectifs du backlog produit, ce qui a permis de renforcer la collaboration au sein de l'équipe."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ce partage d'expérience. Pour mieux comprendre vos compétences techniques, pourriez-vous me donner un exemple où vous avez utilisé des outils de gestion Agile, comme Jira ou Trello, pour résoudre un problème spécifique dans un projet?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet complexe de développement logiciel, j'ai utilisé Jira pour identifier et prioriser les obstacles rencontrés par l'équipe, ce qui a permis une résolution rapide et a considérablement amélioré la productivité, un aspect clé de mes responsabilités en tant que Scrum Master Senior."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cet éclairage sur l'utilisation de Jira. Pourriez-vous partager une expérience où votre capacité à résoudre des conflits au sein de l'équipe a joué un rôle déterminant dans le succès d'un projet?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet complexe, un conflit est survenu entre les développeurs concernant l'approche à adopter pour respecter le backlog produit. J'ai organisé une séance de médiation pour faciliter une communication ouverte, permettant de clarifier les objectifs du backlog avec le Product Owner, et ainsi, d'aligner toute l'équipe, ce qui a conduit à la réussite du projet."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci d'avoir pris le temps de discuter avec nous aujourd'hui. Nous allons examiner votre candidature et vous contacterons dans les prochains jours pour vous informer des prochaines étapes du processus de recrutement. Votre expérience en médiation et en facilitation d'équipe est impressionnante et correspond bien à nos attentes pour ce poste."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je suis ravi que mon expérience en médiation et facilitation d'équipe soit reconnue. Je suis prêt à utiliser mes compétences en méthodologies agiles, notamment avec des outils comme Jira et Trello, pour optimiser la productivité et la communication au sein de vos équipes chez Innovatech Solutions."
+  }
+]

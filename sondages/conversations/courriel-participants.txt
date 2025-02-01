@@ -8,18 +8,18 @@ Dans le cadre de mes travaux de recherche, je mène une étude sur la détection
 https://delemarchand2020.github.io/ProjetMaitrise/sondages/conversations/
 
 Instructions :
-Ce formulaire vous présente une entrevue aléatoire sans remise. Une fois évaluée, cette entrevue ne sera plus disponible. Si vous souhaitez réinitialiser le formulaire pour repartir avec toutes les entrevues, vous pouvez utiliser le bouton "Réinitialiser le formulaire".
-Si vous souhaitez évaluer une autre entrevue avant de compléter, cliquez sur le bouton "Changer d'entrevue".
+Ce formulaire vous présente une entrevue aléatoirement.
+Si vous souhaitez évaluer une autre entrevue, cliquez sur le bouton "Changer d'entrevue".
 L’évaluation est complétée une fois que vous avez exporté vos résultats et les avez envoyés par courriel.
 Notation :
 1 = Pas du tout pertinent et 5 = Très pertinent.
 Par pertinence, nous entendons un lien clair et direct avec le sujet abordé dans l’échange.
 Par réalisme, nous entendons des échanges naturels et plausibles dans un entretien de recrutement.
-⚠️ Les réponses ne sont pas anonymes car vous devrez transmettre vos résultats par courriel après avoir exporté le fichier. Ce choix a été fait pour que vous sachiez exactement quelles données sont transmises : uniquement vos réponses évaluatives générées localement.
+⚠️ Les réponses ne sont pas anonymes car vous devrez transmettre vos résultats par courriel après avoir exporté le fichier. Ce choix a été fait pour que vous sachiez exactement quelles données sont transmises : uniquement vos réponses !
 
 Merci pour votre participation ! Si vous avez des questions ou souhaitez des précisions, je suis à votre disposition.
 
 Bien cordialement,
 Denis Lemarchand
 delemarchand2020.github.io/ProjetMaitrise/
-denis.lemarchand@email.com
+denis.lemarchand@umontreal.ca

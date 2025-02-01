@@ -1,6 +1,5 @@
 let selectedFile;
 let remainingFiles = [];
-let evaluatedFiles = new Set(); // Garde trace des fichiers évalués
 
 // Fonction pour initialiser les fichiers disponibles
 function initializeConversationFiles() {
@@ -11,20 +10,14 @@ function initializeConversationFiles() {
     while (true) {
         const fileName = `conversation_${i}.json`;
 
-        try {
-            const request = new XMLHttpRequest();
-            request.open('HEAD', fileName, false);
-            request.send();
+        const request = new XMLHttpRequest();
+        request.open('HEAD', fileName, false);
+        request.send();
 
-            if (request.status === 404) break; // Arrêter si le fichier n'existe pas
-            remainingFiles.push(fileName);
-            i++;
-        } catch {
-            break;
-        }
+        if (request.status === 404) break; // Arrêter si le fichier n'existe pas
+        remainingFiles.push(fileName);
+        i++;
     }
-
-    evaluatedFiles.clear(); // Réinitialiser les fichiers évalués
 }
 
 // Tirer une conversation sans remise
@@ -106,29 +99,18 @@ function generateQuestionAnswerPairs(conversations, fileName) {
             </div>`;
         container.insertAdjacentHTML('beforeend', questionAnswerHTML);
     });
-
-    // Mettre à jour l'événement du bouton d'exportation
-    document.getElementById('submit-button').addEventListener('click', () => {
-        //if (evaluatedFiles.has(fileName)) {
-        //    alert("Cette entrevue a déjà été exportée. Veuillez changer d'entrevue.");
-        //    return;
-        //}
-        const results = collectResults(pairs, fileName);
-        exportResultsToCSV(results);
-        evaluatedFiles.add(fileName); // Marquer ce fichier comme évalué
-        alert("Les résultats ont été exportés avec succès !");
-    });
 }
 
 // Fonction pour collecter les résultats
-function collectResults(pairs, fileName) {
+function collectResults(fileName) {
     const results = [];
     const dateTime = new Date().toISOString();
+    const container = document.getElementById('questions-container');
 
-    document.querySelectorAll('.card').forEach((card, index) => {
-        const realistic = document.querySelector(`input[name="realistic-${index}"]:checked`);
-        const questionRelevance = document.querySelector(`input[name="question-relevance-${index}"]:checked`);
-        const answerRelevance = document.querySelector(`input[name="answer-relevance-${index}"]:checked`);
+    container.querySelectorAll('.card').forEach((card, index) => {
+        const realistic = card.querySelector(`input[name="realistic-${index}"]:checked`);
+        const questionRelevance = card.querySelector(`input[name="question-relevance-${index}"]:checked`);
+        const answerRelevance = card.querySelector(`input[name="answer-relevance-${index}"]:checked`);
         results.push({
             fileName: fileName,
             dateTime: dateTime,
@@ -160,6 +142,25 @@ function exportResultsToCSV(results) {
 
 // Initialisation
 initializeConversationFiles();
-document.getElementById('change-conversation').addEventListener('click', loadConversation);
-document.getElementById('reset-form').addEventListener('click', resetForm);
+
+const changeConversationButton = document.getElementById('change-conversation');
+const resetFormButton = document.getElementById('reset-form');
+const submitButton = document.getElementById('submit-button');
+
+if (changeConversationButton) {
+    changeConversationButton.addEventListener('click', loadConversation);
+}
+
+if (resetFormButton) {
+    resetFormButton.addEventListener('click', resetForm);
+}
+
+if (submitButton) {
+    submitButton.addEventListener('click', () => {
+        const results = collectResults(selectedFile); // On passe uniquement selectedFile
+        exportResultsToCSV(results);
+        alert("Les résultats ont été exportés avec succès !");
+    });
+}
+
 loadConversation();

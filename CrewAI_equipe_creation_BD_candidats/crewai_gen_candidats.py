@@ -153,6 +153,11 @@ redaction_profil_candidat = Task(
         Aucune information personnelle (profil anonyme).
         Aucune motivation à mentionner.
         Aucune disponibilité ni de référence à fournir.
+        ### Contraintes : 
+        Pour le nom d'entreprise généré :
+            - Ne doit pas contenir de suffixes légaux tels que : GmbH, AG, SARL, SA, Ltd., Inc., Corp., LLP, BV, Sp. z o.o., S.r.l., SL, ApS, AS, OOO, etc.
+            - Doit être générique et créatif, sans référence explicite à une forme juridique.
+            - Éviter les abréviations indiquant un statut d'entreprise.
         """,
     expected_output="Le profil du candidat idéal selon les instructions.",
     agent=redacteur_profil_candidat,

@@ -146,6 +146,8 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
             Question initiale : {question}
             Répond brièvement à la question initiale du recruteur mettant en avant tes compétences et ton expérience 
             en rapport avec les responsabilités du poste auquel tu postules.
+            ### contraintes :
+                - Commence simplement ta réponse par "Bonjour" sans mentionner ton prénom ou ton nom qu'il connait déjà !
             """
         ),
         expected_output="Une ou deux phrases.",

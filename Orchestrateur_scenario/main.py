@@ -28,9 +28,9 @@ def run_command(command, cwd=None):
 
 def nettoyer_cache_crewai():
     try:
-        run_command(
-            "crewai reset-memories -a"
-        )
+        #run_command(
+        #    "crewai reset-memories -a"
+        #)
         shutil.rmtree(dir_to_clean, ignore_errors=True)  # Suppression récursive, ignore les erreurs
         #print(f"Le répertoire {dir_to_clean} a été nettoyé avec succès.")
     except Exception as e:

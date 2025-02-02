@@ -1,0 +1,42 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Sophie Dubois,\nvous postulez pour le poste de Contrôleur de Gestion Senior - Projets Internationaux, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis fortement motivée par le poste de Contrôleur de Gestion Senior - Projets Internationaux chez FinanceAvenir, car j'ai une expérience éprouvée dans la gestion financière de projets internationaux et une solide formation en finance qui me permet de contribuer efficacement à l'amélioration continue des processus financiers."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse motivée. Pourriez-vous me parler de votre expérience dans la coordination d'audits internes et externes sur des projets internationaux?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mon rôle précédent de Contrôleur Financier Senior, j'ai coordonné des audits internes et externes pour des projets internationaux, ce qui m'a permis d'assurer la conformité réglementaire et de renforcer les processus financiers, des compétences directement alignées avec les responsabilités du poste chez FinanceAvenir."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Votre expérience dans la coordination d'audits pour des projets internationaux est en effet très pertinente. Pourriez-vous partager comment vous avez su naviguer et gérer les différences culturelles au sein des équipes internationales lors de ces audits?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors des audits internationaux, j'ai su tirer parti de mes compétences en communication interculturelle pour établir un climat de confiance et faciliter la collaboration, ce qui a permis d'assurer le bon déroulement des processus d'audit malgré les différences culturelles au sein des équipes."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci d'avoir partagé votre expérience sur la gestion des différences culturelles lors des audits. J'aimerais maintenant en savoir plus sur les compétences techniques que vous avez développées pour analyser les résultats financiers des projets internationaux et proposer des mesures correctives."
+  },
+  {
+    "role": "Candidat",
+    "message": "Mon expertise en analyse financière, renforcée par ma maîtrise des logiciels financiers comme SAP et Oracle Financials, m'a permis d'élaborer des prévisions précises et de proposer des mesures correctives efficaces pour optimiser les résultats des projets internationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci d'avoir participé à cet entretien. Les prochaines étapes du recrutement incluent une évaluation de votre candidature par notre équipe, suivie d'un retour sous deux semaines. Nous vous remercions pour votre intérêt et restons à votre disposition pour toute question."
+  },
+  {
+    "role": "Candidat",
+    "message": "Avec mon expertise en gestion financière de projets internationaux et ma capacité à coordonner efficacement des audits, je suis prêt(e) à contribuer activement à l'amélioration continue des processus financiers chez FinanceAvenir."
+  }
+]

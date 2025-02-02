@@ -1,0 +1,42 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Élodie Dupuis,\nvous postulez pour le poste de Contrôleur.se de Gestion Commerciale, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionnée par l'optimisation des processus financiers et l'analyse des performances commerciales, ce qui me motive particulièrement pour ce poste chez FinanTech Innovators. Mon expérience en tant qu'analyste financier et contrôleur de gestion junior, combinée à ma maîtrise des outils de Business Intelligence, me permet de fournir des analyses précises et de collaborer efficacement avec les équipes pour améliorer la rentabilité."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez dû convaincre une équipe ou un individu de l'importance d'un changement stratégique basé sur vos analyses financières?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon précédent poste d'analyste financier, j'ai utilisé mes compétences en Excel et en Business Intelligence pour démontrer à l'équipe commerciale que l'adoption d'une nouvelle stratégie tarifaire améliorerait significativement les marges bénéficiaires. Mon analyse a été soutenue par des visualisations claires, ce qui a facilité la prise de décision et conduit à une augmentation notable de la rentabilité."
+  },
+  {
+    "role": "Recruteur",
+    "message": "C'est impressionnant de voir comment vos compétences en visualisation ont aidé à influencer la stratégie commerciale. Pourriez-vous partager une expérience où vous avez dû collaborer étroitement avec une équipe pour résoudre un défi complexe lié aux données financières?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience en tant qu'analyste financier, j'ai collaboré avec les équipes de vente pour identifier des écarts financiers et recommander des solutions d'optimisation, ce qui a permis d'améliorer la rentabilité grâce à une analyse précise des performances commerciales mensuelles."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous partager une expérience où vous avez utilisé des outils de Business Intelligence pour analyser les performances commerciales et comment cela a influencé la prise de décision stratégique?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon précédent poste d'analyste financier, j'ai utilisé des outils de Business Intelligence pour analyser les performances commerciales mensuelles, identifiant des opportunités d'amélioration qui ont guidé la direction vers une restructuration stratégique des produits, augmentant ainsi la rentabilité globale."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cet entretien. Nous allons examiner votre candidature avec attention et vous tiendrons informé des prochaines étapes d'ici deux semaines. Je suis impressionné par votre expérience et pense que vous avez un potentiel certain pour ce poste chez FinanTech Innovators."
+  },
+  {
+    "role": "Candidat",
+    "message": "Merci beaucoup pour cette opportunité. Mon expérience en analyse financière et ma capacité à collaborer avec les équipes de vente et marketing seront des atouts précieux pour optimiser les performances commerciales chez FinanTech Innovators."
+  }
+]

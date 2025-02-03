@@ -1,5 +1,7 @@
 import agentops
 import argparse
+import os
+import json
 from textwrap import dedent
 from crewai import Agent, Crew, Process, Task, LLM
 from crewai_tools import FileReadTool, FileWriterTool
@@ -32,7 +34,7 @@ llm_middle_creative = LLM(
 )
 
 file_read_tool = FileReadTool()
-file_writer_tool = FileWriterTool()
+#file_writer_tool = FileWriterTool()
 
 print("## Équipe de création des profils candidats fictifs")
 print("---------------------------------------------------")
@@ -90,7 +92,7 @@ redacteur_personna_candidat = Agent(
     allow_delegation=False,
     verbose=True,
     llm=llm_middle_creative,
-    tools=[file_writer_tool],
+    #tools=[file_writer_tool],
 )
 
 # ============== définition des tâches =======================
@@ -190,11 +192,11 @@ completer_profil_candidat = Task(
         Points de vigilance : 
         1- company_name et job_title proviennent des informations transmises par le rédacteur du poste.
         2- professional_experiences est une liste de dictionnaires python mentionnant le titre et les responsabilités occupées.
-        3- l'outil File Writer nécessite un contenu en format string.
-        4- ajoute des retours à la ligne pour que la structure du profil soit lisible.
-        
-        Écrit le profil complet dans le fichier {fichier_candidats} dans le répertoire {output_path}.
+        3- ajoute des retours à la ligne pour que la structure du profil soit lisible.
         """,
+        #3- l'outil File Writer nécessite un contenu en format string.
+        #Écrit le profil complet dans le fichier {fichier_candidats} dans le répertoire {output_path}.
+        #""",
     agent=redacteur_personna_candidat,
 )
 
@@ -207,7 +209,37 @@ crew = Crew(
     process=Process.sequential
 )
 
+
 # ============== récupération des paramètres et lancement =======================
+def write_clean_json(output_path, file_name, json_content):
+    try:
+        # Nettoyer le contenu JSON des balises ```json et ```
+        cleaned_content = json_content.strip()
+        if cleaned_content.lower().startswith("```json") and cleaned_content.endswith("```"):
+            json_content = cleaned_content[len("```json"): -len("```")].strip()
+        elif cleaned_content.startswith("```") and cleaned_content.endswith("```"):
+            json_content = cleaned_content[len("```"): -len("```")].strip()
+
+        # Convertir en dictionnaire JSON valide
+        try:
+            json_data = json.loads(json_content)
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Le contenu fourni n'est pas un JSON valide : {e}")
+
+        # Vérifier si le répertoire de sortie existe, sinon le créer
+        os.makedirs(output_path, exist_ok=True)
+
+        # Construire le chemin complet du fichier
+        file_path = os.path.join(output_path, file_name)
+
+        # Écrire le contenu JSON formaté dans le fichier
+        with open(file_path, 'w', encoding='utf-8') as file:
+            json.dump(json_data, file, ensure_ascii=False, indent=4)
+
+        print(f"Fichier JSON écrit avec succès à l'emplacement : {file_path}")
+
+    except Exception as e:
+        print(f"Une erreur s'est produite : {e}")
 
 
 def main():
@@ -242,6 +274,7 @@ def main():
     result = crew.kickoff(inputs=params)
     print(f"###################### poste_num --> {poste_num} ######################")
     print(result)
+    write_clean_json(output_path, file_name, str(result))
 
 
 if __name__ == "__main__":

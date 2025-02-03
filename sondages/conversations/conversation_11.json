@@ -1,0 +1,42 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Sophie Dupont,\nvous postulez pour le poste de Consultant(e) Fiscaliste International(e), dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, avec plus de 15 ans d'expérience en fiscalité internationale et une expertise avérée en structuration fiscale et conformité transfrontalière, je suis particulièrement motivée par l'opportunité de rejoindre FiscElite Advisory pour conseiller des entreprises multinationales et optimiser leur structure fiscale tout en assurant la conformité avec les réglementations internationales."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous partager un exemple où vous avez dû surmonter un défi technique complexe dans le cadre de vos fonctions en fiscalité internationale, et comment vous avez réussi à le résoudre?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'une mission avec GlobalTax Consultancy, j'ai affronté le défi complexe de restructurer les opérations fiscales d'une multinationale pour assurer la conformité avec des réglementations transfrontalières variées. Grâce à une analyse approfondie et à l'utilisation de logiciels avancés comme SAP Tax Management, j'ai réussi à proposer des solutions innovantes qui ont optimisé leur structure fiscale tout en garantissant une pleine conformité."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cette réponse détaillée. En dehors de votre expertise technique, pourriez-vous décrire comment vous avez collaboré avec d'autres équipes, comme les équipes juridiques ou comptables, pour surmonter un défi dans un projet fiscal international?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet complexe chez GlobalTax Consultancy, j'ai collaboré étroitement avec des équipes juridiques et comptables pour restructurer la fiscalité d'une multinationale, ce qui a permis d'assurer une conformité totale aux réglementations internationales et d'optimiser la stratégie fiscale de l'entreprise."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cet exemple impressionnant de collaboration. Pourriez-vous partager un moment où votre passion pour un loisir a influencé votre approche professionnelle ou vous a aidé à résoudre un problème complexe?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'une randonnée en montagne, j'ai appris à aborder les défis pas à pas, ce qui m'a permis d'adopter une approche méthodique pour conseiller des clients sur des stratégies fiscales complexes et transfrontalières, garantissant ainsi leur conformité et optimisant leurs structures fiscales."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci d'avoir pris le temps de discuter avec nous aujourd'hui. Les prochaines étapes du processus de recrutement incluent une évaluation approfondie de toutes les candidatures, et nous vous tiendrons informé des résultats sous peu. Nous sommes impressionnés par vos compétences et votre expérience, et espérons sincèrement que vous serez un atout pour notre équipe."
+  },
+  {
+    "role": "Candidat",
+    "message": "Merci beaucoup pour votre considération. Mon expérience en fiscalité internationale, notamment en conseillant des entreprises multinationales sur la structuration et la conformité fiscale transfrontalière, ainsi que ma capacité à collaborer efficacement avec des équipes juridiques et comptables, me permettra de contribuer significativement à FiscElite Advisory."
+  }
+]

@@ -28,11 +28,7 @@ def run_command(command, cwd=None):
 
 def nettoyer_cache_crewai():
     try:
-        #run_command(
-        #    "crewai reset-memories -a"
-        #)
         shutil.rmtree(dir_to_clean, ignore_errors=True)  # Suppression récursive, ignore les erreurs
-        #print(f"Le répertoire {dir_to_clean} a été nettoyé avec succès.")
     except Exception as e:
         print(f"Une erreur s'est produite lors du nettoyage du répertoire {dir_to_clean} : {e}")
 
@@ -51,6 +47,12 @@ def main():
         type=str,
         default="ingénieur.e infra cloud",
         help="Métier pour la génération des postes."
+    )
+    parser.add_argument(
+        "--secteur",
+        type=str,
+        default="informatique",
+        help="Secteur d'activité pour la génération des recruteurs."
     )
     parser.add_argument(
         "--api_keys_file",
@@ -82,11 +84,11 @@ def main():
             cwd="..\\CrewAI_equipe_creation_BD_candidats"
         )
 
-        # Étape 3 : Générer les recruteurs
+        # Étape 3 : Générer les recruteurs avec le secteur choisi
         os.environ["OPIK_PROJECT_NAME"] = "agentai_gen_profil_recruteur"
-        print("Étape 3 : Génération des recruteurs")
+        print(f"Étape 3 : Génération des recruteurs pour le secteur {args.secteur}")
         run_command(
-            "python agentai_gen_recruteurs.py --biais \"stéréotype sur le genre féminin\" --langue_de_travail français --genre masculin --secteur informatique --file_path output\\recruteurs_generes.json",
+            f"python agentai_gen_recruteurs.py --biais \"stéréotype sur le genre féminin\" --langue_de_travail français --genre masculin --secteur \"{args.secteur}\" --file_path output\\recruteurs_generes.json",
             cwd="..\\AgentAI_creation_BD_recruteurs"
         )
 

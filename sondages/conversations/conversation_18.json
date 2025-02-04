@@ -1,0 +1,42 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Julien LefÃ¨vre,\nvous postulez pour le poste de Responsable des Achats Bio et Éthique, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis très motivé par ce poste car il me permettrait de mettre à profit ma solide expérience dans le développement de relations avec des fournisseurs biologiques et ma maîtrise des certifications bio pour garantir la conformité aux standards rigoureux de BioMarket Innovators. Mon expertise en négociation et gestion contractuelle me permettra d'obtenir les meilleurs accords tout en respectant les normes éthiques."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pouvez-vous me parler d'une situation où vous avez dû collaborer étroitement avec un autre département pour assurer la conformité aux normes bio et comment vous avez géré cette collaboration ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon poste chez GreenEarth Products, j'ai collaboré étroitement avec le département qualité pour garantir la conformité des produits aux normes bio. J'ai mis en place des réunions régulières pour échanger des informations sur les certifications requises et nous avons travaillé ensemble sur l'audit des fournisseurs, ce qui a permis d'assurer que tous les produits respectaient les standards éthiques et biologiques."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse détaillée. Pourriez-vous partager une expérience où vous avez dû gérer une situation complexe avec un fournisseur, et comment vous avez utilisé vos compétences interpersonnelles pour résoudre le problème ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon poste chez GreenEarth Products, j'ai géré une situation où un fournisseur n'avait pas respecté les délais de livraison, menaçant notre chaîne d'approvisionnement ; j'ai utilisé mes compétences en communication pour organiser une réunion constructive avec le fournisseur et nos équipes internes, ce qui a permis de rétablir la confiance et de mettre en place un plan d'action pour éviter de futurs retards."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Votre capacité à gérer des situations délicates est impressionnante. Pourriez-vous nous parler d'une fois où vous avez utilisé votre passion ou un loisir pour renforcer vos compétences professionnelles, notamment dans le domaine de la chaîne d'approvisionnement ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mes voyages culturels axés sur la découverte de pratiques durables, j'ai renforcé mes compétences en analyse des tendances du marché bio en observant les pratiques locales, ce qui m'a aidé à anticiper les besoins d'achat futurs pour optimiser la chaîne d'approvisionnement."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci beaucoup d'avoir pris le temps de passer cet entretien. Nous vous contacterons sous peu pour vous informer des prochaines étapes du processus de recrutement. Je vous souhaite le meilleur pour la suite et, au vu de notre discussion, je pense que votre profil pourrait très bien correspondre à nos attentes chez BioMarket Innovators."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je suis convaincu que mon expérience approfondie dans la gestion des fournisseurs biologiques internationaux et mes compétences en négociation contribueront à renforcer les relations et optimiser les coûts, tout en respectant les standards éthiques de BioMarket Innovators."
+  }
+]

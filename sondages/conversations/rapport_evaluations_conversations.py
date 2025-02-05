@@ -91,7 +91,7 @@ def generer_visualisations(df, repertoire_sortie):
 
 def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_echanges):
     fichier_sortie = os.path.join(repertoire_sortie, 'rapport_statistique.md')
-    with open(fichier_sortie, 'w') as f:
+    with open(fichier_sortie, 'w', encoding='utf-8') as f:
         f.write("# Rapport Statistique\n\n")
         f.write(f"## Nombre total de conversations : {nb_conversations}\n")
         f.write(f"## Nombre total d'échanges : {nb_echanges}\n\n")

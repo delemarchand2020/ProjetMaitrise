@@ -1,7 +1,7 @@
 # Rapport Statistique
 
-## Nombre total de conversations : 9
-## Nombre total d'échanges : 45
+## Nombre total de conversations : 10
+## Nombre total d'échanges : 50
 
 ## Graphiques
 
@@ -20,109 +20,109 @@
 - **Écart-type**: 0.0
 - **Min**: 5.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Note pertinence réponse
-- **Moyenne**: 4.222222222222222
+- **Moyenne**: 4.3
 - **Médiane**: 5.0
-- **Écart-type**: 0.97182531580755
+- **Écart-type**: 0.9486832980505138
 - **Min**: 3
 - **Max**: 5
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Réalisme interaction
 - **Oui**: 100.0%
 
 ## Statistiques pour Échange 2
 ### Note pertinence question
-- **Moyenne**: 4.666666666666667
+- **Moyenne**: 4.7
 - **Médiane**: 5.0
-- **Écart-type**: 0.5
+- **Écart-type**: 0.48304589153964794
 - **Min**: 4.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Note pertinence réponse
-- **Moyenne**: 4.222222222222222
+- **Moyenne**: 4.1
 - **Médiane**: 4.0
-- **Écart-type**: 0.8333333333333334
+- **Écart-type**: 0.8755950357709131
 - **Min**: 3
 - **Max**: 5
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Réalisme interaction
-- **Oui**: 88.89%
-- **Non**: 11.11%
+- **Oui**: 90.0%
+- **Non**: 10.0%
 
 ## Statistiques pour Échange 3
 ### Note pertinence question
-- **Moyenne**: 4.666666666666667
+- **Moyenne**: 4.7
 - **Médiane**: 5.0
-- **Écart-type**: 0.5
+- **Écart-type**: 0.48304589153964794
 - **Min**: 4.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Note pertinence réponse
-- **Moyenne**: 3.6666666666666665
-- **Médiane**: 3.0
-- **Écart-type**: 1.118033988749895
+- **Moyenne**: 3.8
+- **Médiane**: 3.5
+- **Écart-type**: 1.1352924243950933
 - **Min**: 2
 - **Max**: 5
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Réalisme interaction
-- **Oui**: 88.89%
-- **Non**: 11.11%
+- **Oui**: 90.0%
+- **Non**: 10.0%
 
 ## Statistiques pour Échange 4
 ### Note pertinence question
-- **Moyenne**: 4.25
-- **Médiane**: 4.5
-- **Écart-type**: 1.0350983390135313
+- **Moyenne**: 4.333333333333333
+- **Médiane**: 5.0
+- **Écart-type**: 0.9999999999999999
 - **Min**: 2.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 8
+- **Nombre de valeurs**: 9
 ### Note pertinence réponse
-- **Moyenne**: 4.111111111111111
+- **Moyenne**: 4.2
 - **Médiane**: 4.0
-- **Écart-type**: 0.7817359599705715
+- **Écart-type**: 0.7888106377466155
 - **Min**: 3
 - **Max**: 5
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Réalisme interaction
-- **Oui**: 66.67%
-- **Non**: 33.33%
+- **Oui**: 70.0%
+- **Non**: 30.0%
 
 ## Statistiques pour Échange 5
 ### Note pertinence question
-- **Moyenne**: 4.444444444444445
+- **Moyenne**: 4.5
 - **Médiane**: 5.0
-- **Écart-type**: 0.7264831572567788
+- **Écart-type**: 0.7071067811865476
 - **Min**: 3.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Note pertinence réponse
-- **Moyenne**: 3.6666666666666665
-- **Médiane**: 4.0
-- **Écart-type**: 1.3228756555322954
+- **Moyenne**: 3.5
+- **Médiane**: 3.5
+- **Écart-type**: 1.35400640077266
 - **Min**: 1
 - **Max**: 5
-- **Nombre de valeurs**: 9
+- **Nombre de valeurs**: 10
 ### Réalisme interaction
-- **Oui**: 66.67%
-- **Non**: 33.33%
+- **Oui**: 70.0%
+- **Non**: 30.0%
 
 ## Statistiques pour Global
 ### Note pertinence question
-- **Moyenne**: 4.613636363636363
+- **Moyenne**: 4.653061224489796
 - **Médiane**: 5.0
-- **Écart-type**: 0.6547113367438264
+- **Écart-type**: 0.6308400618805605
 - **Min**: 2.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 44
+- **Nombre de valeurs**: 49
 ### Note pertinence réponse
-- **Moyenne**: 3.977777777777778
+- **Moyenne**: 3.98
 - **Médiane**: 4.0
-- **Écart-type**: 1.0110500592068734
+- **Écart-type**: 1.0398194505758767
 - **Min**: 1
 - **Max**: 5
-- **Nombre de valeurs**: 45
+- **Nombre de valeurs**: 50
 ### Réalisme interaction
-- **Oui**: 82.22%
-- **Non**: 17.78%
+- **Oui**: 84.0%
+- **Non**: 16.0%
 

@@ -32,3 +32,4 @@
 /AgentAI_creation_BD_recruteurs/prompt_gen_profil_recruteur.txt
 /AgentIA_generation_postes/prompt_gen_postes.txt
 /sondages/conversations/output/rapport_statistique.md
+/sondages/conversations/evaluations/notes_evaluateurs.txt

@@ -3,9 +3,12 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import argparse
 
-def lire_fichiers_csv(repertoire):
+def lire_fichiers_csv(repertoire, filtre=None):
     fichiers_csv = [f for f in os.listdir(repertoire) if f.endswith('.csv')]
+    if filtre:
+        fichiers_csv = [f for f in fichiers_csv if filtre not in f]
     return fichiers_csv
 
 def lire_csv(fichier):
@@ -119,8 +122,12 @@ def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_ech
             f.write("\n")
 
 def main():
+    parser = argparse.ArgumentParser(description='Générer un rapport statistique à partir de fichiers CSV.')
+    parser.add_argument('--filter', type=str, help='Filtre pour exclure certains fichiers en fonction de leur nom.')
+    args = parser.parse_args()
+
     repertoire = './evaluations/'
-    fichiers_csv = lire_fichiers_csv(repertoire)
+    fichiers_csv = lire_fichiers_csv(repertoire, args.filter)
 
     df_global = pd.DataFrame()
 
@@ -150,3 +157,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# python .\rapport_evaluations_conversations.py --filter "R"

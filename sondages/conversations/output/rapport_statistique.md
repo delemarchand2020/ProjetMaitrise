@@ -138,23 +138,23 @@
 - **Plus réaliste** : conversation_10 (Score: 100.0)
 ## Liste des conversations évaluées
 ### Nombre d'évaluations
-- **conversation_1** : 10 évaluations
-- **conversation_10** : 10 évaluations
-- **conversation_11** : 5 évaluations
-- **conversation_12** : 5 évaluations
-- **conversation_13** : 5 évaluations
-- **conversation_14** : 5 évaluations
-- **conversation_15** : 5 évaluations
-- **conversation_17** : 15 évaluations
-- **conversation_18** : 5 évaluations
-- **conversation_2** : 5 évaluations
-- **conversation_3** : 10 évaluations
-- **conversation_4** : 5 évaluations
-- **conversation_5** : 10 évaluations
-- **conversation_6** : 10 évaluations
-- **conversation_7** : 15 évaluations
-- **conversation_8** : 15 évaluations
-- **conversation_9** : 15 évaluations
+- **conversation_1** : 2.0 évaluations
+- **conversation_10** : 2.0 évaluations
+- **conversation_11** : 1.0 évaluations
+- **conversation_12** : 1.0 évaluations
+- **conversation_13** : 1.0 évaluations
+- **conversation_14** : 1.0 évaluations
+- **conversation_15** : 1.0 évaluations
+- **conversation_17** : 3.0 évaluations
+- **conversation_18** : 1.0 évaluations
+- **conversation_2** : 1.0 évaluations
+- **conversation_3** : 2.0 évaluations
+- **conversation_4** : 1.0 évaluations
+- **conversation_5** : 2.0 évaluations
+- **conversation_6** : 2.0 évaluations
+- **conversation_7** : 3.0 évaluations
+- **conversation_8** : 3.0 évaluations
+- **conversation_9** : 3.0 évaluations
 ### Scores moyens
 - **conversation_1** : Moyenne pertinence: 4.05, Réalisme moyen: 80.0%
 - **conversation_10** : Moyenne pertinence: 4.65, Réalisme moyen: 100.0%
@@ -163,13 +163,13 @@
 - **conversation_13** : Moyenne pertinence: 4.2, Réalisme moyen: 100.0%
 - **conversation_14** : Moyenne pertinence: 4.5, Réalisme moyen: 60.0%
 - **conversation_15** : Moyenne pertinence: 4.2, Réalisme moyen: 40.0%
-- **conversation_17** : Moyenne pertinence: 4.233333333333333, Réalisme moyen: 80.0%
+- **conversation_17** : Moyenne pertinence: 4.23, Réalisme moyen: 80.0%
 - **conversation_18** : Moyenne pertinence: 4.3, Réalisme moyen: 80.0%
 - **conversation_2** : Moyenne pertinence: 4.7, Réalisme moyen: 80.0%
 - **conversation_3** : Moyenne pertinence: 4.55, Réalisme moyen: 60.0%
 - **conversation_4** : Moyenne pertinence: 4.8, Réalisme moyen: 100.0%
 - **conversation_5** : Moyenne pertinence: 4.65, Réalisme moyen: 100.0%
 - **conversation_6** : Moyenne pertinence: 3.6, Réalisme moyen: 30.0%
-- **conversation_7** : Moyenne pertinence: 3.7333333333333334, Réalisme moyen: 66.66666666666666%
-- **conversation_8** : Moyenne pertinence: 4.3, Réalisme moyen: 46.666666666666664%
-- **conversation_9** : Moyenne pertinence: 4.133333333333334, Réalisme moyen: 66.66666666666666%
+- **conversation_7** : Moyenne pertinence: 3.73, Réalisme moyen: 67.0%
+- **conversation_8** : Moyenne pertinence: 4.3, Réalisme moyen: 47.0%
+- **conversation_9** : Moyenne pertinence: 4.13, Réalisme moyen: 67.0%

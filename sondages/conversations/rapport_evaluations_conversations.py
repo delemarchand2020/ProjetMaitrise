@@ -83,11 +83,12 @@ def generer_rapport_statistique(df):
     score_plus_réaliste = df[df['Nom du fichier JSON'] == conversation_plus_réaliste]['Réalisme moyen'].mean() * 100
 
     # Liste de toutes les conversations évaluées et leur nombre d'évaluations reçues
-    conversations_évaluées = df.groupby('Nom du fichier JSON').size().to_dict()
+    conversations_évaluées = df.groupby('Nom du fichier JSON').size()/5
+    conversations_évaluées = conversations_évaluées.to_dict()
 
     # Scores moyens des échanges pour chaque conversation
-    scores_moyens = df.groupby('Nom du fichier JSON')[['Moyenne pertinence', 'Réalisme moyen']].mean()
-    scores_moyens['Réalisme moyen'] = scores_moyens['Réalisme moyen'] * 100
+    scores_moyens = df.groupby('Nom du fichier JSON')[['Moyenne pertinence', 'Réalisme moyen']].mean().round(2)
+    scores_moyens['Réalisme moyen'] = scores_moyens['Réalisme moyen'].round(2) * 100
 
     rapport['Conversations les plus mal notées'] = {
         'Moins pertinente': {

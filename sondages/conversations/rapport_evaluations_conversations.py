@@ -72,9 +72,18 @@ def generer_rapport_statistique(df):
     conversation_moins_pertinente = df.groupby('Nom du fichier JSON')['Moyenne pertinence'].mean().idxmin()
     conversation_moins_realiste = df.groupby('Nom du fichier JSON')['Réalisme moyen'].mean().idxmin()
 
+    # Conversations les mieux notées
+    conversation_plus_pertinente = df.groupby('Nom du fichier JSON')['Moyenne pertinence'].mean().idxmax()
+    conversation_plus_realiste = df.groupby('Nom du fichier JSON')['Réalisme moyen'].mean().idxmax()
+
     rapport['Conversations les plus mal notées'] = {
-        'Moins pertinente': conversation_moins_pertinente,
-        'Moins réaliste': conversation_moins_realiste
+        'Moins pertinente': os.path.splitext(conversation_moins_pertinente)[0],
+        'Moins réaliste': os.path.splitext(conversation_moins_realiste)[0]
+    }
+
+    rapport['Conversations les mieux notées'] = {
+        'Plus pertinente': os.path.splitext(conversation_plus_pertinente)[0],
+        'Plus réaliste': os.path.splitext(conversation_plus_realiste)[0]
     }
 
     return rapport
@@ -119,10 +128,10 @@ def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_ech
 
         # Inclure les statistiques
         for echange, stats in rapport.items():
-            if echange == 'Conversations les plus mal notées':
+            if echange == 'Conversations les plus mal notées' or echange == 'Conversations les mieux notées':
                 f.write(f"## {echange}\n")
-                f.write(f"- **Moins pertinente** : {stats['Moins pertinente']}\n")
-                f.write(f"- **Moins réaliste** : {stats['Moins réaliste']}\n")
+                for stat, valeur in stats.items():
+                    f.write(f"- **{stat}** : {valeur}\n")
             else:
                 f.write(f"## Statistiques pour {echange}\n")
                 for colonne, valeurs in stats.items():

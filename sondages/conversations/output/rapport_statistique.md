@@ -1,7 +1,7 @@
 # Rapport Statistique
 
-## Nombre total de conversations : 30
-## Nombre total d'échanges : 150
+## Nombre total de conversations : 33
+## Nombre total d'échanges : 165
 
 ## Graphiques
 
@@ -15,137 +15,137 @@
 
 ## Statistiques pour Échange 1
 ### Note pertinence question
-- **Moyenne**: 4.833333333333333
+- **Moyenne**: 4.848484848484849
 - **Médiane**: 5.0
-- **Écart-type**: 0.3790490217894517
+- **Écart-type**: 0.3641095406272095
 - **Min**: 4.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Note pertinence réponse
-- **Moyenne**: 4.433333333333334
+- **Moyenne**: 4.484848484848484
 - **Médiane**: 5.0
-- **Écart-type**: 0.9714309861845772
+- **Écart-type**: 0.9394550322265336
 - **Min**: 2
 - **Max**: 5
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Réalisme interaction
-- **Oui**: 80.0%
-- **Non**: 16.67%
-- **Non répondu**: 3.33%
+- **Oui**: 81.82%
+- **Non**: 15.15%
+- **Non répondu**: 3.03%
 
 ## Statistiques pour Échange 2
 ### Note pertinence question
-- **Moyenne**: 4.7
+- **Moyenne**: 4.696969696969697
 - **Médiane**: 5.0
-- **Écart-type**: 0.5959634332684376
+- **Écart-type**: 0.5854938345559502
 - **Min**: 3.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Note pertinence réponse
-- **Moyenne**: 4.366666666666666
+- **Moyenne**: 4.363636363636363
 - **Médiane**: 5.0
-- **Écart-type**: 0.8087168778415268
+- **Écart-type**: 0.7833494518006403
 - **Min**: 3
 - **Max**: 5
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Réalisme interaction
-- **Oui**: 76.67%
-- **Non**: 20.0%
-- **Non répondu**: 3.33%
+- **Oui**: 78.79%
+- **Non**: 18.18%
+- **Non répondu**: 3.03%
 
 ## Statistiques pour Échange 3
 ### Note pertinence question
-- **Moyenne**: 4.466666666666667
+- **Moyenne**: 4.454545454545454
 - **Médiane**: 5.0
-- **Écart-type**: 0.9371024061116424
+- **Écart-type**: 0.9045340337332909
 - **Min**: 1.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Note pertinence réponse
-- **Moyenne**: 3.7333333333333334
+- **Moyenne**: 3.696969696969697
 - **Médiane**: 4.0
-- **Écart-type**: 1.2015315896469556
+- **Écart-type**: 1.1587937824751349
 - **Min**: 1
 - **Max**: 5
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Réalisme interaction
-- **Oui**: 73.33%
-- **Non**: 26.67%
+- **Oui**: 75.76%
+- **Non**: 24.24%
 
 ## Statistiques pour Échange 4
 ### Note pertinence question
-- **Moyenne**: 4.172413793103448
+- **Moyenne**: 4.125
 - **Médiane**: 4.0
-- **Écart-type**: 1.0374751465953078
+- **Écart-type**: 1.0080322575483707
 - **Min**: 2.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 29
+- **Nombre de valeurs**: 32
 ### Note pertinence réponse
-- **Moyenne**: 3.933333333333333
+- **Moyenne**: 3.9393939393939394
 - **Médiane**: 4.0
-- **Écart-type**: 1.112106833535071
+- **Écart-type**: 1.0879853497231113
 - **Min**: 1
 - **Max**: 5
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Réalisme interaction
-- **Oui**: 63.33%
-- **Non**: 36.67%
+- **Oui**: 63.64%
+- **Non**: 36.36%
 
 ## Statistiques pour Échange 5
 ### Note pertinence question
-- **Moyenne**: 4.233333333333333
+- **Moyenne**: 4.2727272727272725
 - **Médiane**: 5.0
-- **Écart-type**: 0.8976341829703132
+- **Écart-type**: 0.8758113121817134
 - **Min**: 3.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Note pertinence réponse
-- **Moyenne**: 3.6
-- **Médiane**: 3.5
-- **Écart-type**: 1.2757688689165259
+- **Moyenne**: 3.606060606060606
+- **Médiane**: 4.0
+- **Écart-type**: 1.2231974988578587
 - **Min**: 1
 - **Max**: 5
-- **Nombre de valeurs**: 30
+- **Nombre de valeurs**: 33
 ### Réalisme interaction
-- **Oui**: 53.33%
-- **Non**: 46.67%
+- **Oui**: 57.58%
+- **Non**: 42.42%
 
 ## Statistiques pour Global
 ### Note pertinence question
-- **Moyenne**: 4.483221476510067
+- **Moyenne**: 4.4817073170731705
 - **Médiane**: 5.0
-- **Écart-type**: 0.835075873277535
+- **Écart-type**: 0.8175420364090309
 - **Min**: 1.0
 - **Max**: 5.0
-- **Nombre de valeurs**: 149
+- **Nombre de valeurs**: 164
 ### Note pertinence réponse
-- **Moyenne**: 4.013333333333334
+- **Moyenne**: 4.0181818181818185
 - **Médiane**: 4.0
-- **Écart-type**: 1.123194549277073
+- **Écart-type**: 1.0958498610485328
 - **Min**: 1
 - **Max**: 5
-- **Nombre de valeurs**: 150
+- **Nombre de valeurs**: 165
 ### Réalisme interaction
-- **Oui**: 69.33%
-- **Non**: 29.33%
-- **Non répondu**: 1.33%
+- **Oui**: 71.52%
+- **Non**: 27.27%
+- **Non répondu**: 1.21%
 
 ## Conversations les plus mal notées
 - **Moins pertinente** : conversation_6 (Score: 3.6)
-- **Moins réaliste** : conversation_11 (Score: 0.0)
+- **Moins réaliste** : conversation_6 (Score: 30.0)
 ## Conversations les mieux notées
 - **Plus pertinente** : conversation_12 (Score: 4.8)
 - **Plus réaliste** : conversation_10 (Score: 100.0)
 ## Liste des conversations évaluées
 ### Nombre d'évaluations
 - **conversation_1** : 2.0 évaluations
-- **conversation_10** : 2.0 évaluations
-- **conversation_11** : 1.0 évaluations
+- **conversation_10** : 3.0 évaluations
+- **conversation_11** : 2.0 évaluations
 - **conversation_12** : 1.0 évaluations
 - **conversation_13** : 1.0 évaluations
 - **conversation_14** : 1.0 évaluations
 - **conversation_15** : 1.0 évaluations
-- **conversation_17** : 3.0 évaluations
+- **conversation_17** : 4.0 évaluations
 - **conversation_18** : 1.0 évaluations
 - **conversation_2** : 1.0 évaluations
 - **conversation_3** : 2.0 évaluations
@@ -157,13 +157,13 @@
 - **conversation_9** : 3.0 évaluations
 ### Scores moyens
 - **conversation_1** : Moyenne pertinence: 4.05, Réalisme moyen: 80.0%
-- **conversation_10** : Moyenne pertinence: 4.65, Réalisme moyen: 100.0%
-- **conversation_11** : Moyenne pertinence: 3.7, Réalisme moyen: 0.0%
+- **conversation_10** : Moyenne pertinence: 4.6, Réalisme moyen: 100.0%
+- **conversation_11** : Moyenne pertinence: 3.8, Réalisme moyen: 40.0%
 - **conversation_12** : Moyenne pertinence: 4.8, Réalisme moyen: 100.0%
 - **conversation_13** : Moyenne pertinence: 4.2, Réalisme moyen: 100.0%
 - **conversation_14** : Moyenne pertinence: 4.5, Réalisme moyen: 60.0%
 - **conversation_15** : Moyenne pertinence: 4.2, Réalisme moyen: 40.0%
-- **conversation_17** : Moyenne pertinence: 4.23, Réalisme moyen: 80.0%
+- **conversation_17** : Moyenne pertinence: 4.28, Réalisme moyen: 85.0%
 - **conversation_18** : Moyenne pertinence: 4.3, Réalisme moyen: 80.0%
 - **conversation_2** : Moyenne pertinence: 4.7, Réalisme moyen: 80.0%
 - **conversation_3** : Moyenne pertinence: 4.55, Réalisme moyen: 60.0%

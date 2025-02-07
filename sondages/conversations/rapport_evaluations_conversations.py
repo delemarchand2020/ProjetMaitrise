@@ -66,6 +66,17 @@ def generer_rapport_statistique(df):
         'Réalisme interaction': df['Réalisme interaction'].value_counts(normalize=True).mul(100).round(2).to_dict()
     }
 
+    # Conversations les plus mal notées
+    df['Moyenne pertinence'] = df[['Note pertinence question', 'Note pertinence réponse']].mean(axis=1)
+    df['Réalisme moyen'] = df['Réalisme interaction'].apply(lambda x: 1 if x == 'Oui' else 0)
+    conversation_moins_pertinente = df.groupby('Nom du fichier JSON')['Moyenne pertinence'].mean().idxmin()
+    conversation_moins_realiste = df.groupby('Nom du fichier JSON')['Réalisme moyen'].mean().idxmin()
+
+    rapport['Conversations les plus mal notées'] = {
+        'Moins pertinente': conversation_moins_pertinente,
+        'Moins réaliste': conversation_moins_realiste
+    }
+
     return rapport
 
 def generer_visualisations(df, repertoire_sortie):
@@ -108,18 +119,23 @@ def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_ech
 
         # Inclure les statistiques
         for echange, stats in rapport.items():
-            f.write(f"## Statistiques pour {echange}\n")
-            for colonne, valeurs in stats.items():
-                f.write(f"### {colonne}\n")
-                if isinstance(valeurs, dict):
-                    for stat, valeur in valeurs.items():
-                        if colonne == 'Réalisme interaction':
-                            f.write(f"- **{stat}**: {valeur}%\n")
-                        else:
-                            f.write(f"- **{stat}**: {valeur}\n")
-                else:
-                    f.write(f"- {valeurs}\n")
-            f.write("\n")
+            if echange == 'Conversations les plus mal notées':
+                f.write(f"## {echange}\n")
+                f.write(f"- **Moins pertinente** : {stats['Moins pertinente']}\n")
+                f.write(f"- **Moins réaliste** : {stats['Moins réaliste']}\n")
+            else:
+                f.write(f"## Statistiques pour {echange}\n")
+                for colonne, valeurs in stats.items():
+                    f.write(f"### {colonne}\n")
+                    if isinstance(valeurs, dict):
+                        for stat, valeur in valeurs.items():
+                            if colonne == 'Réalisme interaction':
+                                f.write(f"- **{stat}**: {valeur}%\n")
+                            else:
+                                f.write(f"- **{stat}**: {valeur}\n")
+                    else:
+                        f.write(f"- {valeurs}\n")
+                f.write("\n")
 
 def main():
     parser = argparse.ArgumentParser(description='Générer un rapport statistique à partir de fichiers CSV.')
@@ -157,5 +173,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# python .\rapport_evaluations_conversations.py --filter "R"

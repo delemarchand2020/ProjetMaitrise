@@ -130,3 +130,6 @@
 - **Non**: 30.71%
 - **Non répondu**: 1.43%
 
+## Conversations les plus mal notées
+- **Moins pertinente** : conversation_6.json
+- **Moins réaliste** : conversation_11.json

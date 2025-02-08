@@ -5,10 +5,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import argparse
 
-def lire_fichiers_csv(repertoire, filtre=None):
+def lire_fichiers_csv(repertoire, filtre_exclure=None, filtre_inclure=None):
     fichiers_csv = [f for f in os.listdir(repertoire) if f.endswith('.csv')]
-    if filtre:
-        fichiers_csv = [f for f in fichiers_csv if filtre not in f]
+
+    if filtre_inclure:
+        fichiers_csv = [f for f in fichiers_csv if filtre_inclure in f]
+
+    if filtre_exclure:
+        fichiers_csv = [f for f in fichiers_csv if filtre_exclure not in f]
+
     return fichiers_csv
 
 def lire_csv(fichier):
@@ -120,6 +125,9 @@ def generer_rapport_statistique(df):
     return rapport
 
 def generer_visualisations(df, repertoire_sortie):
+    # Définir une palette de couleurs plus harmonieuse
+    sns.set_palette("Paired")
+
     # Créer des graphiques pour les notes de pertinence des questions et réponses côte à côte
     plt.figure(figsize=(14, 7))
 
@@ -142,6 +150,7 @@ def generer_visualisations(df, repertoire_sortie):
     plt.ylabel('')  # Supprimer l'étiquette de l'axe y
     plt.savefig(os.path.join(repertoire_sortie, 'realisme_interaction.png'))
     plt.close()
+
 
 def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_échanges):
     fichier_sortie = os.path.join(repertoire_sortie, 'rapport_statistique.md')
@@ -187,11 +196,12 @@ def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_éc
 
 def main():
     parser = argparse.ArgumentParser(description='Générer un rapport statistique à partir de fichiers CSV.')
-    parser.add_argument('--filter', type=str, help='Filtre pour exclure certains fichiers en fonction de leur nom.')
+    parser.add_argument('--filter-exclude', type=str, help='Filtre pour exclure certains fichiers en fonction de leur nom.')
+    parser.add_argument('--filter-include', type=str, help='Filtre pour inclure uniquement certains fichiers en fonction de leur nom.')
     args = parser.parse_args()
 
     repertoire = './evaluations/'
-    fichiers_csv = lire_fichiers_csv(repertoire, args.filter)
+    fichiers_csv = lire_fichiers_csv(repertoire, args.filter_exclude, args.filter_include)
 
     df_global = pd.DataFrame()
 
@@ -221,3 +231,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# python .\rapport_evaluations_conversations.py --filter-exclude "R"
+# python .\rapport_evaluations_conversations.py --filter-include "R"

@@ -1,29 +1,18 @@
-# Rapport des conversations évaluées
+# Rapport des Postes et Candidats
 
-## Nombre total de conversations évaluées : 34
-## Nombre de répondants : 20
-## Date de mise à jour : 8 février à 10h32
-## Proportion des répondants par pays : 55% QC, 45% FR
+**Nombre de fichiers analysés :** 18
 
-| **Prénom**            | **Poste occupé**                       | **Pays** | **ID conversations évaluées** |
-|-----------------------|----------------------------------------|----------|-------------------------------|
-| Eve                   | Directeur services conseils            | QC       | 7                             |
-| Patricia              | Analyste d'affaire                     | QC       | 3                             |
-| Alex                  | Ingénieur Cloud                        | FR       | 9                             |
-| Donna                 | Responsable de produit                 | QC       | 5                             |
-| Wilhelmina            | Architecte logiciel                    | QC       | 7                             |
-| Joanna                | Directrice performance organisationelle| QC       | 5                             |
-| Victoria              | Analyste performance organisationelle  | QC       | 1, 10, 3, 18                  |
-| Oliver                | Consultant cybersécurité               | FR       | 17                            |
-| Yann                  | Ingénieur système transport            | QC       | 17                            |
-| Sophie                | Acquisition de talent                  | FR       | 9, 7, 1, 8                    |
-| Florence              | Responsable produit                    | QC       | 6                             |
-| Thomasina             | Analyste fonctionnel                   | QC       | 10, 4, 6                      |
-| Ava                   | Analyste d'affaire                     | QC       | 12                            |
-| Matthew               | Acquisition de talent                  | FR       | 11                            |
-| Maria                 | Acquisition de talent                  | FR       | 13                            |
-| Robinia               | Acquisition de talent                  | FR       | 8                             |
-| Isabelle              | Acquisition de talent                  | FR       | 8, 17, 15, 9, 2               |
-| Charlotte             | Directeur cloud                        | FR       | 11, 10, 17                    |
-| Jordana               | Développeur IA                         | QC       | 18                            |
-| Frances               | Analyste d'affaire                     | QC       | 14                            |
+**Nombre de postes trouvés :** 10
+
+| Job Title                                             | Files                                      | Candidate Names                 |
+|:------------------------------------------------------|:-------------------------------------------|:--------------------------------|
+| Scrum Master SaFe - Senior Coach Agile                | conversation_1.json, conversation_2.json   | Claire Dubois, Alexandre Dupont |
+| Contrôleur de Gestion Senior - Projets Internationaux | conversation_10.json, conversation_9.json  | Pierre Martin, Sophie Dubois    |
+| Consultant(e) Fiscaliste International(e)             | conversation_11.json, conversation_12.json | Sophie Dupont, Alexandre Dupont |
+| Dentiste Endodontiste                                 | conversation_13.json, conversation_14.json | Sophie Dupont, Antoine Dupuis   |
+| Ingénieur Procédés en Optimisation Chimique           | conversation_15.json, conversation_16.json | Sophie Moreau, Antoine Dupont   |
+| Responsable des Achats Bio et Éthique                 | conversation_17.json, conversation_18.json | Sophie Dubois, Julien LefÃ¨vre  |
+| Scrum Master Agile Senior                             | conversation_3.json, conversation_4.json   | Claire Dubois, Lucas Muller     |
+| Développeur Java Backend - Services Cloud             | conversation_5.json                        | Lucas Martin                    |
+| Java Backend Developer - Cloud Applications           | conversation_6.json, conversation_7.json   | Sophie Martin, Antoine Dupont   |
+| Contrôleur.se de Gestion Commerciale                  | conversation_8.json                        | Élodie Dupuis                   |

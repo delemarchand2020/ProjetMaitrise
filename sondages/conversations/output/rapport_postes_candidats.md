@@ -1,5 +1,9 @@
 # Rapport des Postes et Candidats
 
+**Nombre de fichiers analysés :** 18
+
+**Nombre de postes trouvés :** 10
+
 | Job Title                                             | Files                                      | Candidate Names                 |
 |:------------------------------------------------------|:-------------------------------------------|:--------------------------------|
 | Scrum Master SaFe - Senior Coach Agile                | conversation_1.json, conversation_2.json   | Claire Dubois, Alexandre Dupont |

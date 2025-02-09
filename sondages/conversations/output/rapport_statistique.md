@@ -13,6 +13,10 @@
 
 ![Réalisme des interactions](realisme_interaction.png)
 
+### Réalisme moyen des interactions par échange
+
+![Réalisme moyen par échange](realisme_moyen_par_echange.png)
+
 ## Statistiques pour Échange 1
 ### Note pertinence question
 - **Moyenne**: 4.823529411764706
@@ -32,6 +36,8 @@
 - **Oui**: 82.35%
 - **Non**: 14.71%
 - **Non répondu**: 2.94%
+### Réalisme moyen
+- 82.35294117647058
 
 ## Statistiques pour Échange 2
 ### Note pertinence question
@@ -52,6 +58,8 @@
 - **Oui**: 79.41%
 - **Non**: 17.65%
 - **Non répondu**: 2.94%
+### Réalisme moyen
+- 79.41176470588235
 
 ## Statistiques pour Échange 3
 ### Note pertinence question
@@ -71,6 +79,8 @@
 ### Réalisme interaction
 - **Oui**: 76.47%
 - **Non**: 23.53%
+### Réalisme moyen
+- 76.47058823529412
 
 ## Statistiques pour Échange 4
 ### Note pertinence question
@@ -90,6 +100,8 @@
 ### Réalisme interaction
 - **Oui**: 61.76%
 - **Non**: 38.24%
+### Réalisme moyen
+- 61.76470588235294
 
 ## Statistiques pour Échange 5
 ### Note pertinence question
@@ -109,6 +121,8 @@
 ### Réalisme interaction
 - **Oui**: 58.82%
 - **Non**: 41.18%
+### Réalisme moyen
+- 58.82352941176471
 
 ## Statistiques pour Global
 ### Note pertinence question

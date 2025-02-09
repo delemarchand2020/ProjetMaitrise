@@ -50,6 +50,9 @@ def generer_rapport_statistique(df):
             'Réalisme interaction': df_echange['Réalisme interaction'].value_counts(normalize=True).mul(100).round(2).to_dict()
         }
 
+        # Calculer le réalisme moyen pour chaque échange
+        rapport[f'Échange {echange}']['Réalisme moyen'] = df_echange['Réalisme interaction'].apply(lambda x: 1 if x == 'Oui' else 0).mean() * 100
+
     # Statistiques globales pour tous les échanges
     rapport['Global'] = {
         'Note pertinence question': {
@@ -151,6 +154,17 @@ def generer_visualisations(df, repertoire_sortie):
     plt.savefig(os.path.join(repertoire_sortie, 'realisme_interaction.png'))
     plt.close()
 
+    # Créer un graphique à barres pour le réalisme moyen des interactions par échange
+    plt.figure(figsize=(10, 7))
+    réalisme_moyen = df.groupby('Numéro échange')['Réalisme interaction'].apply(lambda x: (x == 'Oui').mean() * 100)
+    réalisme_moyen.plot(kind='bar', color=sns.color_palette("Paired"))
+    plt.title('Réalisme moyen des interactions par échange')
+    plt.xlabel('Numéro échange')
+    plt.ylabel('Réalisme moyen (%)')
+    plt.xticks(rotation=0)
+    plt.tight_layout()
+    plt.savefig(os.path.join(repertoire_sortie, 'realisme_moyen_par_echange.png'))
+    plt.close()
 
 def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_échanges):
     fichier_sortie = os.path.join(repertoire_sortie, 'rapport_statistique.md')
@@ -165,6 +179,8 @@ def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_éc
         f.write(f"![Notes de pertinence](notes_pertinence.png)\n\n")
         f.write("### Réalisme des interactions\n\n")
         f.write(f"![Réalisme des interactions](realisme_interaction.png)\n\n")
+        f.write("### Réalisme moyen des interactions par échange\n\n")
+        f.write(f"![Réalisme moyen par échange](realisme_moyen_par_echange.png)\n\n")
 
         # Inclure les statistiques
         for échange, stats in rapport.items():
@@ -193,6 +209,7 @@ def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_éc
                     else:
                         f.write(f"- {valeurs}\n")
                 f.write("\n")
+
 
 def main():
     parser = argparse.ArgumentParser(description='Générer un rapport statistique à partir de fichiers CSV.')

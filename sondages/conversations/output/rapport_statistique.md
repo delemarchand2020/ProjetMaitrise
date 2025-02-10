@@ -1,7 +1,7 @@
 # Rapport Statistique
 
-## Nombre total d'évaluation de conversations : 44
-## Nombre total d'échanges évalués : 220
+## Nombre total d'évaluation de conversations : 45
+## Nombre total d'échanges évalués : 225
 
 ## Graphiques
 
@@ -29,8 +29,8 @@
 - **Moyenne**: 4.5227272727272725
 - **Médiane**: 5.0
 - **Écart-type**: 0.8757358729884831
-- **Min**: 2
-- **Max**: 5
+- **Min**: 2.0
+- **Max**: 5.0
 - **Nombre de valeurs**: 44
 ### Réalisme interaction
 - **Oui**: 84.09%
@@ -51,8 +51,8 @@
 - **Moyenne**: 4.4772727272727275
 - **Médiane**: 5.0
 - **Écart-type**: 0.7309960189385555
-- **Min**: 3
-- **Max**: 5
+- **Min**: 3.0
+- **Max**: 5.0
 - **Nombre de valeurs**: 44
 ### Réalisme interaction
 - **Oui**: 84.09%
@@ -73,8 +73,8 @@
 - **Moyenne**: 3.8636363636363638
 - **Médiane**: 4.0
 - **Écart-type**: 1.1121090186418816
-- **Min**: 1
-- **Max**: 5
+- **Min**: 1.0
+- **Max**: 5.0
 - **Nombre de valeurs**: 44
 ### Réalisme interaction
 - **Oui**: 75.0%
@@ -94,8 +94,8 @@
 - **Moyenne**: 4.0227272727272725
 - **Médiane**: 4.0
 - **Écart-type**: 1.1099682870734047
-- **Min**: 1
-- **Max**: 5
+- **Min**: 1.0
+- **Max**: 5.0
 - **Nombre de valeurs**: 44
 ### Réalisme interaction
 - **Oui**: 65.91%
@@ -115,8 +115,8 @@
 - **Moyenne**: 3.6136363636363638
 - **Médiane**: 4.0
 - **Écart-type**: 1.2429505236445777
-- **Min**: 1
-- **Max**: 5
+- **Min**: 1.0
+- **Max**: 5.0
 - **Nombre de valeurs**: 44
 ### Réalisme interaction
 - **Oui**: 59.09%
@@ -136,8 +136,8 @@
 - **Moyenne**: 4.1
 - **Médiane**: 4.5
 - **Écart-type**: 1.0807573870579674
-- **Min**: 1
-- **Max**: 5
+- **Min**: 1.0
+- **Max**: 5.0
 - **Nombre de valeurs**: 220
 ### Réalisme interaction
 - **Oui**: 73.64%

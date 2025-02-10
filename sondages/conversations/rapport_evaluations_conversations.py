@@ -170,8 +170,8 @@ def ecrire_rapport_markdown(rapport, repertoire_sortie, nb_conversations, nb_éc
     fichier_sortie = os.path.join(repertoire_sortie, 'rapport_statistique.md')
     with open(fichier_sortie, 'w', encoding='utf-8') as f:
         f.write("# Rapport Statistique\n\n")
-        f.write(f"## Nombre total de conversations : {nb_conversations}\n")
-        f.write(f"## Nombre total d'échanges : {nb_échanges}\n\n")
+        f.write(f"## Nombre total d'évaluation de conversations : {nb_conversations}\n")
+        f.write(f"## Nombre total d'échanges évalués : {nb_échanges}\n\n")
 
         # Inclure les graphiques
         f.write("## Graphiques\n\n")

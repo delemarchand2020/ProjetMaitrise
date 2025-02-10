@@ -1,7 +1,7 @@
 # Rapport Statistique
 
-## Nombre total de conversations : 43
-## Nombre total d'échanges : 215
+## Nombre total d'évaluation de conversations : 43
+## Nombre total d'échanges évalués : 215
 
 ## Graphiques
 

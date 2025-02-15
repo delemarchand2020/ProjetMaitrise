@@ -23,15 +23,12 @@ def analyze_pdf(file_path, debug=False):
     document = fitz.open(file_path)
     total_pages = len(document)
     empty_pages = 0
-    keyword = "Reste à faire"
+    keyword = r"Reste à faire \[(\d+) page\(s\) estimée\(s\)\]"
     keyword_count = 0
     sections_with_keyword = []
-
-    # Nombre total de sections (constante)
-    total_sections = 28 + 5  # Remplacez par le nombre réel de sections
+    total_estimated_pages_by_author = 0
 
     section_pattern = re.compile(r'^(.*?)[\n\r]')
-    special_sections = {"Résumé", "Abstract", "Remerciements"}
 
     for page_num in range(total_pages):
         page = document.load_page(page_num)
@@ -42,60 +39,44 @@ def analyze_pdf(file_path, debug=False):
             empty_pages += 1
             continue
 
-        # Compter les occurrences du mot-clé
-        if keyword in text:
+        # Compter les occurrences du mot-clé et extraire le nombre de pages estimées
+        matches = re.findall(keyword, text)
+        for match in matches:
             keyword_count += 1
+            estimated_pages = int(match)
+            total_estimated_pages_by_author += estimated_pages
             # Extraire le titre de la section
             section_title_match = section_pattern.search(text)
             if section_title_match:
                 section_title = section_title_match.group(1).strip()
-                sections_with_keyword.append(section_title)
+                sections_with_keyword.append((section_title, estimated_pages))
 
-    # Calculer le nombre moyen de pages par section
-    if total_sections:
-        avg_pages_per_section = total_pages / total_sections
-    else:
-        avg_pages_per_section = 0
-
-    # Estimer le nombre de pages restant à finir
-    estimated_pages_left = keyword_count * avg_pages_per_section
-
-    # Calculer le pourcentage d'avancement
-    realistic_progress = ((total_pages - empty_pages - estimated_pages_left) / (total_pages - empty_pages)) * 100
-    pessimistic_progress = ((total_pages - empty_pages - estimated_pages_left * 1.3) / (total_pages - empty_pages)) * 100
-    optimistic_progress = ((total_pages - empty_pages - estimated_pages_left * 0.7) / (total_pages - empty_pages)) * 100
+    # Calculer le pourcentage d'avancement selon les estimations de l'auteur
+    author_estimated_progress = ((total_pages - empty_pages - total_estimated_pages_by_author) / (total_pages - empty_pages)) * 100
 
     return {
         "total_pages": total_pages,
         "empty_pages": empty_pages,
         "keyword_count": keyword_count,
         "sections_with_keyword": sections_with_keyword,
-        "total_sections": total_sections,
-        "avg_pages_per_section": avg_pages_per_section,
-        "estimated_pages_left": estimated_pages_left,
-        "pessimistic_progress": pessimistic_progress,
-        "realistic_progress": realistic_progress,
-        "optimistic_progress": optimistic_progress
+        "author_estimated_progress": author_estimated_progress,
+        "total_estimated_pages_by_author": total_estimated_pages_by_author
     }
 
 def generate_markdown_report(stats):
-    report = f"""# Rapport d'Analyse du Document
+    report = f"""# Rapport d'avancement du rapport de mémoire de Denis Lemarchand
 
 - **Nombre total de pages** : {stats["total_pages"]}
 - **Nombre de pages vides** : {stats["empty_pages"]}
-- **Nombre de sections à finir (avec "Reste à faire")** : {stats["keyword_count"]}
-- **Nombre total de sections** : {stats["total_sections"]}
-- **Nombre moyen de pages par section** : {stats["avg_pages_per_section"]:.2f}
-- **Estimation des pages restant à finir** : {stats["estimated_pages_left"]:.2f}
-- **Pourcentage d'avancement (pessimiste)** : {stats["pessimistic_progress"]:.2f}%
-- **Pourcentage d'avancement (réaliste)** : {stats["realistic_progress"]:.2f}%
-- **Pourcentage d'avancement (optimiste)** : {stats["optimistic_progress"]:.2f}%
+- **Nombre de sections à finir** : {stats["keyword_count"]}
+- **Total des pages restantes estimées** : {stats["total_estimated_pages_by_author"]}
+- **Pourcentage d'avancement** : {stats["author_estimated_progress"]:.2f}%
 
-## Sections avec "Reste à faire"
+## Résumé des sections à finir
 """
 
-    for i, section in enumerate(stats["sections_with_keyword"], start=1):
-        report += f"{i}. {section}\n"
+    for i, (section, estimated_pages) in enumerate(stats["sections_with_keyword"], start=1):
+        report += f"- {section} (estimé : {estimated_pages} pages)\n"
 
     return report
 

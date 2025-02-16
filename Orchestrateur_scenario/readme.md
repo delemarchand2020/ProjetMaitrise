@@ -43,7 +43,7 @@ python main.py
 ### Exemple
 
 ```bash
-python main.py --metier "chef de projets IA" --api_keys_file .\\api_keys.json
+python main.py --metier "ingénieur.e infra cloud" --secteur "informatique" --api_keys_file "api_keys.json" --steps 1 2 3 4 5 6 7
 ```
 
 ## Fonctionnement

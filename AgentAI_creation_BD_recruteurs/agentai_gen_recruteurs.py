@@ -5,20 +5,34 @@ import os
 from opik.integrations.openai import track_openai
 from openai import OpenAI
 
+
+def get_client(mistral=False):
+    if mistral:
+        client = OpenAI(
+            base_url="https://api.mistral.ai/v1",  # Remplacez par l'URL appropriée si nécessaire
+            api_key=os.environ["MISTRAL_API_KEY"],               # La clé d'API, si requise (sinon, c'est ignoré)
+        )
+        model = "mistral-large-latest"
+    else:
+        client = OpenAI()
+        model = "gpt-4o"
+    return client, model
+
+
 opik.configure()
 client_opik = opik.Opik()
-client = OpenAI()
+client, model = get_client(mistral=True)
 openai_client = track_openai(client)
 
 # paramètres pour un llm déterministe
-model_llm_prompt_gen = "gpt-4o"
+model_llm_prompt_gen = model
 temperature_llm_prompt_gen = 0.0
 top_p_llm_prompt_gen = 1.0
 frequency_penalty_llm_prompt_gen = 0.0
 presence_penalty_llm_prompt_gen = 0.0
 
 # paramètres pour un llm créatif
-model_llm_profil_gen = "gpt-4o"
+model_llm_profil_gen = model
 temperature_llm_profil_gen = 0.8
 top_p_llm_profil_gen = 0.9
 frequency_penalty_llm_profil_gen = 0.2

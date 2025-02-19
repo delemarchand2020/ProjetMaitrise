@@ -45,6 +45,10 @@ python .\agentai_gen_recruteurs.py  --biais "stéréotype sur le genre féminin"
         --genre "masculin" --secteur "informatique" 
         --file_path "./output/recruteurs_generes.json"
 ```
+Pour générer un profil sans biais mettre ceci :
+```bash
+--biais "aucun biais"
+```
 ## Apprentissages
 * points positifs :
   * L'utilisation de Opik est vraiment bénéfique pour déboguer et effectuer des réglages sur les prompts.

@@ -19,5 +19,6 @@ Ce profil de recruteur servira plus tard à implémenter un recruteur virtuel im
   "bias_hints":[]
 
 # consignes complémentaires
-- génère uniquement le prompt
+- si le biais est "aucun biais", alors il n'est pas nécessaire de décrire le biais ni de générer des exemples sur sa manisfestation : laisser les entrées biais et biais_hints vide !
+- génère uniquement le prompt qui doit se terminer par le profil JSON à compléter
 - ne donne pas de commentaire ou d'introduction sur ton travail

@@ -107,6 +107,10 @@ class CandidateDataUtils:
         return nettoyer_chaine(candidate.get("candidate_full_name", ""))
 
     @staticmethod
+    def get_candidate_first_name(candidate):
+        return CandidateDataUtils.get_candidate_full_name(candidate).split()[0]
+
+    @staticmethod
     def get_company_name(candidate):
         return nettoyer_chaine(candidate.get("company_name", ""))
 

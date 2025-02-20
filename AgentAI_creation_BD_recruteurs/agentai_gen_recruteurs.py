@@ -21,7 +21,7 @@ def get_client(mistral=False):
 
 opik.configure()
 client_opik = opik.Opik()
-client, model = get_client(mistral=True)
+client, model = get_client(mistral=False)
 openai_client = track_openai(client)
 
 # paramètres pour un llm déterministe

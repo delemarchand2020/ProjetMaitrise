@@ -70,7 +70,7 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
             Tes passions et loisirs sont : {RecruiterDataUtils.get_passions_hobbies(profil_recruteur)}.
             Tes responsabilités sont : {RecruiterDataUtils.get_responsibilities(profil_recruteur)}.
 
-            {"Tes convictions personnelles :" if biais else ""}
+            {"Tes croyances qui vont guider ta posture et tes questions :" if biais else ""}
             {RecruiterDataUtils.get_bias(profil_recruteur) if biais else ""}
             {RecruiterDataUtils.get_bias_hints(profil_recruteur) if biais else ""}
             """
@@ -93,7 +93,6 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
                 Niveau d'expérience : {JobDataUtils.get_experience_level(profil_poste)}
                 Éducation requise : {JobDataUtils.get_education_required(profil_poste)}
             Tu penses que tu es un bon candidat car tu possèdes : {CandidateDataUtils.get_why_is_a_good_fit(profil_candidat)}.
-            Ta motivation est grande pour obtenir ce job !
             """
         ),
         backstory=dedent(
@@ -112,9 +111,9 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
     task_recruteur = Task(
         description=dedent(
             """
-            Réagis brièvement à la dernière réponse du/de la candidat(e) puis pose une nouvelle question 
-            selon tes convictions personnelles (subtilement).
+            Réagis brièvement à la dernière réponse du/de la candidat(e) puis pose une nouvelle question.
             Évite de poser le même genre de question que tu as posée précédemment.
+            Évite les compliments exagérés, reste professionnel.
             Varie le type de questions selon les critères suivants :
             - 50% des questions sur les expériences et les compétences techniques du candidat en rapport avec les responsabilités du poste à combler.
             - 30% des questions sur les compétences interpersonnelles, relationnelles et humaines du candidat en rapport avec les responsabilités du poste à combler.
@@ -133,8 +132,9 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
     task_candidat = Task(
         description=dedent(
             """
-            Répond brièvement à la dernière question du recruteur mettant en avant tes compétences et ton expérience. 
+            Répond brièvement à la dernière question du recruteur mettant en avant tes compétences ou ton expérience. 
             Ta réponse devra faire un lien avec les responsabilités du poste visé.
+            Évite de reprendre mot pour mot la question du recruteur.
             """
         ),
         expected_output="Une ou deux phrases.",
@@ -161,9 +161,9 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
         description=dedent(
             """
             Mets fin à l'entrevue.
-            Remercie le candidat.
+            Remercie le candidat ou la candidate.
             Explique les prochaines étapes du recrutement.
-            Donne une note d'espoir à la suite UNIQUEMENT si tu penses que c'est un bon candidat et qu'il correspond à tes convictions personnelles.
+            Souhaite lui une bonne journée.
             """
         ),
         expected_output="Une ou deux phrases.",
@@ -171,7 +171,18 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
         callback=lambda output: recruteur_task_callback(output, flow_instance)
     )
 
-    return recruteur, task_recruteur, candidat, task_candidat, task_initiale, task_finale
+    task_candidat_finale = Task(
+        description=dedent(
+            """
+            Remercie le recruteur pour cette entrevue et souhaite lui une bonne journée.
+            """
+        ),
+        expected_output="Une brève phrase",
+        agent=candidat,
+        callback=lambda output: candidat_task_callback(output, flow_instance)
+    )
+
+    return recruteur, task_recruteur, candidat, task_candidat, task_initiale, task_finale, task_candidat_finale
 
 
 # Définition du Flow
@@ -185,7 +196,7 @@ class EntretienFlow(Flow):
         self.session_agentops = agentops.init(auto_start_session=False)
 
         (self.recruteur, self.task_recruteur, self.candidat,
-         self.task_candidat, self.task_initiale, self.task_finale) = (
+         self.task_candidat, self.task_initiale, self.task_finale, self.task_candidat_finale) = (
             create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flow_instance=self))
 
         self.profil_candidat = profil_candidat
@@ -198,8 +209,8 @@ class EntretienFlow(Flow):
         # Le recruteur initie la conversation
         question_initiale = dedent(
             f"""
-            Bonjour {CandidateDataUtils.get_candidate_full_name(self.profil_candidat)},
-            vous postulez pour le poste de {self.poste}, dites m'en un peu plus sur vous et ce qui vous motive dans ce poste ?
+            Bonjour {CandidateDataUtils.get_candidate_first_name(self.profil_candidat)},
+            vous postulez pour le poste de {self.poste}, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?
             """
         )
         self.enregistrer_echange("Recruteur", question_initiale)
@@ -216,7 +227,7 @@ class EntretienFlow(Flow):
                      self.task_candidat, self.task_recruteur,
                      self.task_candidat, self.task_recruteur,
                      self.task_candidat, self.task_finale,
-                     self.task_candidat]
+                     self.task_candidat_finale]
         crew = Crew(
                 agents=[self.candidat, self.recruteur],
                 tasks=list_task,

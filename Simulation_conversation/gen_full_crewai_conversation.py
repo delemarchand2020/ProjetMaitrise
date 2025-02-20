@@ -11,8 +11,10 @@ from jobs_data_utils import JobDataUtils
 
 load_dotenv()
 
+model = "gpt-4o" #"mistral/mistral-large-latest" # "gpt-4o"
+
 llm_creative = LLM(
-    model="gpt-4o",
+    model=model,
     temperature=0.9,
     top_p=0.9,
     frequency_penalty=0.2,
@@ -20,7 +22,7 @@ llm_creative = LLM(
 )
 
 llm_doer = LLM(
-    model="gpt-4o",
+    model=model,
     temperature=0.2,
     top_p=0.85,
     frequency_penalty=0.0,
@@ -28,7 +30,7 @@ llm_doer = LLM(
 )
 
 llm_middle_creative = LLM(
-    model="gpt-4o",
+    model=model,
     temperature=0.8,
     top_p=0.9,
     frequency_penalty=0.1,

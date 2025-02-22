@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Sophie,\nvous postulez pour le poste de Contrôleur de Gestion Senior - Projets Internationaux, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionné(e) par la gestion financière internationale et je dispose d'une expérience solide en contrôle de gestion pour des projets complexes. Ma capacité à collaborer avec des équipes multiculturelles et à élaborer des prévisions financières précises fait de moi un(e) candidat(e) idéal(e) pour ce poste."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez dû gérer un conflit au sein d'une équipe multiculturelle et comment vous l'avez résolu ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet international, j'ai résolu un conflit en facilitant un dialogue ouvert entre les membres de l'équipe de différentes cultures, en identifiant les sources de malentendus et en élaborant ensemble des solutions adaptées, ce qui a renforcé la collaboration et la performance du projet."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Pourriez-vous également partager comment vous avez utilisé vos compétences analytiques pour optimiser la performance financière d'un projet international ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mon rôle actuel, j'ai optimisé la performance financière d'un projet international en utilisant des outils analytiques avancés pour élaborer des prévisions financières précises et identifier les indicateurs de performance clé, ce qui a permis d'atteindre une rentabilité accrue tout en collaborant efficacement avec des équipes multiculturelles."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cette réponse détaillée. Je suis agréablement surpris que vous soyez à l'aise dans la manipulation d'outils analytiques. Où avez-vous appris ces techniques ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans le cursus que j'ai suivi à l'université, nous avons tous reçus des cours en analytique avancée. J'ai pu ensuite mettre en oeuvre ces apprentissages lors de mon expérience chez Global Projects Inc."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Pourriez-vous me donner un exemple où vous avez utilisé vos compétences en gestion de projet pour surmonter un obstacle majeur dans un projet international ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet international complexe, j'ai dirigé l'intégration de nouvelles normes comptables IFRS avec des équipes réparties sur plusieurs continents, ce qui a nécessité une coordination rigoureuse et une planification stratégique pour surmonter des différences culturelles et linguistiques."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cet entretien. Les prochaines étapes du recrutement incluent l'examen de toutes les candidatures et la prise de contact avec les personnes sélectionnées pour un second entretien d'ici deux semaines. Je vous souhaite une bonne continuation dans vos recherches."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie sincèrement pour cet entretien et je vous souhaite une excellente journée."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Sophie,\nvous postulez pour le poste de Contrôleur de Gestion Senior - Projets Internationaux, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, avec plus de dix ans d'expérience en contrôle de gestion internationale et une expertise approfondie en analyse financière complexe, je suis enthousiaste à l'idée de contribuer à la rentabilité et à la stratégie globale de vos projets internationaux chez Globe Finance Solutions."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ces précisions. Pourriez-vous me parler d'une situation où vous avez collaboré avec une équipe multiculturelle sur un projet international, et comment cela a influencé votre approche de la gestion de projet ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon rôle chez Global Projects Inc., j'ai dirigé une équipe multiculturelle pour garantir la rentabilité d'un projet international, ce qui m'a permis d'adapter mes stratégies de gestion en fonction des divers contextes culturels et d'optimiser l'allocation des ressources."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Pourriez-vous me décrire comment vous abordez les défis liés à l'interprétation de données financières complexes dans un environnement multiculturel ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mon rôle de Responsable du Contrôle de Gestion Internationale, j'ai régulièrement utilisé mon expertise en analyse financière complexe pour collaborer efficacement avec des équipes multiculturelles, garantissant ainsi la rentabilité et l'optimisation des projets internationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour ce retour sur votre expérience en contrôle de gestion internationale. Pourriez-vous me décrire une situation où vous avez dû résoudre un conflit au sein d'une équipe multiculturelle ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet international chez Global Projects Inc., j'ai résolu un conflit au sein d'une équipe multiculturelle en facilitant un dialogue ouvert, ce qui a permis de renforcer la collaboration et d'atteindre nos objectifs financiers avec succès."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ce partage d'expérience. Comment avez-vous utilisé vos compétences analytiques pour assurer le suivi des indicateurs de performance clé (KPI) dans un projet similaire ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mon rôle actuel de Responsable du Contrôle de Gestion Internationale, j'ai utilisé mes compétences analytiques pour développer des tableaux de bord permettant un suivi précis des KPI à l'échelle mondiale, assurant ainsi la rentabilité et l'efficacité des projets internationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre temps et cet entretien. Nous allons examiner toutes les candidatures et vous tenir informé(e) des prochaines étapes dans les deux semaines à venir. Je vous souhaite une bonne continuation dans vos recherches."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cette opportunité d'entretien et je vous souhaite une excellente journée."
+  }
+]

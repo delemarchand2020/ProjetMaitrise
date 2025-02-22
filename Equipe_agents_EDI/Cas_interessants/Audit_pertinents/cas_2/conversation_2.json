@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Marc,\nvous postulez pour le poste de Consultant(e) Fiscaliste International(e) Sénior, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis un consultant fiscaliste expérimenté avec une expertise en fiscalité internationale et en élaboration de stratégies fiscales efficaces. Ce qui me motive dans ce poste, c'est la possibilité de conseiller des entreprises multinationales et d'optimiser leurs structures fiscales tout en assurant la conformité aux réglementations."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez dû collaborer avec une équipe juridique pour élaborer des politiques fiscales conformes aux lois locales et internationales?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mon rôle précédent, j'ai travaillé étroitement avec une équipe juridique pour développer des politiques fiscales conformes aux lois locales et internationales, ce qui a permis d'optimiser les structures fiscales de nos clients tout en garantissant leur conformité. Cette collaboration a été essentielle pour assurer une approche intégrée et stratégique face aux défis fiscaux transfrontaliers."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cet aperçu de votre expérience; pourriez-vous expliquer comment vous avez abordé un défi particulier dans l'optimisation fiscale internationale?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans une situation où j'ai dû optimiser la fiscalité pour une entreprise multinationale, j'ai collaboré avec des équipes juridiques et financières pour analyser les traités fiscaux pertinents, ce qui a permis de structurer efficacement les opérations transfrontalières tout en garantissant la conformité aux réglementations locales et internationales."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse détaillée. Pouvez-vous me parler de comment vous gérez le stress et la pression lorsque vous devez respecter des délais serrés dans la préparation de déclarations fiscales complexes pour plusieurs juridictions?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans des situations de stress et de pression, je m'appuie sur ma solide expérience en gestion de projets fiscaux internationaux pour prioriser les tâches et mobiliser efficacement les équipes interdisciplinaires, garantissant ainsi la conformité et le respect des délais serrés."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me décrire comment vous collaborez avec des équipes juridiques pour élaborer des politiques fiscales conformes aux lois locales et internationales?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mon rôle précédent, j'ai collaboré étroitement avec des équipes juridiques pour élaborer des politiques fiscales conformes aux lois locales et internationales, garantissant ainsi une optimisation fiscale tout en respectant la législation en vigueur. Cette coopération a permis d'assurer une approche intégrée et stratégique dans la gestion des défis fiscaux internationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci d'avoir pris le temps de discuter avec nous aujourd'hui. Nous allons examiner toutes les candidatures et nous vous contacterons bientôt pour vous informer des prochaines étapes. Je vous souhaite une bonne continuation dans vos recherches professionnelles."
+  },
+  {
+    "role": "Candidat",
+    "message": "Merci beaucoup pour cet échange enrichissant. Je vous souhaite une excellente journée et au plaisir de vous revoir bientôt."
+  }
+]

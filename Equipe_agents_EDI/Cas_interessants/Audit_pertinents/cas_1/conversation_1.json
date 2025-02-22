@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Claire,\nvous postulez pour le poste de Consultant(e) Fiscaliste International(e) Sénior, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionnée par le conseil fiscal international et je possède une solide expérience dans l'optimisation des structures fiscales tout en assurant la conformité aux réglementations. Ce poste chez TaxGlobal Insights représente pour moi l'opportunité idéale de mettre à profit mes compétences en planification fiscale et en gestion de projets complexes au service d'une clientèle internationale."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour votre réponse. Pourriez-vous me décrire une situation où vous avez dû collaborer avec des équipes juridiques pour élaborer des politiques fiscales conformes aux lois locales et internationales ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon précédent poste, j'ai dirigé la collaboration avec des équipes juridiques pour élaborer des politiques fiscales internationales, garantissant ainsi leur conformité avec les lois locales et internationales, ce qui a permis à nos clients de maximiser leurs avantages fiscaux tout en respectant les réglementations en vigueur."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour votre réponse, pourriez-vous partager un exemple de projet fiscal complexe que vous avez dirigé et qui a nécessité une analyse approfondie des traités fiscaux internationaux pour identifier des opportunités de réduction d'impôts ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de ma mission précédente, j'ai dirigé un projet complexe impliquant une entreprise multinationale où j'ai analysé en profondeur les traités fiscaux entre la Suisse et plusieurs pays européens, ce qui a permis d'identifier des opportunités significatives de réduction d'impôts tout en assurant une conformité totale aux régulations locales et internationales."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour votre réponse. Pourriez-vous me parler d'une expérience où vous avez dû présenter des informations fiscales complexes à une équipe non spécialisée et comment vous avez adapté votre communication pour qu'elle soit claire et compréhensible ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet fiscal complexe, j'ai présenté des informations fiscales détaillées à une équipe de non-spécialistes en simplifiant les concepts et en utilisant des visuels clairs, assurant ainsi une compréhension efficace et facilitant la prise de décision stratégique."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour votre réponse. Pourriez-vous me décrire comment vous avez géré une situation où vous deviez collaborer avec des équipes juridiques pour élaborer des politiques fiscales conformes aux lois locales et internationales ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon précédent poste, j'ai dirigé la collaboration avec des équipes juridiques pour élaborer des politiques fiscales internationales, garantissant ainsi leur conformité avec les lois locales et internationales, ce qui a permis à nos clients de maximiser leurs avantages fiscaux tout en respectant les réglementations en vigueur."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour cet entretien. Nous allons examiner attentivement votre candidature et nous vous tiendrons informé(e) des prochaines étapes sous peu. En attendant, je vous souhaite une bonne continuation dans vos recherches et reste à votre disposition si vous avez des questions."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cette opportunité d'entretien et vous souhaite une excellente journée."
+  }
+]

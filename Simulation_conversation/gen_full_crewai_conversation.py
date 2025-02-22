@@ -70,7 +70,7 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
             Tes passions et loisirs sont : {RecruiterDataUtils.get_passions_hobbies(profil_recruteur)}.
             Tes responsabilités sont : {RecruiterDataUtils.get_responsibilities(profil_recruteur)}.
 
-            {"Tes croyances qui vont guider ta posture et tes questions :" if biais else ""}
+            {"Tes croyances qui guident ta posture et tes questions :" if biais else ""}
             {RecruiterDataUtils.get_bias(profil_recruteur) if biais else ""}
             {RecruiterDataUtils.get_bias_hints(profil_recruteur) if biais else ""}
             """
@@ -114,17 +114,18 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
         description=dedent(
             """
             Réagis brièvement à la dernière réponse du/de la candidat(e) puis pose une nouvelle question.
-            Ne pose pas le même genre de question que tu as posée précédemment.
-            Ne pas faire de compliments exagérés (comme votre expérience est impressionnante), reste professionnel.
-            Varie le type de questions selon les critères suivants :
-            - 50% des questions sur les expériences et les compétences techniques du candidat en rapport avec les responsabilités du poste à combler.
-            - 30% des questions sur les compétences interpersonnelles, relationnelles et humaines du candidat en rapport avec les responsabilités du poste à combler.
-            - 20% des questions sur les hobbies et les passions du candidat.
             """
         ),
         expected_output=dedent(
             """
             Une ou deux phrases.
+            ### contraintes :
+                - Ne pose pas une question similaire à ce que tu as déjà posée précédemment.
+                - Ne pas faire de compliments exagérés (comme votre expérience est impressionnante), rester professionnel.
+                - Varie le type de questions selon les critères suivants :
+                    - 50% des questions sur les expériences et les compétences techniques du candidat en rapport avec les responsabilités du poste à combler.
+                    - 30% des questions sur les compétences interpersonnelles, relationnelles et humaines du candidat en rapport avec les responsabilités du poste à combler.
+                    - 20% des questions sur les hobbies et les passions du candidat.
             """
         ),
         agent=recruteur,
@@ -134,12 +135,17 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
     task_candidat = Task(
         description=dedent(
             """
-            Répond brièvement à la dernière question du recruteur mettant en avant tes compétences ou ton expérience. 
-            Ta réponse devra faire un lien avec les responsabilités du poste visé.
-            Ne pas reprendre mot pour mot la dernière question du recruteur.
+            Répond brièvement à la dernière question du recruteur mettant en avant tes compétences ou ton expérience.
             """
         ),
-        expected_output="Une ou deux phrases.",
+        expected_output=dedent(
+            """
+            Une ou deux phrases.
+            ### contraintes : 
+                - Ta réponse devra faire un lien avec les responsabilités du poste visé.
+                - Ne pas reprendre mot pour mot la dernière phrase du recruteur.
+            """
+        ),
         agent=candidat,
         callback=lambda output: candidat_task_callback(output, flow_instance)
     )
@@ -150,11 +156,16 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
             Question initiale : {question}
             Répond brièvement à la question initiale du recruteur mettant en avant tes compétences et ton expérience 
             en rapport avec les responsabilités du poste auquel tu postules.
-            ### contraintes :
-                - Commence simplement ta réponse par "Bonjour" sans mentionner ton prénom ou ton nom qu'il connait déjà !
             """
         ),
-        expected_output="Une ou deux phrases.",
+        expected_output=dedent(
+            """
+            Une ou deux phrases.
+            ### contraintes :
+                - Commence simplement ta réponse par "Bonjour" sans mentionner ton prénom ou ton nom
+                - Ne pas reprendre mot pour mot la phrase du recruteur.
+            """
+        ),
         agent=candidat,
         callback=lambda output: candidat_task_callback(output, flow_instance)
     )
@@ -179,21 +190,30 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
             Remercie le recruteur pour cette entrevue en lui souhaitant une belle journée.
             """
         ),
-        expected_output="Une brève phrase",
+        expected_output=dedent(
+            """
+            Une seule phrase.
+            ### contraintes :
+                - Ne pas reprendre mot pour mot la dernière phrase du recruteur.
+            """
+        ),
         agent=candidat,
         callback=lambda output: candidat_task_callback(output, flow_instance)
     )
 
     task_recruteur_bais = Task(
         description=dedent(
-            """
-            Réagis à la dernière réponse du/de la candidat(e) en utilisant tes croyances indiquées dans ton profil !
-            Ne pose pas le même genre de question que tu as posée précédemment.
+            f"""
+            {"Réagis à la dernière réponse du/de la candidat(e) puis pose une nouvelle question en utilisant ces consignes:" if biais else task_recruteur.description}
+            {RecruiterDataUtils.get_bias(profil_recruteur) if biais else ""}
+            {RecruiterDataUtils.get_bias_hints(profil_recruteur) if biais else ""}
             """
         ),
         expected_output=dedent(
             """
-            Une phrase.
+            Une ou deux phrases.
+            ### contraintes :
+                - Ne pose pas une question similaire à ce que tu as déjà posée précédemment.
             """
         ),
         agent=recruteur,

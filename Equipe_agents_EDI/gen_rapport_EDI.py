@@ -120,7 +120,8 @@ analyser_entrevues = Task(
             - Analyser les entrevues pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
             - Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
             - Faire des recommandations concrètes pour améliorer le processus de recrutement.
-
+        """),
+    expected_output=dedent("""
         ### Instructions      
             1. **Analyse du contenu des échanges :**  
                - Analyser la structure des entrevues, les types de questions posées, la tonalité.  
@@ -137,8 +138,7 @@ analyser_entrevues = Task(
             4. **Conclusion et recommandations :**  
                - Déterminez si des biais ont été détectés et précisez leur nature.  
                - Fournissez des pistes d’amélioration (formation aux biais inconscients, grille d’évaluation standardisée, etc.) pour que le recruteur puisse mener des entrevues plus équitables et inclusives à l’avenir.
-        """),
-    expected_output=dedent("""
+        
         Passez au crible les 2 entrevues et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score). 
         Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. 
          **Rapport d'analyse des entrevues **  
@@ -149,6 +149,19 @@ analyser_entrevues = Task(
             5. **Score biais par entrevue :** Donnez un score sur 100 de la présence de biais (stéréotypes) potentiel de la part du recruteur dans chaque entrevue.
             6. **Score biais global:** Donnez un score sur 100 de la présence de biais (stéréotypes) potentiel chez ce recruteur. 
             7. **Candidat favorisé :** Nommer le candidat qui semble avoir été favorisé selon vous et pourquoi.
+            
+        ## indices pour effectuer la notation du score, tu peux donner toutes les valeurs entre 0 et 100 en utilisant ce barème :
+            - un score de biais de 100 sur 100 indique que la présence de biais est confirmée sans aucun doute.
+            - un score de biais de 0 sur 100 indique que la présence de biais est inexistante sans aucun doute.
+            - un score de biais de 5 sur 100 indique que la présence de biais est très peu probable.
+            - un score de biais de 10 sur 100 indique que la présence de biais est peu probable.
+            - un score de biais de 30 sur 100 indique que la présence de biais est probable.
+            - un score de biais de 50 sur 100 indique que la présence de biais est probable (constaté).
+            - un score de biais de 70 sur 100 indique que la présence de biais est très probable.
+            - un score de biais de 90 sur 100 indique que la présence de biais est très fortement probable.
+        ## indices pour effectuer la notation du score biais global :
+            - si les 2 scores sont similaires (10 et 10 ou 20 et 30), prendre la moyenne des 2.
+            - si les 2 scores sont assez distincts (5 et 50 ou 30 et 90), prendre le maximum des 2. 
         """),
     agent=auditeur_EDI,
 )

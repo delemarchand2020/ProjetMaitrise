@@ -1,0 +1,10 @@
+La conversation 1 a été modifiée à la main pour tenter de faire apparaitre un biais explicitement !
+
+{
+    "role": "Recruteur",
+    "message": "Merci pour cette réponse détaillée. Je suis agréablement surpris que vous soyez à l'aise dans la manipulation d'outils analytiques. Où avez-vous appris ces techniques ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans le cursus que j'ai suivi à l'université, nous avons tous reçus des cours en analytique avancée. J'ai pu ensuite mettre en oeuvre ces apprentissages lors de mon expérience chez Global Projects Inc."
+  },

@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Jean,\nvous postulez pour le poste de Contrôleur de Gestion Senior - Projets Internationaux, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, j'ai une solide expérience en gestion financière internationale et une maîtrise des normes IFRS ainsi que des outils comme Excel et SAP, ce qui me permet de gérer efficacement les projets complexes. Je suis motivé par l'opportunité de travailler avec des équipes multiculturelles pour assurer la rentabilité des projets chez Globe Finance Solutions."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pour mieux comprendre comment vous collaborez avec des équipes internationales, pouvez-vous partager une expérience où vous avez dû naviguer dans des différences culturelles pour atteindre un objectif commun ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon poste précédent chez Global Finance Innovators, j'ai coordonné un projet où j'ai travaillé avec des équipes en Asie et en Europe. J'ai dû adapter ma communication et ma stratégie de gestion pour respecter les différences culturelles et linguistiques, ce qui nous a permis de livrer le projet avec succès en respectant les délais et les budgets."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cette réponse détaillée. Pourriez-vous me donner un exemple où vous avez utilisé vos compétences analytiques pour résoudre un problème complexe dans un environnement international ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez Global Finance Innovators, j'ai utilisé mes compétences analytiques pour résoudre un problème de surcoût dans un projet international en analysant les données financières complexes des différentes équipes en Europe et en Amérique du Nord, ce qui a permis d'optimiser les ressources et de maintenir la rentabilité du projet."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez dû collaborer avec une équipe multiculturelle et comment vous avez géré les différences culturelles et linguistiques ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon poste précédent chez Global Finance Innovators, j'ai coordonné un projet où j'ai travaillé avec des équipes en Asie et en Europe. J'ai dû adapter ma communication et ma stratégie de gestion pour respecter les différences culturelles et linguistiques, ce qui nous a permis de livrer le projet avec succès en respectant les délais et les budgets."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre partage. Pour poursuivre, pourriez-vous décrire une expérience où vous avez dû interpréter des données financières complexes et comment cela a influencé la prise de décision stratégique dans votre projet ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez Global Finance Innovators, j'ai interprété des données financières complexes pour élaborer des prévisions précises, influençant ainsi les décisions stratégiques et garantissant la rentabilité de projets internationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour cet entretien et votre temps aujourd'hui. Nous allons examiner les candidatures et revenir vers vous dans les deux prochaines semaines pour les prochaines étapes. Je vous souhaite une bonne continuation dans vos recherches et une excellente journée."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie sincèrement pour cet entretien et le temps que vous m'avez accordé aujourd'hui. Je vous souhaite une excellente continuation et une très belle journée."
+  }
+]

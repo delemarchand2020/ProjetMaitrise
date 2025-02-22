@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Marc,\nvous postulez pour le poste de Consultant(e) Fiscaliste International(e) Sénior, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionné par la fiscalité internationale et possède une vaste expérience en tant que consultant fiscaliste. Ce qui me motive dans ce poste, c'est la possibilité de fournir des conseils stratégiques et d'optimiser les structures fiscales des clients tout en assurant la conformité aux lois internationales."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Vous avez mentionné votre motivation pour fournir des conseils stratégiques. Pourriez-vous partager un exemple où vous avez réussi à optimiser les structures fiscales d'un client tout en assurant la conformité aux lois internationales ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'une mission pour une entreprise multinationale, j'ai élaboré une stratégie fiscale innovante qui a permis de réduire significativement leur charge fiscale tout en respectant scrupuleusement les traités bilatéraux et les régulations internationales en vigueur."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Votre expérience en stratégie fiscale internationale est impressionnante ; pourriez-vous expliquer comment vous identifiez les opportunités de réduction d'impôts tout en garantissant la conformité réglementaire ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "En tant que Consultant Fiscaliste Senior, j'analyse les traités fiscaux internationaux pour identifier des opportunités d'économie d'impôts tout en m'assurant que les structures fiscales sont conformes aux régulations locales et internationales. Mon expertise en gestion de projets me permet de coordonner ces initiatives efficacement avec des équipes interdisciplinaires."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Vous avez mentionné votre expertise en gestion de projets interdisciplinaires. Pourriez-vous nous parler d'une situation où vous avez dû surmonter des défis relationnels au sein d'une équipe pour mener à bien un projet fiscal international?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de l'élaboration d'une stratégie fiscale internationale pour un client multinational, j'ai coordonné avec succès une équipe pluridisciplinaire en Suisse et à l'étranger. En surmontant les différences culturelles et professionnelles, nous avons mis en place des politiques fiscales conformes qui ont optimisé la structure fiscale du client, en ligne avec les responsabilités du poste chez TaxGlobal Insights."
+  },
+  {
+    "role": "Recruteur",
+    "message": "C'est formidable que vous ayez pu coordonner une équipe pluridisciplinaire avec succès. Pourriez-vous me parler de la manière dont vous abordez la gestion des différences culturelles au sein d'une équipe internationale ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans la gestion des différences culturelles au sein d'une équipe internationale, j'adopte une approche ouverte et inclusive, favorisant la communication transparente et le respect des diversités, ce qui est essentiel pour élaborer des politiques fiscales conformes aux lois locales et internationales chez TaxGlobal Insights."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci d'avoir pris le temps de discuter avec nous aujourd'hui. Nous allons maintenant examiner toutes les candidatures et nous vous recontacterons d'ici deux semaines pour vous informer de la suite du processus. En attendant, je vous souhaite bonne chance dans vos recherches."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cette entrevue enrichissante et vous souhaite une excellente journée."
+  }
+]

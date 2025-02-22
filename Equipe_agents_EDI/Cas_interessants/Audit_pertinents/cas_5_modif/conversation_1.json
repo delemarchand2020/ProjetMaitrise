@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Sophie,\nvous postulez pour le poste de Contrôleur de Gestion Senior - Projets Internationaux, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, avec une expérience significative en contrôle de gestion internationale et une expertise en analyse financière complexe, je suis motivée par l'opportunité de contribuer à la rentabilité des projets internationaux chez Globe Finance Solutions tout en collaborant avec des équipes multiculturelles."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez dû collaborer avec une équipe multiculturelle et comment vous avez géré les différences culturelles pour atteindre un objectif commun ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez Global Projects Inc., j'ai travaillé avec des équipes multiculturelles pour l'élaboration de prévisions financières précises, ce qui m'a permis d'adapter mes approches de communication et de gestion afin de surmonter les différences culturelles et de garantir la rentabilité des projets internationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Votre expérience chez Global Projects Inc. est impressionnante. Pourriez-vous me dire comment vous gérez l'équilibre travail-vie personnelle dans un environnement aussi exigeant ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour maintenir un bon équilibre travail-vie personnelle chez Global Projects Inc., je me suis appuyée sur mes compétences en gestion de projet et planification stratégique, ce qui m'a permis d'optimiser mon temps efficacement et de garantir la rentabilité des projets internationaux sans sacrifier ma qualité de vie."
+  },
+  {
+    "role": "Recruteur",
+    "message": "C'est intéressant de voir comment vous avez su maintenir l'équilibre travail-vie personnelle chez Global Projects Inc. Pourriez-vous partager une expérience où vos compétences analytiques ont particulièrement contribué à la réussite d'un projet international complexe ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet international chez Global Projects Inc., j'ai utilisé mes compétences analytiques pour développer des prévisions financières précises et optimiser l'allocation des ressources, ce qui a permis de garantir la rentabilité et le succès du projet tout en collaborant efficacement avec des équipes multiculturelles."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous nous expliquer comment vous avez adapté votre style de communication pour collaborer efficacement avec des équipes multiculturelles lors de ce projet ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez Global Projects Inc., j'ai adapté mon style de communication en valorisant l'écoute active et en utilisant des outils visuels pour m'assurer que les informations financières complexes étaient comprises par tous, ce qui a facilité la collaboration efficace avec les équipes multiculturelles et contribué à garantir la rentabilité des projets internationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci beaucoup d'avoir pris le temps de passer cet entretien. Nous allons examiner toutes les candidatures et vous informer des prochaines étapes sous peu. Je vous souhaite une bonne continuation dans vos recherches."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie sincèrement pour cette entrevue et vous souhaite une excellente journée."
+  }
+]

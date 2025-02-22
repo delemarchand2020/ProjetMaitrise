@@ -2,6 +2,7 @@ import opik
 import json
 import argparse
 import os
+import re
 from opik.integrations.openai import track_openai
 from openai import OpenAI
 
@@ -83,6 +84,7 @@ def generate_profil(prompt):
     )
     return completion.choices[0].message.content
 
+
 # Fonction pour lire le contenu actuel du fichier JSON
 def read_json_file(file_path):
     if os.path.getsize(file_path) == 0:
@@ -91,10 +93,12 @@ def read_json_file(file_path):
         data = json.load(file)
     return data
 
+
 # Fonction pour écrire le contenu dans le fichier JSON
 def write_json_file(file_path, data):
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
+
 
 # Fonction pour ajouter une nouvelle entrée JSON au fichier
 def add_json_entry(file_path, new_entry):
@@ -114,6 +118,24 @@ def add_json_entry(file_path, new_entry):
 
     # Écrire le contenu mis à jour dans le fichier
     write_json_file(file_path, data)
+
+
+def extract_json_structure(text):
+    # Utiliser une expression régulière pour extraire le contenu JSON
+    json_pattern = re.compile(r'```json(.*?)```', re.DOTALL)
+    match = json_pattern.search(text)
+
+    if match:
+        json_content = match.group(1).strip()
+        try:
+            # Analyser la chaîne JSON
+            json_structure = json.loads(json_content)
+            return json_structure
+        except json.JSONDecodeError as e:
+            print("Erreur lors de l'analyse JSON :", e)
+    else:
+        print("Aucune structure JSON trouvée dans le texte.")
+        return None
 
 
 def main():
@@ -140,16 +162,19 @@ def main():
     gen_profil_txt = generate_profil(final_prompt_text)
 
     # Enlever les balises ```json et ```
-    json_string = gen_profil_txt.strip("```json").strip("```")
+    #json_string = gen_profil_txt.strip("```json").strip("```")
 
     # Convertir la chaîne JSON en dictionnaire Python
-    data = json.loads(json_string)
+    #data = json.loads(json_string)
+
+    data = extract_json_structure(gen_profil_txt)
 
     # Ajouter la nouvelle entrée au fichier des profils
     #add_json_entry(args.file_path, data)
     if isinstance(data, dict):
         data = [data]
     write_json_file(args.file_path, data)
+
 
 if __name__ == "__main__":
     main()

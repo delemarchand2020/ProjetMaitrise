@@ -2,41 +2,41 @@
 
 ## Introduction
 
-Ce rapport présente l'analyse des entrevues menées dans le cadre du recrutement pour le poste de Contrôleur de Gestion Senior - Projets Internationaux. L'objectif est d'évaluer les pratiques en matière d'équité, de diversité et d'inclusion (EDI) à travers les interactions entre les recruteurs et les candidats.
+Ce rapport prÃ©sente l'analyse des entrevues menÃ©es dans le cadre du recrutement pour le poste de ContrÃ´leur de Gestion Senior - Projets Internationaux. L'objectif est d'Ã©valuer les pratiques en matiÃ¨re d'Ã©quitÃ©, de diversitÃ© et d'inclusion (EDI) Ã  travers les interactions entre les recruteurs et les candidats.
 
-## Méthodologie
+## MÃ©thodologie
 
-L'analyse a été réalisée en examinant les transcriptions des entretiens avec deux candidats : Sophie et Jean. Les critères d'analyse incluent la manière dont les recruteurs posent des questions, expriment des réactions émotionnelles, et manifestent des attentes implicites ou explicites. Une attention particulière a été portée aux différences dans le traitement des candidats, susceptibles de refléter des biais inconscients.
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entretiens avec deux candidats : Sophie et Jean. Les critÃ¨res d'analyse incluent la maniÃ¨re dont les recruteurs posent des questions, expriment des rÃ©actions Ã©motionnelles, et manifestent des attentes implicites ou explicites. Une attention particuliÃ¨re a Ã©tÃ© portÃ©e aux diffÃ©rences dans le traitement des candidats, susceptibles de reflÃ©ter des biais inconscients.
 
 ## Analyse et Observations
 
 ### Entrevue 1 (Sophie)
-- **Focus** : Expérience en gestion financière internationale, collaboration avec des équipes multiculturelles, compétences analytiques.
-- **Observation** : Le recruteur a exprimé une surprise positive concernant les compétences analytiques de Sophie, ce qui pourrait indiquer une sous-estimation initiale basée sur des stéréotypes de genre.
-- **Conclusion** : Présence possible de biais lié à une surprise non justifiée par les qualifications objectives de la candidate.
+- **Focus** : ExpÃ©rience en gestion financiÃ¨re internationale, collaboration avec des Ã©quipes multiculturelles, compÃ©tences analytiques.
+- **Observation** : Le recruteur a exprimÃ© une surprise positive concernant les compÃ©tences analytiques de Sophie, ce qui pourrait indiquer une sous-estimation initiale basÃ©e sur des stÃ©rÃ©otypes de genre.
+- **Conclusion** : PrÃ©sence possible de biais liÃ© Ã  une surprise non justifiÃ©e par les qualifications objectives de la candidate.
 
 ### Entrevue 2 (Jean)
-- **Focus** : Gestion financière internationale, aptitude à naviguer dans les différences culturelles.
-- **Observation** : L'entretien s'est déroulé de manière plus neutre, sans expression notable de surprise ou d'étonnement.
+- **Focus** : Gestion financiÃ¨re internationale, aptitude Ã  naviguer dans les diffÃ©rences culturelles.
+- **Observation** : L'entretien s'est dÃ©roulÃ© de maniÃ¨re plus neutre, sans expression notable de surprise ou d'Ã©tonnement.
 - **Conclusion** : Moins de signes de biais dans la conduite de l'entretien.
 
 ## Diagnostic de Biais
 
-- **Entrevue 1** : Biais probable en raison du commentaire surpris sur les compétences analytiques de Sophie.
+- **Entrevue 1** : Biais probable en raison du commentaire surpris sur les compÃ©tences analytiques de Sophie.
 - **Entrevue 2** : Biais peu probable; conduite plus neutre.
 
 ## Recommandations
 
-1. Formation sur les biais inconscients pour les recruteurs afin d'éviter des réactions différenciées basées sur le genre ou d'autres facteurs.
-2. Utilisation d'une grille d'évaluation standardisée pour garantir que tous les candidats sont évalués selon les mêmes critères.
-3. Encourager une approche réflexive post-entretien pour que les recruteurs identifient leurs propres biais potentiels dans leurs interactions avec les candidats.
+1. Formation sur les biais inconscients pour les recruteurs afin d'Ã©viter des rÃ©actions diffÃ©renciÃ©es basÃ©es sur le genre ou d'autres facteurs.
+2. Utilisation d'une grille d'Ã©valuation standardisÃ©e pour garantir que tous les candidats sont Ã©valuÃ©s selon les mÃªmes critÃ¨res.
+3. Encourager une approche rÃ©flexive post-entretien pour que les recruteurs identifient leurs propres biais potentiels dans leurs interactions avec les candidats.
 
 ## Score de Biais
 
-- **Entrevue 1 (Sophie)** : 30/100 – Indication de biais potentiel.
-- **Entrevue 2 (Jean)** : 10/100 – Indication minimale de biais.
-- **Score Biais Global** : 20/100 – Les interactions montrent quelques signes de biais potentiel, principalement dans l'entretien avec Sophie.
+- **Entrevue 1 (Sophie)** : 30/100 â€“ Indication de biais potentiel.
+- **Entrevue 2 (Jean)** : 10/100 â€“ Indication minimale de biais.
+- **Score Biais Global** : 20/100 â€“ Les interactions montrent quelques signes de biais potentiel, principalement dans l'entretien avec Sophie.
 
-## Conclusion Générale
+## Conclusion GÃ©nÃ©rale
 
-En conclusion, bien que le processus ait été globalement respectueux et équitable, il reste crucial d'être vigilant face aux réactions spontanées qui pourraient trahir des préjugés inconscients. Les recommandations visent à renforcer l'équité dans les pratiques de recrutement futures.
+En conclusion, bien que le processus ait Ã©tÃ© globalement respectueux et Ã©quitable, il reste crucial d'Ãªtre vigilant face aux rÃ©actions spontanÃ©es qui pourraient trahir des prÃ©jugÃ©s inconscients. Les recommandations visent Ã  renforcer l'Ã©quitÃ© dans les pratiques de recrutement futures.

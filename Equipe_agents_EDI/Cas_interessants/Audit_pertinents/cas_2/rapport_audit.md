@@ -2,31 +2,31 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente l'analyse de deux entrevues réalisées dans le cadre du processus de recrutement pour le poste de Consultant(e) Fiscaliste International(e) Sénior. L'objectif est d'évaluer l'équité, la diversité et l'inclusion (EDI) dans la conduite des entrevues.
+Ce rapport prÃ©sente l'analyse de deux entrevues rÃ©alisÃ©es dans le cadre du processus de recrutement pour le poste de Consultant(e) Fiscaliste International(e) SÃ©nior. L'objectif est d'Ã©valuer l'Ã©quitÃ©, la diversitÃ© et l'inclusion (EDI) dans la conduite des entrevues.
 
-## Méthodologie
-L'analyse a été conduite en examinant les transcriptions des entrevues pour détecter tout signe de biais implicite ou explicite. Les questions posées, le ton utilisé par le recruteur, ainsi que les réactions et feedbacks exprimés ont été soigneusement évalués pour chaque candidat.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© conduite en examinant les transcriptions des entrevues pour dÃ©tecter tout signe de biais implicite ou explicite. Les questions posÃ©es, le ton utilisÃ© par le recruteur, ainsi que les rÃ©actions et feedbacks exprimÃ©s ont Ã©tÃ© soigneusement Ã©valuÃ©s pour chaque candidat.
 
 ## Observations et Analyse
 
-### Résumé de l’analyse
-Les deux entrevues ont été conduites de manière professionnelle, mais une différence dans la profondeur des questions posées et l'engagement émotionnel du recruteur a été notée, ce qui pourrait indiquer un biais implicite.
+### RÃ©sumÃ© de lâ€™analyse
+Les deux entrevues ont Ã©tÃ© conduites de maniÃ¨re professionnelle, mais une diffÃ©rence dans la profondeur des questions posÃ©es et l'engagement Ã©motionnel du recruteur a Ã©tÃ© notÃ©e, ce qui pourrait indiquer un biais implicite.
 
-### Observations détaillées
+### Observations dÃ©taillÃ©es
 
-- **Entrevue 1 (Claire)** : Le recruteur a montré un enthousiasme notable envers Claire, mentionnant ses compétences collaboratives. Les questions étaient axées sur les compétences techniques et la collaboration multiculturelle.
+- **Entrevue 1 (Claire)** : Le recruteur a montrÃ© un enthousiasme notable envers Claire, mentionnant ses compÃ©tences collaboratives. Les questions Ã©taient axÃ©es sur les compÃ©tences techniques et la collaboration multiculturelle.
   
-- **Entrevue 2 (Marc)** : Bien que les questions posées à Marc étaient similaires, le recruteur était moins expressif dans ses appréciations. Une question supplémentaire sur la gestion du stress a été posée à Marc uniquement, indiquant une préoccupation potentielle par rapport à sa gestion du stress.
+- **Entrevue 2 (Marc)** : Bien que les questions posÃ©es Ã  Marc Ã©taient similaires, le recruteur Ã©tait moins expressif dans ses apprÃ©ciations. Une question supplÃ©mentaire sur la gestion du stress a Ã©tÃ© posÃ©e Ã  Marc uniquement, indiquant une prÃ©occupation potentielle par rapport Ã  sa gestion du stress.
 
 ### Diagnostic de biais
-- **Entrevue 1 (Claire)** : Aucun biais explicite n’a été observé, mais l'enthousiasme du recruteur pourrait être interprété comme un favoritisme implicite.
+- **Entrevue 1 (Claire)** : Aucun biais explicite nâ€™a Ã©tÃ© observÃ©, mais l'enthousiasme du recruteur pourrait Ãªtre interprÃ©tÃ© comme un favoritisme implicite.
   
-- **Entrevue 2 (Marc)** : La question additionnelle concernant le stress n’a pas été posée à Claire, ce qui peut suggérer un biais basé sur des hypothèses concernant les capacités de Marc à gérer le stress.
+- **Entrevue 2 (Marc)** : La question additionnelle concernant le stress nâ€™a pas Ã©tÃ© posÃ©e Ã  Claire, ce qui peut suggÃ©rer un biais basÃ© sur des hypothÃ¨ses concernant les capacitÃ©s de Marc Ã  gÃ©rer le stress.
 
 ## Recommandations
-- **Grille d’évaluation standardisée** : Établir une grille pour garantir que chaque candidat réponde aux mêmes questions principales.
-- **Formation des recruteurs** : Former le personnel pour identifier et gérer les biais inconscients.
-- **Uniformité dans l'expression d'enthousiasme** : S'assurer que le même niveau d'enthousiasme est montré pour tous les candidats.
+- **Grille dâ€™Ã©valuation standardisÃ©e** : Ã‰tablir une grille pour garantir que chaque candidat rÃ©ponde aux mÃªmes questions principales.
+- **Formation des recruteurs** : Former le personnel pour identifier et gÃ©rer les biais inconscients.
+- **UniformitÃ© dans l'expression d'enthousiasme** : S'assurer que le mÃªme niveau d'enthousiasme est montrÃ© pour tous les candidats.
 
 ## Score de Biais
 - **Entrevue 1 (Claire)** : 10/100 
@@ -34,4 +34,4 @@ Les deux entrevues ont été conduites de manière professionnelle, mais une différ
 - **Score global** : 18/100
 
 ## Conclusion
-L'analyse a révélé une légère préférence pour Claire, ce qui souligne l'importance de mesures proactives pour minimiser les biais dans les processus de recrutement futurs. Le score de biais global de 18/100 indique qu'il y a un potentiel d'amélioration significatif dans la conduite des entrevues pour assurer une véritable équité et inclusion.
+L'analyse a rÃ©vÃ©lÃ© une lÃ©gÃ¨re prÃ©fÃ©rence pour Claire, ce qui souligne l'importance de mesures proactives pour minimiser les biais dans les processus de recrutement futurs. Le score de biais global de 18/100 indique qu'il y a un potentiel d'amÃ©lioration significatif dans la conduite des entrevues pour assurer une vÃ©ritable Ã©quitÃ© et inclusion.

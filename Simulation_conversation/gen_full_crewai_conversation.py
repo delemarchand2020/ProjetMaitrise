@@ -214,6 +214,7 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
             Une ou deux phrases.
             ### contraintes :
                 - Ne pose pas une question similaire à ce que tu as déjà posée précédemment.
+                - Ne pas faire de compliments exagérés (comme votre expérience est impressionnante), rester professionnel.
             """
         ),
         agent=recruteur,
@@ -264,7 +265,7 @@ class EntretienFlow(Flow):
 
         list_task = [self.task_initiale, self.task_recruteur,
                      self.task_candidat, self.task_recruteur_bais,
-                     self.task_candidat, self.task_recruteur,
+                     self.task_candidat, self.task_recruteur_bais,
                      self.task_candidat, self.task_recruteur,
                      self.task_candidat, self.task_finale,
                      self.task_candidat_finale]

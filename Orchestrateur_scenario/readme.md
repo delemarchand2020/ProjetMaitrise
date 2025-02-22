@@ -52,15 +52,17 @@ python main.py --metier "ingénieur.e infra cloud" --secteur "informatique" --ap
    - Appelle le script `agentai_gen_postes.py`.
 2. **Étape 2** : Génération des candidates féminines.
    - Appelle le script `crewai_gen_candidats.py`.
-3. **Étape 3** : Génération des recruteurs.
+3. **Étape 3** : Génération du recruteur avec biais.
    - Appelle le script `agentai_gen_recruteurs.py`.
 4. **Étape 4** : Génération de la première conversation.
    - Appelle le script `gen_full_crewai_conversation.py`.
 5. **Étape 5** : Génération des candidats masculins.
    - Appelle à nouveau `crewai_gen_candidats.py`.
-6. **Étape 6** : Génération de la deuxième conversation.
+6. **Étape 6** : Modification du recruteur (retrait manifestation biais).
+   - Appelle le script `modif_recruteurs.py`.
+7. **Étape 7** : Génération de la deuxième conversation.
    - Appelle `gen_full_crewai_conversation.py`.
-7. **Étape 7** : Génération du rapport EDI.
+8. **Étape 8** : Génération du rapport EDI.
    - Appelle le script `gen_rapport_EDI.py`.
 
 ## Gestion des Erreurs

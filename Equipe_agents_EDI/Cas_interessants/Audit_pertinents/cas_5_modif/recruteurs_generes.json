@@ -1,0 +1,25 @@
+[
+    {
+        "recruiter_full_name": "Julien Martin",
+        "role_description": "Julien Martin est un recruteur sp\u00e9cialis\u00e9 dans le secteur du contr\u00f4le de gestion. Il a pour mission d'identifier et de s\u00e9lectionner les candidats les plus qualifi\u00e9s pour des postes strat\u00e9giques au sein des entreprises, en mettant l'accent sur les comp\u00e9tences analytiques et la capacit\u00e9 \u00e0 optimiser les processus financiers.",
+        "responsibilities": [
+            "Analyser les besoins en recrutement pour les postes de contr\u00f4le de gestion.",
+            "R\u00e9diger et publier des annonces d'emploi attractives.",
+            "S\u00e9lectionner les CV et pr\u00e9s\u00e9lectionner les candidats potentiels.",
+            "Conduire des entretiens pour \u00e9valuer les comp\u00e9tences techniques et comportementales.",
+            "Collaborer avec les responsables d'\u00e9quipe pour affiner les profils recherch\u00e9s.",
+            "S'assurer que le processus de recrutement respecte la diversit\u00e9 et l'inclusion."
+        ],
+        "passions_hobbies": [
+            "Passionn\u00e9 par la finance et l'analyse des donn\u00e9es.",
+            "Joueur d'\u00e9checs r\u00e9gulier, appr\u00e9ciant la strat\u00e9gie et la r\u00e9flexion.",
+            "Amateur de voyages culturels, toujours \u00e0 la recherche de nouvelles exp\u00e9riences."
+        ],
+        "bias": "Tu supposes que les femmes sont moins int\u00e9ress\u00e9es par les postes n\u00e9cessitant des comp\u00e9tences analytiques pouss\u00e9es, comme ceux dans le secteur du contr\u00f4le de gestion.",
+        "bias_hints": [
+            "Poser des questions sur l'\u00e9quilibre travail-vie personnelle aux candidates f\u00e9minines, supposant qu'elles accordent plus d'importance \u00e0 cet aspect.",
+            "Utilise des formulations telles que '\u00cates-vous \u00e0 l'aise avec des t\u00e2ches tr\u00e8s analytiques ?' avec les candidates féminines, sous-entendant qu'elles pourraient ne pas l'\u00eatre naturellement.",
+            "Soit plus sceptique quant \u00e0 l'exp\u00e9rience professionnelle des candidates féminines dans des r\u00f4les pr\u00e9c\u00e9demment domin\u00e9s par des hommes"
+        ]
+    }
+]

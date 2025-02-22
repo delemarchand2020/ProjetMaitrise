@@ -52,7 +52,7 @@ def execute_step(step, args):
         )
     elif step == 3:
         os.environ["OPIK_PROJECT_NAME"] = "agentai_gen_profil_recruteur"
-        print(f"Étape 3 : Génération des recruteurs pour le secteur {args.secteur}")
+        print(f"Étape 3 : Génération du recruteur pour le secteur {args.secteur} avec stéréotype sur le genre féminin")
         run_command(
             f"python agentai_gen_recruteurs.py --biais \"stéréotype sur le genre féminin\" --langue_de_travail français --genre masculin --secteur \"{args.secteur}\" --file_path output\\recruteurs_generes.json",
             cwd="..\\AgentAI_creation_BD_recruteurs"
@@ -72,15 +72,22 @@ def execute_step(step, args):
             cwd="..\\CrewAI_equipe_creation_BD_candidats"
         )
     elif step == 6:
+        os.environ["OPIK_PROJECT_NAME"] = "agentai_gen_profil_recruteur"
+        print(f"Étape 6 : Modification du recruteur pour le secteur {args.secteur} : retrait du stéréotype")
+        run_command(
+            f"python modif_recruteurs.py --file_path output\\recruteurs_generes.json",
+            cwd="..\\AgentAI_creation_BD_recruteurs"
+        )
+    elif step == 7:
         nettoyer_cache_crewai()
-        print("Étape 6 : Génération de la deuxième conversation")
+        print("Étape 7 : Génération de la deuxième conversation")
         run_command(
             "python gen_full_crewai_conversation.py --fichier_db_postes ..\\AgentIA_generation_postes\\output\\postes_generes.json --fichier_db_recruteurs ..\\AgentAI_creation_BD_recruteurs\\output\\recruteurs_generes.json --fichier_db_candidats ..\\CrewAI_equipe_creation_BD_candidats\\output\\candidat_m.json --output_file conversation_2.json --index 0",
             cwd="..\\Simulation_conversation"
         )
-    elif step == 7:
+    elif step == 8:
         nettoyer_cache_crewai()
-        print("Étape 7 : Génération du rapport EDI")
+        print("Étape 8 : Génération du rapport EDI")
         run_command(
             "python gen_rapport_EDI.py --file1 ..\\Simulation_conversation\\output\\conversation_1.json --file2 ..\\Simulation_conversation\\output\\conversation_2.json --output_dir output\\ --output_file rapport_audit.md",
             cwd="..\\Equipe_agents_EDI"

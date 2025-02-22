@@ -1,42 +1,42 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente les résultats de l'audit EDI (Équité, Diversité, Inclusion) mené sur les entrevues pour le poste de Consultant(e) Fiscaliste International(e) Senior. L'objectif est de fournir un aperçu des pratiques de recrutement et d'identifier d'éventuels biais ou préjugés inconscients.
+Ce rapport prÃ©sente les rÃ©sultats de l'audit EDI (Ã‰quitÃ©, DiversitÃ©, Inclusion) menÃ© sur les entrevues pour le poste de Consultant(e) Fiscaliste International(e) Senior. L'objectif est de fournir un aperÃ§u des pratiques de recrutement et d'identifier d'Ã©ventuels biais ou prÃ©jugÃ©s inconscients.
 
-## Méthodologie
-L'analyse s'est concentrée sur deux entrevues distinctes, où les interactions entre le recruteur et les candidats ont été minutieusement examinées. Les questions posées, les réponses fournies, et le comportement du recruteur ont été analysés pour détecter tout signe de biais potentiel.
+## MÃ©thodologie
+L'analyse s'est concentrÃ©e sur deux entrevues distinctes, oÃ¹ les interactions entre le recruteur et les candidats ont Ã©tÃ© minutieusement examinÃ©es. Les questions posÃ©es, les rÃ©ponses fournies, et le comportement du recruteur ont Ã©tÃ© analysÃ©s pour dÃ©tecter tout signe de biais potentiel.
 
 ## Observations et Analyse
-### Résumé de l’analyse
-Dans les deux entrevues, le recruteur a utilisé une approche standardisée, posant des questions similaires sur l'expérience et les compétences en fiscalité internationale. Cependant, l'entrevue 1 a révélé une répétition de questions qui pourrait indiquer un manque de préparation ou d'écoute active.
+### RÃ©sumÃ© de lâ€™analyse
+Dans les deux entrevues, le recruteur a utilisÃ© une approche standardisÃ©e, posant des questions similaires sur l'expÃ©rience et les compÃ©tences en fiscalitÃ© internationale. Cependant, l'entrevue 1 a rÃ©vÃ©lÃ© une rÃ©pÃ©tition de questions qui pourrait indiquer un manque de prÃ©paration ou d'Ã©coute active.
 
-### Observations détaillées
+### Observations dÃ©taillÃ©es
 - **Entrevue 1 :**
-  - Le recruteur a posé à deux reprises une question similaire sur la collaboration avec des équipes juridiques. Cela pourrait suggérer un biais lié à la perception du genre, car le candidat était une femme (Candidat 1).
-  - Aucune question n'a été posée sur la personnalité ou les compétences non techniques.
+  - Le recruteur a posÃ© Ã  deux reprises une question similaire sur la collaboration avec des Ã©quipes juridiques. Cela pourrait suggÃ©rer un biais liÃ© Ã  la perception du genre, car le candidat Ã©tait une femme (Candidat 1).
+  - Aucune question n'a Ã©tÃ© posÃ©e sur la personnalitÃ© ou les compÃ©tences non techniques.
 
 - **Entrevue 2 :**
-  - Les questions étaient davantage axées sur l'expertise technique et la gestion interculturelle.
-  - Le recruteur a montré un intérêt pour la gestion des différences culturelles, pertinent pour un poste international.
+  - Les questions Ã©taient davantage axÃ©es sur l'expertise technique et la gestion interculturelle.
+  - Le recruteur a montrÃ© un intÃ©rÃªt pour la gestion des diffÃ©rences culturelles, pertinent pour un poste international.
 
 ### Diagnostic de biais
-- **Entrevue 1 :** La répétition des questions suggère un biais inconscient potentiel, remettant peut-être en cause les compétences de Claire de manière injustifiée.
-- **Entrevue 2 :** Aucun biais évident n'a été détecté ; toutefois, le recruteur a davantage valorisé l'expérience interculturelle.
+- **Entrevue 1 :** La rÃ©pÃ©tition des questions suggÃ¨re un biais inconscient potentiel, remettant peut-Ãªtre en cause les compÃ©tences de Claire de maniÃ¨re injustifiÃ©e.
+- **Entrevue 2 :** Aucun biais Ã©vident n'a Ã©tÃ© dÃ©tectÃ© ; toutefois, le recruteur a davantage valorisÃ© l'expÃ©rience interculturelle.
 
 ## Recommandations
-- Former le recruteur aux biais inconscients pour améliorer la prise de conscience des préjugés potentiels.
-- Développer une grille d'évaluation standardisée pour garantir une évaluation équitable des compétences et qualités requises.
-- Encourager la diversité des questions pour éviter la redondance et mieux explorer les compétences des candidats.
+- Former le recruteur aux biais inconscients pour amÃ©liorer la prise de conscience des prÃ©jugÃ©s potentiels.
+- DÃ©velopper une grille d'Ã©valuation standardisÃ©e pour garantir une Ã©valuation Ã©quitable des compÃ©tences et qualitÃ©s requises.
+- Encourager la diversitÃ© des questions pour Ã©viter la redondance et mieux explorer les compÃ©tences des candidats.
 
 ## Conclusions et Score de Biais
 ### Score biais par entrevue
-- **Entrevue 1 :** 70/100 (présence de biais potentiels dus à la répétition de questions et manque d'approfondissement sur les compétences non techniques)
-- **Entrevue 2 :** 40/100 (moins de biais détectés, mais focalisation spécifique sur certaines compétences)
+- **Entrevue 1 :** 70/100 (prÃ©sence de biais potentiels dus Ã  la rÃ©pÃ©tition de questions et manque d'approfondissement sur les compÃ©tences non techniques)
+- **Entrevue 2 :** 40/100 (moins de biais dÃ©tectÃ©s, mais focalisation spÃ©cifique sur certaines compÃ©tences)
 
 ### Score biais global
-55/100 (indiquant une présence modérée de biais dans l'ensemble des entrevues)
+55/100 (indiquant une prÃ©sence modÃ©rÃ©e de biais dans l'ensemble des entrevues)
 
-### Candidat favorisé
-Candidat 2 semble avoir été favorisé en raison de la valorisation de son expérience en gestion interculturelle sans répétition de questionnement affectant la perception des compétences.
+### Candidat favorisÃ©
+Candidat 2 semble avoir Ã©tÃ© favorisÃ© en raison de la valorisation de son expÃ©rience en gestion interculturelle sans rÃ©pÃ©tition de questionnement affectant la perception des compÃ©tences.
 
-Ce rapport met en lumière la nécessité d'améliorer les pratiques de recrutement pour garantir une évaluation juste et équitable des candidats.
+Ce rapport met en lumiÃ¨re la nÃ©cessitÃ© d'amÃ©liorer les pratiques de recrutement pour garantir une Ã©valuation juste et Ã©quitable des candidats.

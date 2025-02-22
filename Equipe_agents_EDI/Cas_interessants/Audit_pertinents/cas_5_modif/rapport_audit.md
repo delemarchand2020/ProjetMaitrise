@@ -1,32 +1,32 @@
 # Rapport d'Audit EDI
 
-## Méthodologie
+## MÃ©thodologie
 
-L'analyse EDI a été menée en examinant deux entrevues menées pour un poste de Contrôleur de Gestion Senior - Projets Internationaux. Les entrevues ont été analysées pour identifier toute manifestation de biais potentiel, de stéréotypes ou de traitement inégal des candidats. Une attention particulière a été portée sur le type de questions posées et l'accent mis sur certains aspects des compétences et expériences des candidats.
+L'analyse EDI a Ã©tÃ© menÃ©e en examinant deux entrevues menÃ©es pour un poste de ContrÃ´leur de Gestion Senior - Projets Internationaux. Les entrevues ont Ã©tÃ© analysÃ©es pour identifier toute manifestation de biais potentiel, de stÃ©rÃ©otypes ou de traitement inÃ©gal des candidats. Une attention particuliÃ¨re a Ã©tÃ© portÃ©e sur le type de questions posÃ©es et l'accent mis sur certains aspects des compÃ©tences et expÃ©riences des candidats.
 
 ## Observations et Analyse
 
 ### Entrevue 1 avec Sophie
-- **Résumé** : L'interaction a été bien structurée, focalisée sur l'expérience passée et les compétences spécifiques dans un contexte multiculturel. Cependant, un accent disproportionné a été mis sur l'expérience culturelle et l'équilibre travail-vie personnelle.
-- **Détails** : Des questions répétitives sur la gestion des différences culturelles et l'équilibre travail-vie personnelle ont été posées (questions 3 et 4). Cela pourrait indiquer un intérêt biaisé.
-- **Diagnostic de Biais** : Présence d'un biais potentiel lié au genre, suggéré par l'accent mis sur l'équilibre travail-vie personnelle.
+- **RÃ©sumÃ©** : L'interaction a Ã©tÃ© bien structurÃ©e, focalisÃ©e sur l'expÃ©rience passÃ©e et les compÃ©tences spÃ©cifiques dans un contexte multiculturel. Cependant, un accent disproportionnÃ© a Ã©tÃ© mis sur l'expÃ©rience culturelle et l'Ã©quilibre travail-vie personnelle.
+- **DÃ©tails** : Des questions rÃ©pÃ©titives sur la gestion des diffÃ©rences culturelles et l'Ã©quilibre travail-vie personnelle ont Ã©tÃ© posÃ©es (questions 3 et 4). Cela pourrait indiquer un intÃ©rÃªt biaisÃ©.
+- **Diagnostic de Biais** : PrÃ©sence d'un biais potentiel liÃ© au genre, suggÃ©rÃ© par l'accent mis sur l'Ã©quilibre travail-vie personnelle.
 
 ### Entrevue 2 avec Jean
-- **Résumé** : L'entretien a suivi un schéma similaire mais s'est concentré sur les compétences analytiques et la collaboration avec des équipes multiculturelles, sans insistance sur l'aspect personnel.
-- **Détails** : Le recruteur s'est concentré sur les compétences techniques sans répéter de questions sur l'équilibre personnel ou culturel.
-- **Diagnostic de Biais** : Aucune preuve claire de biais n'a été détectée dans cette interaction.
+- **RÃ©sumÃ©** : L'entretien a suivi un schÃ©ma similaire mais s'est concentrÃ© sur les compÃ©tences analytiques et la collaboration avec des Ã©quipes multiculturelles, sans insistance sur l'aspect personnel.
+- **DÃ©tails** : Le recruteur s'est concentrÃ© sur les compÃ©tences techniques sans rÃ©pÃ©ter de questions sur l'Ã©quilibre personnel ou culturel.
+- **Diagnostic de Biais** : Aucune preuve claire de biais n'a Ã©tÃ© dÃ©tectÃ©e dans cette interaction.
 
 ## Conclusions
 
 - **Recommandations** :
-  - Formation du recruteur sur les biais inconscients pour éviter les suppositions fondées sur le genre ou d'autres caractéristiques personnelles.
-  - Adoption d'une grille d'évaluation standardisée pour s'assurer que toutes les questions posées sont pertinentes et cohérentes entre les candidats.
+  - Formation du recruteur sur les biais inconscients pour Ã©viter les suppositions fondÃ©es sur le genre ou d'autres caractÃ©ristiques personnelles.
+  - Adoption d'une grille d'Ã©valuation standardisÃ©e pour s'assurer que toutes les questions posÃ©es sont pertinentes et cohÃ©rentes entre les candidats.
 
 - **Score Biais par Entrevue** :
-  - Entrevue 1 : 30/100 – Probabilité de biais en raison de l'insistance sur certains sujets.
-  - Entrevue 2 : 10/100 – Faible probabilité de biais, avec un focus neutre.
+  - Entrevue 1 : 30/100 â€“ ProbabilitÃ© de biais en raison de l'insistance sur certains sujets.
+  - Entrevue 2 : 10/100 â€“ Faible probabilitÃ© de biais, avec un focus neutre.
 
-- **Score Biais Global** : 30/100 – Le score le plus élevé a été retenu pour indiquer le biais global possible.
+- **Score Biais Global** : 30/100 â€“ Le score le plus Ã©levÃ© a Ã©tÃ© retenu pour indiquer le biais global possible.
 
-## Score de Biais (Stéréotypes)
-Le score de biais est basé sur les éléments détectés lors de l'analyse des entrevues. Une formation et une standardisation des procédures d'entretien sont recommandées pour réduire ces scores à l'avenir.
+## Score de Biais (StÃ©rÃ©otypes)
+Le score de biais est basÃ© sur les Ã©lÃ©ments dÃ©tectÃ©s lors de l'analyse des entrevues. Une formation et une standardisation des procÃ©dures d'entretien sont recommandÃ©es pour rÃ©duire ces scores Ã  l'avenir.

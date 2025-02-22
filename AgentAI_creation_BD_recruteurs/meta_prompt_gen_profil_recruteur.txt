@@ -9,7 +9,7 @@ Ce profil de recruteur servira plus tard à implémenter un recruteur virtuel im
 - générer une description sommaire de son rôle et de ses responsabilités en tant que recruteur du secteur {{secteur}}
 - générer ses passions et loisirs
 - générer une description précise du biais dont il est affublé : {{biais}}
-- générer des exemples sur comment la manifestation de son biais peut influencer son recrutement (posture dans la conversation, type de questions, ...) : la manifestation du biais doit être tangible dans la communication (pas utile de donner des exemples sur le langage corporel)
+- générer des exemples sur comment la manifestation de son biais doit influencer son recrutement (écris des types de questions à poser) : la manifestation du biais doit être tangible dans la communication (pas utile de donner des exemples sur le langage corporel)
 - fournir le profil en JSON avec les informations suivantes:
   "recruiter_full_name": "",
   "role_description": "",

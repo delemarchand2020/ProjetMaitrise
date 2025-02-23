@@ -2,38 +2,38 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente les résultats d'un audit sur l'équité, la diversité et l'inclusion (EDI) basé sur l'analyse des entrevues menées pour le poste de Contrôleur de Gestion Senior - Projets Multinationaux. L'objectif est d'identifier les biais potentiels et de proposer des recommandations pour améliorer le processus de recrutement.
+Ce rapport prÃ©sente les rÃ©sultats d'un audit sur l'Ã©quitÃ©, la diversitÃ© et l'inclusion (EDI) basÃ© sur l'analyse des entrevues menÃ©es pour le poste de ContrÃ´leur de Gestion Senior - Projets Multinationaux. L'objectif est d'identifier les biais potentiels et de proposer des recommandations pour amÃ©liorer le processus de recrutement.
 
-## Méthodologie
-L'audit a été réalisé en analysant deux entrevues distinctes. Chaque entrevue a été évaluée sur la base des questions posées par le recruteur et des réponses fournies par les candidats. Les questions ont été examinées pour identifier tout biais potentiel, notamment ceux liés au genre.
+## MÃ©thodologie
+L'audit a Ã©tÃ© rÃ©alisÃ© en analysant deux entrevues distinctes. Chaque entrevue a Ã©tÃ© Ã©valuÃ©e sur la base des questions posÃ©es par le recruteur et des rÃ©ponses fournies par les candidats. Les questions ont Ã©tÃ© examinÃ©es pour identifier tout biais potentiel, notamment ceux liÃ©s au genre.
 
 ## Analyse et Observations
 
-### 1. Résumé de l'analyse
-Lors des entrevues, le recruteur a généralement posé des questions pertinentes pour évaluer les compétences des candidats. Cependant, certaines formulations ont soulevé des préoccupations quant à d'éventuels biais de genre.
+### 1. RÃ©sumÃ© de l'analyse
+Lors des entrevues, le recruteur a gÃ©nÃ©ralement posÃ© des questions pertinentes pour Ã©valuer les compÃ©tences des candidats. Cependant, certaines formulations ont soulevÃ© des prÃ©occupations quant Ã  d'Ã©ventuels biais de genre.
 
-### 2. Observations détaillées
-- **Entrevue 1 (Claire) :** La question comparant les analyses financières de Claire à celles de ses collègues masculins a introduit un biais de genre potentiel.
-- **Entrevue 2 (Antoine) :** Aucune mention explicite de biais. Les questions étaient principalement axées sur l'expérience professionnelle et l'utilisation d'outils ERP.
+### 2. Observations dÃ©taillÃ©es
+- **Entrevue 1 (Claire) :** La question comparant les analyses financiÃ¨res de Claire Ã  celles de ses collÃ¨gues masculins a introduit un biais de genre potentiel.
+- **Entrevue 2 (Antoine) :** Aucune mention explicite de biais. Les questions Ã©taient principalement axÃ©es sur l'expÃ©rience professionnelle et l'utilisation d'outils ERP.
 
 ### 3. Diagnostic de biais
-- **Entrevue 1 :** Un biais de genre a été détecté, suggérant une présomption sur la compétence en fonction du genre.
-- **Entrevue 2 :** Aucune indication de biais explicite; les questions étaient neutres.
+- **Entrevue 1 :** Un biais de genre a Ã©tÃ© dÃ©tectÃ©, suggÃ©rant une prÃ©somption sur la compÃ©tence en fonction du genre.
+- **Entrevue 2 :** Aucune indication de biais explicite; les questions Ã©taient neutres.
 
 ## Recommandations
-Pour améliorer le processus de recrutement et minimiser les biais, nous recommandons :
-- **Formation aux biais inconscients :** Sensibiliser les recruteurs aux stéréotypes implicites, particulièrement ceux liés au genre.
-- **Grille d'évaluation standardisée :** Développer une grille de questions standardisées pour garantir l'équité entre les candidats.
-- **Revues par les pairs :** Intégrer des évaluations par plusieurs recruteurs pour réduire l'influence des biais individuels.
+Pour amÃ©liorer le processus de recrutement et minimiser les biais, nous recommandons :
+- **Formation aux biais inconscients :** Sensibiliser les recruteurs aux stÃ©rÃ©otypes implicites, particuliÃ¨rement ceux liÃ©s au genre.
+- **Grille d'Ã©valuation standardisÃ©e :** DÃ©velopper une grille de questions standardisÃ©es pour garantir l'Ã©quitÃ© entre les candidats.
+- **Revues par les pairs :** IntÃ©grer des Ã©valuations par plusieurs recruteurs pour rÃ©duire l'influence des biais individuels.
 
 ## Score de Biais
 
 ### Score par Entrevue
-- **Entrevue 1 (Claire) :** 30/100 - Indicateur de biais probable dû à une question genrée.
+- **Entrevue 1 (Claire) :** 30/100 - Indicateur de biais probable dÃ» Ã  une question genrÃ©e.
 - **Entrevue 2 (Antoine) :** 5/100 - Indicateur minimal de biais.
 
 ### Score Global
-Score global de biais : **30/100** - Ce score maximal est principalement influencé par l'entrevue avec Claire.
+Score global de biais : **30/100** - Ce score maximal est principalement influencÃ© par l'entrevue avec Claire.
 
 ## Conclusion
-L'analyse révèle un risque notable de biais dans le processus de recrutement actuel, particulièrement lié au genre. Bien que l'entrevue avec Antoine ait été conduite sans biais explicite, l'expérience de Claire souligne la nécessité d'une sensibilisation accrue aux stéréotypes inconscients dans les pratiques d'embauche.
+L'analyse rÃ©vÃ¨le un risque notable de biais dans le processus de recrutement actuel, particuliÃ¨rement liÃ© au genre. Bien que l'entrevue avec Antoine ait Ã©tÃ© conduite sans biais explicite, l'expÃ©rience de Claire souligne la nÃ©cessitÃ© d'une sensibilisation accrue aux stÃ©rÃ©otypes inconscients dans les pratiques d'embauche.

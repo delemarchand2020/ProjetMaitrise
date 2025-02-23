@@ -204,8 +204,9 @@ def create_agents_and_tasks(profil_poste, profil_recruteur, profil_candidat, flo
     task_recruteur_bais = Task(
         description=dedent(
             f"""
-            {"Réagis à la dernière réponse du/de la candidat(e) puis pose une nouvelle question en utilisant ces consignes:" if biais else task_recruteur.description}
+            {"Réagis à la dernière réponse du/de la candidat(e) en te basant sur tes croyances :" if biais else task_recruteur.description}
             {RecruiterDataUtils.get_bias(profil_recruteur) if biais else ""}
+            {"Puis pose une nouvelle question en t'inspirant de ces exemples:" if biais else ""}
             {RecruiterDataUtils.get_bias_hints(profil_recruteur) if biais else ""}
             """
         ),

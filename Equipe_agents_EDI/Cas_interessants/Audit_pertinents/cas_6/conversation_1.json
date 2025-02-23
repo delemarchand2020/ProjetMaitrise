@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Claire,\nvous postulez pour le poste de Contrôleur de Gestion Senior - Projets Multinationales, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, ce qui me motive dans ce poste est l'opportunité d'optimiser la performance financière des projets multinationaux grâce à mon expertise en normes IFRS et GAAP, ainsi qu'à mon expérience en gestion de projets complexes et en communication interculturelle."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'un projet multinational que vous avez géré, et comment vous avez navigué les défis interculturels pour atteindre les objectifs financiers ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez FinanceVision, j'ai supervisé un projet multinational où j'ai utilisé mes compétences en communication interculturelle pour harmoniser les pratiques financières des différentes équipes, assurant ainsi la réalisation des objectifs financiers tout en respectant les normes IFRS."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse détaillée sur votre expérience chez FinanceVision. Pourriez-vous nous parler de votre approche pour assurer la rigueur de vos analyses financières par rapport à celles de vos collègues masculins ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour garantir la rigueur de mes analyses financières, je m'appuie sur ma solide maîtrise des normes IFRS et GAAP, tout en collaborant étroitement avec les équipes pour identifier les écarts financiers et proposer des solutions créatives, ce qui est essentiel dans la supervision des projets multinationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre explication sur la manière dont vous assurez la rigueur de vos analyses financières. Pourriez-vous partager un exemple où vous avez pris l'initiative sur un projet technique majeur dans un environnement multiculturel ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon rôle chez FinanceVision, j'ai supervisé un projet complexe impliquant des équipes en Europe et en Asie. J'ai pris l'initiative de créer un cadre de communication interculturelle qui a permis d'harmoniser les pratiques financières et d'assurer le respect des normes IFRS, tout en améliorant l'efficacité opérationnelle."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. En termes de gestion de projet, comment collaborez-vous généralement avec des équipes multiculturelles pour optimiser les processus financiers ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mes expériences passées, j'ai collaboré étroitement avec des équipes multiculturelles en utilisant mes compétences en communication pour harmoniser les pratiques financières et améliorer l'efficacité opérationnelle, contribuant ainsi à l'optimisation des processus financiers de projets internationaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci d'avoir pris le temps de discuter avec nous aujourd'hui. Nous examinerons toutes les candidatures et reviendrons vers vous dans les prochaines semaines pour vous informer de la suite du processus. Nous vous souhaitons bonne chance dans vos recherches et espérons avoir l'opportunité de collaborer avec vous à l'avenir."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cette entrevue et vous souhaite une excellente journée."
+  }
+]

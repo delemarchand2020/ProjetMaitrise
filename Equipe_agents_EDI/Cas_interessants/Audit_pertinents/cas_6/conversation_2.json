@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Antoine,\nvous postulez pour le poste de Contrôleur de Gestion Senior - Projets Multinationales, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, ma solide expérience en gestion financière de projets multinationaux et mon expertise en normes IFRS et GAAP m'ont préparé à exceller dans ce rôle. Ce poste me motive car il me permettrait de contribuer à l'optimisation de la performance financière tout en travaillant dans un environnement multiculturel stimulant."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez dû collaborer avec des équipes de différentes cultures et comment cela a influencé votre approche de gestion de projet ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience en tant que Responsable Analyse Financière, j'ai collaboré étroitement avec des équipes diversifiées pour améliorer l'efficacité opérationnelle, ce qui m'a permis de développer une approche flexible et inclusive dans la gestion de projet."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ces précisions. Pourriez-vous décrire comment vous avez utilisé les outils ERP, comme SAP ou Oracle, pour optimiser les processus financiers dans vos projets précédents ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mes précédents rôles, j'ai utilisé SAP pour superviser l'analyse des coûts et la planification budgétaire, ce qui a permis de rationaliser les processus financiers et d'améliorer l'efficacité opérationnelle dans des projets internationaux complexes."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ces informations. Pourriez-vous nous parler d'une situation où vous avez dû collaborer avec une équipe multiculturelle et comment cela a influencé votre approche de la gestion de projets financiers ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans mon rôle de Responsable Analyse Financière, j'ai collaboré avec des équipes diversifiées pour optimiser l'efficacité opérationnelle, ce qui m'a permis de développer une approche adaptable et inclusive, essentielle pour gérer les projets multinationaux de Globex Consult."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse détaillée. Pourriez-vous me décrire une situation où vous avez dû surmonter un défi important lors de la gestion de projets multinationaux et comment vous y êtes parvenu ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de la supervision d'un projet multinational complexe, j'ai dû gérer des écarts budgétaires imprévus causés par des fluctuations monétaires. Grâce à une analyse approfondie et une communication étroite avec les équipes locales, nous avons mis en place des mesures correctives qui ont permis de maintenir le projet sur la bonne voie financière."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci beaucoup pour votre temps et votre partage d'expérience lors de cet entretien. Nous allons maintenant examiner l'ensemble des candidatures et vous tiendrons informé(e) des prochaines étapes dans les deux semaines à venir. Je vous souhaite une bonne continuation dans vos recherches et une excellente journée."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cette entrevue enrichissante et vous souhaite une excellente journée."
+  }
+]

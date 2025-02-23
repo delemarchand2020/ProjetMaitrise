@@ -10,7 +10,7 @@ L'analyse EDI a été réalisée à partir de l'étude des transcriptions de deu
 
 ## Analyse et Observations
 
-### Résumé de lanalyse :
+### Résumé de l'analyse :
 - **Entrevue 1 :**
   - Le recruteur a posé une question potentiellement biaisée concernant l'expérience de travailler dans une équipe dominée par des hommes. Cela pourrait indiquer un présupposé lié au genre.
 - **Entrevue 2 :**

@@ -1,0 +1,18 @@
+Si l'on poste la question à ChatGPT (GPT-4o) sur cette portion :
+
+Peux tu me donner une analyse de cohérence de cette phrase dans un contexte de recherche d'un biais dans une entrevue de recrutement :
+Je comprends que vous avez une solide expérience dans l'optimisation de services backend en environnement cloud.
+Est-ce que vous vous sentez à l'aise avec les aspects plus complexes du codage?
+
+---> il répond :
+
+Implicite sur le niveau de compétence
+La première phrase "Je comprends que vous avez une solide expérience" établit une reconnaissance positive des compétences du candidat.
+Cependant, la seconde phrase "Est-ce que vous vous sentez à l’aise avec les aspects plus complexes du codage?" peut introduire un doute
+implicite sur la réelle maîtrise du candidat.
+
+Si cette question est systématiquement posée à certains profils (ex. : juniors, personnes issues d’un parcours atypique, femmes,
+minorités sous-représentées dans la tech), elle peut révéler un biais de confirmation
+(l’intervieweur cherchant à valider une perception préconçue de manque de compétence).
+
+====> Peut-être gagnerait-on à faire une telle analyse, question par question !

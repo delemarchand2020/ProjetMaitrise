@@ -1,0 +1,11 @@
+- faire un schéma de l'architecture globale
+- faire relire quelques cas d'audit : Marina ou autre collègue
+- faire relire mon mémoire par une ou 2 personnes avant
+- pas plus de 100 pages
+- sondage sur la détection des biais par mechanical turk
+- annoncer dépôt 2 mois avant (T0), compter 1.5 mois pour Esma
+- T0+15 jours ==> envoyer à Esma pour relecture
+- choisir mon jury parmi les profs DIRO (FR + lien avec IA Gen et RH ?)
+
+- dépôt fin mai ==> mi-avril envoie à Esma
+

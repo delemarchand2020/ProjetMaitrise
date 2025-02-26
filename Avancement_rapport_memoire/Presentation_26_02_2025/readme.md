@@ -3,24 +3,24 @@
 ## Agenda
 
 ### Structure de mon mémoire (PDF)
-- [Lien vers le PDF du mémoire](https://github.com/delemarchand2020/ProjetMaitrise/blob/master/Avancement_rapport_memoire/Presentation_26_02_2025/M%C3%A9moire_Maitrise_IA_Denis_Lemarchand_26_02_2025.pdf){target="_blank"}
+- <a href="https://github.com/delemarchand2020/ProjetMaitrise/blob/master/Avancement_rapport_memoire/Presentation_26_02_2025/M%C3%A9moire_Maitrise_IA_Denis_Lemarchand_26_02_2025.pdf" target="_blank">Lien vers le PDF du mémoire</a>
 
 ### Parties qui me restent à compléter
-- [Lien vers les parties à compléter](https://github.com/delemarchand2020/ProjetMaitrise/blob/master/Avancement_rapport_memoire/rapport_analyse.md){target="_blank"}
+- <a href="https://github.com/delemarchand2020/ProjetMaitrise/blob/master/Avancement_rapport_memoire/rapport_analyse.md" target="_blank">Lien vers les parties à compléter</a>
 
 ### Structure de mon code
-- [Lien vers le dépôt GitHub](https://github.com/delemarchand2020/ProjetMaitrise/tree/master){target="_blank"}
+- <a href="https://github.com/delemarchand2020/ProjetMaitrise/tree/master" target="_blank">Lien vers le dépôt GitHub</a>
 
 ### Exemple de production des mes extrants
-- [Lien vers les extrants](https://github.com/delemarchand2020/ProjetMaitrise/tree/master){target="_blank"}
+- <a href="https://github.com/delemarchand2020/ProjetMaitrise/tree/master" target="_blank">Lien vers les extrants</a>
 
 ### Résultats de mon premier sondage
-- [Lien vers le rapport statistique](https://github.com/delemarchand2020/ProjetMaitrise/blob/master/sondages/conversations/output/rapport_statistique.md){target="_blank"}
+- <a href="https://github.com/delemarchand2020/ProjetMaitrise/blob/master/sondages/conversations/output/rapport_statistique.md" target="_blank">Lien vers le rapport statistique</a>
 
 ### Production de mon sondage automatisé
-- [Lien vers le sondage automatisé](https://delemarchand2020.github.io/ProjetMaitrise/sondages/conversations/){target="_blank"}
+- <a href="https://delemarchand2020.github.io/ProjetMaitrise/sondages/conversations/" target="_blank">Lien vers le sondage automatisé</a>
 
 ### Sur quoi je travaille en ce moment
-- [Lien vers les cas intéressants et audits pertinents](https://github.com/delemarchand2020/ProjetMaitrise/tree/master/Equipe_agents_EDI/Cas_interessants/Audit_pertinents){target="_blank"}
+- <a href="https://github.com/delemarchand2020/ProjetMaitrise/tree/master/Equipe_agents_EDI/Cas_interessants/Audit_pertinents" target="_blank">Lien vers les cas intéressants et audits pertinents</a>
 
 ## Questions et feedback

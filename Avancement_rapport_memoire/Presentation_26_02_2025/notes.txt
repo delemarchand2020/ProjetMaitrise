@@ -14,4 +14,5 @@ Pourquoi avoir mis une architecture aussi complexe pour générer une conversati
 A méditer ... flexibilité, décomposition des tâches, possibilité de contrôler étape par étape les postes, personna, profil,
 permettre de mettre en place un système complet ou bien de laisser l'humain dans la loop (le candidat) intervenir !
 C'est aussi pour respecter les principes de construction logicielle : avoir des composantes autonomes, réutilisables et testables.
+Par exemple il est possible dans mon de m'appuyer sur les données générées à chaque étape pour les adapter à un contexte réel.
 

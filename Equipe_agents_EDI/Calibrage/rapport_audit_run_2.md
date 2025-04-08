@@ -2,35 +2,35 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente l'analyse EDI (Équité, Diversité, Inclusion) des entrevues menées pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif est d'évaluer la présence de biais potentiels dans le processus de recrutement et de proposer des recommandations pour améliorer l'équité.
+Ce rapport prÃ©sente l'analyse EDI (Ã‰quitÃ©, DiversitÃ©, Inclusion) des entrevues menÃ©es pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif est d'Ã©valuer la prÃ©sence de biais potentiels dans le processus de recrutement et de proposer des recommandations pour amÃ©liorer l'Ã©quitÃ©.
 
-## Méthodologie
-L'analyse a été réalisée en examinant les transcriptions des entrevues avec deux candidats, Élise et Marc. Les questions posées, le ton employé, et les délais de réponse ont été analysés pour identifier des biais potentiels. Un score de biais a été attribué à chaque entrevue pour quantifier la probabilité de biais.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues avec deux candidats, Ã‰lise et Marc. Les questions posÃ©es, le ton employÃ©, et les dÃ©lais de rÃ©ponse ont Ã©tÃ© analysÃ©s pour identifier des biais potentiels. Un score de biais a Ã©tÃ© attribuÃ© Ã  chaque entrevue pour quantifier la probabilitÃ© de biais.
 
 ## Analyse et Observations
 
-### Entrevue 1 : Élise
-- **Structure de l'entrevue :** L'entrevue a exploré les compétences techniques d'Élise et son expérience avec les équipes DevOps. Le recruteur a montré un intérêt pour son équilibre travail-vie personnelle.
-- **Observations :** Le ton était professionnel et encourageant. Cependant, la question sur l'équilibre travail-vie personnelle pourrait être perçue comme biaisée si elle n'est pas posée à tous les candidats.
-- **Diagnostic de biais :** Un biais potentiel est identifié dans la question sur l'équilibre travail-vie personnelle.
+### Entrevue 1 : Ã‰lise
+- **Structure de l'entrevue :** L'entrevue a explorÃ© les compÃ©tences techniques d'Ã‰lise et son expÃ©rience avec les Ã©quipes DevOps. Le recruteur a montrÃ© un intÃ©rÃªt pour son Ã©quilibre travail-vie personnelle.
+- **Observations :** Le ton Ã©tait professionnel et encourageant. Cependant, la question sur l'Ã©quilibre travail-vie personnelle pourrait Ãªtre perÃ§ue comme biaisÃ©e si elle n'est pas posÃ©e Ã  tous les candidats.
+- **Diagnostic de biais :** Un biais potentiel est identifiÃ© dans la question sur l'Ã©quilibre travail-vie personnelle.
 
 ### Entrevue 2 : Marc
-- **Structure de l'entrevue :** L'entrevue a mis l'accent sur les compétences techniques de Marc et son expérience en gestion de bases de données dans le cloud.
-- **Observations :** Le ton était professionnel, mais le recruteur a mentionné un délai de réponse plus long que pour Élise, ce qui pourrait indiquer une différence de traitement.
-- **Diagnostic de biais :** Le délai de réponse plus long pourrait indiquer un biais dans la perception de l'urgence ou de l'intérêt pour le candidat.
+- **Structure de l'entrevue :** L'entrevue a mis l'accent sur les compÃ©tences techniques de Marc et son expÃ©rience en gestion de bases de donnÃ©es dans le cloud.
+- **Observations :** Le ton Ã©tait professionnel, mais le recruteur a mentionnÃ© un dÃ©lai de rÃ©ponse plus long que pour Ã‰lise, ce qui pourrait indiquer une diffÃ©rence de traitement.
+- **Diagnostic de biais :** Le dÃ©lai de rÃ©ponse plus long pourrait indiquer un biais dans la perception de l'urgence ou de l'intÃ©rÃªt pour le candidat.
 
 ## Conclusions
-Les entrevues ont révélé des biais potentiels liés à la cohérence des questions posées et aux délais de réponse. Aucun candidat ne semble avoir été explicitement favorisé, mais des différences subtiles dans le traitement pourraient influencer la perception des candidats.
+Les entrevues ont rÃ©vÃ©lÃ© des biais potentiels liÃ©s Ã  la cohÃ©rence des questions posÃ©es et aux dÃ©lais de rÃ©ponse. Aucun candidat ne semble avoir Ã©tÃ© explicitement favorisÃ©, mais des diffÃ©rences subtiles dans le traitement pourraient influencer la perception des candidats.
 
 ## Recommandations
-- Former les recruteurs sur les biais inconscients pour éviter les questions potentiellement stéréotypées.
-- Utiliser une grille d'évaluation standardisée pour garantir que les mêmes questions sont posées à tous les candidats.
-- Assurer une communication cohérente concernant les délais de réponse pour éviter toute perception de favoritisme.
+- Former les recruteurs sur les biais inconscients pour Ã©viter les questions potentiellement stÃ©rÃ©otypÃ©es.
+- Utiliser une grille d'Ã©valuation standardisÃ©e pour garantir que les mÃªmes questions sont posÃ©es Ã  tous les candidats.
+- Assurer une communication cohÃ©rente concernant les dÃ©lais de rÃ©ponse pour Ã©viter toute perception de favoritisme.
 
 ## Score de Biais
-- **Entrevue 1 :** 30/100 - La présence de biais est probable en raison de la question sur l'équilibre travail-vie personnelle.
-- **Entrevue 2 :** 40/100 - La présence de biais est probable en raison de la différence dans le délai de réponse mentionné.
-- **Score biais global :** 40/100 - La présence de biais est probable, en prenant le maximum des deux scores.
+- **Entrevue 1 :** 30/100 - La prÃ©sence de biais est probable en raison de la question sur l'Ã©quilibre travail-vie personnelle.
+- **Entrevue 2 :** 40/100 - La prÃ©sence de biais est probable en raison de la diffÃ©rence dans le dÃ©lai de rÃ©ponse mentionnÃ©.
+- **Score biais global :** 40/100 - La prÃ©sence de biais est probable, en prenant le maximum des deux scores.
 
 ## Conclusion
-Ce rapport met en lumière l'importance de la cohérence et de l'équité dans le processus de recrutement. En suivant les recommandations proposées, l'organisation peut améliorer son approche EDI et réduire les biais potentiels.
+Ce rapport met en lumiÃ¨re l'importance de la cohÃ©rence et de l'Ã©quitÃ© dans le processus de recrutement. En suivant les recommandations proposÃ©es, l'organisation peut amÃ©liorer son approche EDI et rÃ©duire les biais potentiels.

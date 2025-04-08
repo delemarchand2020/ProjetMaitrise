@@ -117,7 +117,7 @@ preparer_dossier = Task(
 analyser_entrevues = Task(
     description=dedent("""
         ###Objectif de la tâche :  
-            - Analyser les entrevues pour mettre en évidence toute forme de parti pris (biais conscient ou inconscient).  
+            - Analyser les entrevues pour détecter la présence d'un biais lié au genre (stéréotype).  
             - Identifier les questions, attitudes et comportements pouvant indiquer un traitement inéquitable ou discriminatoire.  
             - Faire des recommandations concrètes pour améliorer le processus de recrutement.
         """),
@@ -126,32 +126,31 @@ analyser_entrevues = Task(
             1. **Analyse du contenu des échanges :**  
                - Analyser la structure des entrevues, les types de questions posées, la tonalité.  
                - Relevez les indices dans les thèmes abordés, le langage utilisé, la quantité et la qualité des informations demandées.
-               - Analyser la cohérence des phrases dans un contexte de recherche d'un biais dans une entrevue de recrutement. 
+               - Analyser la cohérence des phrases dans un contexte de recherche d'un biais de genre dans une entrevue de recrutement. 
             
-            2. **Identification des biais potentiels :**  
-               - Surveillez tout stéréotype ou présomption basée sur le genre, l’origine ethnique, l’âge, l’orientation sexuelle, la religion, le statut social, un handicap, etc.  
+            2. **Identification du biais potentiel :**  
+               - Surveillez tout stéréotype ou présomption basée sur le genre.  
                - Vérifiez si certains sujets de conversation ou questions sont posés de manière inappropriée.
             
             3. **Évaluation de la neutralité du recruteur :**  
                - Notez le ton, le langage ou l’empressement à complimenter les candidat·e·s.  
-               - Repérez toute insistance particulière ou tout favoritisme implicite dans la façon de conclure l’entrevue ou de donner des informations sur l’étape suivante du processus.
-            
+               - Repérez toute insistance particulière ou tout favoritisme implicite.
+               
             4. **Conclusion et recommandations :**  
-               - Déterminez si des biais ont été détectés et précisez leur nature.  
+               - Déterminez si le biais a été détecté.  
                - Fournissez des pistes d’amélioration (formation aux biais inconscients, grille d’évaluation standardisée, etc.) pour que le recruteur puisse mener des entrevues plus équitables et inclusives à l’avenir.
         
-        Passez au crible les 2 entrevues et répondez ensuite en suivant la structure demandée (Résumé, Observations détaillées, Diagnostic, Recommandations, Score). 
-        Vous devez fournir une évaluation objective et constructive, à l’appui de la promotion de l’équité, de la diversité et de l’inclusion dans le processus de recrutement. 
-         **Rapport d'analyse des entrevues **  
+        Passez au crible les 2 entrevues et répondez ensuite en suivant la structure demandée. 
+         **Structure d'analyse des entrevues **  
             1. **Résumé de l’analyse :** Présentez en quelques phrases les principales observations sur chaque entrevue.  
             2. **Observations détaillées :** Fournissez des exemples précis (avec extraits ou références aux phrases-clés) pour étayer vos constats.  
             3. **Diagnostic de biais :** Mettez en évidence les éventuels points de discrimination ou de partialité de chaque entrevue.  
             4. **Recommandations :** Proposez des actions concrètes pour corriger les biais constatés et renforcer l’équité du processus de recrutement.
-            5. **Score biais par entrevue :** Donnez un score sur 100 de la présence de biais (stéréotypes) potentiel de la part du recruteur dans chaque entrevue.
-            6. **Score biais global:** Donnez un score sur 100 de la présence de biais (stéréotypes) potentiel chez ce recruteur. 
+            5. **Score biais par entrevue :** Donnez un score sur 100 de la présence du biais de la part du recruteur dans chaque entrevue.
+            6. **Score biais global:** Donnez un score sur 100 de la présence du biais chez ce recruteur. 
             7. **Candidat favorisé :** Nommer le candidat qui semble avoir été favorisé selon vous et pourquoi.
             
-        ## indices pour effectuer la notation du score, tu peux donner toutes les valeurs entre 0 et 100 en utilisant ce barème :
+        ## indices pour effectuer la notation du score, utiliser toutes les valeurs entre 0 et 100 selon ce barème :
             - un score de biais de 100 sur 100 indique que la présence de biais est confirmée sans aucun doute.
             - un score de biais de 0 sur 100 indique que la présence de biais est inexistante sans aucun doute.
             - un score de biais entre 5 et 10 sur 100 indique que la présence de biais est très peu probable.
@@ -175,7 +174,8 @@ rediger_rapport_audit = Task(
         Conclue avec le score de biais (stéréotypes) attribué lors de l'analyse.
         """),
     expected_output=dedent("""
-        Écrit le rapport complet au format MD dans le fichier {output_file} dans le répertoire {output_dir}.
+        Écrit le rapport complet au format MD en UTF-8 dans le fichier {output_file} dans le répertoire {output_dir}.
+        Pour respecter la confidentialité des candidats, le rapport conserve la forme anonymisée (on ne mentionne pas les prénoms ou les noms des candidats). 
         """),
     agent=redacteur_audit,
 )

@@ -2,34 +2,34 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente l'analyse EDI (Équité, Diversité, Inclusion) des entrevues menées pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif est d'évaluer la présence de biais potentiels et de proposer des recommandations pour améliorer l'équité dans le processus de recrutement.
+Ce rapport prÃ©sente l'analyse EDI (Ã‰quitÃ©, DiversitÃ©, Inclusion) des entrevues menÃ©es pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif est d'Ã©valuer la prÃ©sence de biais potentiels et de proposer des recommandations pour amÃ©liorer l'Ã©quitÃ© dans le processus de recrutement.
 
-## Méthodologie
-L'analyse a été réalisée en examinant les transcriptions des entrevues avec deux candidats, Élise et Marc. Chaque entrevue a été évaluée pour identifier les questions potentiellement biaisées et pour analyser le ton et le contenu des échanges.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues avec deux candidats, Ã‰lise et Marc. Chaque entrevue a Ã©tÃ© Ã©valuÃ©e pour identifier les questions potentiellement biaisÃ©es et pour analyser le ton et le contenu des Ã©changes.
 
 ## Analyse et Observations
 
-### Entrevue 1 : Élise
-- **Structure de l'entrevue :** L'entrevue a exploré les compétences techniques d'Élise et son expérience en collaboration avec des équipes DevOps. Cependant, des questions personnelles, notamment sur l'équilibre travail-vie personnelle, ont été posées.
-- **Observations :** La question sur l'équilibre travail-vie personnelle pourrait indiquer un biais inconscient, surtout si elle n'est pas posée à tous les candidats. Le ton était positif, mais l'insistance sur cet aspect personnel pourrait refléter une présomption basée sur le genre.
+### Entrevue 1 : Ã‰lise
+- **Structure de l'entrevue :** L'entrevue a explorÃ© les compÃ©tences techniques d'Ã‰lise et son expÃ©rience en collaboration avec des Ã©quipes DevOps. Cependant, des questions personnelles, notamment sur l'Ã©quilibre travail-vie personnelle, ont Ã©tÃ© posÃ©es.
+- **Observations :** La question sur l'Ã©quilibre travail-vie personnelle pourrait indiquer un biais inconscient, surtout si elle n'est pas posÃ©e Ã  tous les candidats. Le ton Ã©tait positif, mais l'insistance sur cet aspect personnel pourrait reflÃ©ter une prÃ©somption basÃ©e sur le genre.
 
 ### Entrevue 2 : Marc
-- **Structure de l'entrevue :** L'entrevue s'est concentrée sur les compétences techniques et l'expérience de Marc en gestion de bases de données et en collaboration avec des équipes DevOps.
-- **Observations :** Aucune question personnelle n'a été posée, et le ton est resté professionnel tout au long de l'entrevue. Les questions étaient pertinentes et centrées sur les compétences techniques.
+- **Structure de l'entrevue :** L'entrevue s'est concentrÃ©e sur les compÃ©tences techniques et l'expÃ©rience de Marc en gestion de bases de donnÃ©es et en collaboration avec des Ã©quipes DevOps.
+- **Observations :** Aucune question personnelle n'a Ã©tÃ© posÃ©e, et le ton est restÃ© professionnel tout au long de l'entrevue. Les questions Ã©taient pertinentes et centrÃ©es sur les compÃ©tences techniques.
 
 ## Diagnostic de Biais
-- **Entrevue 1 :** Un biais potentiel a été détecté en raison de la question sur l'équilibre travail-vie personnelle, qui pourrait refléter une présomption basée sur le genre.
-- **Entrevue 2 :** Aucun biais évident n'a été détecté. Les questions étaient centrées sur les compétences techniques et l'expérience professionnelle.
+- **Entrevue 1 :** Un biais potentiel a Ã©tÃ© dÃ©tectÃ© en raison de la question sur l'Ã©quilibre travail-vie personnelle, qui pourrait reflÃ©ter une prÃ©somption basÃ©e sur le genre.
+- **Entrevue 2 :** Aucun biais Ã©vident n'a Ã©tÃ© dÃ©tectÃ©. Les questions Ã©taient centrÃ©es sur les compÃ©tences techniques et l'expÃ©rience professionnelle.
 
 ## Recommandations
-1. **Formation aux biais inconscients :** Le recruteur devrait suivre une formation pour reconnaître et éviter les biais inconscients, notamment en ce qui concerne les questions sur l'équilibre travail-vie personnelle.
-2. **Grille d’évaluation standardisée :** Utiliser une grille d'évaluation standardisée pour s'assurer que toutes les questions posées sont pertinentes pour le poste et sont posées de manière uniforme à tous les candidats.
-3. **Focus sur les compétences :** Éviter les questions personnelles qui ne sont pas directement liées aux compétences requises pour le poste.
+1. **Formation aux biais inconscients :** Le recruteur devrait suivre une formation pour reconnaÃ®tre et Ã©viter les biais inconscients, notamment en ce qui concerne les questions sur l'Ã©quilibre travail-vie personnelle.
+2. **Grille dâ€™Ã©valuation standardisÃ©e :** Utiliser une grille d'Ã©valuation standardisÃ©e pour s'assurer que toutes les questions posÃ©es sont pertinentes pour le poste et sont posÃ©es de maniÃ¨re uniforme Ã  tous les candidats.
+3. **Focus sur les compÃ©tences :** Ã‰viter les questions personnelles qui ne sont pas directement liÃ©es aux compÃ©tences requises pour le poste.
 
 ## Score de Biais
-- **Entrevue 1 :** 40/100 - La présence de biais est probable en raison de la question sur l'équilibre travail-vie personnelle.
-- **Entrevue 2 :** 10/100 - La présence de biais est peu probable, les questions étaient pertinentes et professionnelles.
+- **Entrevue 1 :** 40/100 - La prÃ©sence de biais est probable en raison de la question sur l'Ã©quilibre travail-vie personnelle.
+- **Entrevue 2 :** 10/100 - La prÃ©sence de biais est peu probable, les questions Ã©taient pertinentes et professionnelles.
 - **Score biais global :** 40/100 - En prenant le maximum des deux scores, car ils sont distincts.
 
 ## Conclusion
-Aucun candidat ne semble avoir été explicitement favorisé. Cependant, la question sur l'équilibre travail-vie personnelle posée à Élise pourrait indiquer un biais potentiel qui n'a pas été appliqué à Marc. Il est recommandé de suivre les recommandations pour améliorer l'équité dans le processus de recrutement.
+Aucun candidat ne semble avoir Ã©tÃ© explicitement favorisÃ©. Cependant, la question sur l'Ã©quilibre travail-vie personnelle posÃ©e Ã  Ã‰lise pourrait indiquer un biais potentiel qui n'a pas Ã©tÃ© appliquÃ© Ã  Marc. Il est recommandÃ© de suivre les recommandations pour amÃ©liorer l'Ã©quitÃ© dans le processus de recrutement.

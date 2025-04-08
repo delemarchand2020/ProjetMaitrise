@@ -1,32 +1,32 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente l'analyse de l'équité, de la diversité et de l'inclusion (EDI) dans le cadre des entrevues menées pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif est de fournir aux gestionnaires une vue d'ensemble des pratiques actuelles et des recommandations pour améliorer l'équité dans le processus de recrutement.
+Ce rapport prÃ©sente l'analyse de l'Ã©quitÃ©, de la diversitÃ© et de l'inclusion (EDI) dans le cadre des entrevues menÃ©es pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif est de fournir aux gestionnaires une vue d'ensemble des pratiques actuelles et des recommandations pour amÃ©liorer l'Ã©quitÃ© dans le processus de recrutement.
 
-## Méthodologie
-L'analyse a été réalisée en examinant les transcriptions des entrevues, en se concentrant sur la structure des questions, le langage utilisé, et les interactions entre le recruteur et les candidats. Un diagnostic de biais a été effectué pour identifier les questions ou comportements potentiellement biaisés.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues, en se concentrant sur la structure des questions, le langage utilisÃ©, et les interactions entre le recruteur et les candidats. Un diagnostic de biais a Ã©tÃ© effectuÃ© pour identifier les questions ou comportements potentiellement biaisÃ©s.
 
 ## Analyse et Observations
-### Résumé de l’analyse
-L'entrevue avec Élise a été bien structurée, avec des questions pertinentes sur son expérience technique et sa capacité à collaborer en équipe. Cependant, une question sur l'équilibre travail-vie personnelle pourrait être perçue comme biaisée, surtout si elle n'est pas posée à tous les candidats de manière uniforme.
+### RÃ©sumÃ© de lâ€™analyse
+L'entrevue avec Ã‰lise a Ã©tÃ© bien structurÃ©e, avec des questions pertinentes sur son expÃ©rience technique et sa capacitÃ© Ã  collaborer en Ã©quipe. Cependant, une question sur l'Ã©quilibre travail-vie personnelle pourrait Ãªtre perÃ§ue comme biaisÃ©e, surtout si elle n'est pas posÃ©e Ã  tous les candidats de maniÃ¨re uniforme.
 
-### Observations détaillées
-- **Structure et questions :** Les questions étaient principalement axées sur l'expérience technique et la collaboration en équipe, ce qui est pertinent pour le poste.
-- **Langage et tonalité :** Le recruteur a maintenu un ton professionnel et encourageant tout au long de l'entrevue.
-- **Exemples spécifiques :** La question sur l'équilibre travail-vie personnelle : "Comment assurez-vous l'équilibre entre votre vie professionnelle et personnelle, surtout dans un domaine aussi exigeant que le développement backend cloud?" pourrait être perçue comme biaisée si elle n'est pas posée à tous les candidats.
+### Observations dÃ©taillÃ©es
+- **Structure et questions :** Les questions Ã©taient principalement axÃ©es sur l'expÃ©rience technique et la collaboration en Ã©quipe, ce qui est pertinent pour le poste.
+- **Langage et tonalitÃ© :** Le recruteur a maintenu un ton professionnel et encourageant tout au long de l'entrevue.
+- **Exemples spÃ©cifiques :** La question sur l'Ã©quilibre travail-vie personnelle : "Comment assurez-vous l'Ã©quilibre entre votre vie professionnelle et personnelle, surtout dans un domaine aussi exigeant que le dÃ©veloppement backend cloud?" pourrait Ãªtre perÃ§ue comme biaisÃ©e si elle n'est pas posÃ©e Ã  tous les candidats.
 
 ## Diagnostic de Biais
-- **Biais potentiel :** La question sur l'équilibre travail-vie personnelle pourrait refléter un biais inconscient, surtout si elle est posée de manière sélective.
-- **Absence de biais :** Aucune autre question ou comportement ne semble indiquer un biais basé sur le genre, l'origine ethnique, l'âge, etc.
+- **Biais potentiel :** La question sur l'Ã©quilibre travail-vie personnelle pourrait reflÃ©ter un biais inconscient, surtout si elle est posÃ©e de maniÃ¨re sÃ©lective.
+- **Absence de biais :** Aucune autre question ou comportement ne semble indiquer un biais basÃ© sur le genre, l'origine ethnique, l'Ã¢ge, etc.
 
 ## Recommandations
-- **Formation aux biais inconscients :** Former les recruteurs pour reconnaître et éviter les biais inconscients, notamment en ce qui concerne les questions sur l'équilibre travail-vie personnelle.
-- **Grille d’évaluation standardisée :** Utiliser une grille d'évaluation standardisée pour s'assurer que toutes les questions sont posées de manière uniforme à tous les candidats.
-- **Revue des questions :** Réviser les questions d'entrevue pour s'assurer qu'elles sont pertinentes pour le poste et non discriminatoires.
+- **Formation aux biais inconscients :** Former les recruteurs pour reconnaÃ®tre et Ã©viter les biais inconscients, notamment en ce qui concerne les questions sur l'Ã©quilibre travail-vie personnelle.
+- **Grille dâ€™Ã©valuation standardisÃ©e :** Utiliser une grille d'Ã©valuation standardisÃ©e pour s'assurer que toutes les questions sont posÃ©es de maniÃ¨re uniforme Ã  tous les candidats.
+- **Revue des questions :** RÃ©viser les questions d'entrevue pour s'assurer qu'elles sont pertinentes pour le poste et non discriminatoires.
 
 ## Score de Biais
-- **Entrevue 1 :** 30/100 (La présence de biais est peu probable, mais la question sur l'équilibre travail-vie personnelle nécessite une attention particulière.)
-- **Score global :** 30/100 (La présence de biais est peu probable, mais des améliorations sont possibles pour garantir l'équité.)
+- **Entrevue 1 :** 30/100 (La prÃ©sence de biais est peu probable, mais la question sur l'Ã©quilibre travail-vie personnelle nÃ©cessite une attention particuliÃ¨re.)
+- **Score global :** 30/100 (La prÃ©sence de biais est peu probable, mais des amÃ©liorations sont possibles pour garantir l'Ã©quitÃ©.)
 
 ## Conclusion
-Aucun candidat ne semble avoir été favorisé de manière évidente dans cette entrevue. Cependant, il est crucial de s'assurer que toutes les questions sont posées de manière uniforme pour éviter toute perception de favoritisme. Les recommandations fournies visent à améliorer l'équité et l'inclusion dans le processus de recrutement.
+Aucun candidat ne semble avoir Ã©tÃ© favorisÃ© de maniÃ¨re Ã©vidente dans cette entrevue. Cependant, il est crucial de s'assurer que toutes les questions sont posÃ©es de maniÃ¨re uniforme pour Ã©viter toute perception de favoritisme. Les recommandations fournies visent Ã  amÃ©liorer l'Ã©quitÃ© et l'inclusion dans le processus de recrutement.

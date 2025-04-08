@@ -1,44 +1,44 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente une analyse détaillée des entrevues menées dans le cadre du processus de recrutement, en mettant l'accent sur l'équité, la diversité et l'inclusion (EDI). L'objectif est de fournir aux gestionnaires une compréhension claire des pratiques actuelles et des recommandations pour améliorer l'équité dans le processus de recrutement.
+Ce rapport prÃ©sente une analyse dÃ©taillÃ©e des entrevues menÃ©es dans le cadre du processus de recrutement, en mettant l'accent sur l'Ã©quitÃ©, la diversitÃ© et l'inclusion (EDI). L'objectif est de fournir aux gestionnaires une comprÃ©hension claire des pratiques actuelles et des recommandations pour amÃ©liorer l'Ã©quitÃ© dans le processus de recrutement.
 
-## Méthodologie
-L'analyse a été réalisée en examinant les transcriptions des entrevues, en identifiant les thèmes récurrents et en évaluant la présence de biais potentiels. Chaque entrevue a été analysée pour son contenu technique, le ton employé, et l'attention portée à l'équilibre travail-vie personnelle.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues, en identifiant les thÃ¨mes rÃ©currents et en Ã©valuant la prÃ©sence de biais potentiels. Chaque entrevue a Ã©tÃ© analysÃ©e pour son contenu technique, le ton employÃ©, et l'attention portÃ©e Ã  l'Ã©quilibre travail-vie personnelle.
 
-## Résumé de l’Analyse
+## RÃ©sumÃ© de lâ€™Analyse
 ### Entrevue 1
-Le recruteur a posé des questions pertinentes sur l'expérience technique du candidat, en mettant l'accent sur la collaboration avec les équipes DevOps et la gestion des défis techniques. Le ton était professionnel et encourageant, avec une attention particulière à l'équilibre travail-vie personnelle.
+Le recruteur a posÃ© des questions pertinentes sur l'expÃ©rience technique du candidat, en mettant l'accent sur la collaboration avec les Ã©quipes DevOps et la gestion des dÃ©fis techniques. Le ton Ã©tait professionnel et encourageant, avec une attention particuliÃ¨re Ã  l'Ã©quilibre travail-vie personnelle.
 
 ### Entrevue 2
-Le recruteur a également exploré l'expérience technique du candidat, en se concentrant sur l'automatisation des déploiements et la gestion des bases de données. Le ton était neutre et informatif, avec une conclusion standard sur les prochaines étapes.
+Le recruteur a Ã©galement explorÃ© l'expÃ©rience technique du candidat, en se concentrant sur l'automatisation des dÃ©ploiements et la gestion des bases de donnÃ©es. Le ton Ã©tait neutre et informatif, avec une conclusion standard sur les prochaines Ã©tapes.
 
-## Observations Détaillées
+## Observations DÃ©taillÃ©es
 ### Entrevue 1
-Le recruteur a montré un intérêt pour l'expérience du candidat avec TechCloud Developments, posant des questions sur des situations spécifiques de collaboration et de résolution de problèmes. Le recruteur a également abordé l'équilibre travail-vie personnelle, ce qui pourrait être perçu comme une tentative de comprendre la gestion du stress du candidat.
+Le recruteur a montrÃ© un intÃ©rÃªt pour l'expÃ©rience du candidat avec TechCloud Developments, posant des questions sur des situations spÃ©cifiques de collaboration et de rÃ©solution de problÃ¨mes. Le recruteur a Ã©galement abordÃ© l'Ã©quilibre travail-vie personnelle, ce qui pourrait Ãªtre perÃ§u comme une tentative de comprendre la gestion du stress du candidat.
 
 ### Entrevue 2
-Le recruteur a posé des questions techniques similaires, mais a omis de discuter de l'équilibre travail-vie personnelle. Les questions étaient centrées sur les compétences techniques et la collaboration avec les équipes DevOps.
+Le recruteur a posÃ© des questions techniques similaires, mais a omis de discuter de l'Ã©quilibre travail-vie personnelle. Les questions Ã©taient centrÃ©es sur les compÃ©tences techniques et la collaboration avec les Ã©quipes DevOps.
 
 ## Diagnostic de Biais
 ### Entrevue 1
-Aucun biais évident n'a été détecté. Le recruteur a maintenu un ton professionnel et a posé des questions pertinentes sans stéréotypes apparents.
+Aucun biais Ã©vident n'a Ã©tÃ© dÃ©tectÃ©. Le recruteur a maintenu un ton professionnel et a posÃ© des questions pertinentes sans stÃ©rÃ©otypes apparents.
 
 ### Entrevue 2
-Aucun biais évident n'a été détecté. Le recruteur a posé des questions techniques pertinentes et a conclu l'entrevue de manière standard.
+Aucun biais Ã©vident n'a Ã©tÃ© dÃ©tectÃ©. Le recruteur a posÃ© des questions techniques pertinentes et a conclu l'entrevue de maniÃ¨re standard.
 
 ## Recommandations
-- Introduire une grille d'évaluation standardisée pour garantir que tous les candidats sont évalués sur les mêmes critères.
-- Former les recruteurs sur les biais inconscients pour éviter toute discrimination subtile.
-- Assurer que des questions sur l'équilibre travail-vie personnelle soient posées de manière uniforme à tous les candidats pour éviter toute perception de partialité.
+- Introduire une grille d'Ã©valuation standardisÃ©e pour garantir que tous les candidats sont Ã©valuÃ©s sur les mÃªmes critÃ¨res.
+- Former les recruteurs sur les biais inconscients pour Ã©viter toute discrimination subtile.
+- Assurer que des questions sur l'Ã©quilibre travail-vie personnelle soient posÃ©es de maniÃ¨re uniforme Ã  tous les candidats pour Ã©viter toute perception de partialitÃ©.
 
 ## Score de Biais
 ### Par Entrevue
-- **Entrevue 1 :** 10/100 - La présence de biais est peu probable.
-- **Entrevue 2 :** 10/100 - La présence de biais est peu probable.
+- **Entrevue 1 :** 10/100 - La prÃ©sence de biais est peu probable.
+- **Entrevue 2 :** 10/100 - La prÃ©sence de biais est peu probable.
 
 ### Global
-- **Score biais global :** 10/100 - La présence de biais est peu probable.
+- **Score biais global :** 10/100 - La prÃ©sence de biais est peu probable.
 
 ## Conclusion
-Aucun candidat ne semble avoir été favorisé. Les deux entrevues ont été menées de manière équitable et professionnelle, avec des questions techniques similaires et des conclusions standardisées.
+Aucun candidat ne semble avoir Ã©tÃ© favorisÃ©. Les deux entrevues ont Ã©tÃ© menÃ©es de maniÃ¨re Ã©quitable et professionnelle, avec des questions techniques similaires et des conclusions standardisÃ©es.

@@ -2,32 +2,32 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente l'analyse EDI (Équité, Diversité, Inclusion) des entrevues menées pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif est d'évaluer les pratiques de recrutement en termes d'équité et de neutralité, en identifiant les biais potentiels et en fournissant des recommandations pour améliorer le processus.
+Ce rapport prÃ©sente l'analyse EDI (Ã‰quitÃ©, DiversitÃ©, Inclusion) des entrevues menÃ©es pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif est d'Ã©valuer les pratiques de recrutement en termes d'Ã©quitÃ© et de neutralitÃ©, en identifiant les biais potentiels et en fournissant des recommandations pour amÃ©liorer le processus.
 
-## Méthodologie
-L'analyse a été réalisée sur la base des transcriptions des entrevues avec deux candidats, Élise et Marc. Chaque entrevue a été examinée pour identifier les questions posées, le ton employé par le recruteur, et la pertinence des questions par rapport aux compétences requises pour le poste. Un score de biais a été attribué à chaque entrevue pour quantifier la probabilité de biais.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e sur la base des transcriptions des entrevues avec deux candidats, Ã‰lise et Marc. Chaque entrevue a Ã©tÃ© examinÃ©e pour identifier les questions posÃ©es, le ton employÃ© par le recruteur, et la pertinence des questions par rapport aux compÃ©tences requises pour le poste. Un score de biais a Ã©tÃ© attribuÃ© Ã  chaque entrevue pour quantifier la probabilitÃ© de biais.
 
 ## Analyse et Observations
 
-### Entrevue 1 : Élise
-- **Résumé :** L'entrevue a couvert des questions techniques et comportementales, avec un intérêt pour l'expérience en collaboration et la gestion des défis techniques. Une question sur l'équilibre travail-vie personnelle a été posée.
-- **Observations :** Les questions techniques étaient pertinentes, mais la question sur l'équilibre travail-vie personnelle pourrait être perçue comme intrusive ou non pertinente.
-- **Diagnostic de biais :** Un biais potentiel a été détecté dans la question sur l'équilibre travail-vie personnelle, qui pourrait influencer la perception de la disponibilité personnelle du candidat.
+### Entrevue 1 : Ã‰lise
+- **RÃ©sumÃ© :** L'entrevue a couvert des questions techniques et comportementales, avec un intÃ©rÃªt pour l'expÃ©rience en collaboration et la gestion des dÃ©fis techniques. Une question sur l'Ã©quilibre travail-vie personnelle a Ã©tÃ© posÃ©e.
+- **Observations :** Les questions techniques Ã©taient pertinentes, mais la question sur l'Ã©quilibre travail-vie personnelle pourrait Ãªtre perÃ§ue comme intrusive ou non pertinente.
+- **Diagnostic de biais :** Un biais potentiel a Ã©tÃ© dÃ©tectÃ© dans la question sur l'Ã©quilibre travail-vie personnelle, qui pourrait influencer la perception de la disponibilitÃ© personnelle du candidat.
 
 ### Entrevue 2 : Marc
-- **Résumé :** L'entrevue était axée sur des questions techniques, notamment sur l'automatisation et l'optimisation des performances cloud.
-- **Observations :** Les questions étaient cohérentes et axées sur les compétences techniques requises. Le recruteur a maintenu un ton neutre et professionnel.
-- **Diagnostic de biais :** Aucun biais évident n'a été détecté. Les questions étaient pertinentes et en lien direct avec les compétences techniques requises.
+- **RÃ©sumÃ© :** L'entrevue Ã©tait axÃ©e sur des questions techniques, notamment sur l'automatisation et l'optimisation des performances cloud.
+- **Observations :** Les questions Ã©taient cohÃ©rentes et axÃ©es sur les compÃ©tences techniques requises. Le recruteur a maintenu un ton neutre et professionnel.
+- **Diagnostic de biais :** Aucun biais Ã©vident n'a Ã©tÃ© dÃ©tectÃ©. Les questions Ã©taient pertinentes et en lien direct avec les compÃ©tences techniques requises.
 
 ## Conclusions
 - **Score biais par entrevue :**
-  - Entrevue 1 : 40/100 - La présence de biais est probable en raison de la question sur l'équilibre travail-vie personnelle.
-  - Entrevue 2 : 10/100 - La présence de biais est peu probable, les questions étaient pertinentes et neutres.
+  - Entrevue 1 : 40/100 - La prÃ©sence de biais est probable en raison de la question sur l'Ã©quilibre travail-vie personnelle.
+  - Entrevue 2 : 10/100 - La prÃ©sence de biais est peu probable, les questions Ã©taient pertinentes et neutres.
 - **Score biais global :** 40/100 - En prenant le maximum des deux scores, car ils sont assez distincts.
-- **Candidat favorisé :** Aucun candidat ne semble avoir été explicitement favorisé. Cependant, la question sur l'équilibre travail-vie personnelle posée à Élise pourrait indirectement influencer la perception de sa disponibilité.
+- **Candidat favorisÃ© :** Aucun candidat ne semble avoir Ã©tÃ© explicitement favorisÃ©. Cependant, la question sur l'Ã©quilibre travail-vie personnelle posÃ©e Ã  Ã‰lise pourrait indirectement influencer la perception de sa disponibilitÃ©.
 
 ## Recommandations
-- **Entrevue 1 :** Éviter les questions sur l'équilibre travail-vie personnelle à moins qu'elles ne soient directement pertinentes pour le poste. Former les recruteurs à identifier et éviter les biais inconscients.
-- **Entrevue 2 :** Continuer à poser des questions techniques pertinentes et maintenir une approche neutre et professionnelle.
+- **Entrevue 1 :** Ã‰viter les questions sur l'Ã©quilibre travail-vie personnelle Ã  moins qu'elles ne soient directement pertinentes pour le poste. Former les recruteurs Ã  identifier et Ã©viter les biais inconscients.
+- **Entrevue 2 :** Continuer Ã  poser des questions techniques pertinentes et maintenir une approche neutre et professionnelle.
 
-Ce rapport vise à améliorer les pratiques de recrutement en assurant une évaluation équitable et objective des candidats, tout en minimisant les biais inconscients.
+Ce rapport vise Ã  amÃ©liorer les pratiques de recrutement en assurant une Ã©valuation Ã©quitable et objective des candidats, tout en minimisant les biais inconscients.

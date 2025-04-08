@@ -1,34 +1,34 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente une analyse détaillée des entrevues menées dans le cadre du processus de recrutement, en mettant l'accent sur l'équité, la diversité et l'inclusion (EDI). L'objectif est de fournir aux gestionnaires une compréhension claire des biais potentiels et des recommandations pour améliorer le processus de recrutement.
+Ce rapport prÃ©sente une analyse dÃ©taillÃ©e des entrevues menÃ©es dans le cadre du processus de recrutement, en mettant l'accent sur l'Ã©quitÃ©, la diversitÃ© et l'inclusion (EDI). L'objectif est de fournir aux gestionnaires une comprÃ©hension claire des biais potentiels et des recommandations pour amÃ©liorer le processus de recrutement.
 
-## Méthodologie
-L'analyse a été réalisée en examinant les transcriptions des entrevues, en identifiant les questions potentiellement biaisées et en évaluant l'approche des recruteurs. Chaque entrevue a été notée sur une échelle de biais pour déterminer la probabilité de biais dans le processus.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues, en identifiant les questions potentiellement biaisÃ©es et en Ã©valuant l'approche des recruteurs. Chaque entrevue a Ã©tÃ© notÃ©e sur une Ã©chelle de biais pour dÃ©terminer la probabilitÃ© de biais dans le processus.
 
 ## Analyse et Observations
 
 ### Entrevue 1
-- **Résumé :** L'entrevue avec Élise a été bien structurée, mais une question sur l'équilibre travail-vie personnelle pourrait être perçue comme biaisée.
-- **Observations :** Le recruteur a posé des questions techniques pertinentes, mais la question sur l'équilibre travail-vie personnelle pourrait être interprétée comme biaisée si elle n'est pas posée uniformément.
-- **Diagnostic de biais :** Un biais potentiel a été détecté dans la question sur l'équilibre travail-vie personnelle.
+- **RÃ©sumÃ© :** L'entrevue avec Ã‰lise a Ã©tÃ© bien structurÃ©e, mais une question sur l'Ã©quilibre travail-vie personnelle pourrait Ãªtre perÃ§ue comme biaisÃ©e.
+- **Observations :** Le recruteur a posÃ© des questions techniques pertinentes, mais la question sur l'Ã©quilibre travail-vie personnelle pourrait Ãªtre interprÃ©tÃ©e comme biaisÃ©e si elle n'est pas posÃ©e uniformÃ©ment.
+- **Diagnostic de biais :** Un biais potentiel a Ã©tÃ© dÃ©tectÃ© dans la question sur l'Ã©quilibre travail-vie personnelle.
 
 ### Entrevue 2
-- **Résumé :** L'entrevue avec Marc a été bien menée, avec un accent sur ses compétences techniques.
-- **Observations :** Les questions étaient centrées sur les compétences techniques sans déviation vers des sujets biaisés.
-- **Diagnostic de biais :** Aucun biais évident n'a été détecté.
+- **RÃ©sumÃ© :** L'entrevue avec Marc a Ã©tÃ© bien menÃ©e, avec un accent sur ses compÃ©tences techniques.
+- **Observations :** Les questions Ã©taient centrÃ©es sur les compÃ©tences techniques sans dÃ©viation vers des sujets biaisÃ©s.
+- **Diagnostic de biais :** Aucun biais Ã©vident n'a Ã©tÃ© dÃ©tectÃ©.
 
 ## Conclusions
 - **Score biais par entrevue :**
   - Entrevue 1 : 30/100
   - Entrevue 2 : 10/100
 - **Score biais global :** 30/100
-- **Candidat favorisé :** Aucun candidat ne semble avoir été explicitement favorisé, bien qu'Élise ait été confrontée à une question potentiellement biaisée.
+- **Candidat favorisÃ© :** Aucun candidat ne semble avoir Ã©tÃ© explicitement favorisÃ©, bien qu'Ã‰lise ait Ã©tÃ© confrontÃ©e Ã  une question potentiellement biaisÃ©e.
 
 ## Recommandations
-- **Formation aux biais inconscients :** Former les recruteurs à identifier et éviter les questions biaisées.
-- **Grille d’évaluation standardisée :** Utiliser une grille d'évaluation pour s'assurer de la pertinence des questions.
-- **Feedback structuré :** Offrir un retour structuré aux candidats, axé sur les compétences et l'expérience.
+- **Formation aux biais inconscients :** Former les recruteurs Ã  identifier et Ã©viter les questions biaisÃ©es.
+- **Grille dâ€™Ã©valuation standardisÃ©e :** Utiliser une grille d'Ã©valuation pour s'assurer de la pertinence des questions.
+- **Feedback structurÃ© :** Offrir un retour structurÃ© aux candidats, axÃ© sur les compÃ©tences et l'expÃ©rience.
 
 ## Conclusion
-Ce rapport met en lumière l'importance de la vigilance face aux biais inconscients dans le processus de recrutement. En suivant les recommandations, l'organisation peut améliorer son approche EDI et garantir un processus plus équitable pour tous les candidats.
+Ce rapport met en lumiÃ¨re l'importance de la vigilance face aux biais inconscients dans le processus de recrutement. En suivant les recommandations, l'organisation peut amÃ©liorer son approche EDI et garantir un processus plus Ã©quitable pour tous les candidats.

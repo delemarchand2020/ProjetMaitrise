@@ -1,28 +1,28 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente une analyse détaillée des entrevues menées dans le cadre du processus de recrutement, en mettant l'accent sur l'équité, la diversité et l'inclusion (EDI). L'objectif est de fournir aux gestionnaires des informations claires et exploitables pour améliorer les pratiques de recrutement.
+Ce rapport prÃ©sente une analyse dÃ©taillÃ©e des entrevues menÃ©es dans le cadre du processus de recrutement, en mettant l'accent sur l'Ã©quitÃ©, la diversitÃ© et l'inclusion (EDI). L'objectif est de fournir aux gestionnaires des informations claires et exploitables pour amÃ©liorer les pratiques de recrutement.
 
-## Méthodologie
-L'analyse a été réalisée en examinant les transcriptions des entrevues, en identifiant les questions posées, et en évaluant la présence de biais potentiels. Chaque entrevue a été analysée pour déterminer si les questions posées étaient équitables et pertinentes par rapport aux compétences requises pour le poste.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues, en identifiant les questions posÃ©es, et en Ã©valuant la prÃ©sence de biais potentiels. Chaque entrevue a Ã©tÃ© analysÃ©e pour dÃ©terminer si les questions posÃ©es Ã©taient Ã©quitables et pertinentes par rapport aux compÃ©tences requises pour le poste.
 
 ## Analyse des Entrevues
 
 ### Entrevue 1
-- **Résumé :** L'entrevue avec Élise a exploré ses compétences techniques et son expérience en collaboration avec des équipes DevOps. Le recruteur a montré un intérêt pour son équilibre travail-vie personnelle.
-- **Observations :** Des questions ouvertes ont permis à Élise de détailler ses expériences. Cependant, la question sur l'équilibre travail-vie personnelle pourrait être perçue comme intrusive si elle n'est pas posée à tous les candidats.
-- **Diagnostic de biais :** Un biais potentiel est présent en raison de la question sur l'équilibre travail-vie personnelle.
+- **RÃ©sumÃ© :** L'entrevue avec Ã‰lise a explorÃ© ses compÃ©tences techniques et son expÃ©rience en collaboration avec des Ã©quipes DevOps. Le recruteur a montrÃ© un intÃ©rÃªt pour son Ã©quilibre travail-vie personnelle.
+- **Observations :** Des questions ouvertes ont permis Ã  Ã‰lise de dÃ©tailler ses expÃ©riences. Cependant, la question sur l'Ã©quilibre travail-vie personnelle pourrait Ãªtre perÃ§ue comme intrusive si elle n'est pas posÃ©e Ã  tous les candidats.
+- **Diagnostic de biais :** Un biais potentiel est prÃ©sent en raison de la question sur l'Ã©quilibre travail-vie personnelle.
 
 ### Entrevue 2
-- **Résumé :** L'entrevue avec Marc s'est concentrée sur ses compétences techniques et son expérience en gestion de bases de données dans le cloud.
-- **Observations :** Le recruteur a posé des questions techniques spécifiques, permettant à Marc de démontrer ses compétences. Le ton est resté neutre et professionnel.
-- **Diagnostic de biais :** Aucun biais évident n'a été détecté.
+- **RÃ©sumÃ© :** L'entrevue avec Marc s'est concentrÃ©e sur ses compÃ©tences techniques et son expÃ©rience en gestion de bases de donnÃ©es dans le cloud.
+- **Observations :** Le recruteur a posÃ© des questions techniques spÃ©cifiques, permettant Ã  Marc de dÃ©montrer ses compÃ©tences. Le ton est restÃ© neutre et professionnel.
+- **Diagnostic de biais :** Aucun biais Ã©vident n'a Ã©tÃ© dÃ©tectÃ©.
 
 ## Conclusions
 - **Recommandations :**
   - Former les recruteurs sur les biais inconscients.
-  - Utiliser une grille d'évaluation standardisée.
-  - Éviter les questions personnelles non pertinentes.
+  - Utiliser une grille d'Ã©valuation standardisÃ©e.
+  - Ã‰viter les questions personnelles non pertinentes.
 
 ## Score de Biais
 - **Entrevue 1 :** 30/100
@@ -30,4 +30,4 @@ L'analyse a été réalisée en examinant les transcriptions des entrevues, en ident
 - **Score Global :** 30/100
 
 ## Conclusion
-Aucun candidat ne semble avoir été explicitement favorisé. Cependant, la question sur l'équilibre travail-vie personnelle posée à Élise pourrait indiquer un biais potentiel si elle n'est pas posée uniformément.
+Aucun candidat ne semble avoir Ã©tÃ© explicitement favorisÃ©. Cependant, la question sur l'Ã©quilibre travail-vie personnelle posÃ©e Ã  Ã‰lise pourrait indiquer un biais potentiel si elle n'est pas posÃ©e uniformÃ©ment.

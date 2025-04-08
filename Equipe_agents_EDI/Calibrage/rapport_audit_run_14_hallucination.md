@@ -1,48 +1,48 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente une analyse des entrevues menées dans le cadre du recrutement, en mettant l'accent sur l'équité, la diversité et l'inclusion (EDI). L'objectif est d'identifier les biais potentiels et de proposer des recommandations pour améliorer le processus de recrutement.
+Ce rapport prÃ©sente une analyse des entrevues menÃ©es dans le cadre du recrutement, en mettant l'accent sur l'Ã©quitÃ©, la diversitÃ© et l'inclusion (EDI). L'objectif est d'identifier les biais potentiels et de proposer des recommandations pour amÃ©liorer le processus de recrutement.
 
-## Méthodologie
-L'analyse a été réalisée à partir de deux entrevues distinctes, en examinant les questions posées et les réponses attendues. Chaque entrevue a été évaluée pour détecter la présence de biais liés au genre, à la culture et à l'âge.
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e Ã  partir de deux entrevues distinctes, en examinant les questions posÃ©es et les rÃ©ponses attendues. Chaque entrevue a Ã©tÃ© Ã©valuÃ©e pour dÃ©tecter la prÃ©sence de biais liÃ©s au genre, Ã  la culture et Ã  l'Ã¢ge.
 
-## Résumé de l'Analyse
+## RÃ©sumÃ© de l'Analyse
 ### Entrevue 1
-L'entrevue a été structurée de manière classique avec des questions sur l'expérience professionnelle et les compétences techniques. Cependant, certaines questions semblaient orientées vers des stéréotypes de genre.
+L'entrevue a Ã©tÃ© structurÃ©e de maniÃ¨re classique avec des questions sur l'expÃ©rience professionnelle et les compÃ©tences techniques. Cependant, certaines questions semblaient orientÃ©es vers des stÃ©rÃ©otypes de genre.
 
 ### Entrevue 2
-L'entrevue a mis l'accent sur la culture d'entreprise et l'adaptabilité du candidat. Le recruteur a montré une certaine préférence pour des réponses alignées sur des valeurs spécifiques, ce qui pourrait indiquer un biais culturel.
+L'entrevue a mis l'accent sur la culture d'entreprise et l'adaptabilitÃ© du candidat. Le recruteur a montrÃ© une certaine prÃ©fÃ©rence pour des rÃ©ponses alignÃ©es sur des valeurs spÃ©cifiques, ce qui pourrait indiquer un biais culturel.
 
-## Observations Détaillées
+## Observations DÃ©taillÃ©es
 ### Entrevue 1
-Le recruteur a posé des questions sur la capacité du candidat à gérer des situations de stress, en utilisant des exemples stéréotypés liés au genre, comme "Comment gérez-vous le stress en tant que femme dans un environnement dominé par les hommes ?".
+Le recruteur a posÃ© des questions sur la capacitÃ© du candidat Ã  gÃ©rer des situations de stress, en utilisant des exemples stÃ©rÃ©otypÃ©s liÃ©s au genre, comme "Comment gÃ©rez-vous le stress en tant que femme dans un environnement dominÃ© par les hommes ?".
 
 ### Entrevue 2
-Le recruteur a insisté sur l'importance de s'intégrer dans une "culture jeune et dynamique", ce qui pourrait désavantager les candidats plus âgés ou ceux ayant des expériences différentes.
+Le recruteur a insistÃ© sur l'importance de s'intÃ©grer dans une "culture jeune et dynamique", ce qui pourrait dÃ©savantager les candidats plus Ã¢gÃ©s ou ceux ayant des expÃ©riences diffÃ©rentes.
 
 ## Diagnostic de Biais
 ### Entrevue 1
-Présence de biais de genre, avec des questions qui pourraient mettre mal à l'aise les candidates et influencer leur performance.
+PrÃ©sence de biais de genre, avec des questions qui pourraient mettre mal Ã  l'aise les candidates et influencer leur performance.
 
 ### Entrevue 2
-Biais culturel et d'âge, avec une préférence implicite pour des candidats jeunes et culturellement similaires à l'équipe actuelle.
+Biais culturel et d'Ã¢ge, avec une prÃ©fÃ©rence implicite pour des candidats jeunes et culturellement similaires Ã  l'Ã©quipe actuelle.
 
 ## Recommandations
 ### Entrevue 1
-Former les recruteurs sur les biais inconscients, notamment ceux liés au genre. Utiliser une grille d'évaluation standardisée pour garantir l'équité.
+Former les recruteurs sur les biais inconscients, notamment ceux liÃ©s au genre. Utiliser une grille d'Ã©valuation standardisÃ©e pour garantir l'Ã©quitÃ©.
 
 ### Entrevue 2
-Sensibiliser les recruteurs à la diversité culturelle et générationnelle. Encourager des questions ouvertes qui valorisent la diversité des expériences.
+Sensibiliser les recruteurs Ã  la diversitÃ© culturelle et gÃ©nÃ©rationnelle. Encourager des questions ouvertes qui valorisent la diversitÃ© des expÃ©riences.
 
 ## Score de Biais
 ### Entrevue 1
-60/100 - La présence de biais de genre est moyennement probable.
+60/100 - La prÃ©sence de biais de genre est moyennement probable.
 
 ### Entrevue 2
-55/100 - La présence de biais culturel et d'âge est moyennement probable.
+55/100 - La prÃ©sence de biais culturel et d'Ã¢ge est moyennement probable.
 
 ### Score Biais Global
-60/100 - La présence de biais est moyennement probable chez ce recruteur, en raison de la similarité des scores.
+60/100 - La prÃ©sence de biais est moyennement probable chez ce recruteur, en raison de la similaritÃ© des scores.
 
 ## Conclusion
-Le candidat de l'entrevue 2 semble avoir été favorisé, en raison de l'accent mis sur l'adéquation culturelle et l'âge, ce qui pourrait désavantager les candidats plus âgés ou culturellement différents. Il est recommandé de mettre en œuvre les recommandations proposées pour améliorer l'équité du processus de recrutement.
+Le candidat de l'entrevue 2 semble avoir Ã©tÃ© favorisÃ©, en raison de l'accent mis sur l'adÃ©quation culturelle et l'Ã¢ge, ce qui pourrait dÃ©savantager les candidats plus Ã¢gÃ©s ou culturellement diffÃ©rents. Il est recommandÃ© de mettre en Å“uvre les recommandations proposÃ©es pour amÃ©liorer l'Ã©quitÃ© du processus de recrutement.

@@ -189,7 +189,7 @@ crew = Crew(
     process=Process.sequential,  # Specifies the sequential or hierarchical management approach
     respect_context_window=False,  # Enable respect of the context window for tasks
     memory=True,  # Enable memory usage for enhanced task execution
-    cache=True,
+    cache=False,
     #manager_agent=None, #manager,  # Optional: explicitly set a specific agent as manager instead of the manager_llm
     #planning=False,  # Enable planning feature for pre-execution strategy
 )

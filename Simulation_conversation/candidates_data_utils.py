@@ -19,7 +19,7 @@ class CandidateDataUtils:
         :return: Données JSON sous forme de liste ou dictionnaire.
         """
         print(f"Chargement des données depuis le fichier : {self.json_file}")
-        for encoding in ["latin1", "utf-8"]:
+        for encoding in ["utf-8", "latin1"]:
             try:
                 with open(self.json_file, 'r', encoding=encoding) as file:
                     data = json.load(file)

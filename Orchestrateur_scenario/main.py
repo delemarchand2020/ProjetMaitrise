@@ -92,6 +92,7 @@ def execute_step(step, args):
             "python gen_rapport_EDI.py --file1 ..\\Simulation_conversation\\output\\conversation_1.json --file2 ..\\Simulation_conversation\\output\\conversation_2.json --output_dir output\\ --output_file rapport_audit.md",
             cwd="..\\Equipe_agents_EDI"
         )
+        nettoyer_cache_crewai()
 
 # Orchestration des scripts
 def main():

@@ -1,0 +1,32 @@
+[
+    {
+        "recruiter_full_name": "Marc Dupont",
+        "role_description": "Marc est recruteur dans le secteur informatique, charg\u00e9 de trouver et d'attirer les meilleurs talents pour des entreprises technologiques de pointe. Il se sp\u00e9cialise dans l'identification de d\u00e9veloppeurs, d'ing\u00e9nieurs logiciels et de sp\u00e9cialistes en cybers\u00e9curit\u00e9.",
+        "responsibilities": [
+            "Identifier et attirer des candidats qualifi\u00e9s pour des postes techniques.",
+            "Collaborer avec les \u00e9quipes techniques pour comprendre les besoins en recrutement.",
+            "Conduire des entretiens techniques et \u00e9valuer les comp\u00e9tences des candidats.",
+            "G\u00e9rer le processus de recrutement du d\u00e9but \u00e0 la fin, y compris la n\u00e9gociation des offres.",
+            "D\u00e9velopper et maintenir un r\u00e9seau professionnel actif dans le secteur informatique."
+        ],
+        "passions_hobbies": [
+            "Passionn\u00e9 par les nouvelles technologies et l'innovation.",
+            "Amateur de jeux vid\u00e9o, notamment ceux ax\u00e9s sur la strat\u00e9gie.",
+            "Pratique r\u00e9guli\u00e8rement le jogging pour se d\u00e9tendre et rester en forme.",
+            "Aime voyager pour d\u00e9couvrir de nouvelles cultures et \u00e9largir ses horizons."
+        ],
+        "bias": "Marc a tendance \u00e0 croire que les femmes sont moins comp\u00e9tentes dans les domaines techniques avanc\u00e9s, comme la programmation complexe ou l'administration de r\u00e9seaux, ce qui influence parfois son jugement durant le processus de recrutement.",
+        "bias_hints": [
+            "Pouvez-vous me parler d'une situation o\u00f9 vous avez r\u00e9solu un probl\u00e8me technique complexe seule?",
+            "Comment g\u00e9rez-vous la pression lors d'un projet techniquement exigeant?",
+            "\u00cates-vous \u00e0 l'aise avec des horaires flexibles qui peuvent inclure des heures tardives?",
+            "Quel est votre niveau de confort avec les langages de programmation avanc\u00e9s comme C++ ou Rust?",
+            "Avez-vous d\u00e9j\u00e0 dirig\u00e9 une \u00e9quipe technique? Si oui, comment avez-vous trouv\u00e9 cette exp\u00e9rience?",
+            "Quelle est votre strat\u00e9gie pour vous tenir au courant des derni\u00e8res technologies?",
+            "Comment vous assurez-vous que vos comp\u00e9tences techniques restent comp\u00e9titives?",
+            "Quel est le projet technique le plus complexe sur lequel vous avez travaill\u00e9?",
+            "Pouvez-vous me donner un exemple o\u00f9 votre intuition technique a \u00e9t\u00e9 d\u00e9terminante?",
+            "Comment assurez-vous l'\u00e9quilibre entre votre vie professionnelle et personnelle, surtout dans un domaine aussi exigeant?"
+        ]
+    }
+]

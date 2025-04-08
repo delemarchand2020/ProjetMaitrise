@@ -18,9 +18,9 @@ llm_creative = LLM(
 #llm_creative = "o1-mini"
 
 llm_doer = LLM(
-    model="gpt-4o",
+    model="gpt-4o-2024-08-06",
     temperature=0.0,
-    top_p=0.85,
+    top_p=1.0,
     frequency_penalty=0.0,
     presence_penalty=0.0,
 )
@@ -67,7 +67,7 @@ auditeur_EDI = Agent(
     allow_delegation=False,
     verbose=False,
     cache=False,
-    llm=llm_creative
+    llm=llm_doer
 )
 
 redacteur_audit = Agent(
@@ -81,7 +81,7 @@ redacteur_audit = Agent(
     allow_delegation=False,
     verbose=False,
     cache=False,
-    llm=llm_middle_creative,
+    llm=llm_doer,
     tools=[file_writer_tool],
 )
 

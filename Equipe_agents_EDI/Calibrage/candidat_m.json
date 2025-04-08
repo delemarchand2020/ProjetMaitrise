@@ -1,0 +1,54 @@
+{
+    "poste_num": "1",
+    "company_name": "CloudSynapse Innovations",
+    "job_title": "Senior Java Backend Developer - Cloud Solutions Architect",
+    "candidate_full_name": "Marc Dupont",
+    "passions_hobbies": [
+        "Développement de logiciels open-source",
+        "Randonnée en montagne",
+        "Participation à des hackathons",
+        "Lecture de science-fiction",
+        "Voyages culturels"
+    ],
+    "why_is_a_good_fit": [
+        "Possède une expertise technique avancée en Java et services cloud AWS.",
+        "A démontré des capacités exceptionnelles en conception et mise en œuvre de microservices.",
+        "Apprécie le travail en équipe et excelle dans la collaboration interdisciplinaire.",
+        "Engagé envers l'innovation technologique durable, aligné avec la mission de l'entreprise.",
+        "Fort historique d'optimisation des performances applicatives sur le cloud."
+    ],
+    "academic_background_certifications": [
+        "Master en Informatique, Université Technologique d'Eindhoven, 2008",
+        "Certification AWS Certified Solutions Architect – Professional, 2016"
+    ],
+    "technical_professional_skills": [
+        "Expertise avancée en Java et Spring Boot",
+        "Expérience confirmée avec les services AWS (EC2, S3, Lambda)",
+        "Compétences solides en conception et mise en œuvre de microservices",
+        "Gestion efficace des bases de données relationnelles et non relationnelles (PostgreSQL, MongoDB)",
+        "Compétence avérée dans l'utilisation des outils CI/CD pour intégration et déploiement d'applications"
+    ],
+    "interpersonal_soft_skills": [
+        "Esprit d'innovation et passion pour le développement durable des technologies",
+        "Fort esprit d'équipe et capacité à collaborer étroitement avec différentes équipes",
+        "Capacité à mener des revues de code rigoureuses",
+        "Aptitude à optimiser les performances des applications dans le cloud"
+    ],
+    "professional_experiences": [
+        {
+            "title": "Architecte Cloud Sénior chez Nimbus Solutions, 2015 - Présent",
+            "responsibilities": [
+                "Responsable de la conception et de l'implémentation de solutions cloud avancées",
+                "Collaboration étroite avec les équipes DevOps pour automatiser le déploiement sur AWS",
+                "Optimisation des performances applicatives à travers une architecture efficace"
+            ]
+        },
+        {
+            "title": "Développeur Backend Java Senior chez TechWave Innovations, 2009 - 2015",
+            "responsibilities": [
+                "Conception et développement d'applications backend Java scalables",
+                "Collaboration avec les architectes système pour définir l'architecture globale des projets"
+            ]
+        }
+    ]
+}

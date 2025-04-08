@@ -279,7 +279,7 @@ class EntretienFlow(Flow):
             )
         result = crew.kickoff(inputs={'question': question})
 
-        self.session_agentops.end_session("Success")
+        self.session_agentops.end_session(end_state="Success")
 
         self.terminer_entretien()
 

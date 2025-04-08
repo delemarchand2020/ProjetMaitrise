@@ -2,53 +2,53 @@
 
 ## Introduction
 
-Ce rapport présente une analyse détaillée des entrevues menées dans le cadre du processus de recrutement, en mettant l'accent sur l'équité, la diversité et l'inclusion (EDI). L'objectif est de fournir aux gestionnaires une compréhension claire des biais potentiels et des recommandations pour améliorer le processus de recrutement.
+Ce rapport prÃ©sente une analyse dÃ©taillÃ©e des entrevues menÃ©es dans le cadre du processus de recrutement, en mettant l'accent sur l'Ã©quitÃ©, la diversitÃ© et l'inclusion (EDI). L'objectif est de fournir aux gestionnaires une comprÃ©hension claire des biais potentiels et des recommandations pour amÃ©liorer le processus de recrutement.
 
-## Méthodologie
+## MÃ©thodologie
 
-L'analyse a été réalisée en examinant les transcriptions des entrevues, en identifiant les questions posées, et en évaluant la cohérence et l'équité du traitement des candidats. Les observations ont été classées en fonction des thèmes récurrents et des différences notables dans le traitement des candidats.
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues, en identifiant les questions posÃ©es, et en Ã©valuant la cohÃ©rence et l'Ã©quitÃ© du traitement des candidats. Les observations ont Ã©tÃ© classÃ©es en fonction des thÃ¨mes rÃ©currents et des diffÃ©rences notables dans le traitement des candidats.
 
-## Résumé de l’Analyse
-
-### Entrevue 1
-L'entrevue avec Élise a été structurée pour explorer ses compétences techniques et son expérience en collaboration avec des équipes DevOps. Le recruteur a montré un intérêt pour son équilibre travail-vie personnelle, ce qui pourrait indiquer un biais potentiel.
-
-### Entrevue 2
-L'entrevue avec Marc a également été bien structurée, avec un accent sur ses compétences techniques et son expérience en gestion de bases de données dans le cloud. Une différence notable a été observée dans le délai de réponse indiqué par le recruteur.
-
-## Observations Détaillées
+## RÃ©sumÃ© de lâ€™Analyse
 
 ### Entrevue 1
-Le recruteur a posé des questions sur la collaboration, l'intuition technique, et l'équilibre travail-vie personnelle. Par exemple, "Comment assurez-vous l'équilibre entre votre vie professionnelle et personnelle, surtout dans un domaine aussi exigeant que le développement backend cloud?" Cela pourrait indiquer un biais potentiel si cette question n'est pas posée uniformément à tous les candidats.
+L'entrevue avec Ã‰lise a Ã©tÃ© structurÃ©e pour explorer ses compÃ©tences techniques et son expÃ©rience en collaboration avec des Ã©quipes DevOps. Le recruteur a montrÃ© un intÃ©rÃªt pour son Ã©quilibre travail-vie personnelle, ce qui pourrait indiquer un biais potentiel.
 
 ### Entrevue 2
-Le recruteur a posé des questions sur la collaboration avec DevOps et la gestion des bases de données. Le délai de réponse mentionné était de deux semaines, contrairement à une semaine pour Élise, ce qui pourrait indiquer une différence de traitement.
+L'entrevue avec Marc a Ã©galement Ã©tÃ© bien structurÃ©e, avec un accent sur ses compÃ©tences techniques et son expÃ©rience en gestion de bases de donnÃ©es dans le cloud. Une diffÃ©rence notable a Ã©tÃ© observÃ©e dans le dÃ©lai de rÃ©ponse indiquÃ© par le recruteur.
+
+## Observations DÃ©taillÃ©es
+
+### Entrevue 1
+Le recruteur a posÃ© des questions sur la collaboration, l'intuition technique, et l'Ã©quilibre travail-vie personnelle. Par exemple, "Comment assurez-vous l'Ã©quilibre entre votre vie professionnelle et personnelle, surtout dans un domaine aussi exigeant que le dÃ©veloppement backend cloud?" Cela pourrait indiquer un biais potentiel si cette question n'est pas posÃ©e uniformÃ©ment Ã  tous les candidats.
+
+### Entrevue 2
+Le recruteur a posÃ© des questions sur la collaboration avec DevOps et la gestion des bases de donnÃ©es. Le dÃ©lai de rÃ©ponse mentionnÃ© Ã©tait de deux semaines, contrairement Ã  une semaine pour Ã‰lise, ce qui pourrait indiquer une diffÃ©rence de traitement.
 
 ## Diagnostic de Biais
 
 ### Entrevue 1
-La question sur l'équilibre travail-vie personnelle pourrait être perçue comme biaisée si elle n'est pas posée à tous les candidats, car elle peut impliquer des stéréotypes de genre.
+La question sur l'Ã©quilibre travail-vie personnelle pourrait Ãªtre perÃ§ue comme biaisÃ©e si elle n'est pas posÃ©e Ã  tous les candidats, car elle peut impliquer des stÃ©rÃ©otypes de genre.
 
 ### Entrevue 2
-Le délai de réponse plus long pourrait être interprété comme un biais, bien que cela puisse aussi être dû à des raisons logistiques.
+Le dÃ©lai de rÃ©ponse plus long pourrait Ãªtre interprÃ©tÃ© comme un biais, bien que cela puisse aussi Ãªtre dÃ» Ã  des raisons logistiques.
 
 ## Recommandations
 
-- Former les recruteurs sur les biais inconscients, en particulier sur les questions liées à l'équilibre travail-vie personnelle.
-- Utiliser une grille d'évaluation standardisée pour s'assurer que les mêmes questions sont posées à tous les candidats.
-- Clarifier les délais de réponse pour tous les candidats afin d'éviter toute perception de traitement inéquitable.
+- Former les recruteurs sur les biais inconscients, en particulier sur les questions liÃ©es Ã  l'Ã©quilibre travail-vie personnelle.
+- Utiliser une grille d'Ã©valuation standardisÃ©e pour s'assurer que les mÃªmes questions sont posÃ©es Ã  tous les candidats.
+- Clarifier les dÃ©lais de rÃ©ponse pour tous les candidats afin d'Ã©viter toute perception de traitement inÃ©quitable.
 
 ## Score de Biais
 
 ### Entrevue 1
-40/100 - La présence de biais est probable, principalement en raison de la question sur l'équilibre travail-vie personnelle.
+40/100 - La prÃ©sence de biais est probable, principalement en raison de la question sur l'Ã©quilibre travail-vie personnelle.
 
 ### Entrevue 2
-35/100 - La présence de biais est probable, en raison de la différence dans le délai de réponse.
+35/100 - La prÃ©sence de biais est probable, en raison de la diffÃ©rence dans le dÃ©lai de rÃ©ponse.
 
 ### Score Biais Global
-40/100 - La présence de biais est probable, en prenant le maximum des deux scores.
+40/100 - La prÃ©sence de biais est probable, en prenant le maximum des deux scores.
 
 ## Conclusion
 
-Aucun candidat ne semble avoir été explicitement favorisé, mais Élise a reçu une indication de délai de réponse plus rapide, ce qui pourrait être perçu comme un traitement préférentiel. En conclusion, bien que les entrevues aient été globalement bien menées, il existe des domaines où des biais potentiels pourraient être présents. En mettant en œuvre les recommandations, le processus de recrutement pourrait devenir plus équitable et inclusif.
+Aucun candidat ne semble avoir Ã©tÃ© explicitement favorisÃ©, mais Ã‰lise a reÃ§u une indication de dÃ©lai de rÃ©ponse plus rapide, ce qui pourrait Ãªtre perÃ§u comme un traitement prÃ©fÃ©rentiel. En conclusion, bien que les entrevues aient Ã©tÃ© globalement bien menÃ©es, il existe des domaines oÃ¹ des biais potentiels pourraient Ãªtre prÃ©sents. En mettant en Å“uvre les recommandations, le processus de recrutement pourrait devenir plus Ã©quitable et inclusif.

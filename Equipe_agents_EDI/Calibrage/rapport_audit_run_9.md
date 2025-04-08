@@ -1,41 +1,41 @@
 # Rapport d'Audit EDI
 
 ## Introduction
-Ce rapport présente une analyse des entrevues menées dans le cadre du processus de recrutement, en mettant l'accent sur l'équité, la diversité et l'inclusion (EDI). L'objectif est d'identifier les biais potentiels et de proposer des recommandations pour améliorer le processus.
+Ce rapport prÃ©sente une analyse des entrevues menÃ©es dans le cadre du processus de recrutement, en mettant l'accent sur l'Ã©quitÃ©, la diversitÃ© et l'inclusion (EDI). L'objectif est d'identifier les biais potentiels et de proposer des recommandations pour amÃ©liorer le processus.
 
-## Méthodologie
-L'analyse a été réalisée en examinant les transcriptions des entrevues, en se concentrant sur la structure des questions posées, le ton utilisé par le recruteur, et les délais de réponse communiqués aux candidats. Deux entrevues ont été analysées :
+## MÃ©thodologie
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues, en se concentrant sur la structure des questions posÃ©es, le ton utilisÃ© par le recruteur, et les dÃ©lais de rÃ©ponse communiquÃ©s aux candidats. Deux entrevues ont Ã©tÃ© analysÃ©es :
 
-- **Entrevue 1** avec Élise
+- **Entrevue 1** avec Ã‰lise
 - **Entrevue 2** avec Marc
 
 ## Analyse et Observations
 
-### Entrevue 1 : Élise
-- **Structure et Contenu :** L'entrevue était bien structurée avec des questions pertinentes sur les compétences techniques et l'expérience en collaboration avec des équipes DevOps.
-- **Biais Potentiel :** Le recruteur a posé des questions sur l'équilibre travail-vie personnelle, ce qui pourrait être perçu comme un biais de genre si cette question n'est pas posée systématiquement à tous les candidats.
+### Entrevue 1 : Ã‰lise
+- **Structure et Contenu :** L'entrevue Ã©tait bien structurÃ©e avec des questions pertinentes sur les compÃ©tences techniques et l'expÃ©rience en collaboration avec des Ã©quipes DevOps.
+- **Biais Potentiel :** Le recruteur a posÃ© des questions sur l'Ã©quilibre travail-vie personnelle, ce qui pourrait Ãªtre perÃ§u comme un biais de genre si cette question n'est pas posÃ©e systÃ©matiquement Ã  tous les candidats.
 - **Ton :** Professionnel et encourageant.
 
 ### Entrevue 2 : Marc
-- **Structure et Contenu :** L'entrevue était également bien structurée, avec un accent sur les compétences techniques et l'expérience en gestion de bases de données.
-- **Biais Potentiel :** Le délai de réponse mentionné (deux semaines) était plus long que celui donné à Élise (une semaine), ce qui pourrait indiquer une différence de traitement.
-- **Ton :** Professionnel et cohérent avec celui utilisé lors de l'entrevue avec Élise.
+- **Structure et Contenu :** L'entrevue Ã©tait Ã©galement bien structurÃ©e, avec un accent sur les compÃ©tences techniques et l'expÃ©rience en gestion de bases de donnÃ©es.
+- **Biais Potentiel :** Le dÃ©lai de rÃ©ponse mentionnÃ© (deux semaines) Ã©tait plus long que celui donnÃ© Ã  Ã‰lise (une semaine), ce qui pourrait indiquer une diffÃ©rence de traitement.
+- **Ton :** Professionnel et cohÃ©rent avec celui utilisÃ© lors de l'entrevue avec Ã‰lise.
 
 ## Diagnostic de Biais
-- **Entrevue 1 :** Un biais potentiel lié au genre est présent en raison de la question sur l'équilibre travail-vie personnelle.
-- **Entrevue 2 :** Un biais potentiel dans la communication des délais de réponse pourrait indiquer une différence de traitement entre les candidats.
+- **Entrevue 1 :** Un biais potentiel liÃ© au genre est prÃ©sent en raison de la question sur l'Ã©quilibre travail-vie personnelle.
+- **Entrevue 2 :** Un biais potentiel dans la communication des dÃ©lais de rÃ©ponse pourrait indiquer une diffÃ©rence de traitement entre les candidats.
 
 ## Recommandations
-- Former les recruteurs sur les biais inconscients, notamment en ce qui concerne les questions sur l'équilibre travail-vie personnelle.
-- Utiliser une grille d'évaluation standardisée pour garantir que les mêmes questions sont posées à tous les candidats.
-- Assurer une communication cohérente des délais de réponse à tous les candidats pour éviter toute perception de favoritisme.
+- Former les recruteurs sur les biais inconscients, notamment en ce qui concerne les questions sur l'Ã©quilibre travail-vie personnelle.
+- Utiliser une grille d'Ã©valuation standardisÃ©e pour garantir que les mÃªmes questions sont posÃ©es Ã  tous les candidats.
+- Assurer une communication cohÃ©rente des dÃ©lais de rÃ©ponse Ã  tous les candidats pour Ã©viter toute perception de favoritisme.
 
 ## Score de Biais
-- **Entrevue 1 :** 40/100 - La présence de biais est probable en raison de la question sur l'équilibre travail-vie personnelle.
-- **Entrevue 2 :** 35/100 - La présence de biais est probable en raison de la différence dans la communication des délais de réponse.
+- **Entrevue 1 :** 40/100 - La prÃ©sence de biais est probable en raison de la question sur l'Ã©quilibre travail-vie personnelle.
+- **Entrevue 2 :** 35/100 - La prÃ©sence de biais est probable en raison de la diffÃ©rence dans la communication des dÃ©lais de rÃ©ponse.
 
 ### Score Biais Global
-40/100 - La présence de biais est probable, en prenant le maximum des deux scores.
+40/100 - La prÃ©sence de biais est probable, en prenant le maximum des deux scores.
 
 ## Conclusion
-Élise semble avoir été favorisée en raison d'un délai de réponse plus court mentionné par le recruteur, ce qui pourrait indiquer un intérêt plus immédiat pour sa candidature. Il est crucial de mettre en œuvre les recommandations pour améliorer l'équité et l'inclusion dans le processus de recrutement.
+Ã‰lise semble avoir Ã©tÃ© favorisÃ©e en raison d'un dÃ©lai de rÃ©ponse plus court mentionnÃ© par le recruteur, ce qui pourrait indiquer un intÃ©rÃªt plus immÃ©diat pour sa candidature. Il est crucial de mettre en Å“uvre les recommandations pour amÃ©liorer l'Ã©quitÃ© et l'inclusion dans le processus de recrutement.

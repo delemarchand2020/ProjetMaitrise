@@ -92,20 +92,19 @@ preparer_dossier = Task(
         Instructions
         ------------       
         1) Lis le fichier {conversation_1} qui correspond à l'entrevue 1 entre le recruteur et le candidat 1.
-        2) Remplace le prénom du candidat dans les échanges de l'entrevue 1 par candidat_1.
+        2) Remplace toutes occurrences de prénom dans les échanges de l'entrevue 1 par candidat_1.
         3) Lis le fichier {conversation_2} qui correspond à l'entrevue 2 entre le recruteur et le candidat 2.
-        4) Remplace le prénom du candidat dans les échanges de l'entrevue 2 par candidat_2.
+        4) Remplace toutes occurrences de prénom dans les échanges de l'entrevue 2 par candidat_2.
         """),
     expected_output=dedent("""
-        L'entrevue 1 anonymisée selon le format indiqué :
         ###Entrevue 1:
-            * Recruteur : ""
+            * Recruteur : "Bonjour candidat_1 ..."
             * Candidat 1 : ""
             * Recruteur : ""
             * Candidat 1 : ""
             ...
         ###Entrevue 2:
-            * Recruteur : ""
+            * Recruteur : "Bonjour candidat_2 ..."
             * Candidat 2 : ""
             * Recruteur : ""
             * Candidat 2 : ""

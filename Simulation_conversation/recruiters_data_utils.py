@@ -15,21 +15,23 @@ class RecruiterDataUtils:
 
     def _load_json(self):
         """
-        Charge le fichier JSON en mémoire.
-        :return: Données JSON sous forme de liste.
+        Charge le fichier JSON en mémoire et gère différents encodages.
+        :return: Données JSON sous forme de liste ou dictionnaire.
         """
         print(f"Chargement des données depuis le fichier : {self.json_file}")
-        try:
-            with open(self.json_file, 'r', encoding='utf-8') as file:
-                data = json.load(file)
-                print("Chargement réussi.")
-                return data
-        except FileNotFoundError as e:
-            print(f"Erreur : Fichier non trouvé ({e})")
-            return None
-        except json.JSONDecodeError as e:
-            print(f"Erreur : Décodage JSON échoué ({e})")
-            return None
+        for encoding in ["utf-8", "latin1"]:
+            try:
+                with open(self.json_file, 'r', encoding=encoding) as file:
+                    data = json.load(file)
+                    print(f"Chargement réussi avec l'encodage {encoding}.")
+                    # Convertir un objet unique en liste pour une gestion uniforme
+                    if isinstance(data, dict):
+                        return [data]
+                    return data
+            except (FileNotFoundError, json.JSONDecodeError) as e:
+                print(f"Échec du chargement avec l'encodage {encoding} : {e}")
+        print("Erreur : Impossible de charger le fichier avec les encodages pris en charge.")
+        return None
 
     def get_recruiter_by_index(self, index):
         """

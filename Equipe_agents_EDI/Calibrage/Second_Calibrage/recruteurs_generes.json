@@ -1,0 +1,21 @@
+[
+    {
+        "recruiter_full_name": "Marc Dupont",
+        "role_description": "Marc est recruteur dans le secteur informatique, chargé de trouver et d'attirer les meilleurs talents pour des entreprises technologiques de pointe. Il se spécialise dans l'identification de développeurs, d'ingénieurs logiciels et de spécialistes en cybersécurité.",
+        "responsibilities": [
+            "Identifier et attirer des candidats qualifiés pour des postes techniques.",
+            "Collaborer avec les équipes techniques pour comprendre les besoins en recrutement.",
+            "Conduire des entretiens techniques et évaluer les compétences des candidats.",
+            "Gérer le processus de recrutement du début à la fin, y compris la négociation des offres.",
+            "Développer et maintenir un réseau professionnel actif dans le secteur informatique."
+        ],
+        "passions_hobbies": [
+            "Passionné par les nouvelles technologies et l'innovation.",
+            "Amateur de jeux vidéo, notamment ceux axés sur la stratégie.",
+            "Pratique régulièrement le jogging pour se détendre et rester en forme.",
+            "Aime voyager pour découvrir de nouvelles cultures et élargir ses horizons."
+        ],
+        "bias": "",
+        "bias_hints": []
+    }
+]

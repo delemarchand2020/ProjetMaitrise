@@ -2,36 +2,36 @@
 
 ## Introduction
 
-Ce rapport présente les résultats de l'audit EDI (Équité, Diversité, Inclusion) mené sur deux entrevues de recrutement pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif de cet audit est d'évaluer la présence de biais potentiels dans le processus de recrutement et de proposer des recommandations pour améliorer l'équité et l'inclusion.
+Ce rapport prÃ©sente les rÃ©sultats de l'audit EDI (Ã‰quitÃ©, DiversitÃ©, Inclusion) menÃ© sur deux entrevues de recrutement pour le poste de Senior Java Backend Developer - Cloud Solutions Architect. L'objectif de cet audit est d'Ã©valuer la prÃ©sence de biais potentiels dans le processus de recrutement et de proposer des recommandations pour amÃ©liorer l'Ã©quitÃ© et l'inclusion.
 
-## Méthodologie
+## MÃ©thodologie
 
-L'analyse a été réalisée en examinant les transcriptions des entrevues, en identifiant les questions posées par le recruteur et en évaluant leur pertinence et leur neutralité. Les observations ont été classées en fonction de la présence ou de l'absence de biais, et un score de biais a été attribué à chaque entrevue.
+L'analyse a Ã©tÃ© rÃ©alisÃ©e en examinant les transcriptions des entrevues, en identifiant les questions posÃ©es par le recruteur et en Ã©valuant leur pertinence et leur neutralitÃ©. Les observations ont Ã©tÃ© classÃ©es en fonction de la prÃ©sence ou de l'absence de biais, et un score de biais a Ã©tÃ© attribuÃ© Ã  chaque entrevue.
 
 ## Analyse et Observations
 
 ### Entrevue 1
 
-- **Résumé :** Le recruteur a posé des questions techniques pertinentes et a exploré les expériences passées du candidat. Cependant, une question sur la difficulté à se faire entendre en réunion pourrait indiquer un biais potentiel.
-- **Observation détaillée :** Le recruteur a demandé au candidat s'il avait des difficultés à se faire entendre dans des réunions techniques, ce qui pourrait être interprété comme une présomption basée sur le genre, surtout si cette question n'a pas été posée au candidat 2.
-- **Diagnostic de biais :** La question sur la difficulté à se faire entendre pourrait indiquer un biais de genre, surtout si elle n'est pas posée de manière cohérente à tous les candidats.
+- **RÃ©sumÃ© :** Le recruteur a posÃ© des questions techniques pertinentes et a explorÃ© les expÃ©riences passÃ©es du candidat. Cependant, une question sur la difficultÃ© Ã  se faire entendre en rÃ©union pourrait indiquer un biais potentiel.
+- **Observation dÃ©taillÃ©e :** Le recruteur a demandÃ© au candidat s'il avait des difficultÃ©s Ã  se faire entendre dans des rÃ©unions techniques, ce qui pourrait Ãªtre interprÃ©tÃ© comme une prÃ©somption basÃ©e sur le genre, surtout si cette question n'a pas Ã©tÃ© posÃ©e au candidat 2.
+- **Diagnostic de biais :** La question sur la difficultÃ© Ã  se faire entendre pourrait indiquer un biais de genre, surtout si elle n'est pas posÃ©e de maniÃ¨re cohÃ©rente Ã  tous les candidats.
 
 ### Entrevue 2
 
-- **Résumé :** Le recruteur a posé des questions techniques pertinentes et a exploré les expériences passées du candidat. L'entrevue semble avoir été menée de manière neutre et professionnelle.
-- **Observation détaillée :** Les questions étaient centrées sur les compétences techniques et les expériences passées, sans indication de biais ou de stéréotypes.
-- **Diagnostic de biais :** Aucun biais évident n'a été détecté.
+- **RÃ©sumÃ© :** Le recruteur a posÃ© des questions techniques pertinentes et a explorÃ© les expÃ©riences passÃ©es du candidat. L'entrevue semble avoir Ã©tÃ© menÃ©e de maniÃ¨re neutre et professionnelle.
+- **Observation dÃ©taillÃ©e :** Les questions Ã©taient centrÃ©es sur les compÃ©tences techniques et les expÃ©riences passÃ©es, sans indication de biais ou de stÃ©rÃ©otypes.
+- **Diagnostic de biais :** Aucun biais Ã©vident n'a Ã©tÃ© dÃ©tectÃ©.
 
 ## Conclusions
 
 - **Score biais par entrevue :**
-  - Entrevue 1 : 40/100 (La présence de biais est probable en raison de la question sur la difficulté à se faire entendre).
-  - Entrevue 2 : 10/100 (La présence de biais est peu probable).
+  - Entrevue 1 : 40/100 (La prÃ©sence de biais est probable en raison de la question sur la difficultÃ© Ã  se faire entendre).
+  - Entrevue 2 : 10/100 (La prÃ©sence de biais est peu probable).
 - **Score biais global :** 40/100 (En prenant le maximum des deux scores, car ils sont distincts).
-- **Candidat favorisé :** Candidat 2 semble avoir été favorisé, car l'entrevue a été menée sans questions potentiellement biaisées, contrairement à l'entrevue avec le candidat 1.
+- **Candidat favorisÃ© :** Candidat 2 semble avoir Ã©tÃ© favorisÃ©, car l'entrevue a Ã©tÃ© menÃ©e sans questions potentiellement biaisÃ©es, contrairement Ã  l'entrevue avec le candidat 1.
 
 ## Recommandations
 
-- Former le recruteur sur les biais inconscients pour éviter les questions qui pourraient être perçues comme stéréotypées.
-- Utiliser une grille d’évaluation standardisée pour s'assurer que les mêmes questions sont posées à tous les candidats, garantissant ainsi l'équité.
-- Encourager une réflexion sur les questions posées pour s'assurer qu'elles sont pertinentes et non discriminatoires.
+- Former le recruteur sur les biais inconscients pour Ã©viter les questions qui pourraient Ãªtre perÃ§ues comme stÃ©rÃ©otypÃ©es.
+- Utiliser une grille dâ€™Ã©valuation standardisÃ©e pour s'assurer que les mÃªmes questions sont posÃ©es Ã  tous les candidats, garantissant ainsi l'Ã©quitÃ©.
+- Encourager une rÃ©flexion sur les questions posÃ©es pour s'assurer qu'elles sont pertinentes et non discriminatoires.

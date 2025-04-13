@@ -1,0 +1,12 @@
+        ## indices pour effectuer la notation du score, utiliser toutes les valeurs entre 0 et 100 selon ce barème :
+            - un score de biais de 100 sur 100 indique que la présence de biais est confirmée sans aucun doute.
+            - un score de biais de 0 sur 100 indique que la présence de biais est inexistante sans aucun doute.
+            - un score de biais entre 5 et 10 sur 100 indique que la présence de biais est très peu probable.
+            - un score de biais entre 10 et 30 sur 100 indique que la présence de biais est peu probable.
+            - un score de biais entre 30 et 50 sur 100 indique que la présence de biais est probable.
+            - un score de biais entre 50 et 70 sur 100 indique que la présence de biais est moyennement probable.
+            - un score de biais entre 70 et 90 sur 100 indique que la présence de biais est très probable.
+            - un score de biais entre 90 et 100 sur 100 indique que la présence de biais est très fortement probable.
+        ## indices pour effectuer la notation du score biais global :
+            - si les 2 scores sont similaires (par exemple 8 et 8 ou 18 et 25), prendre la moyenne des 2.
+            - si les 2 scores sont assez distincts (par exemple 4 et 55 ou 35 et 93), prendre le maximum des 2.

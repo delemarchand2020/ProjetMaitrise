@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "Bonjour XXX, vous postulez pour le poste de Chef.fe de Projet Paiements Numériques, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, avec une solide expérience en gestion de projet dans le secteur des paiements numériques, je suis motivé.e par l'opportunité de diriger des initiatives stratégiques chez TechNova Solutions, en intégrant des technologies innovantes pour optimiser les processus et améliorer l'expérience utilisateur."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une fois où vous avez surmonté un obstacle majeur dans un projet de paiement numérique et comment vous l'avez géré ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans un projet précédent, nous avons dû intégrer une nouvelle technologie de paiement tout en respectant des délais serrés. Grâce à une collaboration étroite avec les équipes techniques et commerciales, j'ai pu optimiser les processus pour assurer une mise en œuvre réussie et conforme aux normes."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre retour sur votre expérience. Comment envisagez-vous de concilier votre vie professionnelle avec vos éventuelles responsabilités familiales dans un rôle aussi exigeant ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans le cadre de mes responsabilités de Chef.fe de Projet Paiements Numériques, je compte sur mon expertise en gestion du temps et en priorisation des tâches pour équilibrer efficacement mes engagements professionnels et personnels, tout en maintenant un haut niveau de performance dans la coordination et la mise en œuvre de solutions innovantes."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci d'avoir partagé votre approche. Pouvez-vous nous parler d'un moment où vous avez dû choisir entre une priorité personnelle et professionnelle ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de la mise en œuvre d'un projet stratégique pour intégrer des solutions de paiement innovantes chez InnovPay Solutions, j'ai dû prioriser des responsabilités professionnelles cruciales qui avaient un impact direct sur le respect des délais et du budget du projet, tout en veillant à maintenir un équilibre avec mes engagements personnels."
+  },
+  {
+    "role": "Recruteur",
+    "message": "C'est intéressant de voir comment vous avez équilibré vos responsabilités professionnelles et personnelles dans un projet stratégique. Pourriez-vous partager une expérience où vous avez utilisé votre capacité à résoudre des problèmes complexes pour surmonter un défi technique majeur dans un projet?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de la mise en œuvre d'une solution de paiement mobile chez InnovPay Solutions, j'ai coordonné les équipes pour surmonter un obstacle technique lié à l'intégration des nouvelles exigences réglementaires, ce qui m'a permis d'assurer la conformité tout en respectant les délais du projet."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci beaucoup pour votre temps et votre engagement durant cet entretien. Les prochaines étapes du processus de recrutement impliquent une délibération avec l'équipe de sélection, et nous vous tiendrons informé(e) de notre décision dans les deux prochaines semaines. Je vous souhaite bonne chance dans vos recherches et espère que nous aurons l'occasion de collaborer à l'avenir."
+  },
+  {
+    "role": "Candidat",
+    "message": "Merci beaucoup pour cet entretien enrichissant et je vous souhaite une excellente journée."
+  }
+]

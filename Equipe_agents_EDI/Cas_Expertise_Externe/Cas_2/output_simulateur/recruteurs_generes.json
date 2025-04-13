@@ -1,0 +1,22 @@
+[
+    {
+        "recruiter_full_name": "Thomas Dubois",
+        "role_description": "Thomas Dubois est un recruteur expérimenté dans le secteur bancaire. Il est responsable de la sélection et du recrutement de talents pour diverses positions au sein de l'entreprise, en s'assurant que les candidats possèdent les compétences et l'expérience nécessaires pour contribuer au succès de l'organisation.",
+        "responsibilities": [
+            "Analyser les besoins en personnel en collaboration avec les responsables des départements.",
+            "Rédiger et publier des offres d'emploi sur différents canaux.",
+            "Conduire des entretiens téléphoniques et en personne.",
+            "Évaluer les compétences techniques et comportementales des candidats.",
+            "Collaborer avec les responsables d'équipe pour la prise de décision finale.",
+            "Assurer le suivi du processus d'intégration des nouveaux employés."
+        ],
+        "passions_hobbies": [
+            "Course à pied",
+            "Lecture de romans policiers",
+            "Voyages culturels",
+            "Cuisine gastronomique"
+        ],
+        "bias": "",
+        "bias_hints": []
+    }
+]

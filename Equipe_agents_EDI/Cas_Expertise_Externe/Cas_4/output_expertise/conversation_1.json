@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "Bonjour XXX, vous postulez pour le poste de Spécialiste en Recrutement d'Ouvriers Techniques, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionné.e par le recrutement dans le secteur technique et je possède une solide expérience en développement de réseaux de candidats qualifiés, ce qui me motive particulièrement à contribuer au succès de TechnoCraft Recruitment Solutions."
+  },
+  {
+    "role": "Recruteur",
+    "message": "C'est formidable que vous soyez motivé à contribuer au succès de TechnoCraft Recruitment Solutions. Pourriez-vous me parler d'une situation où vous avez dû utiliser des tests techniques pour évaluer les compétences d'un candidat ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de ma précédente expérience chez Talent Bridge Solutions, j'ai organisé des campagnes de recrutement où j'ai systématiquement intégré des tests techniques pour évaluer les compétences des candidats, garantissant ainsi l'identification de talents en adéquation avec les besoins de nos clients."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Avez-vous déjà rencontré des défis spécifiques liés à l'intégration dans une équipe technique principalement masculine, et comment les avez-vous surmontés ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Ayant travaillé dans des environnements similaires, j'ai développé des compétences interpersonnelles fortes qui m'ont permis de collaborer efficacement avec divers profils et de m'adapter aux dynamiques d'équipe, ce qui est essentiel pour mener à bien les responsabilités liées au développement d'un réseau de candidats qualifiés chez TechnoCraft Recruitment Solutions."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Comment envisagez-vous votre progression de carrière dans un secteur dominé par les hommes, et quelles stratégies comptez-vous adopter pour atteindre vos objectifs professionnels ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour progresser dans un secteur dominé par les hommes, je compte tirer parti de mon expertise dans la rédaction d'annonces ciblées et l'évaluation des compétences pour développer un réseau solide de candidats qualifiés, tout en collaborant étroitement avec les gestionnaires pour répondre aux besoins spécifiques en recrutement."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pouvez-vous me décrire une situation où vous avez réussi à établir une relation de confiance avec un candidat difficile, et comment cela a influencé le processus de recrutement ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Dans une de mes expériences précédentes, j'ai réussi à établir une relation de confiance avec un candidat difficile en utilisant l'écoute active et une approche personnalisée, ce qui a facilité son intégration dans le processus de recrutement et a permis d'aligner ses compétences sur les attentes spécifiques des gestionnaires de recrutement."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre temps et d'avoir partagé vos expériences avec nous. Les prochaines étapes incluent une évaluation approfondie de tous les candidats, et nous vous tiendrons informé de la suite du processus sous peu. En attendant, je vous souhaite une bonne continuation dans vos recherches professionnelles."
+  },
+  {
+    "role": "Candidat",
+    "message": "Merci beaucoup pour cette entrevue et je vous souhaite une excellente journée."
+  }
+]

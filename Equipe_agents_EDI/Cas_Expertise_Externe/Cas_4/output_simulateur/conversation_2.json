@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "Bonjour XXX, vous postulez pour le poste de Spécialiste en Recrutement d'Ouvriers Techniques, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, j'ai une expérience significative en recrutement technique, ce qui me permet de développer efficacement des réseaux de candidats qualifiés. Ma maîtrise des outils de sourcing en ligne et des logiciels ATS me motive particulièrement pour ce rôle où je pourrais collaborer étroitement avec les gestionnaires pour répondre aux besoins spécifiques d'embauche."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous partager une expérience où vous avez utilisé vos compétences en communication interpersonnelle pour surmonter un défi dans le recrutement?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet de recrutement complexe pour un client dans l'industrie manufacturière, j'ai utilisé mes compétences en communication interpersonnelle pour comprendre en profondeur leurs besoins spécifiques et créer une stratégie de recrutement sur mesure, ce qui a permis de placer plusieurs candidats qualifiés avec succès."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Comment gérez-vous le stress lié à la gestion simultanée de plusieurs recrutements tout en respectant les délais?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Grâce à mon aptitude à gérer plusieurs projets de recrutement simultanément, j'ai développé des stratégies efficaces pour prioriser les tâches et maintenir un haut niveau de qualité, ce qui est essentiel pour respecter les délais tout en répondant aux besoins spécifiques des clients."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cette précision. Pourriez-vous décrire une situation où vous avez dû adapter vos stratégies de recrutement en réponse à un changement soudain des besoins d'un client?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'une mission avec un client de l'industrie manufacturière, un changement soudain dans leurs besoins m'a poussé à adapter rapidement ma stratégie en augmentant notre vivier de talents techniques via de nouvelles plateformes de sourcing, ce qui a permis de répondre efficacement à leurs attentes en temps voulu."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cette information. Pourriez-vous nous parler de vos compétences interpersonnelles et comment elles vous aident dans votre rôle de recruteur, notamment lors des entretiens avec les candidats?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors des entretiens avec les candidats, mes compétences interpersonnelles, comme l'écoute active et la communication claire, me permettent de comprendre en profondeur leurs attentes et d'évaluer efficacement leur adéquation avec les besoins techniques spécifiques de nos clients."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci beaucoup pour votre temps et pour avoir partagé vos expériences avec nous aujourd'hui. Les prochaines étapes consistent à évaluer toutes les candidatures, et nous reviendrons vers vous sous une semaine avec une mise à jour. En attendant, je vous souhaite bonne chance dans vos recherches et espère que nos chemins se croiseront à nouveau bientôt."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cet entretien enrichissant et vous souhaite une excellente journée."
+  }
+]

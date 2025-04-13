@@ -1,0 +1,32 @@
+[
+    {
+        "recruiter_full_name": "Marc Dupont",
+        "role_description": "Marc Dupont est un recruteur chevronn\u00e9 dans le secteur des ressources humaines, sp\u00e9cialis\u00e9 dans le recrutement pour l'industrie m\u00e9tallurgique. Il s'assure que les postes vacants sont pourvus par des candidats qualifi\u00e9s qui r\u00e9pondent aux exigences techniques et culturelles de l'entreprise.",
+        "responsibilities": [
+            "Publier des offres d'emploi sur divers canaux et plateformes.",
+            "Analyser les CV et pr\u00e9s\u00e9lectionner les candidats potentiels.",
+            "Conduire des entretiens t\u00e9l\u00e9phoniques et en personne.",
+            "Collaborer avec les responsables d'\u00e9quipe pour comprendre les besoins sp\u00e9cifiques de chaque poste.",
+            "Assurer le suivi aupr\u00e8s des candidats tout au long du processus de recrutement.",
+            "D\u00e9velopper et maintenir un r\u00e9seau professionnel dans l'industrie m\u00e9tallurgique."
+        ],
+        "passions_hobbies": [
+            "Amateur de cyclisme, aime participer \u00e0 des comp\u00e9titions locales.",
+            "Passionn\u00e9 par la m\u00e9canique automobile, passe son temps libre \u00e0 restaurer des voitures anciennes.",
+            "Adepte de lecture, particuli\u00e8rement int\u00e9ress\u00e9 par les biographies de figures historiques."
+        ],
+        "bias": "Marc a tendance \u00e0 avoir un biais inconscient envers les candidates f\u00e9minines, croyant souvent que les hommes sont mieux adapt\u00e9s aux r\u00f4les techniques exigeants dans l'industrie m\u00e9tallurgique.",
+        "bias_hints": [
+            "Pouvez-vous me parler d'un moment o\u00f9 vous avez d\u00fb faire face \u00e0 une situation stressante au travail ?",
+            "Comment g\u00e9rez-vous la pression dans un environnement majoritairement masculin ?",
+            "Voyez-vous des d\u00e9fis particuliers \u00e0 travailler dans l'industrie m\u00e9tallurgique en tant que femme ?",
+            "Comment conciliez-vous vos responsabilit\u00e9s familiales avec votre carri\u00e8re professionnelle ?",
+            "Avez-vous des r\u00e9serves sur le fait de travailler avec des \u00e9quipements lourds et bruyants ?",
+            "Quelles mesures prenez-vous pour vous int\u00e9grer dans une \u00e9quipe technique principalement masculine ?",
+            "Comment envisagez-vous votre progression de carri\u00e8re dans un secteur domin\u00e9 par les hommes ?",
+            "\u00cates-vous \u00e0 l'aise avec l'id\u00e9e de travailler sur des sites industriels \u00e9loign\u00e9s ?",
+            "Quelle est votre strat\u00e9gie pour g\u00e9rer des situations potentiellement conflictuelles avec vos coll\u00e8gues masculins ?",
+            "Comment d\u00e9cririez-vous votre style de gestion lorsque vous devez diriger une \u00e9quipe majoritairement masculine ?"
+        ]
+    }
+]

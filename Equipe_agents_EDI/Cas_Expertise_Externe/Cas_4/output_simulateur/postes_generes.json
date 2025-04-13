@@ -1,0 +1,27 @@
+{
+    "postes": [
+        {
+            "company_name": "TechnoCraft Recruitment Solutions",
+            "job_title": "Sp\u00e9cialiste en Recrutement d'Ouvriers Techniques",
+            "job_description": "TechnoCraft Recruitment Solutions est \u00e0 la recherche d'un sp\u00e9cialiste en recrutement passionn\u00e9 et exp\u00e9riment\u00e9 pour rejoindre notre \u00e9quipe dynamique. Vous jouerez un r\u00f4le cl\u00e9 dans la recherche et la s\u00e9lection des meilleurs ouvriers techniques pour nos clients dans l'industrie manufacturi\u00e8re et de l'ing\u00e9nierie.",
+            "responsibilities": [
+                "D\u00e9velopper et maintenir un r\u00e9seau de candidats qualifi\u00e9s dans le domaine technique.",
+                "Collaborer avec les gestionnaires de recrutement pour comprendre les besoins sp\u00e9cifiques en mati\u00e8re d'embauche.",
+                "R\u00e9diger et publier des annonces d'emploi sur des plateformes sp\u00e9cialis\u00e9es.",
+                "Conduire des entretiens t\u00e9l\u00e9phoniques et en face-\u00e0-face avec les candidats pr\u00e9s\u00e9lectionn\u00e9s.",
+                "\u00c9valuer les comp\u00e9tences techniques et les aptitudes des candidats \u00e0 travers des tests et des entretiens cibl\u00e9s.",
+                "Assurer le suivi avec les candidats tout au long du processus de recrutement."
+            ],
+            "skills_required": [
+                "Excellente connaissance des m\u00e9tiers techniques et de leurs sp\u00e9cificit\u00e9s.",
+                "Comp\u00e9tence av\u00e9r\u00e9e en communication verbale et \u00e9crite.",
+                "Capacit\u00e9 \u00e0 g\u00e9rer plusieurs t\u00e2ches simultan\u00e9ment tout en respectant les d\u00e9lais.",
+                "Exp\u00e9rience avec les outils de sourcing en ligne et les logiciels de gestion de candidatures.",
+                "Comp\u00e9tences interpersonnelles fortes pour b\u00e2tir des relations solides avec les clients et les candidats."
+            ],
+            "location": "Bruxelles, Belgique",
+            "experience_level": "Interm\u00e9diaire",
+            "education_required": "Licence en Ressources Humaines, Gestion ou domaine connexe."
+        }
+    ]
+}

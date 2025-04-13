@@ -1,0 +1,21 @@
+[
+    {
+        "recruiter_full_name": "Marc Dupont",
+        "role_description": "Marc Dupont est un recruteur chevronné dans le secteur des ressources humaines, spécialisé dans le recrutement pour l'industrie métallurgique. Il s'assure que les postes vacants sont pourvus par des candidats qualifiés qui répondent aux exigences techniques et culturelles de l'entreprise.",
+        "responsibilities": [
+            "Publier des offres d'emploi sur divers canaux et plateformes.",
+            "Analyser les CV et présélectionner les candidats potentiels.",
+            "Conduire des entretiens téléphoniques et en personne.",
+            "Collaborer avec les responsables d'équipe pour comprendre les besoins spécifiques de chaque poste.",
+            "Assurer le suivi auprès des candidats tout au long du processus de recrutement.",
+            "Développer et maintenir un réseau professionnel dans l'industrie métallurgique."
+        ],
+        "passions_hobbies": [
+            "Amateur de cyclisme, aime participer à des compétitions locales.",
+            "Passionné par la mécanique automobile, passe son temps libre à restaurer des voitures anciennes.",
+            "Adepte de lecture, particulièrement intéressé par les biographies de figures historiques."
+        ],
+        "bias": "",
+        "bias_hints": []
+    }
+]

@@ -1,0 +1,51 @@
+{
+    "poste_num": "1",
+    "company_name": "TechnoCraft Recruitment Solutions",
+    "job_title": "Spécialiste en Recrutement d'Ouvriers Techniques",
+    "candidate_full_name": "Camille Dupont",
+    "passions_hobbies": [
+        "Randonnée en montagne",
+        "Lecture de romans historiques",
+        "Cuisine gastronomique",
+        "Voyages culturels"
+    ],
+    "why_is_a_good_fit": [
+        "Solide expérience dans le recrutement spécialisé pour le secteur technique.",
+        "Capacité à identifier et attirer des talents exceptionnels grâce à une approche ciblée et stratégique.",
+        "Compétences éprouvées en communication et en gestion de relations professionnelles, essentielles pour établir un réseau de candidats qualifiés.",
+        "Engagement fort envers le développement des talents pour répondre aux besoins spécifiques des entreprises manufacturières."
+    ],
+    "academic_background_certifications": [
+        "Licence en Ressources Humaines, Université de Louvain, Belgique - Obtention : 2015",
+        "Certification en Recrutement et Sélection, Institut de Formation en Gestion du Personnel - Obtention : 2016"
+    ],
+    "technical_professional_skills": [
+        "Maîtrise des outils de gestion de candidatures et des plateformes numériques de recrutement.",
+        "Expertise dans la rédaction d'annonces d'emploi ciblées et attractives.",
+        "Compétences avérées dans la conduite d'entretiens approfondis et l'évaluation des compétences techniques des candidats.",
+        "Connaissance approfondie des métiers techniques dans le secteur manufacturier."
+    ],
+    "interpersonal_soft_skills": [
+        "Excellentes capacités de communication interpersonnelle et professionnelle.",
+        "Forte orientation client et aptitude à établir un réseau de relations professionnelles solides.",
+        "Capacité à gérer plusieurs projets simultanément avec une attention particulière aux délais.",
+        "Proactivité et écoute active dans la compréhension des besoins en recrutement."
+    ],
+    "professional_experiences": [
+        {
+            "title": "Spécialiste en Recrutement, Talent Bridge Solutions - 2017 à 2023",
+            "responsibilities": [
+                "Développement d'un réseau de candidats qualifiés dans les métiers techniques.",
+                "Collaboration avec les gestionnaires pour définir les profils recherchés et les stratégies d'embauche.",
+                "Organisation de campagnes de recrutement sur diverses plateformes."
+            ]
+        },
+        {
+            "title": "Consultant en Recrutement Junior, Tech Talent Hub - 2015 à 2017",
+            "responsibilities": [
+                "Assistance dans la mise en œuvre de processus de recrutement pour des clients du secteur technique.",
+                "Participation active aux entretiens de sélection et évaluation des candidats présélectionnés."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "postes": [
+        {
+            "company_name": "CloudSynapse Innovations",
+            "job_title": "Senior Java Backend Developer - Cloud Solutions Architect",
+            "job_description": "Chez CloudSynapse Innovations, nous recherchons un d\u00e9veloppeur backend Java exp\u00e9riment\u00e9 pour concevoir et impl\u00e9menter des solutions cloud innovantes. Le candidat id\u00e9al aura une solide exp\u00e9rience en architecture de microservices et une compr\u00e9hension approfondie des environnements de d\u00e9ploiement cloud.",
+            "responsibilities": [
+                "Concevoir et d\u00e9velopper des applications backend Java scalables et robustes pour nos solutions cloud.",
+                "Collaborer avec les \u00e9quipes DevOps pour automatiser le d\u00e9ploiement des applications sur AWS.",
+                "Assurer l'optimisation continue des performances des applications d\u00e9ploy\u00e9es dans le cloud.",
+                "Participer aux revues de code pour garantir la qualit\u00e9 du code.",
+                "Travailler avec les architectes syst\u00e8me pour d\u00e9finir l'architecture globale des applications."
+            ],
+            "skills_required": [
+                "Ma\u00eetrise avanc\u00e9e de Java et des frameworks Spring Boot.",
+                "Exp\u00e9rience confirm\u00e9e avec les services AWS tels que EC2, S3 et Lambda.",
+                "Connaissance approfondie de la conception et de la mise en \u0153uvre de microservices.",
+                "Comp\u00e9tence en gestion de bases de donn\u00e9es relationnelles et non relationnelles (PostgreSQL, MongoDB).",
+                "Aptitude \u00e0 utiliser des outils CI/CD pour int\u00e9grer et d\u00e9ployer des applications."
+            ],
+            "location": "Amsterdam, Pays-Bas",
+            "experience_level": "Senior",
+            "education_required": "Dipl\u00f4me universitaire en informatique, ing\u00e9nierie logicielle ou \u00e9quivalent."
+        },
+        {
+            "company_name": "NimbusTech Solutions",
+            "job_title": "Intermediate Java Backend Developer - Cloud Infrastructure Specialist",
+            "job_description": "NimbusTech Solutions est \u00e0 la recherche d'un d\u00e9veloppeur backend Java interm\u00e9diaire pour renforcer notre \u00e9quipe d\u00e9di\u00e9e \u00e0 l'infrastructure cloud. Le candidat sera responsable du d\u00e9veloppement d'applications backend qui s'int\u00e8grent parfaitement \u00e0 notre infrastructure cloud moderne.",
+            "responsibilities": [
+                "D\u00e9velopper et maintenir les services backend Java pour assurer leur int\u00e9gration dans le cloud.",
+                "Travailler en \u00e9troite collaboration avec les architectes syst\u00e8me pour optimiser l'utilisation des ressources cloud.",
+                "Assurer le support technique et r\u00e9soudre les probl\u00e8mes li\u00e9s aux services backend.",
+                "Participer \u00e0 la documentation technique et \u00e0 la r\u00e9daction de rapports sur l'efficacit\u00e9 des solutions d\u00e9velopp\u00e9es.",
+                "Contribuer aux sessions d'id\u00e9ation pour am\u00e9liorer les solutions existantes."
+            ],
+            "skills_required": [
+                "Solide compr\u00e9hension du langage Java et des structures de donn\u00e9es.",
+                "Exp\u00e9rience pratique avec les plateformes cloud, notamment Azure ou Google Cloud Platform.",
+                "Capacit\u00e9 \u00e0 \u00e9crire du code propre, \u00e9volutif et bien document\u00e9.",
+                "Comp\u00e9tences en communication verbale et \u00e9crite pour travailler efficacement en \u00e9quipe.",
+                "Compr\u00e9hension des concepts DevOps et de leur application dans un environnement cloud."
+            ],
+            "location": "Berlin, Allemagne",
+            "experience_level": "Interm\u00e9diaire",
+            "education_required": "Licence en informatique, g\u00e9nie logiciel ou domaine connexe."
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "Bonjour XXX,vous postulez pour le poste de Analyste Financier Sénior en Stratégie d'Investissement, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionné.e par l'analyse stratégique et la modélisation financière avancée, ce qui me motive particulièrement pour contribuer à optimiser les portefeuilles d'investissement et collaborer sur des stratégies à long terme au sein de FinOptimus Solutions. Mon expérience en tant qu'analyste financier sénior et ma connaissance approfondie des marchés européens sont en parfaite adéquation avec les exigences de ce poste."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pouvez-vous me parler d'un projet spécifique dans lequel vous avez utilisé vos compétences en modélisation financière avancée pour influencer une décision d'investissement majeure?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez CapitalInnov, j'ai développé un modèle financier complexe qui a permis de réorienter une partie significative du portefeuille vers des investissements plus performants, démontrant ainsi ma capacité à influencer positivement les décisions stratégiques d'investissement."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ce partage d'expérience. Pourriez-vous décrire une situation où vous avez dû collaborer étroitement avec une équipe pour développer une stratégie d'investissement à long terme?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Chez CapitalInnov, j'ai collaboré avec l'équipe de direction pour élaborer une stratégie d'investissement à long terme, ce qui a impliqué le développement de modèles financiers complexes pour optimiser notre portefeuille et maximiser les rendements."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez utilisé vos compétences en communication pour présenter des analyses financières à des parties prenantes importantes?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon poste chez CapitalInnov, j'ai utilisé mes compétences en communication pour présenter des analyses financières complexes à notre conseil d'administration, ce qui a permis de formuler des stratégies d'investissement à long terme alignées sur les objectifs de l'entreprise."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour votre retour sur votre expérience chez CapitalInnov. Pourriez-vous nous décrire une situation où vous avez travaillé en étroite collaboration avec une équipe de direction pour élaborer une stratégie d'investissement, et comment cela a-t-il influencé le résultat final?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Chez CapitalInnov, j'ai collaboré avec l'équipe de direction pour élaborer une stratégie d'investissement en utilisant des modèles financiers complexes, ce qui a abouti à une augmentation significative du rendement des portefeuilles."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci beaucoup pour le temps que vous avez consacré à cet entretien et pour votre partage d'expérience chez CapitalInnov. Les prochaines étapes du recrutement consisteront à examiner l'ensemble des candidatures et à revenir vers vous sous une semaine pour vous informer de la suite du processus. Je vous souhaite une bonne continuation dans vos recherches et vous remercie encore pour votre intérêt envers le poste chez FinOptimus Solutions."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie chaleureusement pour cet entretien et vous souhaite une excellente journée."
+  }
+]

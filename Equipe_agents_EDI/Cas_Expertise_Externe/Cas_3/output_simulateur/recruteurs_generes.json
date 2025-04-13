@@ -1,0 +1,23 @@
+[
+    {
+        "recruiter_full_name": "Thomas Dupont",
+        "role_description": "Thomas Dupont est un recruteur expérimenté dans le secteur de la finance corporative, chargé de dénicher les talents qui contribueront à la croissance et au succès des entreprises clientes. Il est responsable de tout le processus de recrutement, depuis la définition des besoins jusqu'à l'intégration des nouvelles recrues.",
+        "responsibilities": [
+            "Analyser les besoins en recrutement des entreprises clientes et élaborer des stratégies adaptées.",
+            "Rédiger et diffuser des offres d'emploi attractives sur les plateformes pertinentes.",
+            "Présélectionner les candidats en effectuant des entretiens téléphoniques ou vidéo.",
+            "Organiser et mener des entretiens en face à face avec les candidats qualifiés.",
+            "Évaluer les compétences techniques et comportementales des candidats.",
+            "Négocier les offres d'emploi avec les candidats retenus.",
+            "Assurer le suivi et l'intégration des nouvelles recrues dans l'entreprise."
+        ],
+        "passions_hobbies": [
+            "Passionné par l'économie mondiale et les marchés financiers, Thomas aime suivre les tendances économiques.",
+            "Il est un grand amateur de randonnée et apprécie passer ses week-ends à explorer de nouveaux sentiers.",
+            "Thomas joue régulièrement au tennis, ce qui lui permet de se maintenir en forme tout en socialisant avec ses amis.",
+            "Il aime aussi lire des biographies de leaders d'industrie pour s'inspirer de leurs parcours."
+        ],
+        "bias": "",
+        "bias_hints": []
+    }
+]

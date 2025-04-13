@@ -1,0 +1,53 @@
+{
+    "poste_num": "1",
+    "company_name": "",
+    "job_title": "Analyste Financier Sénior en Stratégie d'Investissement",
+    "candidate_full_name": "Élodie Martin",
+    "passions_hobbies": [
+        "Lecture de biographies de leaders économiques",
+        "Randonnées en montagne pour se ressourcer",
+        "Pratique du piano classique",
+        "Participation à des clubs de débats financiers"
+    ],
+    "why_is_a_good_fit": [
+        "Élodie Martin possède une vaste expérience en stratégie d'investissement, ayant travaillé avec succès dans des environnements financiers dynamiques.",
+        "Elle est reconnue pour sa capacité à synthétiser des données complexes et à formuler des recommandations d'investissement claires et pertinentes.",
+        "Avec son intégrité et son éthique de travail, elle garantit des analyses fiables et des conseils stratégiques judicieux.",
+        "Son engagement envers l'excellence et sa curiosité intellectuelle lui permettent de toujours rechercher des opportunités d'amélioration continue dans les stratégies d'investissement."
+    ],
+    "academic_background_certifications": [
+        "Master en Finance, Université de Paris-Dauphine, 2008",
+        "Chartered Financial Analyst (CFA), Institut CFA, 2011"
+    ],
+    "technical_professional_skills": [
+        "Expertise en modélisation financière avancée avec une maîtrise approfondie des outils Excel et VBA.",
+        "Solides connaissances des marchés financiers européens et capacité à interpréter et synthétiser des données financières complexes.",
+        "Expérience avérée dans l'analyse et l'optimisation de portefeuilles d'investissement.",
+        "Compétences en gestion de projet, capacité à travailler sous pression dans un environnement dynamique."
+    ],
+    "interpersonal_soft_skills": [
+        "Excellentes compétences en communication, capables de présenter clairement des analyses complexes aux parties prenantes.",
+        "Intégrité et forte éthique de travail.",
+        "Perspicacité stratégique avec une aptitude à formuler des recommandations d'investissement pertinentes.",
+        "Curiosité intellectuelle et proactivité dans l'identification d'opportunités stratégiques."
+    ],
+    "professional_experiences": [
+        {
+            "title": "Analyste Financier Senior, Investissement Stratégique",
+            "responsibilities": [
+                "Conception et développement de modèles financiers complexes pour la prévision des performances futures.",
+                "Collaboration avec l'équipe de direction pour élaborer des stratégies d'investissement à long terme.",
+                "Réalisation d'études de marché approfondies pour appuyer les décisions d'investissement.",
+                "Présentation de rapports financiers détaillés aux parties prenantes internes et externes."
+            ]
+        },
+        {
+            "title": "Analyste Financier, Gestion de Portefeuille",
+            "responsibilities": [
+                "Analyse des portefeuilles d'investissements existants et identification des opportunités d'optimisation.",
+                "Contribution à la préparation de rapports financiers détaillés destinés aux clients.",
+                "Participation active à la formulation de recommandations stratégiques visant à maximiser le rendement des investissements."
+            ]
+        }
+    ]
+}

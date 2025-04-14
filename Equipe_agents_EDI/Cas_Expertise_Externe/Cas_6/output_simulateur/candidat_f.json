@@ -1,0 +1,51 @@
+{
+    "poste_num": "1",
+    "company_name": "TechnoStructure Innovators",
+    "job_title": "Ingénieur.e en Conception de Structures Mécaniques Aéronautiques",
+    "candidate_full_name": "Claire Dupont",
+    "passions_hobbies": [
+        "Passion pour l'aviation et l'aéronautique",
+        "Randonnées en montagne",
+        "Lecture de livres techniques sur les innovations en ingénierie",
+        "Participation à des ateliers de fabrication numérique"
+    ],
+    "why_is_a_good_fit": [
+        "Solide formation académique en ingénierie mécanique et matériaux composites",
+        "Expérience avérée dans la conception et l'analyse structurelle pour l'aéronautique",
+        "Capacité à travailler efficacement au sein d'équipes multidisciplinaires",
+        "Passion pour l'innovation et les nouvelles technologies, en adéquation avec la mission de TechnoStructure Innovators"
+    ],
+    "academic_background_certifications": [
+        "Diplôme d'ingénieur en mécanique, École Centrale de Lyon, 2015",
+        "Certificat de spécialisation en matériaux composites, Institut Supérieur de l'Aéronautique et de l'Espace (ISAE-SUPAERO), 2016"
+    ],
+    "technical_professional_skills": [
+        "Maîtrise des logiciels de conception assistée par ordinateur (CAO) : CATIA et SolidWorks",
+        "Compétences approfondies en analyse par éléments finis (FEA)",
+        "Connaissance approfondie des matériaux composites et de leurs applications en aéronautique",
+        "Expérience dans la réalisation d'essais et de simulations de performances structurales"
+    ],
+    "interpersonal_soft_skills": [
+        "Forte capacité à travailler au sein d'équipes multidisciplinaires",
+        "Excellente communication écrite et orale pour la rédaction de rapports techniques et la présentation aux parties prenantes",
+        "Aptitude avérée à résoudre des problèmes complexes avec une grande attention aux détails",
+        "Esprit innovant et passion pour les nouvelles technologies"
+    ],
+    "professional_experiences": [
+        {
+            "titre": "Ingénieur en conception mécanique",
+            "responsabilités": [
+                "Développé des structures mécaniques avancées pour des projets aéronautiques majeurs.",
+                "Collaboré étroitement avec les équipes d'ingénierie pour intégrer les solutions structurelles dans des projets globaux.",
+                "Mené des analyses FEA pour assurer la conformité aux normes de sécurité."
+            ]
+        },
+        {
+            "titre": "Assistant ingénieur en développement de prototypes",
+            "responsabilités": [
+                "Participé à la création et au test de prototypes innovants destinés à améliorer l'efficacité structurelle des avions.",
+                "Réalisé des essais en laboratoire pour évaluer la résistance des matériaux composites."
+            ]
+        }
+    ]
+}

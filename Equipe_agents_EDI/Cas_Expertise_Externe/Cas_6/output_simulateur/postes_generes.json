@@ -1,0 +1,48 @@
+{
+    "postes": [
+        {
+            "company_name": "TechnoStructure Innovators",
+            "job_title": "Ing\u00e9nieur.e en Conception de Structures M\u00e9caniques A\u00e9ronautiques",
+            "job_description": "Rejoignez notre \u00e9quipe dynamique chez TechnoStructure Innovators, o\u00f9 vous travaillerez sur la conception de structures m\u00e9caniques pour l'industrie a\u00e9ronautique. Vous serez responsable de d\u00e9velopper des solutions innovantes pour optimiser la performance et la s\u00e9curit\u00e9 des structures a\u00e9riennes.",
+            "responsibilities": [
+                "Concevoir et d\u00e9velopper des structures m\u00e9caniques pour les avions en utilisant des logiciels de CAO avanc\u00e9s.",
+                "Effectuer des analyses de r\u00e9sistance et de stabilit\u00e9 pour garantir la s\u00e9curit\u00e9 et la conformit\u00e9 aux normes a\u00e9ronautiques.",
+                "Collaborer avec les \u00e9quipes d'ing\u00e9nierie multidisciplinaires pour int\u00e9grer les solutions structurelles dans les projets globaux.",
+                "R\u00e9aliser des essais et des simulations pour \u00e9valuer les performances des prototypes de structures.",
+                "R\u00e9diger des rapports techniques d\u00e9taill\u00e9s et communiquer efficacement les r\u00e9sultats aux parties prenantes."
+            ],
+            "skills_required": [
+                "Ma\u00eetrise des logiciels de conception assist\u00e9e par ordinateur (CAO) tels que CATIA ou SolidWorks.",
+                "Connaissance approfondie des mat\u00e9riaux composites utilis\u00e9s dans l'industrie a\u00e9ronautique.",
+                "Comp\u00e9tences solides en analyse par \u00e9l\u00e9ments finis (FEA) pour \u00e9valuer la r\u00e9sistance structurelle.",
+                "Capacit\u00e9 \u00e0 travailler en \u00e9quipe et \u00e0 communiquer efficacement avec divers d\u00e9partements.",
+                "Excellentes comp\u00e9tences en r\u00e9solution de probl\u00e8mes et attention aux d\u00e9tails."
+            ],
+            "location": "Toulouse, France",
+            "experience_level": "Interm\u00e9diaire",
+            "education_required": "Dipl\u00f4me d'ing\u00e9nieur en m\u00e9canique, a\u00e9rospatial ou \u00e9quivalent."
+        },
+        {
+            "company_name": "EuroMech Solutions",
+            "job_title": "Ing\u00e9nieur.e Structure M\u00e9canique pour Applications \u00c9nerg\u00e9tiques",
+            "job_description": "EuroMech Solutions recherche un ing\u00e9nieur.e structure m\u00e9canique sp\u00e9cialis\u00e9 dans les applications \u00e9nerg\u00e9tiques. Vous serez charg\u00e9 de concevoir et d'optimiser les structures m\u00e9caniques pour nos projets innovants dans le secteur des \u00e9nergies renouvelables.",
+            "responsibilities": [
+                "D\u00e9velopper des solutions structurelles m\u00e9caniques pour les syst\u00e8mes \u00e9nerg\u00e9tiques renouvelables tels que les \u00e9oliennes ou les centrales solaires.",
+                "Effectuer des \u00e9tudes de faisabilit\u00e9 technique et \u00e9conomique pour les nouvelles conceptions structurelles.",
+                "Collaborer avec les \u00e9quipes R&D pour am\u00e9liorer l'efficacit\u00e9 \u00e9nerg\u00e9tique et r\u00e9duire les co\u00fbts de production.",
+                "Superviser la fabrication, l'installation et l'entretien des structures m\u00e9caniques sur site.",
+                "Assurer le respect des normes environnementales et de s\u00e9curit\u00e9 dans tous les projets."
+            ],
+            "skills_required": [
+                "Exp\u00e9rience pratique avec le calcul et la conception de structures m\u00e9talliques et composites.",
+                "Comp\u00e9tence en logiciels d'analyse structurelle comme ANSYS ou Abaqus.",
+                "Compr\u00e9hension approfondie des normes internationales en mati\u00e8re d'\u00e9nergie renouvelable et de construction durable.",
+                "Capacit\u00e9 \u00e0 g\u00e9rer plusieurs projets simultan\u00e9ment avec un souci du d\u00e9tail \u00e9lev\u00e9.",
+                "Excellentes comp\u00e9tences interpersonnelles pour collaborer avec une \u00e9quipe diversifi\u00e9e."
+            ],
+            "location": "Copenhague, Danemark",
+            "experience_level": "Senior",
+            "education_required": "Master en g\u00e9nie m\u00e9canique ou \u00e9nerg\u00e9tique, ou \u00e9quivalent."
+        }
+    ]
+}

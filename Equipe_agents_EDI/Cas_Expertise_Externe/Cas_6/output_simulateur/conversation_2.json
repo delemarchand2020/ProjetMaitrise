@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Lucas,\nvous postulez pour le poste de Ingénieur.e en Conception de Structures Mécaniques Aéronautiques, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionné par la conception de structures mécaniques et j'ai une solide expérience en CAO et FEA dans l'industrie aéronautique, ce qui me motive à rejoindre TechnoStructure Innovators pour innover et optimiser la sécurité des structures aériennes."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous partager une expérience où vous avez collaboré avec une équipe multidisciplinaire pour intégrer une solution structurelle dans un projet global ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez AeroDesign Solutions, j'ai collaboré étroitement avec une équipe multidisciplinaire pour développer des solutions structurelles innovantes, ce qui m'a permis de renforcer mes compétences en intégration dans des projets globaux."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre retour sur votre expérience. Pourriez-vous expliquer comment vous avez abordé une situation où vous deviez résoudre un problème complexe lié à la résistance structurelle ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon passage chez AviationTech Dynamics, j'ai dirigé une équipe pour résoudre un problème complexe de résistance structurelle en utilisant des analyses FEA avancées, garantissant ainsi la sécurité et la conformité aux normes aéronautiques."
+  },
+  {
+    "role": "Recruteur",
+    "message": "C'est intéressant de savoir que vous avez déjà dirigé une équipe pour résoudre des problèmes complexes de résistance structurelle. Pourriez-vous me parler d'un défi particulier que vous avez rencontré dans votre carrière et comment vous l'avez surmonté ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Un défi majeur a été d'optimiser la performance des structures aériennes tout en garantissant la sécurité ; j'ai dirigé une équipe pour effectuer des analyses FEA approfondies, ce qui nous a permis d'intégrer des solutions innovantes et conformes aux normes aéronautiques."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Votre expérience en dirigeant une équipe pour effectuer des analyses FEA approfondies est précieuse pour le poste. Pouvez-vous partager une situation où vous avez dû collaborer avec différents départements pour intégrer des solutions structurelles dans un projet global ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez AviationTech Dynamics, j'ai dirigé une équipe pour mener des analyses FEA avancées et collaboré avec différents départements pour intégrer des solutions structurelles innovantes dans des projets aéronautiques globaux, ce qui correspond parfaitement aux responsabilités du poste chez TechnoStructure Innovators."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci beaucoup pour votre temps et cet échange enrichissant. Nous allons examiner votre candidature et vous recontacterons sous peu pour vous informer des prochaines étapes. En attendant, je vous souhaite une bonne continuation dans vos recherches."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cette entrevue et vous souhaite une excellente journée."
+  }
+]

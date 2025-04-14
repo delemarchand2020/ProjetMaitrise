@@ -1,0 +1,52 @@
+{
+    "poste_num": "1",
+    "company_name": "TechnoStructure Innovators",
+    "job_title": "Ingénieur.e en Conception de Structures Mécaniques Aéronautiques",
+    "candidate_full_name": "Lucas Dupont",
+    "passions_hobbies": [
+        "Aéronautique et exploration spatiale",
+        "Modélisme d'avions miniatures",
+        "Randonnées en montagne",
+        "Lecture de science-fiction"
+    ],
+    "why_is_a_good_fit": [
+        "Lucas possède une solide formation académique en ingénierie aérospatiale avec une spécialisation en conception structurelle.",
+        "Il a une expertise avérée en CAO et en analyse par éléments finis, compétences essentielles pour le poste.",
+        "Son expérience dans la gestion de projets complexes et son leadership d'équipe sont des atouts majeurs.",
+        "Sa capacité à innover et à résoudre des problèmes de manière créative répond parfaitement aux valeurs de TechnoStructure Innovators."
+    ],
+    "academic_background_certifications": [
+        "Diplôme d'Ingénieur en Aérospatial, École Nationale Supérieure de l'Aéronautique et de l'Espace (ISAE-SUPAERO), obtenu en 2014.",
+        "Certification en Analyse par Éléments Finis (FEA), Institut de Formation en Ingénierie Avancée, obtenue en 2015."
+    ],
+    "technical_professional_skills": [
+        "Maîtrise des logiciels de CAO, notamment CATIA et SolidWorks.",
+        "Expertise en matériaux composites utilisés dans l'industrie aéronautique.",
+        "Compétence avancée en analyse par éléments finis (FEA) pour évaluer la résistance et la stabilité des structures.",
+        "Expérience dans la réalisation d'essais et simulations pour évaluer les prototypes."
+    ],
+    "interpersonal_soft_skills": [
+        "Excellente capacité à travailler au sein d'équipes multidisciplinaires.",
+        "Aptitude avérée à communiquer efficacement avec les membres de l'équipe et les parties prenantes externes.",
+        "Grande attention aux détails et approche rigoureuse de la résolution de problèmes.",
+        "Créativité, innovation et engagement envers l'excellence technique."
+    ],
+    "professional_experiences": [
+        {
+            "titre": "Ingénieur.e en Conception Mécanique, AeroDesign Solutions",
+            "responsabilités": [
+                "Conception de structures mécaniques pour divers projets aéronautiques utilisant CATIA.",
+                "Collaboration étroite avec des équipes multidisciplinaires pour développer des solutions innovantes."
+            ],
+            "période": "Janvier 2016 - Décembre 2019"
+        },
+        {
+            "titre": "Chef.fe de Projet Technique, AviationTech Dynamics",
+            "responsabilités": [
+                "Responsable de la gestion des projets de conception structurale complexe, supervision des essais et simulations FEA.",
+                "Encadrement d'une équipe d'ingénieurs pour l'optimisation des performances structurelles des aéronefs."
+            ],
+            "période": "Janvier 2020 - Présent"
+        }
+    ]
+}

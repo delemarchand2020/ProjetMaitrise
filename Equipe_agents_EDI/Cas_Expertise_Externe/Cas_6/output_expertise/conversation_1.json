@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "Bonjour XXX, vous postulez pour le poste de Ingénieur.e en Conception de Structures Mécaniques Aéronautiques, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionné.e par la conception de structures mécaniques innovantes dans l'aéronautique, et avec mon expérience en CAO et FEA ainsi que ma solide compréhension des matériaux composites, je suis enthousiaste à l'idée de contribuer à des projets globaux chez TechnoStructure Innovators."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre enthousiasme. Pourriez-vous nous parler d'un défi particulier que vous avez rencontré lors d'une collaboration interdisciplinaire et comment vous l'avez surmonté?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un projet aéronautique majeur, nous avons dû intégrer des solutions structurelles innovantes tout en assurant la conformité aux normes de sécurité. J'ai collaboré étroitement avec des équipes de diverses disciplines pour mener à bien des analyses FEA, garantissant ainsi la stabilité et la résistance des structures développées."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse détaillée. Pourriez-vous expliquer comment vous abordez l'intégration de nouveaux matériaux dans les structures aéronautiques tout en assurant leur conformité aux normes de sécurité?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Pour intégrer de nouveaux matériaux dans les structures aéronautiques, j'effectue des analyses par éléments finis (FEA) pour évaluer leur résistance et stabilité, en collaboration avec des équipes multidisciplinaires, afin d'assurer la conformité aux normes de sécurité."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour cette précision. Pouvez-vous partager une expérience où vous avez dû collaborer avec des équipes d'ingénierie multidisciplinaires pour intégrer de nouvelles solutions structurelles dans un projet aéronautique?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de ma mission en tant qu'ingénieur en conception mécanique, j'ai collaboré avec des équipes d'ingénierie multidisciplinaires pour intégrer de nouvelles solutions structurelles dans des projets aéronautiques, assurant ainsi la conformité aux normes de sécurité et optimisant les performances des structures."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ce retour sur votre expérience en intégration de solutions structurelles. Pourriez-vous nous parler de vos compétences en analyse par éléments finis (FEA) et de la manière dont vous les avez appliquées dans un projet aéronautique?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience chez un grand constructeur aéronautique, j'ai appliqué mes compétences en FEA pour réaliser des analyses critiques de résistance sur des structures composites avancées, garantissant ainsi leur conformité aux normes aéronautiques tout en optimisant leur performance structurelle."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre temps et pour avoir partagé votre expérience avec nous. Les prochaines étapes du processus de recrutement incluent une évaluation plus approfondie de votre candidature par notre équipe. Nous reviendrons vers vous sous peu pour vous informer de la suite. Je vous souhaite une bonne continuation dans vos recherches."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour l'opportunité de cette entrevue et vous souhaite une excellente journée."
+  }
+]

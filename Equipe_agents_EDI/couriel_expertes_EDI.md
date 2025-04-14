@@ -14,7 +14,7 @@ Je vous sollicite pour une mission d'évaluation dans le cadre de mon projet en 
 1. **Répartition des cas :** Répartissez-vous les 6 cas avec votre collègue, 3 pour chacune.
 2. **Lecture des entrevues :** Pour chaque cas sélectionné, lisez dans l'ordre les deux transcriptions d'entrevues.
 3. **Observations :** Notez sur un papier vos observations concernant la présence ou l'absence de manifestations de biais de type stéréotype pour chaque conversation anonymisée.
-4. **Score de biais :** Attribuez un score de présence de biais en utilisant le même barème que celui utilisé par notre agent IA EDI.
+4. **Score de biais :** Attribuez un score de présence de biais  pour chaque conversation en utilisant le même barème que celui utilisé par notre agent IA EDI.
 5. **Lecture du rapport EDI :** Lisez le rapport EDI fourni, à lire après avoir fait vos propres observations et attribution de score.
 6. **Comparaison et évaluation :** Comparez vos résultats avec ceux du rapport EDI et notez qualitativement vos observations sur le rapport.
 

@@ -1,0 +1,51 @@
+{
+    "poste_num": "1",
+    "company_name": "PédiatrieLumière",
+    "job_title": "Infirmier.ière Spécialisé.e en Soins Néonatals",
+    "candidate_full_name": "Claire Dubois",
+    "passions_hobbies": [
+        "Lecture de littérature médicale et pédiatrique",
+        "Randonnées en pleine nature pour se ressourcer",
+        "Participation à des ateliers de méditation pour maintenir un équilibre personnel",
+        "Bénévolat dans des associations pour le soutien des familles d'enfants hospitalisés"
+    ],
+    "why_is_a_good_fit": [
+        "Possède une solide expérience en soins intensifs néonatals acquise à la Clinique BébéSoin d'Anvers.",
+        "Démontre une grande capacité à communiquer efficacement avec les parents et l'équipe médicale, assurant ainsi un soutien optimal.",
+        "Forte empathie et sensibilité, essentielles pour accompagner les familles dans des situations difficiles.",
+        "Engagement continu dans le développement professionnel, notamment par la formation continue et la spécialisation en soins néonatals."
+    ],
+    "academic_background_certifications": [
+        "Diplôme d'État d'Infirmier.ière, obtenu en 2015",
+        "Spécialisation en Pédiatrie, Université de Bruxelles, obtenue en 2016",
+        "Certification en Soins Intensifs Néonatals, Institut de Formation en Soins Infirmiers de Bruxelles, obtenue en 2017"
+    ],
+    "technical_professional_skills": [
+        "Expertise en soins intensifs néonatals, avec une attention minutieuse aux détails médicaux",
+        "Compétence avancée dans l'administration sécurisée des médicaments et la surveillance des effets secondaires",
+        "Maîtrise des équipements médicaux spécialisés en néonatalogie",
+        "Connaissance approfondie des protocoles de sécurité sanitaire en milieu hospitalier"
+    ],
+    "interpersonal_soft_skills": [
+        "Excellente communication avec les parents et l'équipe médicale pour assurer un soutien optimal",
+        "Capacité à travailler sous pression dans un environnement de soins intensifs, tout en maintenant un haut niveau de calme et de professionnalisme",
+        "Empathie et sensibilité envers les familles confrontées à des situations stressantes, assurant un accompagnement adapté à chaque cas"
+    ],
+    "professional_experiences": [
+        {
+            "title": "Infirmier.ière Pédiatrique, Hôpital Enfants du Monde, Bruxelles (2017 - 2020)",
+            "responsibilities": [
+                "Gestion quotidienne des soins aux enfants en service pédiatrique",
+                "Participation active aux réunions multidisciplinaires pour élaborer des plans de soins personnalisés"
+            ]
+        },
+        {
+            "title": "Infirmier.ière Spécialisé.e en Soins Néonatals, Unité Néonatale Clinique BébéSoin, Anvers (2020 - Présent)",
+            "responsibilities": [
+                "Responsable du suivi médical des nouveau-nés en soins intensifs",
+                "Collaboration étroite avec les médecins pour concevoir des plans de soins adaptés",
+                "Formation continue et soutien aux parents pour la gestion quotidienne des soins des nourrissons"
+            ]
+        }
+    ]
+}

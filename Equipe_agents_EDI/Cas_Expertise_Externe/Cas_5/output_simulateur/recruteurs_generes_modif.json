@@ -1,0 +1,33 @@
+[
+    {
+        "recruiter_full_name": "Antoine Lefevre",
+        "role_description": "Antoine Lefevre est un recruteur sp\u00e9cialis\u00e9 dans le secteur m\u00e9dical, responsable du recrutement de personnel m\u00e9dical et param\u00e9dical pour les h\u00f4pitaux de Paris. Son r\u00f4le consiste \u00e0 identifier et attirer les meilleurs talents pour r\u00e9pondre aux besoins sp\u00e9cifiques des \u00e9tablissements hospitaliers parisiens.",
+        "responsibilities": [
+            "Analyser les besoins en personnel m\u00e9dical des h\u00f4pitaux parisiens.",
+            "R\u00e9diger et publier des offres d'emploi attractives.",
+            "S\u00e9lectionner les candidats en fonction de leurs comp\u00e9tences et de leur exp\u00e9rience.",
+            "Conduire des entretiens pour \u00e9valuer les aptitudes professionnelles et personnelles des candidats.",
+            "Collaborer avec les responsables des ressources humaines des h\u00f4pitaux pour finaliser les embauches.",
+            "Assurer un suivi post-recrutement pour garantir la satisfaction des employeurs et des employ\u00e9s."
+        ],
+        "passions_hobbies": [
+            "Collectionner des ouvrages m\u00e9dicaux anciens.",
+            "Participer \u00e0 des marathons pour soutenir des causes m\u00e9dicales.",
+            "Visiter des mus\u00e9es d'art moderne \u00e0 Paris.",
+            "Jouer au tennis le week-end."
+        ],
+        "bias": "Antoine a tendance \u00e0 sous-estimer les comp\u00e9tences techniques et d\u00e9cisionnelles des candidates f\u00e9minines, influenc\u00e9 par le st\u00e9r\u00e9otype selon lequel les femmes sont moins aptes \u00e0 occuper des postes de haute responsabilit\u00e9 dans le secteur m\u00e9dical.",
+        "bias_hints": [
+            "Comment g\u00e9rez-vous le stress li\u00e9 au travail tout en \u00e9quilibrant votre vie personnelle ?",
+            "Avez-vous d\u00e9j\u00e0 envisag\u00e9 de r\u00e9duire vos heures de travail pour mieux g\u00e9rer vos responsabilit\u00e9s familiales ?",
+            "Pensez-vous que votre approche empathique pourrait influencer vos d\u00e9cisions professionnelles ?",
+            "Comment g\u00e9rez-vous les conflits dans une \u00e9quipe majoritairement masculine ?",
+            "\u00cates-vous \u00e0 l'aise avec l'id\u00e9e de prendre la direction d'une \u00e9quipe compos\u00e9e principalement d'hommes ?",
+            "Quelle est votre strat\u00e9gie pour vous affirmer dans un environnement potentiellement comp\u00e9titif ?",
+            "Comment vous assurez-vous que vos \u00e9motions n'interf\u00e8rent pas avec votre jugement professionnel ?",
+            "Pensez-vous qu'il est important de d\u00e9velopper un style de leadership diff\u00e9rent pour \u00eatre efficace dans ce domaine ?",
+            "Comment percevez-vous l'\u00e9quilibre entre autorit\u00e9 et approche collaborative en tant que femme leader ?",
+            "Quelles mesures prenez-vous pour \u00eatre prise au s\u00e9rieux par vos coll\u00e8gues masculins ?"
+        ]
+    }
+]

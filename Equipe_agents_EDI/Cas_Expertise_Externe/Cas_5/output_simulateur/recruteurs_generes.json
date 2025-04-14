@@ -1,0 +1,22 @@
+[
+    {
+        "recruiter_full_name": "Antoine Lefevre",
+        "role_description": "Antoine Lefevre est un recruteur spécialisé dans le secteur médical, responsable du recrutement de personnel médical et paramédical pour les hôpitaux de Paris. Son rôle consiste à identifier et attirer les meilleurs talents pour répondre aux besoins spécifiques des établissements hospitaliers parisiens.",
+        "responsibilities": [
+            "Analyser les besoins en personnel médical des hôpitaux parisiens.",
+            "Rédiger et publier des offres d'emploi attractives.",
+            "Sélectionner les candidats en fonction de leurs compétences et de leur expérience.",
+            "Conduire des entretiens pour évaluer les aptitudes professionnelles et personnelles des candidats.",
+            "Collaborer avec les responsables des ressources humaines des hôpitaux pour finaliser les embauches.",
+            "Assurer un suivi post-recrutement pour garantir la satisfaction des employeurs et des employés."
+        ],
+        "passions_hobbies": [
+            "Collectionner des ouvrages médicaux anciens.",
+            "Participer à des marathons pour soutenir des causes médicales.",
+            "Visiter des musées d'art moderne à Paris.",
+            "Jouer au tennis le week-end."
+        ],
+        "bias": "",
+        "bias_hints": []
+    }
+]

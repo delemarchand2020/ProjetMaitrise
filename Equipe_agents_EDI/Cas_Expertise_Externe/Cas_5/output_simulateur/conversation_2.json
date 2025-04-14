@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Antoine,\nvous postulez pour le poste de Infirmier.ière Spécialisé.e en Soins Néonatals, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionné par les soins aux nouveau-nés et possède une expertise solide en soins intensifs néonatals, ce qui me permet d'offrir un haut niveau de soins et de soutien aux familles dans des moments difficiles."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous me parler d'une situation où vous avez dû collaborer avec d'autres membres de l'équipe médicale pour élaborer un plan de soins personnalisé?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'une situation complexe en soins intensifs, j'ai collaboré étroitement avec l'équipe médicale pour créer un plan de soins personnalisé, assurant une prise en charge optimale du nouveau-né tout en soutenant les parents dans cette période difficile."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour ce partage d'expérience. Pourriez-vous nous parler d'une situation où vous avez dû gérer un conflit au sein de l'équipe médicale et comment vous l'avez résolu?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'un conflit concernant la gestion d'un cas critique, j'ai facilité une discussion ouverte entre les membres de l'équipe, ce qui a permis d'harmoniser nos approches et d'améliorer notre collaboration pour le suivi médical des nouveau-nés."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie pour votre réponse. Pourriez-vous me décrire comment vous abordez la communication avec les familles en situation de stress dans le contexte des soins néonatals?"
+  },
+  {
+    "role": "Candidat",
+    "message": "En tant qu'infirmier.ière spécialisé.e en soins néonatals, je privilégie une communication claire et empathique avec les familles, en leur offrant un soutien psychologique essentiel et en les impliquant activement dans le processus de soins pour leur nouveau-né."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour cette précision. Pourriez-vous partager une situation où vous avez collaboré efficacement avec des médecins pour élaborer un plan de soins personnalisé pour un nouveau-né?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'une situation complexe en soins intensifs, j'ai collaboré avec des médecins pour créer un plan de soins sur-mesure pour un nouveau-né, en veillant à intégrer les besoins spécifiques du patient et à ajuster les traitements en fonction de son évolution clinique."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci beaucoup pour votre temps et votre partage d'expérience. Nous allons examiner les candidatures et vous recevrez des nouvelles de notre part dans les prochaines semaines concernant l'étape suivante du processus de recrutement. Je vous souhaite bonne chance pour la suite de vos recherches."
+  },
+  {
+    "role": "Candidat",
+    "message": "Je vous remercie pour cet échange enrichissant et vous souhaite une excellente journée."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Recruteur",
+    "message": "\nBonjour Claire,\nvous postulez pour le poste de Infirmier.ière Spécialisé.e en Soins Néonatals, pouvez vous m'en dire un peu plus sur vous et ce qui vous motive dans ce poste ?\n"
+  },
+  {
+    "role": "Candidat",
+    "message": "Bonjour, je suis passionnée par les soins aux nouveau-nés et possède une solide expérience en soins intensifs néonatals. Mon engagement à soutenir les familles dans des situations difficiles et ma capacité à collaborer efficacement avec l'équipe médicale font de moi un atout pour votre unité de soins néonatals."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Pourriez-vous partager une expérience où vous avez dû prendre des décisions critiques sous pression en soins néonatals ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors de mon expérience à la Clinique BébéSoin, j'ai été confrontée à une situation où un nouveau-né en soins intensifs présentait des complications respiratoires soudaines; j'ai rapidement collaboré avec les médecins pour ajuster le plan de soins et utiliser l'équipement spécialisé, assurant ainsi la stabilité du nourrisson."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse détaillée. Vous semblez avoir une bonne expérience dans des situations critiques. Pensez-vous que votre approche empathique pourrait influencer vos décisions professionnelles dans un environnement de soins intensifs néonatals ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Mon approche empathique me permet d'accompagner efficacement les familles tout en assurant des soins de qualité et une collaboration fluide avec l'équipe médicale, ce qui est essentiel pour élaborer des plans de soins personnalisés en soins intensifs néonatals."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Merci pour votre réponse. Compte tenu de l'importance d'une collaboration fluide avec l'équipe médicale, comment percevez-vous l'équilibre entre autorité et approche collaborative en tant que femme leader dans un environnement de soins intensifs néonatals ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "En tant que leader en soins intensifs néonatals, j'assure un équilibre entre autorité et approche collaborative en soutenant les plans de soins personnalisés et en supervisant l'utilisation d'équipements médicaux, tout en restant ouverte aux contributions de l'équipe pour garantir des soins optimaux aux nouveau-nés."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Votre approche semble bien équilibrée. Pour mieux comprendre votre expertise, pourriez-vous nous parler d'une situation où vous avez dû adapter rapidement un plan de soins en raison de changements dans l'état de santé d'un nouveau-né ?"
+  },
+  {
+    "role": "Candidat",
+    "message": "Lors d'une urgence à la Clinique BébéSoin, j'ai dû rapidement adapter un plan de soins en collaboration avec les médecins après une détérioration subite de l'état d'un nouveau-né, démontrant ainsi ma capacité à gérer efficacement les situations critiques tout en assurant la communication avec les parents."
+  },
+  {
+    "role": "Recruteur",
+    "message": "Je vous remercie d'avoir pris le temps de discuter avec nous aujourd'hui. Nous allons examiner toutes les candidatures et vous serez contacté(e) pour les prochaines étapes du recrutement. Je vous souhaite une bonne continuation dans vos recherches et espère que nous aurons l'occasion de collaborer à l'avenir."
+  },
+  {
+    "role": "Candidat",
+    "message": "Merci pour cette entrevue et je vous souhaite une agréable journée."
+  }
+]

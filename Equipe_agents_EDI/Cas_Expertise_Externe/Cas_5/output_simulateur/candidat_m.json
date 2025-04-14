@@ -1,0 +1,44 @@
+{
+    "poste_num": "1",
+    "company_name": "PédiatrieLumière",
+    "job_title": "Infirmier.ière Spécialisé.e en Soins Néonatals",
+    "candidate_full_name": "Antoine Dupont",
+    "passions_hobbies": [
+        "Voyages humanitaires pour apporter des soins médicaux aux enfants défavorisés",
+        "Lecture de littérature médicale pour se tenir informé des dernières avancées en pédiatrie",
+        "Randonnée en montagne pour se ressourcer et améliorer sa condition physique",
+        "Cuisine gastronomique pour découvrir et partager des saveurs du monde entier"
+    ],
+    "why_is_a_good_fit": [
+        "Possède une expertise technique solide en soins intensifs néonatals, garantissant un haut niveau de soins aux nouveau-nés critiques",
+        "Forte capacité à travailler en équipe multidisciplinaire, facilitant la collaboration et l'élaboration de plans de soins efficaces",
+        "Démontre une grande empathie et une aptitude à soutenir les familles durant des périodes stressantes, offrant un accompagnement psychologique crucial",
+        "Engagé dans le développement professionnel continu, assurant l'actualisation de ses compétences et connaissances dans le domaine"
+    ],
+    "academic_background_certifications": [
+        "Diplôme d'État d'Infirmier.ière avec spécialisation en Pédiatrie, Université de la Santé de Bruxelles, 2012",
+        "Certification en Soins Intensifs Néonatals, Institut Européen des Soins Néonatals, 2013"
+    ],
+    "technical_professional_skills": [
+        "Expertise en soins intensifs néonatals, y compris le suivi médical des nouveau-nés en situation critique",
+        "Compétence avérée dans l'administration et la surveillance des effets secondaires des médicaments néonatals",
+        "Expérience confirmée dans l'élaboration de plans de soins personnalisés en collaboration avec une équipe médicale multidisciplinaire",
+        "Maîtrise de l'utilisation et de la supervision d'équipements médicaux spécialisés en néonatalogie",
+        "Connaissance approfondie des protocoles de sécurité sanitaire et des normes réglementaires en pédiatrie"
+    ],
+    "interpersonal_soft_skills": [
+        "Excellentes compétences en communication pour interagir efficacement avec les parents, l'équipe médicale, et les autres parties prenantes",
+        "Grande capacité à travailler sous pression dans un environnement de soins intensifs tout en maintenant une attention aux détails médicaux critiques",
+        "Empathie et sensibilité éprouvées envers les familles confrontées à des situations stressantes, assurant un soutien psychologique approprié"
+    ],
+    "professional_experiences": [
+        {
+            "title": "Infirmier.ière en Soins Néonatals",
+            "responsibilities": "Fourniture de soins directs aux nourrissons en unités de soins intensifs et contribution à la formation continue des nouveaux membres du personnel infirmier."
+        },
+        {
+            "title": "Infirmier.ière Junior en Pédiatrie Générale",
+            "responsibilities": "Participation active à la gestion quotidienne des patients pédiatriques et assistance lors des interventions médicales spécialisées."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+job_search:
+  description: >
+    Trouve des offres d'emploi pour un poste de {job_title} à {location}.
+    Les offres doivent être pour 2025.
+    Pour chaque offre, retourne une liste d’objets JSON ayant les clés suivantes :
+    - company_name (str)
+    - job_title (str)
+    - job_description (str)
+    - responsibilities (list[str])
+    - skills_required (list[str])
+    - location (str)
+    - experience_level (str)
+    - education_required (str)
+
+    Retourne uniquement du JSON. Ne donne aucune explication ou commentaire.
+  expected_output: >
+    [
+      {
+        "company_name": "...",
+        "job_title": "...",
+        "job_description": "...",
+        "responsibilities": ["...", "..."],
+        "skills_required": ["...", "..."],
+        "location": "...",
+        "experience_level": "...",
+        "education_required": "..."
+      },
+      ...
+    ]

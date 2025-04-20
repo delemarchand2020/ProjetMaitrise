@@ -5,19 +5,27 @@ import agentops
 # Charger la clé API si stockée dans un fichier .env
 load_dotenv()
 
+
+def flatten_messages(messages: list[dict[str, str]]) -> str:
+    """Convertit une liste de messages chat en un prompt unique pour LLM."""
+    prompt = ""
+    for msg in messages:
+        role = msg["role"]
+        content = msg["content"]
+        if role == "system":
+            prompt += f"[System]\n{content}\n\n"
+        elif role == "user":
+            prompt += f"[User]\n{content}\n\n"
+        elif role == "assistant":
+            prompt += f"[Assistant]\n{content}\n\n"
+    return prompt.strip()
+
+
 class COTLLM(LLM):
     def call(self, messages: list[dict[str, str]], **kwargs) -> str:
         from test_strategie_decoding_COT import decoding_cot_pipeline  # ton script réutilisé
 
-        # 🔍 Trouver le dernier message utilisateur
-        prompt = None
-        for msg in reversed(messages):
-            if msg["role"] == "user":
-                prompt = msg["content"]
-                break
-
-        if not prompt:
-            raise ValueError("No user prompt found in messages")
+        prompt = flatten_messages(messages)
 
         print(f"\n🚀 Pipeline COT lancé sur le prompt : {prompt}")
         final_answer = decoding_cot_pipeline(prompt, k=3)
@@ -29,9 +37,9 @@ class COTLLM(LLM):
 
 
 agent = Agent(
-    role="Explorateur raisonnement",
-    goal="Répondre avec un raisonnement COT optimisé",
-    backstory="Un assistant IA curieux qui explore plusieurs chemins de réponse.",
+    role="Assistant en orthographe",
+    goal="Répondre avec pertinence aux questions d'orthographe",
+    backstory="",
     llm=COTLLM(
         model="gpt-4o",  # utilisé par l’API interne
         temperature=0.0  # pas utilisé dans ton decoding
@@ -41,7 +49,7 @@ agent = Agent(
 
 task = Task(
     description="Combien de R dans le mot Strawberry ?",
-    expected_output="Une phrase réponse (sujet verbe complément)",
+    expected_output="Une phrase simple.",
     agent=agent
 )
 

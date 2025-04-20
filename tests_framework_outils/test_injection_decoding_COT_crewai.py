@@ -20,7 +20,12 @@ class COTLLM(LLM):
             raise ValueError("No user prompt found in messages")
 
         print(f"\n🚀 Pipeline COT lancé sur le prompt : {prompt}")
-        return decoding_cot_pipeline(prompt, k=3, max_tokens=100)
+        final_answer = decoding_cot_pipeline(prompt, k=3)
+
+        return (
+            f"Thought: I reasoned through several possible answers using a CoT strategy.\n"
+            f"Final Answer: {final_answer}"
+        )
 
 
 agent = Agent(
@@ -30,12 +35,13 @@ agent = Agent(
     llm=COTLLM(
         model="gpt-4o",  # utilisé par l’API interne
         temperature=0.0  # pas utilisé dans ton decoding
-    )
+    ),
+    allow_delegation=False
 )
 
 task = Task(
     description="Combien de R dans le mot Strawberry ?",
-    expected_output="Une phrase réponse.",
+    expected_output="Une phrase réponse (sujet verbe complément)",
     agent=agent
 )
 

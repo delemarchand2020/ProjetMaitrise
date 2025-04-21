@@ -39,7 +39,8 @@ def generate_continuation(prompt, initial_token, max_tokens=100):
     content = response.choices[0].message.content.strip()
     token_logprobs = [t for t in response.choices[0].logprobs.content]
     total_score = sum(t.logprob for t in token_logprobs)
-    return content, total_score, new_prompt
+    average_score = total_score / len(token_logprobs) if token_logprobs else float('-inf')
+    return content, average_score, new_prompt
 
 
 def decoding_cot_pipeline(prompt, k=3, max_tokens=100):

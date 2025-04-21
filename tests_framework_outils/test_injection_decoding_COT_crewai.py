@@ -22,34 +22,43 @@ def flatten_messages(messages: list[dict[str, str]]) -> str:
 
 
 class COTLLM(LLM):
+    def __init__(self, model: str, active_cot=True, **kwargs):
+        super().__init__(model, **kwargs)
+        self.active_cot = active_cot
+
     def call(self, messages: list[dict[str, str]], **kwargs) -> str:
-        from test_strategie_decoding_COT import decoding_cot_pipeline  # ton script réutilisé
 
-        prompt = flatten_messages(messages)
+        if self.active_cot:
+            from test_strategie_decoding_COT import decoding_cot_pipeline  # ton script réutilisé
 
-        print(f"\n🚀 Pipeline COT lancé sur le prompt : {prompt}")
-        final_answer = decoding_cot_pipeline(prompt, k=3)
+            prompt = flatten_messages(messages)
 
-        return (
-            f"Thought: I reasoned through several possible answers using a CoT strategy.\n"
-            f"Final Answer: {final_answer}"
-        )
+            print(f"\n🚀 Pipeline COT lancé sur le prompt : {prompt}")
+            final_answer = decoding_cot_pipeline(prompt, k=3)
+
+            return (
+                f"Thought: I reasoned through several possible answers using a CoT strategy.\n"
+                f"Final Answer: {final_answer}"
+            )
+        else:
+            return super().call(messages, **kwargs)
 
 
 agent = Agent(
     role="Assistant en orthographe",
-    goal="Répondre avec pertinence aux questions d'orthographe",
+    goal="Répondre avec précision aux questions",
     backstory="",
     llm=COTLLM(
         model="gpt-4o",  # utilisé par l’API interne
-        temperature=0.0  # pas utilisé dans ton decoding
+        active_cot=True,
+        temperature=0.7  # pas utilisé dans ton decoding
     ),
     allow_delegation=False
 )
 
 task = Task(
-    description="Combien de R dans le mot Strawberry ?",
-    expected_output="Une phrase simple.",
+    description="Compte combien de fois la lettre r est dans le mot Strawberry ?",
+    expected_output="réponse simple en 1 phrase",
     agent=agent
 )
 

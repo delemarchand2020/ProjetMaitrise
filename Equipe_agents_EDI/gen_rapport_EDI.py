@@ -15,8 +15,6 @@ llm_creative = LLM(
     presence_penalty=0.2,
 )
 
-#llm_creative = "o1-mini"
-
 llm_doer = LLM(
     model="gpt-4o-2024-08-06",
     temperature=0.0,
@@ -33,7 +31,51 @@ llm_middle_creative = LLM(
     presence_penalty=0.1,
 )
 
-#llm_middle_creative = "o1-mini"
+
+def flatten_messages(messages: list[dict[str, str]]) -> str:
+    """Convertit une liste de messages chat en un prompt unique pour LLM."""
+    prompt = ""
+    for msg in messages:
+        role = msg["role"]
+        content = msg["content"]
+        if role == "system":
+            prompt += f"[System]\n{content}\n\n"
+        elif role == "user":
+            prompt += f"[User]\n{content}\n\n"
+        elif role == "assistant":
+            prompt += f"[Assistant]\n{content}\n\n"
+    return prompt.strip()
+
+
+class COTLLM(LLM):
+    def __init__(self, model: str, active_cot=True, **kwargs):
+        super().__init__(model, **kwargs)
+        self.active_cot = active_cot
+
+    def call(self, messages: list[dict[str, str]], **kwargs) -> str:
+
+        if self.active_cot:
+            from strategie_decoding_COT import decoding_cot_pipeline
+
+            prompt = flatten_messages(messages)
+            final_answer = decoding_cot_pipeline(prompt, k=3)
+
+            return (
+                f"Thought: I reasoned through several possible answers using a CoT strategy.\n"
+                f"Final Answer: {final_answer}"
+            )
+        else:
+            return super().call(messages, **kwargs)
+
+
+llm_cot=COTLLM(
+        active_cot=True,
+        model="gpt-4o-2024-08-06",
+        temperature=0.0,
+        top_p=1.0,
+        frequency_penalty=0.0,
+        presence_penalty=0.0,
+    )
 
 file_read_tool = FileReadTool()
 file_writer_tool = FileWriterTool()
@@ -67,7 +109,7 @@ auditeur_EDI = Agent(
     allow_delegation=False,
     verbose=False,
     cache=False,
-    llm=llm_doer
+    llm=llm_cot
 )
 
 redacteur_audit = Agent(

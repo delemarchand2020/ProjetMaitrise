@@ -4,6 +4,7 @@ from textwrap import dedent
 from crewai import Agent, Crew, Process, Task, LLM
 from crewai_tools import FileReadTool, FileWriterTool
 from dotenv import load_dotenv
+from pydantic import BaseModel
 
 load_dotenv()
 
@@ -48,9 +49,10 @@ def flatten_messages(messages: list[dict[str, str]]) -> str:
 
 
 class COTLLM(LLM):
-    def __init__(self, model: str, active_cot=True, **kwargs):
+    def __init__(self, model: str, active_cot=True, k=3, **kwargs):
         super().__init__(model, **kwargs)
         self.active_cot = active_cot
+        self.k = k
 
     def call(self, messages: list[dict[str, str]], **kwargs) -> str:
 
@@ -58,7 +60,7 @@ class COTLLM(LLM):
             from strategie_decoding_COT import decoding_cot_pipeline
 
             prompt = flatten_messages(messages)
-            final_answer = decoding_cot_pipeline(prompt, k=3)
+            final_answer = decoding_cot_pipeline(prompt, k=self.k)
 
             return (
                 f"Thought: I reasoned through several possible answers using a CoT strategy.\n"
@@ -70,6 +72,7 @@ class COTLLM(LLM):
 
 llm_cot=COTLLM(
         active_cot=True,
+        k=3,
         model="gpt-4o-2024-08-06",
         temperature=0.0,
         top_p=1.0,
@@ -207,6 +210,13 @@ analyser_entrevues = Task(
     agent=auditeur_EDI,
 )
 
+
+class BiaisScores(BaseModel):
+    score_biais_entrevue_1: int
+    score_biais_entrevue_2: int
+    score_biais_global: int
+
+
 rediger_rapport_audit = Task(
     description=dedent("""
         Reprendre l'analyse EDI et rédiger un rapport d'audit pour un public de gestionnaires.
@@ -218,6 +228,7 @@ rediger_rapport_audit = Task(
         Écrit le rapport complet au format MD en UTF-8 dans le fichier {output_file} dans le répertoire {output_dir}.
         Pour respecter la confidentialité des candidats, le rapport conserve la forme anonymisée (on ne mentionne pas les prénoms ou les noms des candidats). 
         """),
+    #output_pydantic=BiaisScores,
     agent=redacteur_audit,
 )
 
@@ -271,6 +282,7 @@ def main():
         "conversation_2": conversation_2
     }
     result = crew.kickoff(inputs=params)
+    #print(result)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 import os
 import openai
+import math
 
 # Assure-toi que ta clé est bien définie ici ou dans ton environnement
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -24,13 +25,12 @@ def get_top_k_initial_tokens(prompt, k=3):
     return top_k_tokens
 
 
-def generate_continuation(prompt, initial_token, max_tokens=100):
+def generate_continuation(prompt, initial_token):
     """Étape 2–4 – Générer la suite d’un prompt + token, et calculer le score logprob total."""
     new_prompt = f"{prompt} {initial_token}"
     response = openai.chat.completions.create(
         model="gpt-4o",
         messages=[{"role": "user", "content": new_prompt}],
-        max_tokens=max_tokens,
         temperature=0.7,
         logprobs=True,
         top_logprobs=1
@@ -43,16 +43,16 @@ def generate_continuation(prompt, initial_token, max_tokens=100):
     return content, average_score, new_prompt
 
 
-def decoding_cot_pipeline(prompt, k=3, max_tokens=100):
+def decoding_cot_pipeline(prompt, k=3):
 
     top_k = get_top_k_initial_tokens(prompt, k=k)
     completions = []
 
     for i, (token, _) in enumerate(top_k):
-        content, score, full_prompt = generate_continuation(prompt, token, max_tokens)
+        content, score, full_prompt = generate_continuation(prompt, token)
         completions.append((content, score, full_prompt))
         print(f"\n--- Option {i + 1} ---")
-        print(f"Score logprobs : {score:.2f}")
+        print(f"Score logprobs : {score:.2f}, probabilité : {math.exp(score)*100:.2f}")
 
     best = max(completions, key=lambda x: x[1])
 

@@ -211,12 +211,6 @@ analyser_entrevues = Task(
 )
 
 
-class BiaisScores(BaseModel):
-    score_biais_entrevue_1: int
-    score_biais_entrevue_2: int
-    score_biais_global: int
-
-
 rediger_rapport_audit = Task(
     description=dedent("""
         Reprendre l'analyse EDI et rédiger un rapport d'audit pour un public de gestionnaires.
@@ -228,7 +222,24 @@ rediger_rapport_audit = Task(
         Écrit le rapport complet au format MD en UTF-8 dans le fichier {output_file} dans le répertoire {output_dir}.
         Pour respecter la confidentialité des candidats, le rapport conserve la forme anonymisée (on ne mentionne pas les prénoms ou les noms des candidats). 
         """),
-    #output_pydantic=BiaisScores,
+    agent=redacteur_audit,
+)
+
+
+class BiaisScores(BaseModel):
+    score_biais_entrevue_1: float
+    score_biais_entrevue_2: float
+    score_biais_global: float
+
+
+extraire_scores_biais = Task(
+    description=dedent("""
+         Reprendre l'analyse EDI et en extraire les scores de biais.
+         """),
+    expected_output=dedent("""
+         Extraire les scores de biais de l'entrevue 1, de l'entrevue 2 et global et les formater en % dans une structure.
+         """),
+    output_pydantic=BiaisScores,
     agent=redacteur_audit,
 )
 
@@ -236,7 +247,7 @@ rediger_rapport_audit = Task(
 
 crew = Crew(
     agents=[preparateur_dossier, auditeur_EDI, redacteur_audit],
-    tasks=[preparer_dossier, analyser_entrevues, rediger_rapport_audit],
+    tasks=[preparer_dossier, analyser_entrevues, rediger_rapport_audit, extraire_scores_biais],
     verbose=False,  # You can set it to 1 or 2 to different logging levels
     process=Process.sequential,  # Specifies the sequential or hierarchical management approach
     respect_context_window=False,  # Enable respect of the context window for tasks
@@ -282,7 +293,10 @@ def main():
         "conversation_2": conversation_2
     }
     result = crew.kickoff(inputs=params)
-    #print(result)
+    print("---------------------------------")
+    print(result.tasks_output[2])
+    print("---------------------------------")
+    print(result.tasks_output[3])
 
 
 if __name__ == "__main__":

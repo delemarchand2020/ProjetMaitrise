@@ -1,4 +1,6 @@
 # Retours Directrice principale capital humain
+Émilie Villeneuve, CRHA
+Directrice principale capital humain, Cain Lamarre
  
 ## CAS 4
 

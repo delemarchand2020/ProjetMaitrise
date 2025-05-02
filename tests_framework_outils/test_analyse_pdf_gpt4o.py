@@ -9,7 +9,7 @@ import tempfile
 # Configuration OpenAI
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-MODEL = "gpt-4.1"
+MODEL = "gpt-4o"
 MAX_TOKENS = 1_000_000
 SAFETY_MARGIN = 2000
 encoding = tiktoken.encoding_for_model("gpt-4o")  # GPT-4.1 non encore supporté explicitement

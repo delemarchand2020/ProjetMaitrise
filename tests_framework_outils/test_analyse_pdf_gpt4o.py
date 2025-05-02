@@ -8,7 +8,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Initialisation de l'encodeur pour GPT-4o
 encoding = tiktoken.encoding_for_model("gpt-4o")
-MAX_TOKENS = 1280000
+MAX_TOKENS = 128000000
 SAFETY_MARGIN = 1000  # Marge de sécurité
 
 
@@ -54,7 +54,7 @@ def ask_question_about_pdfs(pdf_paths: List[str], user_question: str) -> str:
 
 
 # Exemple d'utilisation
-pdf_files = ["document.pdf", "document.pdf", "document.pdf"]
-question = "Peux-tu me faire une synthèse de ces documents ? et combien de pages as-tu lu ?"
+pdf_files = ["document.pdf", "document2.pdf", "document.pdf"]
+question = "Peux-tu me faire une synthèse de ces documents ? et combien de documents différents as-tu lu ?"
 
 print(ask_question_about_pdfs(pdf_files, question))

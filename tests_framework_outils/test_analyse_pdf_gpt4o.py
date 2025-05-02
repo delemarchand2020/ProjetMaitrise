@@ -54,7 +54,7 @@ def ask_question_about_pdfs(pdf_paths: List[str], user_question: str) -> str:
 
 
 # Exemple d'utilisation
-pdf_files = ["document.pdf", "document2.pdf", "document.pdf"]
+pdf_files = ["document2.pdf", "document1.pdf"]
 question = "Peux-tu me faire une synthèse de ces documents ? et combien de documents différents as-tu lu ?"
 
 print(ask_question_about_pdfs(pdf_files, question))

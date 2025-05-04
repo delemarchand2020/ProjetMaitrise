@@ -1,6 +1,7 @@
-# Retours Directrice principale capital humain
-Émilie Villeneuve, CRHA
-Directrice principale capital humain, Cain Lamarre
+# Évaluation de cas pour l'étude des biais de genre
+Réalisée par Émilie Villeneuve, CRHA
+
+Directrice principale capital humain, Cain Lamarre.
  
 ## CAS 4
 

@@ -1,4 +1,4 @@
-# Évaluation de cas pour l'étude des biais de genre
+# Évaluation de cas pour l'étude des biais de genre (RH EDI)
 Réalisée par Émilie Villeneuve, CRHA
 
 Directrice principale capital humain, Cain Lamarre.

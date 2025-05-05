@@ -1,4 +1,4 @@
-# Évaluation de cas pour l'étude des biais de genre
+# Évaluation de cas pour l'étude des biais de genre (RH généraliste)
 Réalisée par Émélie Randriamitatsoa, CRHA
 
 Directrice de section, centre d'expertise en développement des compétences, Desjardins.

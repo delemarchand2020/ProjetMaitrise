@@ -12,24 +12,31 @@ Le score final est une **valeur normalisée entre 0 et 1**, où **1 indique une 
 ## 🧠 Vue d’ensemble de la méthode
 
 Données en entrée :
-- Un **prompt** \( P \)
-- Une **réponse initiale** \( R_1 \)
-- Un **modèle réviseur** \( \mathcal{R} \) qui retourne :
-  - \( L \) : une liste de corrections
-  - \( R_2 \) : une version corrigée de \( R_1 \)
+- Un **prompt** `P`
+- Une **réponse initiale** `R1`
+- Un **modèle réviseur** `R` qui retourne :
+  - `L` : une liste de corrections
+  - `R2` : une version corrigée de `R1`
+
+---
+
+## 🔣 Formulation mathématique
+
+```text
+Entrées :
+- P   : le prompt
+- R1  : réponse initiale
+- R   : réviseur, tel que R(P, R1) → (L, R2)
+         - L  : liste de corrections
+         - R2 : réponse corrigée
 
 Calculs :
-- \( S \in [0, 1] \) : score de similarité entre \( R_1 \) et \( R_2 \)
-- \( E \in [0, 1] \) : score d’effort (normalisé)
+- S ∈ [0, 1] : similarité entre R1 et R2
+- E ∈ [0, 1] : effort estimé pour passer de R1 à R2 via L
 
-Définition du **score final de qualité** :
-\[
-Q = S \cdot (1 - E)
-\]
-
-- \( S \) élevé ⇒ peu de corrections
-- \( E \) faible ⇒ corrections simples
-- \( Q \) élevé ⇒ \( R_1 \) était bonne dès le départ
+Score final :
+- Q = S × (1 − E)
+````
 
 ---
 
@@ -57,7 +64,7 @@ def evaluate_response(prompt, R1, reviser, similarity_fn, effort_fn):
     E = effort_fn(L, R1)
     Q = S * (1 - E)
     return S, E, Q
-````
+```
 
 ---
 
@@ -89,4 +96,3 @@ Cette méthode peut servir de base pour :
 * L’entraînement de modèles capables de se corriger
 * Le benchmarking automatique de qualité de génération
 * Des boucles de rétroaction dans des agents LLM
-

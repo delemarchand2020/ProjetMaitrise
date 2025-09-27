@@ -1,0 +1,104 @@
+Page iii : 
+framework agentic --> cadre d'agents IA
+Prompt engineering --> ingénierie de requêtes
+
+Page 4 :
+objectifs, confusion les résultats sont plutôt les objectifs. Mentionner objectif principal
+dans le court paragraphe et remplacer résultats par objectifs détaillés --> corrigé tel que demandé (et correction du titre)
+
+Page 5 :
+Figure 4.1 trop loin --> j'ai ramené la figure à la section concernée et la référence a été faite au chapitre 4 vers cette nouvelle position.
+
+Page 7 :
+J'ai précisé l'utilisation de ChatGPT dans la révision du français des textes du mémoire.
+
+Page 10 :
+le vrai responsable RH est celui qui détermine le salaire en accord avec le président --> précision apportée dans le texte.
+ATS --> définition de l'acronyme et référence ajoutée
+
+Page 11 : 
+mettre figure 2.1 proche --> j'ai ramené la figure à la page suivante
+Finalement le mémoire ne porte que sur l’équité, le préciser pour clarifier --> précision apportée dans la section 2.1.
+
+Page 13 : 
+à noter que le biais des mêmes écoles est souvent utilisé pour garder la culture de
+l’entreprise avec des personnes de même formation (X, Telecom, Mines, Ponts…) --> bon point : ajouté dans la description du biais d'affinité.
+
+Page 15 : 
+mettre les vrais références --> les références ont été ajoutées
+
+Page 24 : 
+mettre la référence pour BLEU, ROUGE, GLUE --> références ajoutées
+
+Page 25 :
+mettre la référence pour l’ouvrage « L’apprentissage profond » (Ian Goodfellow, Yoshua Bengio et Aaron Courville) --> référence ajoutée
+
+Page 27 :
+mettre avant cette citation la figure 2.6 --> corrigé tel que demandé (réarrangement des figures)
+
+Page 42 : 
+référence de figure à compléter --> référence ajoutée
+
+Page 50 :
+agentique non défini --> ajouté au dictionnaire et mis une référence.
+
+Page 52 : 
+utilisé (manque le s pour l'accord) --> correction faite, merci.
+
+Page 53 : 
+ou est citée cette figure et d’où vient elle ? Référence ? Si c’est le l’auteur il faut le dire
+comme par exemple ‘’nous suggérons l’architecture suivante’’ --> oui cette figure vient de l'auteur. Correction faite.
+
+Page 54 : 
+mélange de fonctions, outils, actions à clarifier --> clarifié dans l'ensemble de la section. En effet, ce n'était pas clair du tout.
+
+Page 61 :
+capacités avancées (pas clair, donner un exemple) --> Fait tel que demandé. J'ai pris un exemple de mon travail professionnel que je connais bien.
+
+Page 63 :
+ce chapitre, il s'agit d'une section --> corrigé
+
+Page 64 :
+Typo :  consiste à apprend --> corrigé
+
+Page 71 : 
+citer cette figure et détailler le contenu  --> J'ai mis la figure après sa référence pour faciliter la lecture. Le détail du contenu venait après.
+
+Page 73 :
+illustré (manque le e pour l'accord) --> correction faite, merci.
+
+Page 76 : 
+biais cognitif(définition ??) pas vu auparavant --> en effet, les biais inconscients sont appelés également biais cognitifs ou biais implicites.
+J'ai ajouté cette clarification dans la section adéquate 2.2 et mis une référence. J'ai aussi précisé que détecter ce biais cognitif est équivalent à détecter une absence de logique dans la décision de recrutement.
+
+Page 83 :
+page un peu répétitive et redondante, simplifier, éliminer du texte --> corrigé tel que demandé (+ simple, court, synthétique)
+
+Page 84 : 
+persona en FR --> j'ai mis "profil type"
+
+pas de détails donnés pour l’implémentation ; donner au moins un résumé et renvoyer en annexe --> une copie écran de la configuration a été insérée et j'explique comment procéder. Le renvoi vers vers l'annexe permet de consulter le détail du prompt utilisé.
+
+Page 88 :
+2 phrases surlignées --> j'en ai déduit que ce n'était pas clair, j'ai donc précisé ma pensée.
+ 
+Page 90 : 
+mettre la figure Opik après le paragraphe --> Figure insérée.
+Opik, pourquoi pas CrewAI --> J'ai expliqué pourquoi ce choix.
+
+Page 116 :
+Experte dév. comp., mettre le nom complet --> corrigé
+Mettre l'échelle de score proche du tableau --> corrigé
+
+6 cas, 3 expertes, peu pour valider une approche, expliquer la situation --> la situation a été expliqué dans le chapitre suivant (p 119 et 120) au moment de la conclusion.
+Voici l'explication retenue : Il convient de reconnaître que le nombre de cas soumis aux expertes constitue une limite méthodologique importante. Avec seulement 3 à 6 cas analysés par personne, l’échantillon demeure insuffisant pour valider de manière robuste l’approche proposée et ne permet pas de tirer de conclusions généralisables. Cette contrainte s’explique toutefois par la difficulté d’accès à des spécialistes capables d’identifier avec rigueur des biais cognitifs liés au genre en contexte de recrutement, ainsi que par le temps nécessaire à l’analyse (environ 6 pages et 20 minutes par cas, soit 1 à 2 heures de travail). L’étude conserve donc un caractère exploratoire : elle met en lumière la pertinence potentielle de l’agent EDI tout en soulignant la nécessité de recherches complémentaires sur un corpus plus large.
+
+Ajouter une évolution possible pour valider si l'agent EDI détecte bien le biais avec la génération de conversations basées sur le profil biaisé/non biasé utilisé comme ground-truth --> ajouté dans les travaux futurs, p 126 (construction d’un corpus artificiel avec "ground truth")
+
+Biblio :
+
+Compléter les refs --> corrigé selon les annotations (principalement des liens)
+
+
+
+
